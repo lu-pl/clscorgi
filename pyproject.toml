@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "eltec2rdf"
+version = "0.1.0"
+description = ""
+authors = ["Lukas Plank <lupl@tuta.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygithub = "^2.1.1"
+python-dotenv = "^1.0.0"
+toolz = "^0.12.0"
+lxml = "^4.9.3"
+lodkit = "^0.1.9"
+clisn = "^0.1.2"
+rdflib = "^7.0.0"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
