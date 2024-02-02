@@ -1,4 +1,4 @@
-"""Public entry point for the eltec2rdf script."""
+"""Public entry point for the clscorgi script."""
 
 from collections.abc import Iterator
 from pathlib import Path
@@ -8,9 +8,9 @@ from lodkit.graph import Graph
 from loguru import logger
 
 
-from eltec2rdf.extractors.bindings_extractor import ELTeCBindingsExtractor
-from eltec2rdf.extractors.link_extractor import get_eltec_xml_links
-from eltec2rdf.rdfgenerators import CLSCorGenerator
+from clscorgi.extractors.bindings_extractor import ELTeCBindingsExtractor
+from clscorgi.extractors.link_extractor import get_eltec_xml_links
+from clscorgi.rdfgenerators import CLSCorGenerator
 
 
 REPOS: list[str] = [

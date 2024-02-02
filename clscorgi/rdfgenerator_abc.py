@@ -8,7 +8,7 @@ from typing import Any
 from lodkit.types import _Triple
 from rdflib import Graph as RDFLibGraph
 
-from eltec2rdf.models import BindingsBaseModel
+from clscorgi.models import BindingsBaseModel
 
 
 class RDFGenerator(abc.ABC):

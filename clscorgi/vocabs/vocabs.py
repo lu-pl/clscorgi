@@ -8,7 +8,7 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDFS
 
 
-_vocabs_path = files("eltec2rdf.vocabs")
+_vocabs_path = files("clscorgi.vocabs")
 
 
 @typing.runtime_checkable

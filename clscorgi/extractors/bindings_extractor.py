@@ -10,7 +10,7 @@ from pathlib import Path
 from lxml import etree
 
 
-from eltec2rdf.extractors.tree_extractors import (
+from clscorgi.extractors.tree_extractors import (
     get_work_title,
     get_author_name,
     get_work_ids,

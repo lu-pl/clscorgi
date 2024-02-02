@@ -8,7 +8,7 @@ CLSCor Graph Interface - A simple tool for conjuring CLSCor compliant RDF from J
 
 The script also expects a valid Github API token named "TOKEN" to be present in `.env`.
 
-E.g. in `eltec2rdf/.env`: 
+E.g. in `clscorgi/.env`: 
 ```text
 TOKEN=<valid_github_api_token>
 ```

@@ -7,16 +7,16 @@ from contextlib import suppress
 from types import SimpleNamespace
 
 from lodkit.types import _Triple
-from eltec2rdf.utils.utils import plist
+from clscorgi.utils.utils import plist
 
 from rdflib import Literal, URIRef
 from rdflib.namespace import RDF, RDFS, OWL
 from clisn import crm, crmcls, lrm
 
-from eltec2rdf.rdfgenerator_abc import RDFGenerator
-from eltec2rdf.utils.utils import mkuri, uri_ns, resolve_source_type
-from eltec2rdf.vocabs.vocabs import vocab, VocabLookupException
-from eltec2rdf.models import SourceData
+from clscorgi.rdfgenerator_abc import RDFGenerator
+from clscorgi.utils.utils import mkuri, uri_ns, resolve_source_type
+from clscorgi.vocabs.vocabs import vocab, VocabLookupException
+from clscorgi.models import SourceData
 
 
 class CLSCorGenerator(RDFGenerator):

@@ -7,7 +7,7 @@ from rdflib.namespace import RDFS
 from pydantic import BaseModel, ConfigDict
 
 import lodkit.importer
-from eltec2rdf.vocabs import identifier
+from clscorgi.vocabs import identifier
 
 
 # better list cast here, else the iterator will likely be exhausted somewhere

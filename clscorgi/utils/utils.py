@@ -1,4 +1,4 @@
-"""Miscellaneous utilies for eltec2rdf."""
+"""Miscellaneous utilies for clscorgi."""
 
 import contextlib
 import hashlib

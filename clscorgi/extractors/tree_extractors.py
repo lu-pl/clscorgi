@@ -8,8 +8,8 @@ from typing import Any, Literal, TypeVar
 
 from lxml import etree
 
-from eltec2rdf.models import vocab_id_types
-from eltec2rdf.utils.utils import first, trim
+from clscorgi.models import vocab_id_types
+from clscorgi.utils.utils import first, trim
 
 
 T = TypeVar("T")
