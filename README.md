@@ -17,7 +17,7 @@ TOKEN=<valid_github_api_token>
 
 Either use [poetry](https://python-poetry.org/) or activate a virtual environment (Python >=3.11) and run the following commands:
 ```shell
-git clone git@github.com:lu-pl/eltec2rdf.git
-cd eltec2rdf/
+git clone git@github.com:lu-pl/clscorgi.git
+cd clscorgi/
 pip install .
 ```
