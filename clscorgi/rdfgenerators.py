@@ -16,7 +16,7 @@ from clisn import crm, crmcls, lrm
 from clscorgi.rdfgenerator_abc import RDFGenerator
 from clscorgi.utils.utils import mkuri, uri_ns, resolve_source_type
 from clscorgi.vocabs.vocabs import vocab, VocabLookupException
-from clscorgi.models import SourceData
+from clscorgi.models import SourceData, IDMapping
 
 
 class CLSCorGenerator(RDFGenerator):
@@ -34,7 +34,7 @@ class CLSCorGenerator(RDFGenerator):
             for ids in self.bindings.work_ids
         ]
 
-        author_ids: dict[URIRef, dict] = {
+        author_ids: dict[URIRef, IDMapping] = {
             mkuri(_id.id_value): _id
             for _id in self.bindings.author_ids
         }

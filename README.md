@@ -1,6 +1,8 @@
+![<img src="lodkit.png" width=10% height=10%>]()
+
 # CLSCorGI <📚>🐶
 
-CLSCor Graph Interface - A simple tool for conjuring CLSCor compliant RDF from JSON input.
+CLSCor Graph Integration - A place for conjuring CLSCor compliant RDF from various sources.
 
 ## Requirements
 
