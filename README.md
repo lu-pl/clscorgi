@@ -1,4 +1,4 @@
-![<img src="lodkit.png" width=10% height=10%>]()
+![<img src="lodkit.png" width=10% height=10%>](https://raw.githubusercontent.com/lu-pl/clscorgi/main/clscorgi.jpg?token=GHSAT0AAAAAACKGOE4W5XCVJNLBM64NNJZEZODWU5A)
 
 # CLSCorGI <📚>🐶
 
