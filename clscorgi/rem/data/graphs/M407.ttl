@@ -1,0 +1,43 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clsinfra.io/ontologies/CRMcls/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://rem.clscor.io/entity/actor/gnd118774107> a crm:E39_Actor ;
+    rdfs:label "Hermann von Fritzlar" ;
+    crm:P14i_performed <https://rem.clscor.io/entity/expression/M407/1/creation> ;
+    rdfs:seeAlso <https://handschriftencensus.de/autoren/494> ;
+    owl:sameAs <https://d-nb.info/gnd/118774107> .
+
+<https://rem.clscor.io/entity/expression/M407/1/creation> a frbroo:F28_Expression_Creation ;
+    rdfs:label "Hermann von Fritzlar: Heiligenleben [Expression-Creation]" ;
+    crm:P14_carried_out_by <https://rem.clscor.io/entity/actor/gnd118774107> .
+
+<https://rem.clscor.io/entity/manifestation/M407/1> a frbroo:F4_Manifestation_Singleton ;
+    rdfs:label "Manuscript that contains Hermann von Fritzlar: Heiligenleben [Manifestation Singleton]" ;
+    frbroo:R42_is_representative_manifestation_singleton_for <https://rem.clscor.io/entity/expression/M407/1> ;
+    rdfs:seeAlso <http://www.handschriftencensus.de/2770> .
+
+<https://rem.clscor.io/entity/type/textClass/heiligenlegenden> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M407> .
+
+<https://rem.clscor.io/entity/type/textClass/predigten> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M407> .
+
+<https://rem.clscor.io/entity/work/M407/1> a frbroo:F1_Work ;
+    rdfs:label "Hermann von Fritzlar: Heiligenleben [Work]" ;
+    frbroo:R3_is_realised_in <https://rem.clscor.io/entity/expression/M407/1> ;
+    rdfs:seeAlso <https://handschriftencensus.de/werke/590> ;
+    owl:sameAs <https://d-nb.info/gnd/7672646-0> .
+
+<https://rem.clscor.io/entity/document/M407> a crmcls:X2_Corpus_Document ;
+    rdfs:label "Hermann von Fritzlar: Heiligenleben [Corpus Document]" ;
+    crm:P165_incorporates <https://rem.clscor.io/entity/expression/M407/1> ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/textClass/heiligenlegenden>,
+        <https://rem.clscor.io/entity/type/textClass/predigten> .
+
+<https://rem.clscor.io/entity/expression/M407/1> a frbroo:F22_Self-Contained_Expression ;
+    rdfs:label "Hermann von Fritzlar: Heiligenleben [Expression]" ;
+    frbroo:R3i_realises <https://rem.clscor.io/entity/work/M407/1> ;
+    frbroo:R42i_has_representative_manifestation_singleton <https://rem.clscor.io/entity/manifestation/M407/1> ;
+    crm:P165i_is_incorporated_in <https://rem.clscor.io/entity/document/M407> .
+

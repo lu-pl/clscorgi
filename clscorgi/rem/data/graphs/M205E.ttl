@@ -1,0 +1,38 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clsinfra.io/ontologies/CRMcls/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://rem.clscor.io/entity/actor/gnd118565060> a crm:E39_Actor ;
+    rdfs:label "Pfaffe Konrad" ;
+    crm:P14i_performed <https://rem.clscor.io/entity/expression/M205E/1/creation> ;
+    rdfs:seeAlso <https://handschriftencensus.de/autoren/936> ;
+    owl:sameAs <https://d-nb.info/gnd/118565060> .
+
+<https://rem.clscor.io/entity/expression/M205E/1/creation> a frbroo:F28_Expression_Creation ;
+    rdfs:label "Pfaffe Konrad: 'Rolandslied' (E) [Expression-Creation]" ;
+    crm:P14_carried_out_by <https://rem.clscor.io/entity/actor/gnd118565060> .
+
+<https://rem.clscor.io/entity/manifestation/M205E/1> a frbroo:F4_Manifestation_Singleton ;
+    rdfs:label "Manuscript that contains Pfaffe Konrad: 'Rolandslied' (E) [Manifestation Singleton]" ;
+    frbroo:R42_is_representative_manifestation_singleton_for <https://rem.clscor.io/entity/expression/M205E/1> ;
+    rdfs:seeAlso <http://www.handschriftencensus.de/1204> .
+
+<https://rem.clscor.io/entity/type/textClass/legenden-_und_geschichtsdichtung> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M205E> .
+
+<https://rem.clscor.io/entity/work/M205E/1> a frbroo:F1_Work ;
+    rdfs:label "Pfaffe Konrad: 'Rolandslied' (E) [Work]" ;
+    frbroo:R3_is_realised_in <https://rem.clscor.io/entity/expression/M205E/1> .
+
+<https://rem.clscor.io/entity/document/M205E> a crmcls:X2_Corpus_Document ;
+    rdfs:label "Pfaffe Konrad: 'Rolandslied' (E) [Corpus Document]" ;
+    crm:P165_incorporates <https://rem.clscor.io/entity/expression/M205E/1> ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/textClass/legenden-_und_geschichtsdichtung> .
+
+<https://rem.clscor.io/entity/expression/M205E/1> a frbroo:F22_Self-Contained_Expression ;
+    rdfs:label "Pfaffe Konrad: 'Rolandslied' (E) [Expression]" ;
+    frbroo:R3i_realises <https://rem.clscor.io/entity/work/M205E/1> ;
+    frbroo:R42i_has_representative_manifestation_singleton <https://rem.clscor.io/entity/manifestation/M205E/1> ;
+    crm:P165i_is_incorporated_in <https://rem.clscor.io/entity/document/M205E> .
+

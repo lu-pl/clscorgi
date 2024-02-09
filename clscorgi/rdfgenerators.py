@@ -19,8 +19,8 @@ from clscorgi.vocabs.vocabs import vocab, VocabLookupException
 from clscorgi.models import SourceData, IDMapping
 
 
-class CLSCorGenerator(RDFGenerator):
-    """Basic RDFGenerator for the CLSCor model."""
+class ELTeCRDFGenerator(RDFGenerator):
+    """CLSCor RDFGenerator for ELTeC corpora."""
 
     def generate_triples(self) -> Iterator[_Triple]:
         """Generate triples from an ELTeC resource."""
@@ -321,3 +321,7 @@ class CLSCorGenerator(RDFGenerator):
         )
 
         return triples
+
+
+class ReMRDFGenerator(RDFGenerator):
+    """CLSCor RDFGenerator for the ReM corporus."""

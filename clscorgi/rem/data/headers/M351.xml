@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader style="Urkunden" type="DocumentHeader">
+    <fileDesc xml:id="M351">
+      <titleStmt>
+        <title>Landshuter Urkunden</title>
+        <author>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <extent type="Tokens">27943</extent>
+      <publicationStmt><publisher>NA</publisher>
+        <idno>Landshuter Urkundenbuch. 2 Bde. Hrsg. von Theo Herzog. Neustadt an der Aisch 1963, Nr. 370, 375, 385, 400, 401, 406, 413, 420, 423, 427, 429, 455, 472, 478, 480, 485, 499, 504, 512, 516, 517, 519, 525, 526.</idno>
+        <pubPlace>NA</pubPlace>
+        <publisher>NA</publisher>
+        <date when="1963">NA</date>
+        <biblScope unit="NA">NA</biblScope>
+      </publicationStmt>
+      <seriesStmt>
+        <title>NA</title>
+        <editor>NA</editor>
+        <biblScope unit="NA">NA</biblScope>
+      </seriesStmt>
+      <sourceDesc n="1">
+        
+        <msDesc>
+          <msIdentifier>
+            <msName>"[a] Kloster Landshut-Seligenthal, Urk. Nr. 121 [= 1], 125 [= 2], 136 [= 4], 137 [= 5], 139 [= 6], 143 [= 7], 145 [= 8], 146 [= 9], 147 [= 10], 149 [= 11], 155 [= 12], 159 [= 13], 162 [= 15], 169 [= 17], 171 [= 18], 173 [= 19], 174 [= 21], 176 [= 22], 178 [= 24]; [b] Urk.Nr. 45 [= 3], 60 [= 14], 62 [= 16], 67 [= 20]"</msName>
+            <altIdentifier>
+            <repository>"[a] München, Hauptstaatsarchiv; [b] Landshut, Staatsarchiv"</repository>
+              <collection>NA</collection>
+              <idno>ULands/-</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <history>
+            <origin>
+              <objectType>Handschrift, -</objectType>
+              <origDate notAfter-custom="NA" notBefore-custom="NA" precision="medium">-</origDate>
+              <origPlace>mittelbairisch</origPlace>
+              <title>NA</title>
+              <locus />
+            </origin>
+          </history>
+        </msDesc>
+        <recordHist>
+          <source facs="">
+            <ref target="-">Census-Link</ref>
+          </source>
+        </recordHist>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="NA" style="Language">oberdeutsch</language> 
+        <language ident="NA" style="LanguageArea">ostoberdeutsch</language> 
+        <language ident="NA" style="LanguageType">mittelbairisch</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+		<schemaSpec ident="AnnotationKey">
+			<elementSpec ident="Graphical">
+				<valList>
+					<valItem corresp="column" ident="column" />
+            		<valItem corresp="page" ident="page" />
+            		<valItem corresp="line" ident="line" />
+	    			<valItem corresp="side" ident="side" />
+        			<valItem corresp="punc" ident="punc" />
+	    			<valItem corresp="reference" ident="reference" />
+          		</valList>
+          	</elementSpec>
+			<elementSpec ident="Lexical">
+      			<valList>
+      				<valItem corresp="posLemma" ident="posLemma" />
+	    			<valItem corresp="pos_gen" ident="pos_gen" />
+            		<valItem corresp="lemmaId" ident="lemmaId" />
+	    			<valItem corresp="lemma_idmwb" ident="lemma_idmwb" />
+            		<valItem corresp="tokenization" ident="tokenization" />
+	    			<valItem corresp="token_type" ident="token_type" />
+        			<valItem corresp="pos" ident="pos" />
+        			<valItem corresp="lemma" ident="lemma" />
+        			<valItem corresp="lemmaLemma" ident="lemmaLemma" />
+	    			<valItem corresp="lemma_gen" ident="lemma_gen" />
+          		</valList>
+       		</elementSpec>
+			<elementSpec ident="Morphological">
+          		<valList>
+        			<valItem corresp="inflectionClass" ident="inflectionClass" />
+	    			<valItem corresp="inflClass" ident="inflClass" />
+	    			<valItem corresp="inflectionClassLemma" ident="inflectionClassLemma" />
+            		<valItem corresp="inflClass_gen" ident="inflClass_gen" />
+            		<valItem corresp="inflection" ident="inflection" />
+	    			<valItem corresp="infl" ident="infl" />
+          		</valList>
+        	</elementSpec>
+			<elementSpec ident="Transcription">
+          		<valList>
+            		<valItem corresp="norm" ident="norm" />
+            		<valItem corresp="tok_dipl" ident="tok_dipl" />
+            		<valItem corresp="tok_anno" ident="tok_anno" />
+          		</valList>
+        	</elementSpec>
+		</schemaSpec>
+	</encodingDesc>
+    <revisionDesc>
+      <change n="1.0" who="NA">
+        NA
+        
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text />
+</TEI>

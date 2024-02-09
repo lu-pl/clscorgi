@@ -1,51 +1,28 @@
 """Public entry point for the clscorgi script."""
 
-from collections.abc import Iterator
-from pathlib import Path
+"""Main entry point for CLSCorGi."""
 
-from clisn import CLSInfraNamespaceManager
-from lodkit.graph import Graph
-from loguru import logger
+import argparse
 
+from collections.abc import Callable
+from types import SimpleNamespace
 
-from clscorgi.extractors.bindings_extractor import ELTeCBindingsExtractor
-from clscorgi.extractors.link_extractor import get_eltec_xml_links
-from clscorgi.rdfgenerators import CLSCorGenerator
+from clscorgi.eltec.runner import eltec_runner
 
 
-REPOS: list[str] = [
-    "ELTeC-eng",
-    "ELTeC-deu",
-    "ELTeC-cze",
-    "ELTeC-fra",
-    "ELTeC-spa",
-]
+runners = SimpleNamespace()
+runners.eltec = eltec_runner
 
 
-def generate_graph(repo: str) -> Graph:
-    """Process an ELTeC repo, generate a graph and serialize to output file."""
-    uris: Iterator[str] = get_eltec_xml_links(repos=[repo])
-
-    _output_file_name: str = f'{repo.lower().replace("-", "_")}.ttl'
-    output_file = Path(f"./output/{_output_file_name}")
-
-    g = Graph()
-    CLSInfraNamespaceManager(g)
-
-    for uri in uris:
-        bindings = ELTeCBindingsExtractor(uri)
-        print(bindings)
-        triples = CLSCorGenerator(**bindings)
-
-        logger.info(f"Generating triples for {Path(uri).stem}")
-
-        for triple in triples:
-            g.add(triple)
-
-    with open(output_file, "w") as f:
-        f.write(g.serialize())
+parser = argparse.ArgumentParser(
+    prog="CLSCorGI",
+    description="Main entry point for CLSCoR Graph generation.",
+)
+parser.add_argument("corpus", choices=runners.__dict__.keys())
 
 
 if __name__ == "__main__":
-    for repo in REPOS:
-        generate_graph(repo)
+    arg: str = parser.parse_args().__dict__["corpus"]
+
+    runner: Callable = getattr(runners, arg)
+    runner()

@@ -1,0 +1,38 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clsinfra.io/ontologies/CRMcls/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://rem.clscor.io/entity/actor/M092/1> a crm:E39_Actor ;
+    rdfs:label "Unidentified creator of the text of document M092" ;
+    crm:P14i_performed <https://rem.clscor.io/entity/expression/M092/1/creation> .
+
+<https://rem.clscor.io/entity/expression/M092/1/creation> a frbroo:F28_Expression_Creation ;
+    rdfs:label "Benediktbeurer Glaube u. Beichte III [Expression-Creation]" ;
+    crm:P14_carried_out_by <https://rem.clscor.io/entity/actor/M092/1> .
+
+<https://rem.clscor.io/entity/manifestation/M092/1> a frbroo:F4_Manifestation_Singleton ;
+    rdfs:label "Manuscript that contains Benediktbeurer Glaube u. Beichte III [Manifestation Singleton]" ;
+    frbroo:R42_is_representative_manifestation_singleton_for <https://rem.clscor.io/entity/expression/M092/1> ;
+    rdfs:seeAlso <http://www.handschriftencensus.de/1340> .
+
+<https://rem.clscor.io/entity/type/textClass/beichte> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M092> .
+
+<https://rem.clscor.io/entity/type/textClass/credo> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M092> .
+
+<https://rem.clscor.io/entity/work/M092/1> a frbroo:F1_Work ;
+    rdfs:label "Benediktbeurer Glaube u. Beichte III [Work]" ;
+    frbroo:R3_is_realised_in <https://rem.clscor.io/entity/expression/M092/1> .
+
+<https://rem.clscor.io/entity/document/M092> a crmcls:X2_Corpus_Document ;
+    rdfs:label "Benediktbeurer Glaube u. Beichte III [Corpus Document]" ;
+    crm:P165_incorporates <https://rem.clscor.io/entity/expression/M092/1> ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/textClass/beichte>,
+        <https://rem.clscor.io/entity/type/textClass/credo> .
+
+<https://rem.clscor.io/entity/expression/M092/1> a frbroo:F22_Self-Contained_Expression ;
+    rdfs:label "Benediktbeurer Glaube u. Beichte III [Expression]" ;
+    frbroo:R3i_realises <https://rem.clscor.io/entity/work/M092/1> ;
+    frbroo:R42i_has_representative_manifestation_singleton <https://rem.clscor.io/entity/manifestation/M092/1> ;
+    crm:P165i_is_incorporated_in <https://rem.clscor.io/entity/document/M092> .
+

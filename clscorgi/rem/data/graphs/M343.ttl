@@ -1,0 +1,38 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clsinfra.io/ontologies/CRMcls/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://rem.clscor.io/entity/actor/gnd118625330> a crm:E39_Actor ;
+    rdfs:label "Ulrich von Türheim" ;
+    crm:P14i_performed <https://rem.clscor.io/entity/expression/M343/1/creation> ;
+    rdfs:seeAlso <https://handschriftencensus.de/autoren/1182> ;
+    owl:sameAs <https://d-nb.info/gnd/118625330> .
+
+<https://rem.clscor.io/entity/expression/M343/1/creation> a frbroo:F28_Expression_Creation ;
+    rdfs:label "Ulrich von Türheim: Rennewart (B) [Expression-Creation]" ;
+    crm:P14_carried_out_by <https://rem.clscor.io/entity/actor/gnd118625330> .
+
+<https://rem.clscor.io/entity/manifestation/M343/1> a frbroo:F4_Manifestation_Singleton ;
+    rdfs:label "Manuscript that contains Ulrich von Türheim: Rennewart (B) [Manifestation Singleton]" ;
+    frbroo:R42_is_representative_manifestation_singleton_for <https://rem.clscor.io/entity/expression/M343/1> ;
+    rdfs:seeAlso <http://www.handschriftencensus.de/2657> .
+
+<https://rem.clscor.io/entity/type/textClass/hoefischer_roman> crm:P2i_is_type_of <https://rem.clscor.io/entity/document/M343> .
+
+<https://rem.clscor.io/entity/work/M343/1> a frbroo:F1_Work ;
+    rdfs:label "Ulrich von Türheim: Rennewart (B) [Work]" ;
+    frbroo:R3_is_realised_in <https://rem.clscor.io/entity/expression/M343/1> .
+
+<https://rem.clscor.io/entity/document/M343> a crmcls:X2_Corpus_Document ;
+    rdfs:label "Ulrich von Türheim: Rennewart (B) [Corpus Document]" ;
+    crm:P165_incorporates <https://rem.clscor.io/entity/expression/M343/1> ;
+    crm:P2_has_type <https://rem.clscor.io/entity/type/textClass/hoefischer_roman> .
+
+<https://rem.clscor.io/entity/expression/M343/1> a frbroo:F22_Self-Contained_Expression ;
+    rdfs:label "Ulrich von Türheim: Rennewart (B) [Expression]" ;
+    frbroo:R3i_realises <https://rem.clscor.io/entity/work/M343/1> ;
+    frbroo:R42i_has_representative_manifestation_singleton <https://rem.clscor.io/entity/manifestation/M343/1> ;
+    crm:P165i_is_incorporated_in <https://rem.clscor.io/entity/document/M343> .
+

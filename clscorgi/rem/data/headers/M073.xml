@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader style="Bibeldichtung" type="DocumentHeader">
+    <fileDesc xml:id="M073">
+      <titleStmt>
+        <title>Friedberger Christ</title>
+        <author>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <extent type="Tokens">3992</extent>
+      <publicationStmt><publisher>NA</publisher>
+        <idno>Friedrich Maurer (Hg.), Die religiösen Dichtungen des 11. und 12. Jahrhunderts, Tübingen 1964-1970, Nr. 25</idno>
+        <pubPlace>NA</pubPlace>
+        <publisher>NA</publisher>
+        <date when="1964">NA</date>
+        <biblScope unit="NA">NA</biblScope>
+      </publicationStmt>
+      <seriesStmt>
+        <title>NA</title>
+        <editor>NA</editor>
+        <biblScope unit="NA">NA</biblScope>
+      </seriesStmt>
+      <sourceDesc n="1">
+        
+        <msDesc>
+          <msIdentifier>
+            <msName>Hs. 660a</msName>
+            <altIdentifier>
+            <repository>Gießen, Universitätsbibl.</repository>
+              <collection>NA</collection>
+              <idno>FriedbChrist/FriedbChrist</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <history>
+            <origin>
+              <objectType>Handschrift, Reste von 9 Blättern, z.T. Doppelblätter</objectType>
+              <origDate notAfter-custom="1200" notBefore-custom="1100" precision="medium">12</origDate>
+              <origPlace>rheinfränkisch, hessisch</origPlace>
+              <title>NA</title>
+              <locus />
+            </origin>
+          </history>
+        </msDesc>
+        <recordHist>
+          <source facs="">
+            <ref target="http://www.handschriftencensus.de/1577">Census-Link</ref>
+          </source>
+        </recordHist>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="NA" style="Language">mitteldeutsch</language> 
+        <language ident="NA" style="LanguageArea">westmitteldeutsch</language> 
+        <language ident="NA" style="LanguageType">rheinfränkisch, hessisch</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+		<schemaSpec ident="AnnotationKey">
+			<elementSpec ident="Graphical">
+				<valList>
+					<valItem corresp="column" ident="column" />
+            		<valItem corresp="page" ident="page" />
+            		<valItem corresp="line" ident="line" />
+	    			<valItem corresp="side" ident="side" />
+        			<valItem corresp="punc" ident="punc" />
+	    			<valItem corresp="reference" ident="reference" />
+          		</valList>
+          	</elementSpec>
+			<elementSpec ident="Lexical">
+      			<valList>
+      				<valItem corresp="posLemma" ident="posLemma" />
+	    			<valItem corresp="pos_gen" ident="pos_gen" />
+            		<valItem corresp="lemmaId" ident="lemmaId" />
+	    			<valItem corresp="lemma_idmwb" ident="lemma_idmwb" />
+            		<valItem corresp="tokenization" ident="tokenization" />
+	    			<valItem corresp="token_type" ident="token_type" />
+        			<valItem corresp="pos" ident="pos" />
+        			<valItem corresp="lemma" ident="lemma" />
+        			<valItem corresp="lemmaLemma" ident="lemmaLemma" />
+	    			<valItem corresp="lemma_gen" ident="lemma_gen" />
+          		</valList>
+       		</elementSpec>
+			<elementSpec ident="Morphological">
+          		<valList>
+        			<valItem corresp="inflectionClass" ident="inflectionClass" />
+	    			<valItem corresp="inflClass" ident="inflClass" />
+	    			<valItem corresp="inflectionClassLemma" ident="inflectionClassLemma" />
+            		<valItem corresp="inflClass_gen" ident="inflClass_gen" />
+            		<valItem corresp="inflection" ident="inflection" />
+	    			<valItem corresp="infl" ident="infl" />
+          		</valList>
+        	</elementSpec>
+			<elementSpec ident="Transcription">
+          		<valList>
+            		<valItem corresp="norm" ident="norm" />
+            		<valItem corresp="tok_dipl" ident="tok_dipl" />
+            		<valItem corresp="tok_anno" ident="tok_anno" />
+          		</valList>
+        	</elementSpec>
+		</schemaSpec>
+	</encodingDesc>
+    <revisionDesc>
+      <change n="1.0" who="NA">
+        NA
+        
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text />
+</TEI>

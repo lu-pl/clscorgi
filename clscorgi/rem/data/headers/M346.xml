@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader style="Urkunden" type="DocumentHeader">
+    <fileDesc xml:id="M346">
+      <titleStmt>
+        <title>Freiburger Urkunden (1284-1298)</title>
+        <author>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>NA</forename>
+            <surname>NA</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <extent type="Tokens">40587</extent>
+      <publicationStmt><publisher>NA</publisher>
+        <idno>1 = UrkCorp Nr. 658, UB Nr. 12 (1284); 2 = UrkCorp Nr. 677, UB Nr. 19 (1284); 3 = UrkCorp Nr. 780, UB Nr. 28 (1286); 4 = UrkCorp Nr. 831, UB Nr. 35 (1286); 5 = UrkCorp Nr. 1371, UB Nr. 104 (1291); 6 = UrkCorp Nr. 1542, UB Nr. 122 (1292); 7 = UrkCorp Nr. 1639, UB Nr. 130 (1292); 8 = UrkCorp Nr. 1648, UB Nr. 131 (1292); 9 = UrkCorp Nr. 1651B, UB Nr. 132 (1292); 10 = UrkCorp Nr. 1678, UB Nr. 134 (1293); 11 = UrkCorp Nr. 1686, UB Nr. 135 (1293); 12 = UrkCorp Nr. 1768, UB Nr. 141 (1293); 13 = UrkCorp Nr. 1883 (1294); 14 = UrkCorp Nr. 1958, UB Nr. 153 (1294); 15 = UrkCorp Nr. 1959, UB Nr. 154 (1294); 16 = UrkCorp Nr. 1985, UB Nr. 155 (1294); 17 = UrkCorp Nr. 2001, UB Nr. 161 (1294); 18 = UrkCorp Nr. 2008, UB Nr. 163 (1294); 19 = UrkCorp Nr. 2112, UB Nr. 172 (1295); 20 = UrkCorp Nr. 2133, UB Nr. 175 (1295); 21 = UrkCorp Nr. 2182, UB Nr. 178 (1295); 22 = UrkCorp Nr. 2277, UB Nr. 182 (1295); 23 = UrkCorp Nr. 2348, UB Nr. 189 (1296); 24 = UrkCorp Nr. 2461, UB Nr. 199 (1296); 25 = UrkCorp Nr. 2643, UB Nr. 211 (1</idno>
+        <pubPlace>NA</pubPlace>
+        <publisher>NA</publisher>
+        <date when="1284">NA</date>
+        <biblScope unit="NA">NA</biblScope>
+      </publicationStmt>
+      <seriesStmt>
+        <title>NA</title>
+        <editor>NA</editor>
+        <biblScope unit="NA">NA</biblScope>
+      </seriesStmt>
+      <sourceDesc n="1">
+        
+        <msDesc>
+          <msIdentifier>
+            <msName>1 = [a]21/3010;  2 = [a] 21/1957;  3 = [a] 20/603;  4 = [a] 21/3380;  5 = [b] A 1 XVIII d 1291 Feb. 17;  6 = [a] 24/471;  7 = [b] A 1 XVI Aa 1292 Nov. 5; 8 = [b] A 1 XVI Aa 1291 Nov. 29;  9 = [b] A 1 XVI Ag 1292 Dez. 12;  10 = [a]21/8083;  11 = [a] 22/27; 12 = [b] A 1 XVI Aa 1293 Juni 20; 13 = [a]23/568; 14 = [b] A 1 XVII A Büttricher 1294 Mai 13; 15 = [a]11/1937; 16 = [a] 22/325; 17 = [b] A 1 XVI Aa 1294 Juli 31; 18 = [b] A 2 Nr. 20;  19 = [b] A 2 Nr. 22; 20 = [b] A 2 Nr. 24; 21 = [a]23/630; 22 = [b] A 2 Nr. 25; 23 = [a]20/1367; 24 = [b] A 1 XIVb Büttricher 1296 Juli 3; 25 = [b] A 2 Nr. 28; 26 = [b] A 2 Nr. 29; 27 = [b] A 1 XVII A Büttricher 1297 Juni 7; 28 = [a]20/1849; 29 = [a] 21/7227; 30 = [a] 23/652; 31 = [b] A 2 Nr. 34; 32 = [b] A 2 Nr. 35; 33 = [b] A 2 Nr. 36; 34 = [b] A 2 Nr. 38; 35 = [a]23/613</msName>
+            <altIdentifier>
+            <repository>[a] Karlsruhe, Generallandesarchiv; [b] Freiburg, Stadtarchiv</repository>
+              <collection>NA</collection>
+              <idno>UFreib1/-</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <history>
+            <origin>
+              <objectType>Handschrift, -</objectType>
+              <origDate notAfter-custom="NA" notBefore-custom="NA" precision="medium">-</origDate>
+              <origPlace>alemannisch</origPlace>
+              <title>NA</title>
+              <locus />
+            </origin>
+          </history>
+        </msDesc>
+        <recordHist>
+          <source facs="">
+            <ref target="-">Census-Link</ref>
+          </source>
+        </recordHist>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="NA" style="Language">oberdeutsch</language> 
+        <language ident="NA" style="LanguageArea">westoberdeutsch</language> 
+        <language ident="NA" style="LanguageType">alemannisch</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+		<schemaSpec ident="AnnotationKey">
+			<elementSpec ident="Graphical">
+				<valList>
+					<valItem corresp="column" ident="column" />
+            		<valItem corresp="page" ident="page" />
+            		<valItem corresp="line" ident="line" />
+	    			<valItem corresp="side" ident="side" />
+        			<valItem corresp="punc" ident="punc" />
+	    			<valItem corresp="reference" ident="reference" />
+          		</valList>
+          	</elementSpec>
+			<elementSpec ident="Lexical">
+      			<valList>
+      				<valItem corresp="posLemma" ident="posLemma" />
+	    			<valItem corresp="pos_gen" ident="pos_gen" />
+            		<valItem corresp="lemmaId" ident="lemmaId" />
+	    			<valItem corresp="lemma_idmwb" ident="lemma_idmwb" />
+            		<valItem corresp="tokenization" ident="tokenization" />
+	    			<valItem corresp="token_type" ident="token_type" />
+        			<valItem corresp="pos" ident="pos" />
+        			<valItem corresp="lemma" ident="lemma" />
+        			<valItem corresp="lemmaLemma" ident="lemmaLemma" />
+	    			<valItem corresp="lemma_gen" ident="lemma_gen" />
+          		</valList>
+       		</elementSpec>
+			<elementSpec ident="Morphological">
+          		<valList>
+        			<valItem corresp="inflectionClass" ident="inflectionClass" />
+	    			<valItem corresp="inflClass" ident="inflClass" />
+	    			<valItem corresp="inflectionClassLemma" ident="inflectionClassLemma" />
+            		<valItem corresp="inflClass_gen" ident="inflClass_gen" />
+            		<valItem corresp="inflection" ident="inflection" />
+	    			<valItem corresp="infl" ident="infl" />
+          		</valList>
+        	</elementSpec>
+			<elementSpec ident="Transcription">
+          		<valList>
+            		<valItem corresp="norm" ident="norm" />
+            		<valItem corresp="tok_dipl" ident="tok_dipl" />
+            		<valItem corresp="tok_anno" ident="tok_anno" />
+          		</valList>
+        	</elementSpec>
+		</schemaSpec>
+	</encodingDesc>
+    <revisionDesc>
+      <change n="1.0" who="NA">
+        NA
+        
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text />
+</TEI>

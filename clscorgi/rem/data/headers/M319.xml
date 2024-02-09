@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="DocumentHeader" style=""><!-- Textsorte -->
+    <fileDesc xml:id="M319">
+      <titleStmt>
+        <title>Maria Magdalena (Verslegende I)</title>
+        <author>
+          <persName>
+            <forename>NA</forename><!-- Autor (wenn nicht bekantn NA) -->
+            <surname>NA</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>NA</forename><!-- wenn vorhanden -->
+            <surname>NA</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <extent type="Tokens">15694</extent><!-- automatisch erstellt -->
+      <publicationStmt><publisher>NA</publisher><!-- Edition -->
+        <idno></idno>
+        <pubPlace>NA</pubPlace>
+        <publisher>NA</publisher>
+        <date when="-">NA</date><!-- Datierung (Edition) -->
+        <biblScope unit="NA">NA</biblScope>
+      </publicationStmt>
+      <seriesStmt><!-- wenn vorhanden -->
+        <title>NA</title>
+        <editor>NA</editor>
+        <biblScope unit="NA">NA</biblScope>
+      </seriesStmt>
+      <sourceDesc n="1">
+        <!--To describe more than one source, please copy the sourceDesc sequence. Please note, that the value of 'n' should be a sequential number.-->
+        <msDesc>
+          <msIdentifier>
+            <msName>"[a] Kloster Landshut-Seligenthal, Urk. Nr. 121 [= 1], 125 [= 2], 136 [= 4], 137 [= 5], 139 [= 6], 143 [= 7], 145 [= 8], 146 [= 9], 147 [= 10], 149 [= 11], 155 [= 12], 159 [= 13], 162 [= 15], 169 [= 17], 171 [= 18], 173 [= 19], 174 [= 21], 176 [= 22], 178 [= 24]; [b] Urk.Nr. 45 [= 3], 60 [= 14], 62 [= 16], 67 [= 20]"</msName><!-- Signatur -->
+            <altIdentifier>
+            <repository>"[a] München, Hauptstaatsarchiv; [b] Landshut, Staatsarchiv"</repository><!-- Aufbewahrungsort -->
+              <collection>NA</collection><!-- falls vorhanden -->
+              <idno>/</idno><!-- Sigle -->
+            </altIdentifier>
+          </msIdentifier>
+          <history>
+            <origin>
+              <objectType>, </objectType><!-- Sekundäre Referenz -->
+              <origDate precision="medium" notAfter-custom="NA" notBefore-custom="NA">
+                
+                <!--The attribute 'precision' may have the following values: 'high', 'low', 'medium' or 'unknown'.-->
+              </origDate>
+              <origPlace></origPlace>
+              <title>NA</title><!-- falls hier noch ein alternativer angegeben werden soll -->
+              <locus />
+            </origin>
+          </history>
+        </msDesc>
+        <recordHist>
+          <source facs="">
+            <ref target="-">Census-Link</ref><!-- census link -->
+          </source>
+        </recordHist>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language style="Language" ident="NA"></language> <!-- abgeleitet aus Schreibort -->
+        <language style="LanguageArea" ident="NA"></language> <!-- abgeleitet aus Schreibort -->
+        <language style="LanguageType" ident="NA"></language><!-- generiert aus Schreibort -->
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+		<schemaSpec ident="AnnotationKey">
+			<elementSpec ident="Graphical">
+				<valList>
+					<valItem ident="column" corresp="column" />
+            		<valItem ident="page" corresp="page" />
+            		<valItem ident="line" corresp="line" />
+	    			<valItem ident="side" corresp="side" />
+        			<valItem ident="punc" corresp="punc" />
+	    			<valItem ident="reference" corresp="reference" />
+          		</valList>
+          	</elementSpec>
+			<elementSpec ident="Lexical">
+      			<valList>
+      				<valItem ident="posLemma" corresp="posLemma" />
+	    			<valItem ident="pos_gen" corresp="pos_gen" />
+            		<valItem ident="lemmaId" corresp="lemmaId" />
+	    			<valItem ident="lemma_idmwb" corresp="lemma_idmwb" />
+            		<valItem ident="tokenization" corresp="tokenization" />
+	    			<valItem ident="token_type" corresp="token_type" />
+        			<valItem ident="pos" corresp="pos" />
+        			<valItem ident="lemma" corresp="lemma" />
+        			<valItem ident="lemmaLemma" corresp="lemmaLemma" />
+	    			<valItem ident="lemma_gen" corresp="lemma_gen" />
+          		</valList>
+       		</elementSpec>
+			<elementSpec ident="Morphological">
+          		<valList>
+        			<valItem ident="inflectionClass" corresp="inflectionClass" />
+	    			<valItem ident="inflClass" corresp="inflClass" />
+	    			<valItem ident="inflectionClassLemma" corresp="inflectionClassLemma" />
+            		<valItem ident="inflClass_gen" corresp="inflClass_gen" />
+            		<valItem ident="inflection" corresp="inflection" />
+	    			<valItem ident="infl" corresp="infl" />
+          		</valList>
+        	</elementSpec>
+			<elementSpec ident="Transcription">
+          		<valList>
+            		<valItem corresp="norm" ident="norm" />
+            		<valItem corresp="tok_dipl" ident="tok_dipl" />
+            		<valItem corresp="tok_anno" ident="tok_anno" />
+          		</valList>
+        	</elementSpec>
+		</schemaSpec>
+	</encodingDesc>
+    <revisionDesc>
+      <change n="1.0" who="NA"><!-- bitte hier ergänzen -->
+        NA
+        <!--Please copy the change sequence for each new release. The value of 'n' describes therefore the version number, 'when' describes the date of release, 'who' describes the person or group that made the changes/ released and 'type' describes the type of changes that have been made.-->
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text />
+</TEI>
