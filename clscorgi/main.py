@@ -1,7 +1,5 @@
 """Public entry point for the clscorgi script."""
 
-"""Main entry point for CLSCorGi."""
-
 import argparse
 
 from collections.abc import Callable
