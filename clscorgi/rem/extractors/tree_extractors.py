@@ -25,9 +25,9 @@ def xpath_factory(xpath: str) -> Callable[[etree._ElementTree], Any]:
 
 
 def get_publication(tree: etree._ElementTree) -> dict:
-    _publication_stmt = first(TEIXPath("//tei:publicationStmt")(tree))
-    idno = first(TEIXPath("tei:idno/text()")(_publication_stmt))
-    date = first(TEIXPath("tei:date/@when")(_publication_stmt))
+    _publication_stmt = xpath_factory("//tei:publicationStmt")(tree)
+    idno = xpath_factory("tei:idno/text()")(_publication_stmt)
+    date = xpath_factory("tei:date/@when")(_publication_stmt)
 
     return {
         "idno": idno,
@@ -35,19 +35,19 @@ def get_publication(tree: etree._ElementTree) -> dict:
     }
 
 def get_source(tree: etree._ElementTree) -> dict:
-    _ms_desc = first(TEIXPath("//tei:sourceDesc/tei:msDesc")(tree))
-    _ms_identifier = first(TEIXPath("tei:msIdentifier")(_ms_desc))
-    _history = first(TEIXPath("tei:history/tei:origin")(_ms_desc))
+    _ms_desc = xpath_factory("//tei:sourceDesc/tei:msDesc")(tree)
+    _ms_identifier = xpath_factory("tei:msIdentifier")(_ms_desc)
+    _history = xpath_factory("tei:history/tei:origin")(_ms_desc)
 
-    msname = first(TEIXPath("tei:msName/text()")(_ms_identifier))
-    repo = first(TEIXPath("tei:altIdentifier/tei:repository/text()")(_ms_identifier))
-    idno = first(TEIXPath("tei:altIdentifier/tei:idno/text()")(_ms_identifier))
+    msname = xpath_factory("tei:msName/text()")(_ms_identifier)
+    repo = xpath_factory("tei:altIdentifier/tei:repository/text()")(_ms_identifier)
+    idno = xpath_factory("tei:altIdentifier/tei:idno/text()")(_ms_identifier)
 
-    object_type = first(TEIXPath("tei:objectType/text()")(_history))
-    census_link = first(TEIXPath("//tei:recordHist/tei:source/tei:ref/@target")(tree))
+    object_type = xpath_factory("tei:objectType/text()")(_history)
+    census_link = xpath_factory("//tei:recordHist/tei:source/tei:ref/@target")(tree)
 
-    tpq = first(TEIXPath("tei:origDate/@notBefore-custom")(_history))
-    taq = first(TEIXPath("tei:origDate/@notAfter-custom")(_history))
+    tpq = xpath_factory("tei:origDate/@notBefore-custom")(_history)
+    taq = xpath_factory("tei:origDate/@notAfter-custom")(_history)
 
     return {
         "msname": msname,
@@ -66,7 +66,3 @@ get_id = xpath_factory("//tei:fileDesc/@xml:id")
 get_title = xpath_factory("//tei:titleStmt/tei:title/text()")
 get_genre = xpath_factory("//tei:teiHeader/@style")
 get_token = xpath_factory("//tei:fileDesc/tei:extent[@type='Tokens']/text()")
-
-test_dir = files("clscorgi.rem.data.headers")
-test_file = test_dir / "M001.xml"
-test_tree = etree.parse(test_file)
