@@ -10,6 +10,7 @@ from pathlib import Path
 from lxml import etree
 
 
+from clscorgi.bindings_abc import BindingsExtractor
 from clscorgi.eltec.extractors.tree_extractors import (
     get_work_title,
     get_author_name,
@@ -33,14 +34,15 @@ class ELTeCPath:
         self.repo_id = _path.parts[3].lower()
 
 
-class ELTeCBindingsExtractor(collections.UserDict):
+class ELTeCBindingsExtractor(BindingsExtractor):
     """Binding Representation for an ELTeC resource."""
 
     def __init__(self, eltec_url: str) -> None:
         """Initialize a BindingExtractor object."""
         self._eltec_url = self._quote_iri(eltec_url)
         self._eltec_path = ELTeCPath(eltec_url)
-        self.data = self._generate_bindings()
+
+        super().__init__()
 
     def _quote_iri(self, eltec_url: str) -> str:
         """Parse and ascii quote IRIs for processing."""
@@ -52,7 +54,7 @@ class ELTeCBindingsExtractor(collections.UserDict):
 
         return quoted_iri
 
-    def _generate_bindings(self) -> dict:
+    def generate_bindings(self) -> dict:
         """Construct kwarg bindings for RDF generation."""
         _temp_file_name, _ = urlretrieve(self._eltec_url)
 
