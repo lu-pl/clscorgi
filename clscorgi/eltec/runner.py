@@ -37,7 +37,6 @@ def _generate_graph(repo: str) -> None:
 
     for uri in uris:
         bindings = ELTeCBindingsExtractor(uri)
-        print(bindings)
         triples = ELTeCRDFGenerator(**bindings)
 
         logger.info(f"Generating triples for {Path(uri).stem}")
