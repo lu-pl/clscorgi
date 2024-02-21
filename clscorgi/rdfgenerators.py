@@ -16,11 +16,14 @@ from clisn import crm, crmcls, lrm
 from clscorgi.rdfgenerator_abc import RDFGenerator
 from clscorgi.utils.utils import mkuri, uri_ns, resolve_source_type
 from clscorgi.vocabs.vocabs import vocab, VocabLookupException
-from clscorgi.models import SourceData, IDMapping
+from clscorgi.models import ELTeCBindingsModel, ReMBindingsModel, SourceData, IDMapping
 
 
 class ELTeCRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for ELTeC corpora."""
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, model=ELTeCBindingsModel, **kwargs)
 
     def generate_triples(self) -> Iterator[_Triple]:
         """Generate triples from an ELTeC resource."""
@@ -325,3 +328,10 @@ class ELTeCRDFGenerator(RDFGenerator):
 
 class ReMRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for the ReM corporus."""
+
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, model=ReMBindingsModel, **kwargs)
+
+
+    def generate_triples(self) -> Iterator[_Triple]:
+        pass
