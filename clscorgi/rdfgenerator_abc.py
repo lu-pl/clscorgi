@@ -8,14 +8,14 @@ from typing import Any
 from lodkit.types import _Triple
 from rdflib import Graph as RDFLibGraph
 
-from clscorgi.models import BindingsBaseModel
+from pydantic import BaseModel
 
 
 class RDFGenerator(abc.ABC):
     """RDFGenerator ABC."""
 
     def __init__(self,
-                 model: type[BindingsBaseModel] = BindingsBaseModel,
+                 model: type[BaseModel],
                  graph: RDFLibGraph | None = None,
                  **bindings: Any) -> None:
         """Initialize an RDFGenerator."""
