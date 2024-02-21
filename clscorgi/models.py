@@ -34,7 +34,7 @@ class SourceData(IDMapping):
     source_type: Literal[source_types]  # type: ignore
 
 
-class BindingsBaseModel(BaseModel):
+class ELTeCBindingsModel(BaseModel):
     """Bindings model schema for basic CLSCor conversion."""
 
     model_config = ConfigDict(extra="allow")
@@ -45,3 +45,28 @@ class BindingsBaseModel(BaseModel):
 
     author_ids: list[IDMapping] | None = None
     work_ids: list[SourceData] | None = None
+
+
+
+class PublicationData(BaseModel):
+    idno: str
+    year: str
+
+class SourceData(BaseModel):
+    msname: str
+    repo: str
+    idno: str
+    tpq: str | None
+    taq: str | None
+    census_link: str
+
+
+class ReMBindingsModel(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    id: str
+    title: str
+    genre: str
+    token_count: str
+    publication: PublicationData
+    source: SourceData
