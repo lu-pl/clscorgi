@@ -12,9 +12,7 @@ from clscorgi.utils.utils import first
 
 TEIXPath = partial(
     etree.XPath,
-    namespaces={
-        "tei": "http://www.tei-c.org/ns/1.0"
-    }
+    namespaces={"tei": "http://www.tei-c.org/ns/1.0"}
 )
 
 def xpath_factory(xpath: str) -> Callable[[etree._ElementTree], Any]:
