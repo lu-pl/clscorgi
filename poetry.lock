@@ -383,13 +383,13 @@ six = "*"
 
 [[package]]
 name = "lodkit"
-version = "0.1.11"
+version = "0.1.12"
 description = ""
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "lodkit-0.1.11-py3-none-any.whl", hash = "sha256:724511f1db76bf4805f4bc639e0d626d3f9c10666c9fe04903ad89c774625651"},
-    {file = "lodkit-0.1.11.tar.gz", hash = "sha256:e05398cc0f73995d562e6cba94eda4bb2f4758f1d07537cb07208674bba3a80f"},
+    {file = "lodkit-0.1.12-py3-none-any.whl", hash = "sha256:ccc094629bd4229df070acf23ff0948c7b047c59c5f69a5a8d28a936bb703da1"},
+    {file = "lodkit-0.1.12.tar.gz", hash = "sha256:99df119c31954eea344f72b7645a52f90bfaf016781d84423d6828da0a5379b8"},
 ]
 
 [package.dependencies]
@@ -1096,4 +1096,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c4cfd9e88c9c80e982d471dc0db4578d5b727857f56cfd6dc61bc8741b4520ff"
+content-hash = "f87df37186eafd000b3c4501ded7eb8a6cde69d806c016dccc95675e38f81454"
