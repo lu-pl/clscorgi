@@ -47,26 +47,24 @@ class ELTeCBindingsModel(BaseModel):
     work_ids: list[SourceData] | None = None
 
 
-
 class PublicationData(BaseModel):
-    idno: str
-    year: str
+    idno: str | None
+    date: str | None
+
 
 class SourceData(BaseModel):
-    msname: str
+    msname: str | None
     repo: str
     idno: str
     tpq: str | None
     taq: str | None
-    census_link: str
+    census_link: str | None
 
 
 class ReMBindingsModel(BaseModel):
-    model_config = ConfigDict(extra="allow")
-
     id: str
     title: str
-    genre: str
+    genre: str | None
     token_count: str
     publication: PublicationData
     source: SourceData
