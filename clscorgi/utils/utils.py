@@ -5,7 +5,7 @@ import hashlib
 import re
 import functools
 
-from collections.abc import Callable, Iterator, Sequence
+from collections.abc import Callable, Iterator, Sequence, Mapping
 from itertools import repeat
 from typing import TypeVar, Optional
 from types import SimpleNamespace
@@ -166,3 +166,14 @@ def get_e39_hash_value(data: list[dict]):
             return element["id_value"]
 
     return data[0]["id_value"]
+
+
+def revalmap(f: Callable, d: Mapping) -> dict:
+    """Recursively apply a callable to mapping values."""
+    return {
+        key: f(value)
+        if not isinstance(value, Mapping)
+        else revalmap(f, value)
+        for key, value
+        in d.items()
+    }
