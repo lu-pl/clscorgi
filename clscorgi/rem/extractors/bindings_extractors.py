@@ -4,9 +4,10 @@ from collections.abc import Callable
 from pathlib import Path
 
 from lxml import etree
-from toolz import valmap
+from toolz import compose, valmap
 
 from clscorgi.bindings_abc import BindingsExtractor
+from clscorgi.utils.utils import revalmap
 from clscorgi.rem.extractors.tree_extractors import (
     get_id,
     get_title,
@@ -14,6 +15,10 @@ from clscorgi.rem.extractors.tree_extractors import (
     get_token,
     get_publication,
     get_source
+)
+
+value_sanitizer = compose(
+    lambda x: None if x in ("-", "NA", "") else x
 )
 
 class ReMBindingsExtractor(BindingsExtractor):
@@ -30,8 +35,9 @@ class ReMBindingsExtractor(BindingsExtractor):
             "genre": get_genre,
             "token_count": get_token,
             "publication": get_publication,
-            "soure": get_source
+            "source": get_source
         }
 
-        bindings = valmap(lambda x: x(tree), _bindings_mapping)
+        _bindings = valmap(lambda x: x(tree), _bindings_mapping)
+        bindings = revalmap(value_sanitizer, _bindings)
         return bindings
