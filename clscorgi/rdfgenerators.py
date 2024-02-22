@@ -332,6 +332,5 @@ class ReMRDFGenerator(RDFGenerator):
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, model=ReMBindingsModel, **kwargs)
 
-
     def generate_triples(self) -> Iterator[_Triple]:
         pass
