@@ -6,11 +6,13 @@ from collections.abc import Iterator
 from contextlib import suppress
 from types import SimpleNamespace
 
+from lodkit import ttl, URINamespace, mkuri_factory
 from lodkit.types import _Triple
+from rdflib import namespace
 from clscorgi.utils.utils import plist
 
 from rdflib import Literal, URIRef
-from rdflib.namespace import RDF, RDFS, OWL
+from rdflib.namespace import RDF, RDFS, OWL, XSD
 from clisn import crm, crmcls, lrm
 
 from clscorgi.rdfgenerator_abc import RDFGenerator
@@ -18,6 +20,15 @@ from clscorgi.utils.utils import mkuri, uri_ns, resolve_source_type
 from clscorgi.vocabs.vocabs import vocab, VocabLookupException
 from clscorgi.models import ELTeCBindingsModel, ReMBindingsModel, SourceData, IDMapping
 
+from clscorgi.rem.triple_generators import (
+    f1_triple_generator,
+    f2_triple_generator,
+    x2_triple_generator,
+    f3_triple_generator,
+    f5_triple_generator,
+    e17_triple_generator,
+    e35_triple_generator
+)
 
 class ELTeCRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for ELTeC corpora."""
@@ -46,7 +57,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             "e39", "e35",
             ("e39_e41", f"{self.bindings.author_name} [E41]"),
             "x2", "x2_e42",
-            ("x1_eltec", "ELTeC"),
+            ("x1_eltec", "ELTeC [X1]"),
             ("x11_eltec", "ELTeC [X11]"),
             "f1", "f2", "f3", "f27", "f28"
         )
@@ -328,9 +339,20 @@ class ELTeCRDFGenerator(RDFGenerator):
 
 class ReMRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for the ReM corporus."""
-
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, model=ReMBindingsModel, **kwargs)
 
     def generate_triples(self) -> Iterator[_Triple]:
-        pass
+        """CLSCor RDFGenerator for ReM documents."""
+        triple_generators = (
+            f1_triple_generator,
+            f2_triple_generator,
+            x2_triple_generator,
+            f3_triple_generator,
+            f5_triple_generator,
+            e17_triple_generator,
+            e35_triple_generator
+        )
+
+        triples = itertools.chain(*map(lambda f: f(self.bindings), triple_generators))
+        return triples
