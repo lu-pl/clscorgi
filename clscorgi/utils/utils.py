@@ -4,12 +4,14 @@ import contextlib
 import hashlib
 import re
 import functools
+import inspect
 
-from collections.abc import Callable, Iterator, Sequence, Mapping
+from collections.abc import Callable, Iterator, Sequence, Mapping, Container
 from itertools import repeat
-from typing import TypeVar, Optional
+from typing import TypeVar, Optional, Any
 from types import SimpleNamespace
 from uuid import uuid4
+from pydantic import BaseModel
 
 from rdflib import URIRef, Graph, BNode
 from lodkit.utils import genhash
@@ -177,3 +179,31 @@ def revalmap(f: Callable, d: Mapping) -> dict:
         for key, value
         in d.items()
     }
+
+
+def require_defaults(
+        _f: Callable | None = None,
+        check: Callable[[Any], bool] = bool,
+        fail_factory: Callable[[Any], Any] = lambda x: tuple()
+):
+    """Skip decorator.
+
+    The decorator inspects default arguments of the decorated function
+    and runs values against the check predicate.
+    If the predicate returns False for any value,
+    the result of calling fail_factory is returned;
+    else the decorator returns the decorated function.
+    """
+    def _decor(f: Callable):
+        @functools.wraps(f)
+        def _wrapper(*args, **kwargs):
+            for parameter in inspect.signature(f).parameters.values():
+                if (default := parameter.default) is not inspect._empty:
+                    if not check(default):
+                        return fail_factory(default)
+            return f(*args, **kwargs)
+        return _wrapper
+
+    if _f is None:
+        return _decor
+    return _decor(_f)
