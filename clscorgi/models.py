@@ -52,7 +52,7 @@ class PublicationData(BaseModel):
     date: str | None
 
 
-class SourceData(BaseModel):
+class ReMSourceData(BaseModel):
     msname: str | None
     repo: str
     idno: str
@@ -67,4 +67,4 @@ class ReMBindingsModel(BaseModel):
     genre: str | None
     token_count: str
     publication: PublicationData
-    source: SourceData
+    source: ReMSourceData
