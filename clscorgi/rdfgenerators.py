@@ -27,7 +27,8 @@ from clscorgi.rem.triple_generators import (
     f3_triple_generator,
     f5_triple_generator,
     e17_triple_generator,
-    e35_triple_generator
+    e35_triple_generator,
+    wemi_e2_triple_generator
 )
 
 class ELTeCRDFGenerator(RDFGenerator):
@@ -351,7 +352,8 @@ class ReMRDFGenerator(RDFGenerator):
             f3_triple_generator,
             f5_triple_generator,
             e17_triple_generator,
-            e35_triple_generator
+            e35_triple_generator,
+            wemi_e2_triple_generator
         )
 
         triples = itertools.chain.from_iterable(map(lambda f: f(self.bindings), triple_generators))

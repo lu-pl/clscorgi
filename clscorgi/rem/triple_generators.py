@@ -3,6 +3,7 @@
 import itertools
 
 from collections.abc import Iterator
+from typing import NoReturn
 
 from clisn import crmcls, lrm, crm
 from lodkit import mkuri_factory, URINamespace, ttl, _Triple
@@ -26,7 +27,8 @@ uris = URINamespace(
     namespace=crmcls,
     names=(
         "f1", "f2", "x2", "f3pub", "f3src", "f5",
-        "f27", "f28", "e35", "e17",
+        "f27", "f28", "f30_x2", "f30_f3pub", "f30_f3src", "f32",
+        "e17", "e35", "e53",
         ("x1_rem", "ReM [X1]"),
         ("x11_rem", "ReM [X11]"),
         *e55_pairs
@@ -162,16 +164,6 @@ def f5_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return itertools.chain(f5_base_triples, e42_msname, e42_census)
 
 
-def e35_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
-    return ttl(
-        uris.e35,
-        (RDF.type, crm.E35_Title),
-        (RDFS.label, Literal(f"{bindings.title} [Title]")),
-        (crm.P190_has_symbolic_content, Literal(f"{bindings.title} [Title]")),
-        (crm.P102i_is_title_of, (uris.f1, uris.f2, uris.x2)),
-        (crm.P2_has_type, uris.e55_work_title),
-    )
-
 def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     genre: str = bindings.genre or "Undefined"
 
@@ -189,6 +181,101 @@ def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     )
 
     return e17_triples
+
+
+def e35_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+    return ttl(
+        uris.e35,
+        (RDF.type, crm.E35_Title),
+        (RDFS.label, Literal(f"{bindings.title} [Title]")),
+        (crm.P190_has_symbolic_content, Literal(f"{bindings.title} [Title]")),
+        (crm.P102i_is_title_of, (uris.f1, uris.f2, uris.x2)),
+        (crm.P2_has_type, uris.e55_work_title),
+    )
+
+def wemi_e2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+    f27_triples = ttl(
+        uris.f27,
+        (RDF.type, lrm.F27_Work_Creation),
+        (RDFS.label, Literal(f"{bindings.title} [Work Creation]")),
+        (lrm.R16_created, uris.f1)
+    )
+
+    f28_triples = ttl(
+        uris.f28,
+        (RDF.type, lrm.F28_Expression_Creation),
+        (RDFS.label, Literal(f"{bindings.title} [Expression Creation]")),
+        (lrm.R19_created_a_realisation_of, uris.f1),
+        (lrm.R17_created, uris.f2)
+    )
+
+    f30_x2_triples = ttl(
+        uris.f30_x2,
+        (RDF.type, lrm.F30_Manifestation_Creation),
+        (RDFS.label, Literal(f"{bindings.title} [Manifestation Creation]")),
+        (lrm.R24_created, uris.x2)
+    )
+
+    f30_f3src_triples = ttl(
+        uris.f30_f3src,
+        (RDF.type, lrm.F30_Manifestation_Creation),
+        (RDFS.label, Literal(f"{bindings.source.idno} [Manifestation Creation]")),
+        (lrm.R24_created, uris.f3src)
+    )
+
+    def f30_f3pub_triples() -> Iterator[_Triple]:
+        if pub_idno := bindings.publication.idno:
+            yield from ttl(
+                uris.f30_f3pub,
+                (RDF.type, lrm.F30_Manifestation),
+                (RDFS.label, Literal(f"{pub_idno} [Manifestation Creation]"))
+            )
+
+            if date := bindings.publication.date:
+                yield from ttl(
+                    uris.f30_f3pub,
+                    (crm["P4_has_time-span"], [
+                        (RDF.type, crm["E52_Time-Span"]),
+                        (crm.P82_at_some_time_within, Literal(date, datatype=XSD.gYear))
+                    ])
+                )
+
+        # return from a generator is equivalent to raise StopIteration
+        # https://stackoverflow.com/a/16780113/6455731
+        return
+
+    def f32_triples() -> Iterator[_Triple]:
+        yield from ttl(
+            uris.f32,
+            (RDF.type, lrm.F32_Item_Production_Event),
+            (RDFS.label, Literal(f"{bindings.source.idno} [Item Production]")),
+            (lrm.R26_produced, uris.f5),
+            (lrm.R27_materialized, uris.f3src),
+        )
+
+
+        if bindings.source.tpq or bindings.source.taq:
+            yield from ttl(
+                uris.f32,
+                (crm["P4_has_time-span"], ttl(
+                    uris.e53, (RDF.type, crm["E53_Time-Span"])
+                ))
+            )
+
+            if tpq := bindings.source.tpq:
+                yield (uris.e53, crm.P81a_end_of_the_begin, Literal(tpq, datatype=XSD.gYear))
+            if taq := bindings.source.taq:
+                yield (uris.e53, crm.P81b_begin_of_the_end, Literal(taq, datatype=XSD.gYear))
+
+
+    return itertools.chain(
+        f27_triples,
+        f28_triples,
+        f30_x2_triples,
+        f30_f3src_triples,
+        f30_f3pub_triples(),
+        f32_triples()
+    )
 
 
 def e55_triples() -> Iterator[_Triple]:
