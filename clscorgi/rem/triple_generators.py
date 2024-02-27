@@ -82,8 +82,7 @@ def x2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
                 (crm.P90_has_value, Literal(f"{bindings.token_count}", datatype=XSD.integer))
             ])
         ])
-
-        )
+    )
 
     return x2_triples
 
@@ -192,9 +191,12 @@ def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return e17_triples
 
 
-
-# note: to avoid generation for every binding set, this should be preloaded in the aggregate graph
 def e55_triples() -> Iterator[_Triple]:
+    """E55 triple generator.
+
+    E55 triples are not intended to be called from an RDFGenerator,
+    but should be preloaded in the aggregate graph.
+    """
     for name, label in e55_pairs:
         uri = getattr(uris, name)
         yield from ttl(
