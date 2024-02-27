@@ -354,5 +354,5 @@ class ReMRDFGenerator(RDFGenerator):
             e35_triple_generator
         )
 
-        triples = itertools.chain(*map(lambda f: f(self.bindings), triple_generators))
+        triples = itertools.chain.from_iterable(map(lambda f: f(self.bindings), triple_generators))
         return triples
