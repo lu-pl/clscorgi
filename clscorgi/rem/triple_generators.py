@@ -18,7 +18,7 @@ e55_pairs: tuple[tuple[str, str]] = (
     ("e55_work_title", "ReM Work Title [Type]"),
     ("e55_rem_document_id", "ReM Document ID [Type]"),
     ("e55_genre_assignment", "ReM Genre Assignment [Type]"),
-    ("e55_genre", "ReM Genre [Type]")
+    ("e55_genre", "Wikidata Genre [Type]")
 )
 
 mkuri = mkuri_factory(crmcls)
@@ -182,9 +182,9 @@ def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
         (crm.P41_classified, (uris.f1, uris.f2, uris.x2, uris.f3pub, uris.f3src)),
         (crm.P42_assigned, ttl(
             mkuri(f"{genre} [ReM Genre]"),
-            (RDF.type, crm.E55_type),
-            (crm.P2_has_type, uris.e55_genre),
-            (RDFS.label, Literal(f"{genre} [ReM Genre]"))
+            (RDF.type, crm.E55_Type),
+            (RDFS.label, Literal(f"{genre} [ReM Genre]")),
+            (crm.P127_has_broader_term, uris.e55_genre)
         ))
     )
 
