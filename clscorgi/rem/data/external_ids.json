@@ -1,0 +1,214 @@
+{
+    "M341": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118540947"
+        ],
+        "work_ids": null
+    },
+    "M541B": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118549502"
+        ],
+        "work_ids": null
+    },
+    "M541S": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118549502"
+        ],
+        "work_ids": null
+    },
+    "M205E": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M241E": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118806734"
+        ],
+        "work_ids": null
+    },
+    "M520": {
+        "author_ids": [
+            "https://d-nb.info/gnd/1108787355"
+        ],
+        "work_ids": null
+    },
+    "M314": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118625306"
+        ],
+        "work_ids": null
+    },
+    "M226": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118640305"
+        ],
+        "work_ids": [
+            "https://d-nb.info/gnd/1232760617"
+        ]
+    },
+    "M311": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118548360"
+        ],
+        "work_ids": null
+    },
+    "M334": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118554638"
+        ],
+        "work_ids": null
+    },
+    "M407": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118774107"
+        ],
+        "work_ids": [
+            "https://d-nb.info/gnd/7672646-0"
+        ]
+    },
+    "M064S": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118529528"
+        ],
+        "work_ids": null
+    },
+    "M342": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118540947"
+        ],
+        "work_ids": [
+            "https://d-nb.info/gnd/4071969-8"
+        ]
+    },
+    "M241": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118806734"
+        ],
+        "work_ids": null
+    },
+    "M407y": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118774107"
+        ],
+        "work_ids": [
+            "https://d-nb.info/gnd/7672646-0"
+        ]
+    },
+    "M359": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118603736"
+        ],
+        "work_ids": null
+    },
+    "M064M": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118529528"
+        ],
+        "work_ids": null
+    },
+    "M205M": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M241I": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118806734"
+        ],
+        "work_ids": null
+    },
+    "M205S": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M336": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118603736"
+        ],
+        "work_ids": null
+    },
+    "M205T": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M205W": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M541H1": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118549502"
+        ],
+        "work_ids": null
+    },
+    "M064R": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118529528"
+        ],
+        "work_ids": null
+    },
+    "M244": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118633406"
+        ],
+        "work_ids": null
+    },
+    "M343": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118625330"
+        ],
+        "work_ids": null
+    },
+    "M241y": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118806734"
+        ],
+        "work_ids": null
+    },
+    "M406y": {
+        "author_ids": [
+            "https://d-nb.info/gnd/10094034X"
+        ],
+        "work_ids": null
+    },
+    "M529": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118544721"
+        ],
+        "work_ids": null
+    },
+    "M205A": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118565060"
+        ],
+        "work_ids": null
+    },
+    "M541H2": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118549502"
+        ],
+        "work_ids": null
+    },
+    "M406": {
+        "author_ids": [
+            "https://d-nb.info/gnd/10094034X"
+        ],
+        "work_ids": null
+    },
+    "M160H": {
+        "author_ids": [
+            "https://d-nb.info/gnd/118713884"
+        ],
+        "work_ids": null
+    }
+}
