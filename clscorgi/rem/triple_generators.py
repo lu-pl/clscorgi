@@ -131,15 +131,15 @@ def f3_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
 
 
 def _f5_e42_generator(symbolic_content: str | None):
-    if symbolic_content:
-        return ttl(
-            uris.f5,
-            (crm.P1_is_identified_by, [
-             (RDF.type, crm.E42_Identifier),
-             (crm.P190_has_symbolic_content, Literal(symbolic_content))
-            ])
-        )
-    return ()
+   if symbolic_content:
+       return ttl(
+           uris.f5,
+           (crm.P1_is_identified_by, [
+               (RDF.type, crm.E42_Identifier),
+               (crm.P190_has_symbolic_content, Literal(symbolic_content))
+           ])
+       )
+   return ()
 
 
 def f5_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
@@ -281,7 +281,7 @@ def wemi_e2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
 def e55_triples() -> Iterator[_Triple]:
     """E55 triple generator.
 
-    E55 triples are not intended to be called from an RDFGenerator,
+    E55 triples are not intended to get generated from an RDFGenerator,
     but should be preloaded in the aggregate graph.
     """
     for name, label in e55_pairs:
