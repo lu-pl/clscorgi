@@ -35,6 +35,7 @@ uris = URINamespace(
     )
 )
 
+
 def f1_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     f1_triples = ttl(
         uris.f1,
