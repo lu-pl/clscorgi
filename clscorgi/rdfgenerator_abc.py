@@ -13,7 +13,6 @@ from pydantic import BaseModel
 
 class RDFGenerator(abc.ABC):
     """RDFGenerator ABC."""
-
     def __init__(self,
                  model: type[BaseModel],
                  graph: RDFLibGraph | None = None,
