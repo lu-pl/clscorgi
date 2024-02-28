@@ -28,7 +28,8 @@ from clscorgi.rem.triple_generators import (
     f5_triple_generator,
     e17_triple_generator,
     e35_triple_generator,
-    wemi_e2_triple_generator
+    wemi_e2_triple_generator,
+    generate_uri_namespace
 )
 
 class ELTeCRDFGenerator(RDFGenerator):
@@ -356,5 +357,7 @@ class ReMRDFGenerator(RDFGenerator):
             wemi_e2_triple_generator
         )
 
-        triples = itertools.chain.from_iterable(map(lambda f: f(self.bindings), triple_generators))
+        uris = generate_uri_namespace()
+        triples = itertools.chain.from_iterable(map(lambda f: f(self.bindings, uris), triple_generators))
+
         return triples

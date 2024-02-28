@@ -23,20 +23,27 @@ e55_pairs: tuple[tuple[str, str]] = (
 )
 
 mkuri = mkuri_factory(crmcls)
-uris = URINamespace(
-    namespace=crmcls,
-    names=(
-        "f1", "f2", "x2", "f3pub", "f3src", "f5",
-        "f27", "f28", "f30_x2", "f30_f3pub", "f30_f3src", "f32",
-        "e17", "e35", "e53",
-        ("x1_rem", "ReM [X1]"),
-        ("x11_rem", "ReM [X11]"),
-        *e55_pairs
+
+
+def generate_uri_namespace() -> URINamespace:
+    uris = URINamespace(
+        namespace=crmcls,
+        names=(
+            "f1", "f2", "x2", "f3pub", "f3src", "f5",
+            "f27", "f28", "f30_x2", "f30_f3pub", "f30_f3src", "f32",
+            "e17", "e35", "e53",
+            ("x1_rem", "ReM [X1]"),
+            ("x11_rem", "ReM [X11]"),
+            *e55_pairs
+        )
     )
-)
+    return uris
 
 
-def f1_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def f1_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     f1_triples = ttl(
         uris.f1,
         (RDF.type, lrm.F1_Work),
@@ -48,7 +55,10 @@ def f1_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return f1_triples
 
 
-def f2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def f2_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     f2_triples = ttl(
         uris.f2,
         (RDF.type, lrm.F2_Expression),
@@ -61,7 +71,10 @@ def f2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return f2_triples
 
 
-def x2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def x2_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     x2_triples = ttl(
         uris.x2,
         (RDF.type, crmcls.X2_Corpus_Document),
@@ -90,32 +103,35 @@ def x2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return x2_triples
 
 
-def _f3_triple_template(
-        uri: Namespace,
-        label: str,
-        symbolic_content: str | None
+def f3_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
 ) -> Iterator[_Triple]:
-    f3_base_triples = ttl(
-        uri,
-        (RDF.type, lrm.F3_Manifestation),
-        (RDFS.label, Literal(label)),
-        (lrm.R4_embodies, uris.f2))
-
-    @require_defaults()
-    def idno_triples(idno=symbolic_content):
-        return ttl(
+    def _f3_triple_template(
+            uri: Namespace,
+            label: str,
+            symbolic_content: str | None
+    ) -> Iterator[_Triple]:
+        f3_base_triples = ttl(
             uri,
-            (crm.P1_is_identified_by, [
-                (RDF.type, crm.E41_Appellation),
-                (crm.P190_has_symbolic_content, Literal(f"{idno}"))
-            ])
-        )
+            (RDF.type, lrm.F3_Manifestation),
+            (RDFS.label, Literal(label)),
+            (lrm.R4_embodies, uris.f2))
 
-    triples = itertools.chain(f3_base_triples, idno_triples())
-    return triples
+        @require_defaults()
+        def idno_triples(idno=symbolic_content):
+            return ttl(
+                uri,
+                (crm.P1_is_identified_by, [
+                    (RDF.type, crm.E41_Appellation),
+                    (crm.P190_has_symbolic_content, Literal(f"{idno}"))
+                ])
+            )
+
+        triples = itertools.chain(f3_base_triples, idno_triples())
+        return triples
 
 
-def f3_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     f3pub_triples = _f3_triple_template(
         uri=uris.f3pub,
         label=f"{bindings.title} [Publication Manifestation]",
@@ -131,19 +147,10 @@ def f3_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return itertools.chain(f3pub_triples, f3src_triples)
 
 
-def _f5_e42_generator(symbolic_content: str | None):
-   if symbolic_content:
-       return ttl(
-           uris.f5,
-           (crm.P1_is_identified_by, [
-               (RDF.type, crm.E42_Identifier),
-               (crm.P190_has_symbolic_content, Literal(symbolic_content))
-           ])
-       )
-   return ()
-
-
-def f5_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def f5_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     f5_base_triples = ttl(
         uris.f5,
         (RDF.type, lrm.F5_Item),
@@ -159,13 +166,30 @@ def f5_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
         ])
     )
 
+    def _f5_e42_generator(symbolic_content: str | None):
+        if symbolic_content:
+            yield from ttl(
+                uris.f5,
+                (crm.P1_is_identified_by, [
+                    (RDF.type, crm.E42_Identifier),
+                    (crm.P190_has_symbolic_content, Literal(symbolic_content))
+                ])
+            )
+
+        # return from a generator is equivalent to raise StopIteration
+        # https://stackoverflow.com/a/16780113/6455731
+        return
+
     e42_msname = _f5_e42_generator(bindings.source.msname)
     e42_census = _f5_e42_generator(bindings.source.census_link)
 
     return itertools.chain(f5_base_triples, e42_msname, e42_census)
 
 
-def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def e17_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     genre: str = bindings.genre or "Undefined"
 
     e17_triples = ttl(
@@ -184,7 +208,10 @@ def e17_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
     return e17_triples
 
 
-def e35_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def e35_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     return ttl(
         uris.e35,
         (RDF.type, crm.E35_Title),
@@ -194,7 +221,10 @@ def e35_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
         (crm.P2_has_type, uris.e55_work_title),
     )
 
-def wemi_e2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
+def wemi_e2_triple_generator(
+        bindings: ReMBindingsModel,
+        uris: URINamespace
+) -> Iterator[_Triple]:
     f27_triples = ttl(
         uris.f27,
         (RDF.type, lrm.F27_Work_Creation),
@@ -241,8 +271,6 @@ def wemi_e2_triple_generator(bindings: ReMBindingsModel) -> Iterator[_Triple]:
                     ])
                 )
 
-        # return from a generator is equivalent to raise StopIteration
-        # https://stackoverflow.com/a/16780113/6455731
         return
 
     def f32_triples() -> Iterator[_Triple]:
@@ -285,8 +313,9 @@ def e55_triples() -> Iterator[_Triple]:
     E55 triples are not intended to get generated from an RDFGenerator,
     but should be preloaded in the aggregate graph.
     """
-    for name, label in e55_pairs:
-        uri = getattr(uris, name)
+    for _, label in e55_pairs:
+        # uri = getattr(uris, name)
+        uri = mkuri(label)
         yield from ttl(
             uri,
             (RDF.type, crm.E55_Type),
@@ -294,7 +323,7 @@ def e55_triples() -> Iterator[_Triple]:
         )
 
     yield (
-        uris.e55_genre,
+        mkuri("Wikidata Genre [Type]"),
         crm.P1_is_identified,
         URIRef("https://www.wikidata.org/entity/Q483394")
     )
