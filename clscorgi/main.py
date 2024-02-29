@@ -6,10 +6,12 @@ from collections.abc import Callable
 from types import SimpleNamespace
 
 from clscorgi.eltec.runner import eltec_runner
+from clscorgi.rem.runner import rem_runner
 
 
 runners = SimpleNamespace()
 runners.eltec = eltec_runner
+runners.rem = rem_runner
 
 
 parser = argparse.ArgumentParser(
