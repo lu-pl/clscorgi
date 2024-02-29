@@ -1,4 +1,4 @@
-"""Script for extracting and persisting ReM data as JSON."""
+"""Script for extracting and persisting external IDs from legacy RDF as JSON."""
 
 import json
 
@@ -65,7 +65,7 @@ def _graph_extractor(graph_file: Path) -> dict:
 
 if __name__ == "__main__":
     graph_dir = files("clscorgi.rem.data.graphs")
-    output_file = files("clscorgi.rem.data") / "external_ids.json"
+    output_file = files("clscorgi.rem.data.generated") / "external_ids.json"
 
     graph_data = reduce(
         lambda d, data: d | data,
