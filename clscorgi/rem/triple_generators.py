@@ -314,7 +314,6 @@ def e55_triples() -> Iterator[_Triple]:
     but should be preloaded in the aggregate graph.
     """
     for _, label in e55_pairs:
-        # uri = getattr(uris, name)
         uri = mkuri(label)
         yield from ttl(
             uri,
