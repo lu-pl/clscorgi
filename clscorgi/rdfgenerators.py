@@ -9,7 +9,6 @@ from types import SimpleNamespace
 from lodkit import ttl, URINamespace, mkuri_factory
 from lodkit.types import _Triple
 from rdflib import namespace
-from clscorgi.utils.utils import plist
 
 from rdflib import Literal, URIRef
 from rdflib.namespace import RDF, RDFS, OWL, XSD
@@ -78,7 +77,7 @@ class ELTeCRDFGenerator(RDFGenerator):
         x1_uri: URIRef = mkuri(self.bindings.repo_id)
         x8_uri: URIRef = mkuri("ELTeC Level 1 Schema")
 
-        f1_triples = plist(
+        f1_triples = ttl(
             uris.f1,
             (RDF.type, lrm.F1_Work),
             (RDFS.label, Literal(f"{self.bindings.work_title} [Work]")),
@@ -87,7 +86,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (lrm.R74i_has_expression_used_in, uris.f1)
         )
 
-        f2_triples = plist(
+        f2_triples = ttl(
             uris.f2,
             (RDF.type, lrm.F2_Expression),
             (RDFS.label, Literal(f"{self.bindings.work_title} [Expression]")),
@@ -97,14 +96,14 @@ class ELTeCRDFGenerator(RDFGenerator):
             (lrm.R4i_is_embodied_in, (uris.x2, *f3_uris))  # and f3s (todo)
         )
 
-        x1_triples = plist(
+        x1_triples = ttl(
             x1_uri,
             (RDF.type, crmcls.X1_Corpus),
             (lrm.R71_has_part, uris.x2),
             (crmcls.Y4i_is_subcorpus_of, uris.x1_eltec)
         )
 
-        x1_eltec_triples = plist(
+        x1_eltec_triples = ttl(
             uris.x1_eltec,
             (RDF.type, crmcls.X1_Corpus),
             (crmcls.Y4_has_subcorpus, x1_uri),
@@ -112,7 +111,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (crm.P148_has_component, uris.x2)
         )
 
-        x2_triples = plist(
+        x2_triples = ttl(
             uris.x2,
             (RDF.type, crmcls.X2_Corpus_Document),
             (RDFS.label, Literal(f"{self.bindings.work_title} [TEI Document]")),
@@ -125,7 +124,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (crm.P137_exemplifies, uris.x11_eltec)
         )
 
-        x2_e42_triples = plist(
+        x2_e42_triples = ttl(
             uris.x2_e42,
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal(f"{self.bindings.work_title} [ELTeC ID]")),
@@ -136,7 +135,7 @@ class ELTeCRDFGenerator(RDFGenerator):
         def work_id_triples() -> Iterator[_Triple]:
             """Triple iterator for work ID E42 assertions."""
             for e42_uri, work_data in work_ids.items():
-                triples = plist(
+                triples = ttl(
                     e42_uri,
                     (RDF.type, crm.E42_Identifier),
                     (RDFS.label, Literal(f"{self.bindings.work_title} [ID]")),
@@ -156,7 +155,7 @@ class ELTeCRDFGenerator(RDFGenerator):
         def f3_triples() -> Iterator[_Triple]:
             """Triple iterator for F3 generation based on work_ids."""
             for f3_uri, (e42_uri, work_data) in zip(f3_uris, work_ids.items()):
-                f3_triples = plist(
+                f3_triples = ttl(
                     f3_uri,
                     (RDF.type, lrm.F3_Manifestation),
                     (
@@ -180,7 +179,7 @@ class ELTeCRDFGenerator(RDFGenerator):
 
                 yield from f3_triples
 
-        x8_triples = plist(
+        x8_triples = ttl(
             x8_uri,
             (RDF.type, crmcls.X8_Schema),
             (RDFS.label, Literal("ELTeC Level 1 RNG Schema")),
@@ -188,7 +187,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (crmcls.Y3i_is_schema_of, uris.x2)
         )
 
-        f27_triples = plist(
+        f27_triples = ttl(
             uris.f27,
             (RDF.type, lrm.F27_Work_Creation),
             (RDFS.label, Literal(f"{self.bindings.work_title} [Work Creation]")),
@@ -196,7 +195,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (lrm.R16_created, uris.f1)
         )
 
-        f28_triples = plist(
+        f28_triples = ttl(
             uris.f28,
             (RDF.type, lrm.F28_Expression_Creation),
             (
@@ -207,7 +206,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             (lrm.R17_created, uris.f2)
         )
 
-        e35_triples = plist(
+        e35_triples = ttl(
             uris.e35,
             (RDF.type, crm.E35_Title),
             (crm.P102i_is_title_of, uris.f2),
@@ -234,7 +233,7 @@ class ELTeCRDFGenerator(RDFGenerator):
                 for _, author_id in author_ids.items()
             )
 
-            e39_triples = plist(
+            e39_triples = ttl(
                 first_id,
                 (RDF.type, crm.E39_Actor),
                 (RDFS.label, Literal(f"{self.bindings.author_name} [Actor]")),
@@ -251,7 +250,7 @@ class ELTeCRDFGenerator(RDFGenerator):
             yield from e39_triples
             yield from e39_same_as
 
-        e39_e41_triples = plist(
+        e39_e41_triples = ttl(
             uris.e39_e41,
             (RDF.type, crm.E41_Appellation),
             (RDFS.label, Literal("ELTeC Author Name [Appellation]")),
@@ -266,7 +265,7 @@ class ELTeCRDFGenerator(RDFGenerator):
         def e39_e42_triples() -> Iterator[_Triple]:
             for _, author_id in author_ids.items():
                 e42_uri = mkuri(f"{author_id.id_value} [E42]")
-                e42_triples = plist(
+                e42_triples = ttl(
                     e42_uri,
                     (RDF.type, crm.E42_Identifier),
                     (RDFS.label, Literal(f"{self.bindings.author_name} [ID]")),
@@ -284,7 +283,7 @@ class ELTeCRDFGenerator(RDFGenerator):
                 yield from e42_triples
 
         # todo: singleton (type)
-        e55_eltec_title_triples = plist(
+        e55_eltec_title_triples = ttl(
             e55_eltec_title_uri,
             (RDF.type, crm.E55_Type),
             (RDFS.label, Literal("ELTeC Work Title")),
@@ -292,7 +291,7 @@ class ELTeCRDFGenerator(RDFGenerator):
         )
 
         # todo: singleton (type)
-        eltec_schema_triples = plist(
+        eltec_schema_triples = ttl(
             schema_uri,
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal("Link to ELTeC Level 1 RNG Schema")),
@@ -300,14 +299,14 @@ class ELTeCRDFGenerator(RDFGenerator):
         )
 
         # todo: singleton (type)
-        e55_eltec_id_triples = plist(
+        e55_eltec_id_triples = ttl(
             e55_eltec_id_uri,
             (RDF.type, crm.E55_Type),
             (RDFS.label, Literal("ELTeC Corpus Document ID")),
             (crm.P2i_is_type_of, uris.x2_e42)
         )
 
-        e55_eltec_author_name_triples = plist(
+        e55_eltec_author_name_triples = ttl(
             e55_eltec_author_name_uri,
             (RDF.type, crm.E55_Type),
             (RDFS.label, Literal("ELTeC Author Name")),
@@ -340,7 +339,7 @@ class ELTeCRDFGenerator(RDFGenerator):
 
 
 class ReMRDFGenerator(RDFGenerator):
-    """CLSCor RDFGenerator for the ReM corporus."""
+    """CLSCor RDFGenerator for the ReM corpus."""
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, model=ReMBindingsModel, **kwargs)
 
