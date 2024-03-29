@@ -28,8 +28,10 @@ pip install .
 
 The gists listed below hold modelling examples and notes.
 
-- [ELTeC CLSCor example](https://gist.github.com/lu-pl/83bf34d898b9a95a920133af38f524ab)
+- ELTeC
+  - [ELTeC CLSCor example](https://gist.github.com/lu-pl/83bf34d898b9a95a920133af38f524ab)
 
-- [ReM modelling notes](https://gist.github.com/lu-pl/9ecf90094e6355e10a120b80229aa54c)
-- [ReM CLSCor example](https://gist.github.com/lu-pl/e96478123950719df0093ad9458720d3)
+- ReM
+  - [ReM modelling notes](https://gist.github.com/lu-pl/9ecf90094e6355e10a120b80229aa54c)
+  - [ReM CLSCor example](https://gist.github.com/lu-pl/e96478123950719df0093ad9458720d3)
 
