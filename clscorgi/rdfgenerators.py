@@ -1,35 +1,31 @@
 """Functionality for ELTeC to RDF conversion."""
 
 import itertools
-
 from collections.abc import Iterator
 from contextlib import suppress
 from types import SimpleNamespace
 
-from lodkit import ttl, URINamespace, mkuri_factory
-from lodkit.types import _Triple
-from rdflib import namespace
-
-from rdflib import Literal, URIRef
-from rdflib.namespace import RDF, RDFS, OWL, XSD
 from clisn import crm, crmcls, lrm
+from lodkit import URINamespace, mkuri_factory, ttl
+from lodkit.types import _Triple
+from rdflib import Literal, URIRef, namespace
+from rdflib.namespace import OWL, RDF, RDFS, XSD
 
+from clscorgi.models import (ELTeCBindingsModel, GutenbergBindingsModel,
+                             IDMapping, ReMBindingsModel, SourceData)
 from clscorgi.rdfgenerator_abc import RDFGenerator
-from clscorgi.utils.utils import mkuri, uri_ns, resolve_source_type
-from clscorgi.vocabs.vocabs import vocab, VocabLookupException
-from clscorgi.models import ELTeCBindingsModel, ReMBindingsModel, SourceData, IDMapping
+from clscorgi.rem.triple_generators import (e17_triple_generator,
+                                            e35_triple_generator,
+                                            f1_triple_generator,
+                                            f2_triple_generator,
+                                            f3_triple_generator,
+                                            f5_triple_generator,
+                                            generate_uri_namespace,
+                                            wemi_e2_triple_generator,
+                                            x2_triple_generator)
+from clscorgi.utils.utils import mkuri, resolve_source_type, uri_ns
+from clscorgi.vocabs.vocabs import VocabLookupException, vocab
 
-from clscorgi.rem.triple_generators import (
-    f1_triple_generator,
-    f2_triple_generator,
-    x2_triple_generator,
-    f3_triple_generator,
-    f5_triple_generator,
-    e17_triple_generator,
-    e35_triple_generator,
-    wemi_e2_triple_generator,
-    generate_uri_namespace
-)
 
 class ELTeCRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for ELTeC corpora."""
