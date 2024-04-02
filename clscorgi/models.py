@@ -1,10 +1,10 @@
 """Pydantic models for RDFGenerator bindings validation."""
 
 from collections.abc import Iterator
-from typing import Literal
+from typing import Annotated, Literal
 
 import lodkit.importer
-from pydantic import BaseModel, ConfigDict, ValidationInfo, field_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationInfo, field_validator, model_validator
 from rdflib.namespace import RDFS
 
 from clscorgi.vocabs import identifier
@@ -81,15 +81,13 @@ class GutenbergBindingsModel(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
     id: int
-    id_url: str | None
+    id_url: Annotated[str | None, Field(validate_default=True)] = None
     title: str
     authors: list[GutenbergAuthorsModel]
     formats: dict[str, str]
 
     @field_validator("id_url")
     @classmethod
-    def _get_id_url(cls, value: str | None, info: ValidationInfo) -> str:
-        if value is None:
-            id_value: int = info.data["id"]
-            return f"https://www.gutenberg.org/ebooks/{id_value}"
-        return value
+    def _get_id_url(cls, value: None, info: ValidationInfo) -> str:
+        id_value: int = info.data["id"]
+        return f"https://www.gutenberg.org/ebooks/{id_value}"
