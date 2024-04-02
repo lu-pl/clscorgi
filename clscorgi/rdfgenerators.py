@@ -344,7 +344,7 @@ class ReMRDFGenerator(RDFGenerator):
         super().__init__(*args, model=ReMBindingsModel, **kwargs)
 
     def generate_triples(self) -> Iterator[_Triple]:
-        """CLSCor RDFGenerator for ReM documents."""
+        """CLSCor triple generator for ReM documents."""
         triple_generators = (
             f1_triple_generator,
             f2_triple_generator,
@@ -357,6 +357,18 @@ class ReMRDFGenerator(RDFGenerator):
         )
 
         uris = generate_uri_namespace()
-        triples = itertools.chain.from_iterable(map(lambda f: f(self.bindings, uris), triple_generators))
+        triples = itertools.chain.from_iterable(
+            map(lambda f: f(self.bindings, uris), triple_generators)
+        )
 
         return triples
+
+
+class GutenbergRDFGenerator(RDFGenerator):
+    """CLSCor RdfGenerator for the Gutenberg corpus"""
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, model=GutenbergBindingsModel, **kwargs)
+
+    def generate_triples(self) -> Iterator[_Triple]:
+        """CLSCor triple generator for Gutenberg data sets."""
+        pass
