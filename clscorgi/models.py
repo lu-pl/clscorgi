@@ -3,12 +3,11 @@
 from collections.abc import Iterator
 from typing import Literal
 
-from rdflib.namespace import RDFS
-from pydantic import BaseModel, ConfigDict
-
 import lodkit.importer
-from clscorgi.vocabs import identifier
+from pydantic import BaseModel, ConfigDict, ValidationInfo, field_validator
+from rdflib.namespace import RDFS
 
+from clscorgi.vocabs import identifier
 
 # better list cast here, else the iterator will likely be exhausted somewhere
 vocab_id_types: tuple[str, ...] = tuple(
@@ -68,3 +67,29 @@ class ReMBindingsModel(BaseModel):
     token_count: str
     publication: PublicationData
     source: ReMSourceData
+
+
+class GutenbergAuthorsModel(BaseModel):
+    """Model for Gutenberg Authors data."""
+    name: str
+    birth_year: int | None
+    death_year: int | None
+
+
+class GutenbergBindingsModel(BaseModel):
+    """Bindings model for Gutenberg data."""
+    model_config = ConfigDict(extra="ignore")
+
+    id: int
+    id_url: str | None
+    title: str
+    authors: list[GutenbergAuthorsModel]
+    formats: dict[str, str]
+
+    @field_validator("id_url")
+    @classmethod
+    def _get_id_url(cls, value: str | None, info: ValidationInfo) -> str:
+        if value is None:
+            id_value: int = info.data["id"]
+            return f"https://www.gutenberg.org/ebooks/{id_value}"
+        return value
