@@ -5,7 +5,7 @@ import itertools
 from collections.abc import Iterator
 from typing import NoReturn
 
-from clisn import crmcls, lrm, crm
+from clisn import crmcls, lrm, crm, clscore
 from lodkit import mkuri_factory, URINamespace, ttl, _Triple
 
 from rdflib import Literal, URIRef, Namespace
@@ -27,7 +27,7 @@ mkuri = mkuri_factory(crmcls)
 
 def generate_uri_namespace() -> URINamespace:
     uris = URINamespace(
-        namespace=crmcls,
+        namespace=clscore,
         names=(
             "f1", "f2", "x2", "f3pub", "f3src", "f5",
             "f27", "f28", "f30_x2", "f30_f3pub", "f30_f3src", "f32",
