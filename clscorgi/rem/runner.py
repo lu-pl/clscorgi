@@ -30,7 +30,7 @@ def _generate_triples() -> Iterator[_Triple]:
 
 
 def rem_runner() -> None:
-    output_file = files("clscorgi.output.rem") / "rem.rdf"
+    output_file = files("clscorgi.output.rem") / "rem.ttl"
     triples = _generate_triples()
 
     graph = Graph()
