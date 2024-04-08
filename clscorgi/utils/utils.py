@@ -2,6 +2,7 @@
 
 import contextlib
 import hashlib
+from logging import raiseExceptions
 import re
 import functools
 import inspect
@@ -13,7 +14,7 @@ from types import SimpleNamespace
 from uuid import uuid4
 from pydantic import BaseModel
 
-from rdflib import URIRef, Graph, BNode
+from rdflib import Namespace, URIRef, Graph, BNode
 from lodkit.utils import genhash
 from lodkit.types import _Triple, _TripleObject
 
