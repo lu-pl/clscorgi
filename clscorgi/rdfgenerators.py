@@ -5,12 +5,13 @@ from collections.abc import Iterator
 from contextlib import suppress
 from types import SimpleNamespace
 
-from clisn import crm, crmcls, lrm
+from clisn import crm, crmcls, lrm, clscore
 from lodkit import URINamespace, mkuri_factory, ttl
 from lodkit.types import _Triple
 from rdflib import Literal, URIRef, namespace
 from rdflib.namespace import OWL, RDF, RDFS, XSD
 
+from clscorgi.gutenberg.triple_generators import lrm_boilerplate_triple_generator, x2_pg_triple_generator
 from clscorgi.models import (ELTeCBindingsModel, GutenbergBindingsModel,
                              IDMapping, ReMBindingsModel, SourceData)
 from clscorgi.rdfgenerator_abc import RDFGenerator
@@ -24,6 +25,7 @@ from clscorgi.rem.triple_generators import (e17_triple_generator,
                                             wemi_e2_triple_generator,
                                             x2_triple_generator)
 from clscorgi.utils.utils import mkuri, resolve_source_type, uri_ns
+from clscorgi.utils.namespace import nsbase
 from clscorgi.vocabs.vocabs import VocabLookupException, vocab
 
 
@@ -367,4 +369,25 @@ class GutenbergRDFGenerator(RDFGenerator):
 
     def generate_triples(self) -> Iterator[_Triple]:
         """CLSCor triple generator for Gutenberg data sets."""
-        pass
+        class namespace(nsbase(clscore)):
+            """Namespaces for Gutenberg triple generators."""
+            f1, f2,
+            x2, x11
+            f27, f28, e39
+
+            x1_gutenberg="PG [X1]"
+            x11_gutenberg="PG [X11]"
+            e55_id="Gutenberg ID [Type]"
+            e55_id_url="Gutenberg ID URL [Type]"
+
+
+        triple_generators = (
+            lrm_boilerplate_triple_generator,
+            x2_pg_triple_generator
+        )
+
+        triples = itertools.chain.from_iterable(
+            map(lambda f: f(self.bindings, namespace), triple_generators)
+        )
+
+        return triples

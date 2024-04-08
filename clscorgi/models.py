@@ -9,6 +9,7 @@ from rdflib.namespace import RDFS
 
 from clscorgi.vocabs import identifier
 
+
 # better list cast here, else the iterator will likely be exhausted somewhere
 vocab_id_types: tuple[str, ...] = tuple(
     map(str, identifier.objects(None, RDFS.label))
@@ -84,6 +85,7 @@ class GutenbergBindingsModel(BaseModel):
     id_url: Annotated[str | None, Field(validate_default=True)] = None
     title: str
     authors: list[GutenbergAuthorsModel]
+    languages: list[str]
     formats: dict[str, str]
 
     @field_validator("id_url")
