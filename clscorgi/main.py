@@ -7,12 +7,14 @@ from types import SimpleNamespace
 
 from clscorgi.eltec.runner import eltec_runner
 from clscorgi.rem.runner import rem_runner
+from clscorgi.gutenberg.runner import gutenberg_runner
 
 
 runners = SimpleNamespace()
 
 runners.eltec = eltec_runner
 runners.rem = rem_runner
+runners.gutenberg = gutenberg_runner
 
 
 parser = argparse.ArgumentParser(
