@@ -87,7 +87,11 @@ def x2_pg_triple_generator(
         (RDFS.seeAlso, URIRef(bindings.formats["application/rdf+xml"])),
         (lrm.R4_embodies, namespace.f2),
         (lrm.R71i_is_part_of, namespace.x1_gutenberg),
-        (crm.P148i_is_component_of, namespace.x1_gutenberg),
+        (crm.P148i_is_component_of, ttl(
+            namespace.x1_gutenberg,
+            (crm.P148_has_component, namespace.x2),
+            (lrm.R71_has_part, namespace.x2)
+        )),
         (crm.P137_exemplifies, namespace.x11_gutenberg),
         (crm.P72_has_language, tuple(
             Namespace("https://vocabs.acdh.oeaw.ac.at/iso6391/")[lang]
