@@ -1,5 +1,7 @@
 """ELTeC runner: Main entry point for ELTeC conversions."""
 
+import json
+
 from collections.abc import Iterator
 from os import PathLike
 from pathlib import Path
@@ -23,23 +25,20 @@ _REPOS: list[str] = [
     "ELTeC-spa",
 ]
 
-
 def _generate_graph(repo: str) -> None:
     """Process an ELTeC repo, generate a graph and serialize to output files."""
-    uris: Iterator[str] = get_eltec_xml_links(repos=[repo])
 
-    _output_path = files("clscorgi.output.eltec")
-    _output_file_name: str = f'{repo.lower().replace("-", "_")}.ttl'
-    output_file: Path = _output_path / _output_file_name  # type: ignore
+    _input_file = files("clscorgi.eltec.data.generated") / "eltec.json"
+    output_file = files("clscorgi.output.eltec") / "from_json.ttl"
+
+    with open(_input_file) as input_f:
+        input_json = json.load(input_f)
 
     g = Graph()
     CLSInfraNamespaceManager(g)
 
-    for uri in uris:
-        bindings = ELTeCBindingsExtractor(uri)
-        triples = ELTeCRDFGenerator(**bindings)
-
-        logger.info(f"Generating triples for {Path(uri).stem}")
+    for data in input_json:
+        triples = ELTeCRDFGenerator(**data)
 
         for triple in triples:
             g.add(triple)
