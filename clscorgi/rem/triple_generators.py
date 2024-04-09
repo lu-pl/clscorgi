@@ -87,7 +87,12 @@ def x2_triple_generator(
             (crm.P190_has_symbolic_value, Literal(f"{bindings.id}")),
             (crm.P2_has_type, uris.e55_rem_document_id)
         )),
-        (lrm.R71i_is_part_of, ttl(uris.x1_rem, (RDF.type, crmcls.X1_Corpus))),
+        (lrm.R71i_is_part_of, ttl(
+            uris.x1_rem,
+            (RDF.type, crmcls.X1_Corpus),
+            (lrm.R71_has_part, uris.x2),
+            (crm.P148_has_component, uris.x2)
+        )),
         (crm.P137_exemplifies, ttl(uris.x11_rem, (RDF.type, crmcls.X11_Prototypical_Document))),
         (crmcls.Y2_has_format, URIRef("https://clscor.io/entity/type/format/tei")),
         (crmcls.Y1_exhibits_feature, [
