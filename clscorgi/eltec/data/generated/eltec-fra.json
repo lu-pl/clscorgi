@@ -1,0 +1,2411 @@
+[
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00101_Adam.xml",
+        "file_stem": "fra00101_adam",
+        "repo_id": "eltec-fra",
+        "work_title": "Mon village",
+        "author_name": "Adam, Juliette (1836-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Mon_village/Texte_entier",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k3045979q",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:64000638 wikidata:Q270617"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00102_Adam.xml",
+        "file_stem": "fra00102_adam",
+        "repo_id": "eltec-fra",
+        "work_title": "Pa\u00efenne",
+        "author_name": "Adam, Juliette (1836-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Pa%C3%AFenne",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k4112668",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:64000638 wikidata:Q270617"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00201_Audoux.xml",
+        "file_stem": "fra00201_audoux",
+        "repo_id": "eltec-fra",
+        "work_title": "Marie-Claire",
+        "author_name": "Audoux, Marguerite (1863-1937)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com/auteurs/terrail/index.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k4226212k",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:71386673 wikidata:Q466650"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00301_Aimard.xml",
+        "file_stem": "fra00301_aimard",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Trappeurs de l'Arkansas",
+        "author_name": "Aimard, Gustave (1818-1883)",
+        "work_ids": [
+            {
+                "id_value": "https://www.ebooksgratuits.com/details.php?book=953",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6213686g",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9841962 wikidata:Q472068"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00302_Aimard.xml",
+        "file_stem": "fra00302_aimard",
+        "repo_id": "eltec-fra",
+        "work_title": "Belle rivi\u00e8re",
+        "author_name": "Aimard, Gustave (1818-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com/vents-epub/Aimard-riviere.epub",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k57626038",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9841962 wikidata:Q472068"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00401_Allais.xml",
+        "file_stem": "fra00401_allais",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Captain Cap",
+        "author_name": "Allais, Alphonse (1829-1871)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k165801v",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k165801v",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k165801v",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:302147306 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00501_Balzac.xml",
+        "file_stem": "fra00501_balzac",
+        "repo_id": "eltec-fra",
+        "work_title": "Albert Savarus",
+        "author_name": "Balzac, Honor\u00e9 de (1799-1850)",
+        "work_ids": [
+            {
+                "id_value": "http://efele.net/ebooks/livres/000015",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5834593c",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29529595 wikidata:Q9711"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00502_Balzac.xml",
+        "file_stem": "fra00502_balzac",
+        "repo_id": "eltec-fra",
+        "work_title": "Le cousin Pons",
+        "author_name": "Balzac, Honor\u00e9 de (1799-1850)",
+        "work_ids": [
+            {
+                "id_value": "http://efele.net/ebooks/livres/000067",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k1169098",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29529595 wikidata:Q9711"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00503_Balzac.xml",
+        "file_stem": "fra00503_balzac",
+        "repo_id": "eltec-fra",
+        "work_title": "Le cur\u00e9 de village",
+        "author_name": "Balzac, Honor\u00e9 de (1799-1850)",
+        "work_ids": [
+            {
+                "id_value": "http://efele.net/ebooks/livres/000075",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5821334m",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29529595 wikidata:Q9711"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00601_Boisgobey.xml",
+        "file_stem": "fra00601_boisgobey",
+        "repo_id": "eltec-fra",
+        "work_title": "Le crime de l'omnibus",
+        "author_name": "Boisgobey, Fortun\u00e9 du (1821-1891)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19720225 wikidata:Q969321"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00602_Boisgobey.xml",
+        "file_stem": "fra00602_boisgobey",
+        "repo_id": "eltec-fra",
+        "work_title": "Rubis sur l'ongle",
+        "author_name": "Boisgobey, Fortun\u00e9 du (1821-1891)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19720225 wikidata:Q969321"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00701_Carraud.xml",
+        "file_stem": "fra00701_carraud",
+        "repo_id": "eltec-fra",
+        "work_title": "La petite Jeanne ; ou, Le devoir",
+        "author_name": "Carraud, Zulma (1796-1889)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k64363w",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/18715",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66529196 wikidata:Q2030046"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00801_Dash.xml",
+        "file_stem": "fra00801_dash",
+        "repo_id": "eltec-fra",
+        "work_title": "Le ch\u00e2teau de Pinon I",
+        "author_name": "Dash, Comtesse [Gabrielle Anna de Cisternes de Courtiras, vicomtesse de Saint-Mars] (1804-1872)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k54963878",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:102278 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00901_Daudet.xml",
+        "file_stem": "fra00901_daudet",
+        "repo_id": "eltec-fra",
+        "work_title": "Le petit chose",
+        "author_name": "Daudet, Alphonse (1840-1897)",
+        "work_ids": [
+            {
+                "id_value": "http://www.ebooksgratuits.com/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k3413532f",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k1522819d",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:4928621 wikidata:Q228546"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01002_DelarueMardrus.xml",
+        "file_stem": "fra01002_delaruemardrus",
+        "repo_id": "eltec-fra",
+        "work_title": "Toutoune et son amour",
+        "author_name": "Delarue-Mardrus, Lucie (1874-1945)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Toutoune_et_son_amour",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34455354 wikidata:Q3087508"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01101_Dombre.xml",
+        "file_stem": "fra01101_dombre",
+        "repo_id": "eltec-fra",
+        "work_title": "Une pupille g\u00eanante",
+        "author_name": "Dombre, Roger [Marguerite Sisson / Marguerite Ligeron] (1859-1914)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:37053113 wikidata:Q42529454"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01102_Dombre.xml",
+        "file_stem": "fra01102_dombre",
+        "repo_id": "eltec-fra",
+        "work_title": "Folla",
+        "author_name": "Dombre, Roger [Marguerite Sisson / Marguerite Ligeron] (1859-1914)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:37053113 wikidata:Q42529454"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01201_Feval.xml",
+        "file_stem": "fra01201_feval",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Cavalier Fortune",
+        "author_name": "F\u00e9val, Paul Henri Corentin [dit Paul F\u00e9val p\u00e8re] (1816-1887)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17222447 wikidata:Q472568"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01202_Feval.xml",
+        "file_stem": "fra01202_feval",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Errants de la nuit",
+        "author_name": "F\u00e9val, Paul Henri Corentin [dit Paul F\u00e9val p\u00e8re] (1816-1887)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6541902r",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17222447 wikidata:Q472568"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01203_Feval.xml",
+        "file_stem": "fra01203_feval",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Loup blanc",
+        "author_name": "F\u00e9val, Paul Henri Corentin [dit Paul F\u00e9val p\u00e8re] (1816-1887)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k80334r",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17222447 wikidata:Q472568"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01301_Flaubert.xml",
+        "file_stem": "fra01301_flaubert",
+        "repo_id": "eltec-fra",
+        "work_title": "L'\u00c9ducation sentimentale",
+        "author_name": "Flaubert, Gustave (1821-1880)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6576703v",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k1516439r",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9846192 wikidata:Q43444"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01302_Flaubert.xml",
+        "file_stem": "fra01302_flaubert",
+        "repo_id": "eltec-fra",
+        "work_title": "Madame Bovary",
+        "author_name": "Flaubert, Gustave (1821-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://www.ebooksgratuits.com/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/btv1b8619658w",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/btv1b8619658w",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9846192 wikidata:Q43444"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01303_Flaubert.xml",
+        "file_stem": "fra01303_flaubert",
+        "repo_id": "eltec-fra",
+        "work_title": "Salammb\u00f4",
+        "author_name": "Flaubert, Gustave (1821-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://www.fr.wikisource.org",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/btv1b8626108m",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9846192 wikidata:Q43444"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01401_Fleuriot.xml",
+        "file_stem": "fra01401_fleuriot",
+        "repo_id": "eltec-fra",
+        "work_title": "Un enfant g\u00e2t\u00e9",
+        "author_name": "Fleuriot, Z\u00e9na\u00efde (1829-1890)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6567040r",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:41872490 wikidata:Q3086433"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01402_Fleuriot.xml",
+        "file_stem": "fra01402_fleuriot",
+        "repo_id": "eltec-fra",
+        "work_title": "En cong\u00e9",
+        "author_name": "Fleuriot, Z\u00e9na\u00efde (1829-1890)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65760021",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:41872490 wikidata:Q3086433"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01403_Fleuriot.xml",
+        "file_stem": "fra01403_fleuriot",
+        "repo_id": "eltec-fra",
+        "work_title": "Alberte",
+        "author_name": "Fleuriot, Z\u00e9na\u00efde (1829-1890)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6567022t",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6567022t",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:41872490 wikidata:Q3086433"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01501_France.xml",
+        "file_stem": "fra01501_france",
+        "repo_id": "eltec-fra",
+        "work_title": "Les dieux ont soif",
+        "author_name": "France, Anatole (1844-1924)",
+        "work_ids": [
+            {
+                "id_value": "https://www.fadedpage.com/showbook.php ?pid=20110610",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k106372x",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/btv1b8600277s",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:4925052 wikidata:Q42443"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01601_GautierJ.xml",
+        "file_stem": "fra01601_gautierj",
+        "repo_id": "eltec-fra",
+        "work_title": "La S\u0153ur du Soleil",
+        "author_name": "Gautier, Judith (1845-1917)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/La_S%C5%93ur_du_Soleil",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k811244",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k96000394",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54148064 wikidata:Q2523100"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01602_GautierJ.xml",
+        "file_stem": "fra01602_gautierj",
+        "repo_id": "eltec-fra",
+        "work_title": "Fleurs d'Orient",
+        "author_name": "Gautier, Judith (1845-1917)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Fleurs_d%E2%80%99Orient",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k816177",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54148064 wikidata:Q2523100"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01603_GautierJ.xml",
+        "file_stem": "fra01603_gautierj",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Princesses d'Amour : courtisanes japonaises",
+        "author_name": "Gautier, Judith (1845-1917)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Les_Princesses_d%E2%80%99Amour",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k831954",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54148064 wikidata:Q2523100"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01701_GautierT.xml",
+        "file_stem": "fra01701_gautiert",
+        "repo_id": "eltec-fra",
+        "work_title": "Militona",
+        "author_name": "Gautier, Th\u00e9ophile (1800-1872)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/Militona",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k8630650v",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:96428598 wikidata:Q183713"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01801_Gay.xml",
+        "file_stem": "fra01801_gay",
+        "repo_id": "eltec-fra",
+        "work_title": "Ellenore",
+        "author_name": "Gay, Marie Fran\u00e7oise Sophie (1776-1852)",
+        "work_ids": [
+            {
+                "id_value": "https://www.gutenberg.org/ebooks/17757",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k62042m",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:27059297 wikidata:Q273200"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01902_Gaboriau.xml",
+        "file_stem": "fra01902_gaboriau",
+        "repo_id": "eltec-fra",
+        "work_title": "Monsieur Lecoq",
+        "author_name": "Gaboriau, \u00c9mile (1832-1873)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k57241974",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k82609v",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100177491 wikidata:Q463513"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02001_Gilbert.xml",
+        "file_stem": "fra02001_gilbert",
+        "repo_id": "eltec-fra",
+        "work_title": "Vers le p\u00f4le en a\u00e9roplane : roman d'aventures",
+        "author_name": "Gilbert, Jehan (1880-1940)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65899h",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65899h",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65899h",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51823427 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02101_Girardin.xml",
+        "file_stem": "fra02101_girardin",
+        "repo_id": "eltec-fra",
+        "work_title": "Marguerite ou deux amours",
+        "author_name": "Girardin, Delphine de [Delphine Gay] (1804-1855)",
+        "work_ids": [
+            {
+                "id_value": "https://ebooks-bnr.com/girardin-delphine-gay-de-marguerite/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k4802413",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5835784d",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:24601979 wikidata:Q437094"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02201_Gouraud.xml",
+        "file_stem": "fra02201_gouraud",
+        "repo_id": "eltec-fra",
+        "work_title": "Quand je serai grande",
+        "author_name": "Gouraud, Julie [Louise d'Aulnay] (1810-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6512275q",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6512275q",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:31987653 wikidata:Q18115130"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02202_Gouraud.xml",
+        "file_stem": "fra02202_gouraud",
+        "repo_id": "eltec-fra",
+        "work_title": "Le petit colporteur",
+        "author_name": "Gouraud, Julie [Louise d'Aulnay] (1810-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65157064",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65157064",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:31987653 wikidata:Q18115130"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02203_Gouraud.xml",
+        "file_stem": "fra02203_gouraud",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Filles du professeur",
+        "author_name": "Gouraud, Julie [Louise d'Aulnay] (1810-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6488535s",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6488535s",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:31987653 wikidata:Q18115130"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02301_Greville.xml",
+        "file_stem": "fra02301_greville",
+        "repo_id": "eltec-fra",
+        "work_title": "La seconde m\u00e8re",
+        "author_name": "Gr\u00e9ville, Henry [Alice Marie C\u00e9leste Fleury, dite Durand] (1842-1902)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com/auteurs/terrail/index.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49258322 wikidata:Q2266038"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02302_Greville.xml",
+        "file_stem": "fra02302_greville",
+        "repo_id": "eltec-fra",
+        "work_title": "L'amie",
+        "author_name": "Gr\u00e9ville, Henry [Alice Marie C\u00e9leste Fleury, dite Durand] (1842-1902)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com/vents/greville.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65192910",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k65192910",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49258322 wikidata:Q2266038"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02303_Greville.xml",
+        "file_stem": "fra02303_greville",
+        "repo_id": "eltec-fra",
+        "work_title": "Ariadne",
+        "author_name": "Gr\u00e9ville, Henry [Alice Marie C\u00e9leste Fleury, dite Durand] (1842-1902)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com/vents/greville.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6545712p",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49258322 wikidata:Q2266038"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02401_LeRouge.xml",
+        "file_stem": "fra02401_lerouge",
+        "repo_id": "eltec-fra",
+        "work_title": "L'Esclave amoureuse",
+        "author_name": "Le Rouge, Gustave (1867-1938)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:7392910 wikidata:Q2409143"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02501_Loti.xml",
+        "file_stem": "fra02501_loti",
+        "repo_id": "eltec-fra",
+        "work_title": "Mon fr\u00e8re Yves",
+        "author_name": "Loti, Pierre (1850-1923)",
+        "work_ids": [
+            {
+                "id_value": "http://www.ebooksgratuits.com/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6101694w",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:89440078 wikidata:Q311854"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02601_Malot.xml",
+        "file_stem": "fra02601_malot",
+        "repo_id": "eltec-fra",
+        "work_title": "Romain Kalbris",
+        "author_name": "Malot, Hector (1830-1907)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5807990m",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49228546 wikidata:Q315003"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02602_Malot.xml",
+        "file_stem": "fra02602_malot",
+        "repo_id": "eltec-fra",
+        "work_title": "Sans famille",
+        "author_name": "Malot, Hector (1830-1907)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k97632083",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49228546 wikidata:Q315003"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02603_Malot.xml",
+        "file_stem": "fra02603_malot",
+        "repo_id": "eltec-fra",
+        "work_title": "Conscience",
+        "author_name": "Malot, Hector (1830-1907)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k912745",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49228546 wikidata:Q315003"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02701_Maupassant.xml",
+        "file_stem": "fra02701_maupassant",
+        "repo_id": "eltec-fra",
+        "work_title": "Bel-Ami",
+        "author_name": "Maupassant, Guy de (1850-1893)",
+        "work_ids": [
+            {
+                "id_value": "https://www.ebooksgratuits.com/details.php?book=1289",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29537765 wikidata:Q9327"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02702_Maupassant.xml",
+        "file_stem": "fra02702_maupassant",
+        "repo_id": "eltec-fra",
+        "work_title": "Une Vie",
+        "author_name": "Maupassant, Guy de (1850-1893)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k113357j",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29537765 wikidata:Q9327"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02802_Mirbeau.xml",
+        "file_stem": "fra02802_mirbeau",
+        "repo_id": "eltec-fra",
+        "work_title": "La Mar\u00e9chale",
+        "author_name": "Mirbeau, Octave (1848-1917)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100204602 wikidata:Q23441"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02901_Noailles.xml",
+        "file_stem": "fra02901_noailles",
+        "repo_id": "eltec-fra",
+        "work_title": "La Nouvelle Esp\u00e9rance",
+        "author_name": "Noailles, Anna de (1876-1933)",
+        "work_ids": [
+            {
+                "id_value": "https://fr.wikisource.org/wiki/La_Nouvelle_Esp%C3%A9rance",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k111801",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:95303465 wikidata:Q6050"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03001_Ohnet.xml",
+        "file_stem": "fra03001_ohnet",
+        "repo_id": "eltec-fra",
+        "work_title": "La Grande Marni\u00e8re",
+        "author_name": "Ohnet, Georges (1848-1918)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/btv1b9005511c",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k663772",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66497284 wikidata:Q1393388"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03002_Ohnet.xml",
+        "file_stem": "fra03002_ohnet",
+        "repo_id": "eltec-fra",
+        "work_title": "L'\u00c2me de Pierre",
+        "author_name": "Ohnet, Georges (1848-1918)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k68750m",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66497284 wikidata:Q1393388"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03003_Ohnet.xml",
+        "file_stem": "fra03003_ohnet",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Marchand de Poison",
+        "author_name": "Ohnet, Georges (1848-1918)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66497284 wikidata:Q1393388"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03101_Ponson.xml",
+        "file_stem": "fra03101_ponson",
+        "repo_id": "eltec-fra",
+        "work_title": "La baronne tr\u00e9pass\u00e9e",
+        "author_name": "Ponson du Terrail, Pierre Alexis (1829-1871)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/romandixneuf/blob/master/master/rd0010.xml",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5612874d",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17228199 wikidata:Q2595750"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03201_Blandy.xml",
+        "file_stem": "fra03201_blandy",
+        "repo_id": "eltec-fra",
+        "work_title": "Rouz\u00e9tou",
+        "author_name": "Blandy, Stella (1836-1925)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k1656064",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k1656064",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:39410255 wikidata:Q3498121"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03302_Rattazzi.xml",
+        "file_stem": "fra03302_rattazzi",
+        "repo_id": "eltec-fra",
+        "work_title": "Le pi\u00e8ge aux maris",
+        "author_name": "Rattazzi, Marie [Marie-L\u00e6titia Bonaparte-Wyse] (1831-1902)",
+        "work_ids": [
+            {
+                "id_value": "https://ebooks-bnr.com/bonaparte-wyse-marie-laetitia-de-solms-le-piege-aux-maris-tome-1",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:30341384 wikidata:Q3292106"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03401_Reybaud.xml",
+        "file_stem": "fra03401_reybaud",
+        "repo_id": "eltec-fra",
+        "work_title": "Mademoiselle de Malepeire",
+        "author_name": "Reybaud, Fanny [Hippolyte Arnaud] (1802-1871)",
+        "work_ids": [
+            {
+                "id_value": "https://ebooks-bnr.com/reybaud-fanny-mademoiselle-de-malepeire/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:36959845 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03601_Proust.xml",
+        "file_stem": "fra03601_proust",
+        "repo_id": "eltec-fra",
+        "work_title": "Du c\u00f4t\u00e9 de chez Swann",
+        "author_name": "Proust, Marcel (1871-1922)",
+        "work_ids": [
+            {
+                "id_value": "http://www.beq.ebooksgratuits.com/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:32001793 wikidata:Q7199"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03701_Sand.xml",
+        "file_stem": "fra03701_sand",
+        "repo_id": "eltec-fra",
+        "work_title": "Nanon",
+        "author_name": "Sand, George [Amantine Lucile Aurore Dupin] (1804-1876)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k133656k",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46766944 wikidata:Q3816"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03702_Sand.xml",
+        "file_stem": "fra03702_sand",
+        "repo_id": "eltec-fra",
+        "work_title": "Le dernier amour",
+        "author_name": "Sand, George [Amantine Lucile Aurore Dupin] (1804-1876)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5526590r",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46766944 wikidata:Q3816"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03704_Sand.xml",
+        "file_stem": "fra03704_sand",
+        "repo_id": "eltec-fra",
+        "work_title": "Horace",
+        "author_name": "Sand, George [Amantine Lucile Aurore Dupin] (1804-1876)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5725314v",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46766944 wikidata:Q3816"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03802_Stern.xml",
+        "file_stem": "fra03802_stern",
+        "repo_id": "eltec-fra",
+        "work_title": "Nelida",
+        "author_name": "Stern, Daniel [Marie d'Agoult] (1805-1876)",
+        "work_ids": [
+            {
+                "id_value": "http://www. gutenberg. org/ebooks/26863",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k130569x",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:186930001 wikidata:Q253453"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03903_Stolz.xml",
+        "file_stem": "fra03903_stolz",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Secret de Laurent",
+        "author_name": "Stolz, Madame de [Fanny de B\u00e9gon] (1820-1898)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6502382x",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19850120 wikidata:Q3275360"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04001_Verne.xml",
+        "file_stem": "fra04001_verne",
+        "repo_id": "eltec-fra",
+        "work_title": "Un capitaine de quinze ans",
+        "author_name": "Verne, Jules (1828-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6541873g",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76323989 wikidata:Q33977"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04002_Verne.xml",
+        "file_stem": "fra04002_verne",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Secret de Wilhelm Storitz",
+        "author_name": "Verne, Jules (1828-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k56063663",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76323989 wikidata:Q33977"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04102_Erckmann.xml",
+        "file_stem": "fra04102_erckmann",
+        "repo_id": "eltec-fra",
+        "work_title": "Madame Th\u00e9r\u00e8se, ou les volontaires de 92",
+        "author_name": "Erckmann, \u00c9mile (1822-1899)",
+        "work_ids": [
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5542516h",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:31995972 wikidata:Q3246593"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04202_Rolland.xml",
+        "file_stem": "fra04202_rolland",
+        "repo_id": "eltec-fra",
+        "work_title": "Jean-Christophe",
+        "author_name": "Rolland, Romain (1866-1944)",
+        "work_ids": [
+            {
+                "id_value": "https://cligs.hypotheses.org",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://beq.ebooksgratuits.com",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k9782125h",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:71397100 wikidata:Q47162"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04301_Achard.xml",
+        "file_stem": "fra04301_achard",
+        "repo_id": "eltec-fra",
+        "work_title": "Belle-Rose",
+        "author_name": "Achard, Am\u00e9d\u00e9e (1814-1875)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/ebook/libre/amedee_achard-belle-rose.epub",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k203192c",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:22137477 wikidata:Q482162"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04401_Barbusse.xml",
+        "file_stem": "fra04401_barbusse",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Feu",
+        "author_name": "Barbusse, Henri (1873-1935)",
+        "work_ids": [
+            {
+                "id_value": "#unknownSource",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k990598p",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68925116 wikidata:Q18404"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04501_Barres.xml",
+        "file_stem": "fra04501_barres",
+        "repo_id": "eltec-fra",
+        "work_title": "Colette Baudoche",
+        "author_name": "Barr\u00e8s, Maurice (1862-1923)",
+        "work_ids": [
+            {
+                "id_value": "http://fr.groups.yahoo.com/group/ebooksgratuits",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6267092r",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66463260 wikidata:Q314957"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04601_Bazin.xml",
+        "file_stem": "fra04601_bazin",
+        "repo_id": "eltec-fra",
+        "work_title": "Le bl\u00e9 qui l\u00e8ve",
+        "author_name": "Bazin, Ren\u00e9 (1853-1932)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/search/978-2-8247-1249-9",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k97700844",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:24597541 wikidata:Q127539"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04701_Bourget.xml",
+        "file_stem": "fra04701_bourget",
+        "repo_id": "eltec-fra",
+        "work_title": "Laurence Albani",
+        "author_name": "Bourget, Paul (1852-1935)",
+        "work_ids": [
+            {
+                "id_value": "#unknownSource",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29530799 wikidata:Q198644"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04801_Corday.xml",
+        "file_stem": "fra04801_corday",
+        "repo_id": "eltec-fra",
+        "work_title": "Les r\u00e9v\u00e9l\u00e9es",
+        "author_name": "Corday, Michel (1869-1937)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/51703/51703-h/51703-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9861444 wikidata:Q17485888"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04901_Dumas.xml",
+        "file_stem": "fra04901_dumas",
+        "repo_id": "eltec-fra",
+        "work_title": "Reine Margot",
+        "author_name": "Dumas, Alexandre [Dumas p\u00e8re] (1802-1870)",
+        "work_ids": [
+            {
+                "id_value": "https://www.atramenta.net",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6138403c",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51688902 wikidata:Q38337"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05101_Eekhoud.xml",
+        "file_stem": "fra05101_eekhoud",
+        "repo_id": "eltec-fra",
+        "work_title": "L'autre vue",
+        "author_name": "Eekhoud, Georges (1854-1927)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/ebook/libre/georges_eekhoud-lautre_vue.epub",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k62081h",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19677089 wikidata:Q728405"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05201_Feuillet.xml",
+        "file_stem": "fra05201_feuillet",
+        "repo_id": "eltec-fra",
+        "work_title": "La petite Comtesse",
+        "author_name": "Feuillet, Octave (1821-1890)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/search/978-2-8247-1448-6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5853824d",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68928998 wikidata:Q1091989"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05301_Galopin.xml",
+        "file_stem": "fra05301_galopin",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Docteur Omega",
+        "author_name": "Galopin, Arnould (1865-1934)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/ebook/libre/arnould_galopin-le_docteur_omega_aventures_fantastiques_de_trois_francais_dans_la_planete_mars.epub",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5824800g",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66488375 wikidata:Q2863411"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05401_Kock.xml",
+        "file_stem": "fra05401_kock",
+        "repo_id": "eltec-fra",
+        "work_title": "Madeleine",
+        "author_name": "Kock, Paul de (1793-1871)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/32113/32113-h/32113-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5838965p",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100183137 wikidata:Q982058"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05501_Lermina.xml",
+        "file_stem": "fra05501_lermina",
+        "repo_id": "eltec-fra",
+        "work_title": "L'effrayante aventure",
+        "author_name": "Lermina, Jules (1839-1915)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/search/978-2-8247-0851-5",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k62658n",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:49244018 wikidata:Q3087202"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05602_Lesueur.xml",
+        "file_stem": "fra05602_lesueur",
+        "repo_id": "eltec-fra",
+        "work_title": "Masque d'Amour",
+        "author_name": "Lesueur, Daniel (1854-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/50997",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:39520913 wikidata:Q5217915"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05702_Maquet.xml",
+        "file_stem": "fra05702_maquet",
+        "repo_id": "eltec-fra",
+        "work_title": "La Maison du baigneur",
+        "author_name": "Maquet, Auguste (1812-1888)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5834334t",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5834334t",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:62618234 wikidata:Q766768"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05801_Mille.xml",
+        "file_stem": "fra05801_mille",
+        "repo_id": "eltec-fra",
+        "work_title": "Louise et Barnavaux",
+        "author_name": "Mille, Pierre (1864-1941)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k61362974",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k61362974",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100905302 wikidata:Q731510"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05901_Moselly.xml",
+        "file_stem": "fra05901_moselly",
+        "repo_id": "eltec-fra",
+        "work_title": "Terres lorraines",
+        "author_name": "Moselly, Emile (1870-1918)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/search/978-2-8247-1132-4",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19681833 wikidata:Q2356724"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06001_Rebell.xml",
+        "file_stem": "fra06001_rebell",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Nuits chaudes du Cap fran\u00e7ais",
+        "author_name": "Rebell, Hugues (1867-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bibebook.com/search/978-2-8247-1135-5",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k241281c",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9852444 wikidata:Q3142674"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06101_Sandeau.xml",
+        "file_stem": "fra06101_sandeau",
+        "repo_id": "eltec-fra",
+        "work_title": "Mademoiselle de la Seiglie\u0300re",
+        "author_name": "Sandeau, Jules (1811-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.ebooks/34692",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5699005s",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56616138 wikidata:Q609039"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06201_Viel-Castel.xml",
+        "file_stem": "fra06201_viel-castel",
+        "repo_id": "eltec-fra",
+        "work_title": "Archambaud de Comborn, par le Cte Horace de Viel-Castel",
+        "author_name": "Viel-Castel, Horace de (1802-1864)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k5607125s",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5607125s",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:69051610 wikidata:Q3140481"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06301_Montepin.xml",
+        "file_stem": "fra06301_montepin",
+        "repo_id": "eltec-fra",
+        "work_title": "La porteuse de pain",
+        "author_name": "de Mont\u00e9pin, Xavier (1839-1915)",
+        "work_ids": [
+            {
+                "id_value": "https://www.ebooksgratuits.com/details.php?book=1329",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k5504400t",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:87953024 wikidata:Q2735316"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06401_Chandeneux.xml",
+        "file_stem": "fra06401_chandeneux",
+        "repo_id": "eltec-fra",
+        "work_title": "Les M\u00e9nages militaires",
+        "author_name": "Chandeneux, Claire de [B\u00e9renger, Louise Lucienne Emma] (1836-1881)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6484819g",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6484819g",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54272906 wikidata:Q2975144"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06501_Gyp.xml",
+        "file_stem": "fra06501_gyp",
+        "repo_id": "eltec-fra",
+        "work_title": "Totote",
+        "author_name": "Gyp [Mirabeau, Sibylle Riquetti de] (1849-1932)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k96916946",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k96916946",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:96218572 wikidata:Q199228"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06601_Peladan.xml",
+        "file_stem": "fra06601_peladan",
+        "repo_id": "eltec-fra",
+        "work_title": "Modestie et vanit\u00e9, roman",
+        "author_name": "P\u00e9ladan, Jos\u00e9phin [Joseph-Aim\u00e9 P\u00e9ladan] (1858-1918)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k61451614",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k61451614",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k61451614",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:934869 wikidata:Q710019"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06701_Uchard.xml",
+        "file_stem": "fra06701_uchard",
+        "repo_id": "eltec-fra",
+        "work_title": "La Buveuse de perles",
+        "author_name": "Uchard, Mario (1824-1893)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6557908c",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6557908c",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:64099498 wikidata:Q14867927"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06801_Vaillant.xml",
+        "file_stem": "fra06801_vaillant",
+        "repo_id": "eltec-fra",
+        "work_title": "L'Elz\u00e9vir de maroquin rouge",
+        "author_name": "Vaillant, Victor (1815-1885)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k57182783",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k57182783",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51823427"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06901_Vignon.xml",
+        "file_stem": "fra06901_vignon",
+        "repo_id": "eltec-fra",
+        "work_title": "R\u00e9volt\u00e9e",
+        "author_name": "Vignon, Claude [Marie-No\u00e9mi Cadiot] (1828-1888)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k6540656z",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6540656z",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54831988 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07001_Mendes.xml",
+        "file_stem": "fra07001_mendes",
+        "repo_id": "eltec-fra",
+        "work_title": "Lucignole",
+        "author_name": "Mend\u00e8s, Catulle (1841-1909)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k6553546f",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k6553546f",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34460397 wikidata:Q971215"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07101_Blondel.xml",
+        "file_stem": "fra07101_blondel",
+        "repo_id": "eltec-fra",
+        "work_title": "\u00c9lise, ou l'\u00e9ducation particuli\u00e8re",
+        "author_name": "Blondel, Ad\u00e8le (1841-1909)",
+        "work_ids": [
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k5625757r",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://gallica.bnf.fr/ark:/12148/bpt6k5625757r",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:301138355 wikidata:missing"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07201_Montagne.xml",
+        "file_stem": "fra07201_montagne",
+        "repo_id": "eltec-fra",
+        "work_title": "Les Affam\u00e9s de Londres",
+        "author_name": "Montagne, \u00c9douard (1830-1899)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k8630282f",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k8630282f",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k8630282f",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76379741 wikidata:Q47843466"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07301_Valgand.xml",
+        "file_stem": "fra07301_valgand",
+        "repo_id": "eltec-fra",
+        "work_title": "Blondine, roman nouveau",
+        "author_name": "Valgand, C\u00e9cile de [Piolenc, C\u00e9cile Marchand-Caru\u00eb, Mise de] (XXXX-XXXX)",
+        "work_ids": [
+            {
+                "id_value": "http://catalogue.bnf.fr/ark:/12148/cb311160052",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://catalogue.bnf.fr/ark:/12148/cb311160052",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://catalogue.bnf.fr/ark:/12148/cb311160052",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:missing wikidata:Q111329011"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07401_Leblanc.xml",
+        "file_stem": "fra07401_leblanc",
+        "repo_id": "eltec-fra",
+        "work_title": "813",
+        "author_name": "Leblanc, Maurice (1864-1941)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:22144617 wikidata:Q314993"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07501_Darien.xml",
+        "file_stem": "fra07501_darien",
+        "repo_id": "eltec-fra",
+        "work_title": "Le Voleur",
+        "author_name": "Darien, Georges (1862-1921)",
+        "work_ids": [
+            {
+                "id_value": "https://gallica.bnf.fr/ark:/12148/bpt6k6101718v",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59052457 wikidata:Q1508877"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07601_Leroux.xml",
+        "file_stem": "fra07601_leroux",
+        "repo_id": "eltec-fra",
+        "work_title": "La Reine du Sabbat",
+        "author_name": "Leroux, Gaston (1868-1927)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:19680417 wikidata:Q298827"
+            }
+        ]
+    }
+]

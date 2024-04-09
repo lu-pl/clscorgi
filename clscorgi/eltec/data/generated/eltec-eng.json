@@ -1,0 +1,2424 @@
+[
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18400_Trollope.xml",
+        "file_stem": "eng18400_trollope",
+        "repo_id": "eltec-eng",
+        "work_title": "The Life and Adventures of Michael Armstrong",
+        "author_name": "Trollope, Frances Milton (1780-1863)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34551336"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18410_Sinclair.xml",
+        "file_stem": "eng18410_sinclair",
+        "repo_id": "eltec-eng",
+        "work_title": "Modern Flirtations, A Novel, by Catherine Sinclair\u2014A Project Gutenberg eBook",
+        "author_name": "Sinclair, Catherine (1800-1864)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/43358/43358-h/43358-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/modernflirtation01sincuoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/37692813/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18411_Tupper.xml",
+        "file_stem": "eng18411_tupper",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Twins, by Martin Farquhar Tupper, A.M., F.R.S..",
+        "author_name": "Tupper, Martin Farquhar (1810-1889).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/16574/16574-h/16574-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590995737.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/44385259/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18440_Disraeli.xml",
+        "file_stem": "eng18440_disraeli",
+        "repo_id": "eltec-eng",
+        "work_title": "Coningsby: or, The New Generation",
+        "author_name": "Disraeli, Benjamin (1804-1881)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/02717636.5126.emory.edu",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/49233448/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18450_Disraeli.xml",
+        "file_stem": "eng18450_disraeli",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Sybil, by Benjamin Disraeli",
+        "author_name": "Disraeli, Benjamin (1804-1881)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/3760/3760-h/3760-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590304686.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/49233448/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18460_Reynolds.xml",
+        "file_stem": "eng18460_reynolds",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Mysteries of London; [two volumes] by George W. M. Reynolds.",
+        "author_name": "Reynolds, George William McArthur (1814-1879)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/51294/51294-h/51294-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/uc1.32106010644448",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/72764995/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18470_Aguilar.xml",
+        "file_stem": "eng18470_aguilar",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Home Influence, by Grace Aguilar",
+        "author_name": "Aguilar, Grace (1816-1847)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/36648/36648-h/36648-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/homeinfluencetal01agui",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7628015/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18471_Bronte.xml",
+        "file_stem": "eng18471_bronte",
+        "repo_id": "eltec-eng",
+        "work_title": "Wuthering Heights (1st edition) : wikisource edition",
+        "author_name": "Bront\u00eb, Emily (1818-1848)",
+        "work_ids": [
+            {
+                "id_value": "https://en.wikisource.org/wiki/Wuthering_Heights_(1st_edition)",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/wutheringheights01bron",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/97097302/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18480_Thackeray.xml",
+        "file_stem": "eng18480_thackeray",
+        "repo_id": "eltec-eng",
+        "work_title": "Vanity Fair, A Novel without a Hero. Vols. V & VI",
+        "author_name": "Thackeray, William Makepeace (1811-1863)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bartleby.com/305/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590972833.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/95208604/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18481_Dickens.xml",
+        "file_stem": "eng18481_dickens",
+        "repo_id": "eltec-eng",
+        "work_title": "Dombey and Son",
+        "author_name": "Dickens, Charles (1812-1870)",
+        "work_ids": [
+            {
+                "id_value": "http://hdl.handle.net/20.500.12024/3164",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/503628841.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/88666393/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18482_Gaskell.xml",
+        "file_stem": "eng18482_gaskell",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Mary Barton, by Elizabeth Cleghorn Gaskell",
+        "author_name": "Gaskell, Elizabeth Cleghorn (1810-1865)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/2153/2153-h/2153-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/marybartontaleof01gask",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/39377536/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18490_Skene.xml",
+        "file_stem": "eng18490_skene",
+        "repo_id": "eltec-eng",
+        "work_title": "The Inheritance of Evil, Or, the Consequence of Marrying a Deceased Wife\u2019s Sister : VWWP edition",
+        "author_name": "Skene, Felicia (1821-1899)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7062",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590914594.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/26018946/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18500_Ainsworth.xml",
+        "file_stem": "eng18500_ainsworth",
+        "repo_id": "eltec-eng",
+        "work_title": "Auriol or the elixir of life",
+        "author_name": "Ainsworth, William Harrison (1805-1882)",
+        "work_ids": [
+            {
+                "id_value": "https://ebooks.adelaide.edu.au/a/ainsworth/william_harrison/auriol/complete.html",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600060841.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/46894596/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18510_Kingsley.xml",
+        "file_stem": "eng18510_kingsley",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook, Yeast: A Problem",
+        "author_name": "Kingsley, Charles (1819-1875)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/10364/10364-h/10364-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/400291722.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/27081838/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18530_Dickens.xml",
+        "file_stem": "eng18530_dickens",
+        "repo_id": "eltec-eng",
+        "work_title": "Bleak House [monthly parts] : TEI P5 edition",
+        "author_name": "Dickens, Charles (1812-1870)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/lb42/Dickens",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/bleakhouse00dickrich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/88666393/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18531_Yonge.xml",
+        "file_stem": "eng18531_yonge",
+        "repo_id": "eltec-eng",
+        "work_title": "The Heir of Redclyffe",
+        "author_name": "Yonge, Charlotte Mary (1823-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/heirofredclyffe01yong",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/71399881/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18540_Dickens.xml",
+        "file_stem": "eng18540_dickens",
+        "repo_id": "eltec-eng",
+        "work_title": "Hard Times, by Charles Dickens",
+        "author_name": "Dickens, Charles (1812-1870)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7926/7926-h/7926-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590301085.pdf",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/88666393/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18551_Trollope.xml",
+        "file_stem": "eng18551_trollope",
+        "repo_id": "eltec-eng",
+        "work_title": "The Warden",
+        "author_name": "Trollope, Anthony (1815-1882)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/61683295/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18552_Kavanagh.xml",
+        "file_stem": "eng18552_kavanagh",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook, Rachel Gray, by Julia Kavanagh",
+        "author_name": "Kavanagh, Julia (1824-1877).",
+        "work_ids": [
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600053169.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/files/36160/36160-h/36160-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/89854315/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18560_Yonge.xml",
+        "file_stem": "eng18560_yonge",
+        "repo_id": "eltec-eng",
+        "work_title": "The Daisy Chain",
+        "author_name": "Yonge, Charlotte Mary (1823-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/daisychainoraspi01yonguoft",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/71399881/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18570_Bronte.xml",
+        "file_stem": "eng18570_bronte",
+        "repo_id": "eltec-eng",
+        "work_title": "The Professor, by (aka Charlotte Bronte) Currer Bell",
+        "author_name": "Bront\u00eb, Charlotte (1816-1855).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/1028/1028-h/1028-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/400294723.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/71388025/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18600_Clive.xml",
+        "file_stem": "eng18600_clive",
+        "repo_id": "eltec-eng",
+        "work_title": "Why Paul Ferroll Killed His Wife : VWWP edition",
+        "author_name": "Clive, Caroline Wigley (1801-1873)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7194",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600060055.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/3337325/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18610_Eliot.xml",
+        "file_stem": "eng18610_eliot",
+        "repo_id": "eltec-eng",
+        "work_title": "Silas Marner: The Weaver of Raveloe",
+        "author_name": "Eliot, George [pseud.] (1819-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600060055.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/89000553/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18621_Braddon.xml",
+        "file_stem": "eng18621_braddon",
+        "repo_id": "eltec-eng",
+        "work_title": "Lady Audley's Secret",
+        "author_name": "Braddon, Mary Elizabeth (1835-1915).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/8954/8954-h/8954-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/ladyaudleyssecre01brad",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/66826682/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18630_Craik.xml",
+        "file_stem": "eng18630_craik",
+        "repo_id": "eltec-eng",
+        "work_title": "Gutenberg text of Mistress and Maid",
+        "author_name": "Craik, Dinah Maria (1826-1887)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/13461/13461-h/13461-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/mistressmaid01crai",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/46793285/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18632_Reade.xml",
+        "file_stem": "eng18632_reade",
+        "repo_id": "eltec-eng",
+        "work_title": "Hard Cash, by Charles Reade",
+        "author_name": "Reade, Charles (1814-1884).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/3067/3067-h/3067-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/hardcashmatterof0000read",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/44314913/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18640_Blackmore.xml",
+        "file_stem": "eng18640_blackmore",
+        "repo_id": "eltec-eng",
+        "work_title": "Clara Vaughan by R.D. Blackmore (3 volumes)",
+        "author_name": "Blackmore, Richard Doddridge (1825-1900)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/41020/41020-h/41020-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600058244.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/59105182/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18641_Stretton.xml",
+        "file_stem": "eng18641_stretton",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Fern's Hollow, by Hesba Stretton.",
+        "author_name": "Stretton, Hesba [pseud Sara Smith] (1832-1911).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/16853/16853-h/16853-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590921254",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/29892399/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18650_Trollope.xml",
+        "file_stem": "eng18650_trollope",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Can You Forgive Her?",
+        "author_name": "Trollope, Anthony (1815-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/19500/19500-h/19500-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600069685",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/61683295/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18651_Yonge.xml",
+        "file_stem": "eng18651_yonge",
+        "repo_id": "eltec-eng",
+        "work_title": "The Clever Woman of the Family, by Charlotte M. Yonge",
+        "author_name": "Yonge, Charlotte Mary (1823-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/3292/3292-h/3292-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/71399881/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18652_Carroll.xml",
+        "file_stem": "eng18652_carroll",
+        "repo_id": "eltec-eng",
+        "work_title": "Alice's Adventures in Wonderland, by Lewis Carroll",
+        "author_name": "Carroll, Lewis [pseud.] (1832-1898).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/11/11-h/11-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590306858.pdf",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/66462036/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18660_Eliot.xml",
+        "file_stem": "eng18660_eliot",
+        "repo_id": "eltec-eng",
+        "work_title": "Felix Holt, the Radical",
+        "author_name": "Eliot, George [pseud.] (1819-1880)",
+        "work_ids": [
+            {
+                "id_value": "https://archive.org/details/felixholtradical01eliorich/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/89000553/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18661_Oliphant.xml",
+        "file_stem": "eng18661_oliphant",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Miss Marjoribanks, by Mrs. Oliphant.",
+        "author_name": "Oliphant, Margaret (1828\u20131897)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/41286/41286-h/41286-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.oliphantfiction.com/fiction_works/Miss_Marjoribanks_v1.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/49256072/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18670_Ouida.xml",
+        "file_stem": "eng18670_ouida",
+        "repo_id": "eltec-eng",
+        "work_title": "Under Two Flags: A Story of the Household and the Desert",
+        "author_name": "Ouida, [pseud.] (1839-1908)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/undertwoflagssto01ouid",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/34490941/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18700_Oliphant.xml",
+        "file_stem": "eng18700_oliphant",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Piccadilly, by Laurence Oliphant",
+        "author_name": "Oliphant, Laurence (1829-1888)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/36277/36277-h/36277-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/piccadillyafrag01olipgoog",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/17265739/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18702_Jenkins.xml",
+        "file_stem": "eng18702_jenkins",
+        "repo_id": "eltec-eng",
+        "work_title": "Ginx's Baby, by Edward Jenkins",
+        "author_name": "Jenkins, John Edward (1838-1910).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/581/581-h/581-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600071699.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/24837293/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18720_Lynn.xml",
+        "file_stem": "eng18720_lynn",
+        "repo_id": "eltec-eng",
+        "work_title": "The True History of Joshua Davidson : VWWP edition",
+        "author_name": "Linton, Elizabeth Lynn (1822-1898)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7083",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600014497.pdf",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7521381/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18721_Eliot.xml",
+        "file_stem": "eng18721_eliot",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg E-text of Middlemarch, by George Eliot",
+        "author_name": "Eliot, George [pseud.] (1819-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/145/145-h/145-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/middlemarchstudy01eliorich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/89000553/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18740_Ouida.xml",
+        "file_stem": "eng18740_ouida",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook, Bebee, by Ouida",
+        "author_name": "Ouida, [pseud.] (1839-1908)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/13912/13912-h/13912-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600073428.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/34490941/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18741_Bulwer.xml",
+        "file_stem": "eng18741_bulwer",
+        "repo_id": "eltec-eng",
+        "work_title": "Project Gutenberg's The Parisians, Complete, by Edward Bulwer-Lytton",
+        "author_name": "Lytton, Edward Bulwer (1803-1873)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7749/7749-h/7749-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600057419.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/99871326/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18742_Trollope.xml",
+        "file_stem": "eng18742_trollope",
+        "repo_id": "eltec-eng",
+        "work_title": "Harry Heathcote of Gangoil by Anthony Trollope",
+        "author_name": "Trollope, Anthony (1815-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/5642/5642-h/5642-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600067330.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/61683295/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18760_Collins.xml",
+        "file_stem": "eng18760_collins",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of The Two Destinies",
+        "author_name": "Collins, Wilkie (1824-1889)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/1624/1624-h/1624-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600072240.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/95173526/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18770_Mallock.xml",
+        "file_stem": "eng18770_mallock",
+        "repo_id": "eltec-eng",
+        "work_title": "The New Republic by W.H. Mallock : HTML version",
+        "author_name": "Mallock, William Hurrell (1849-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://www.pseudopodium.org/repress/mallock/index.html",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/newrepublicorcul01mall",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7455306/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18800_Disraeli.xml",
+        "file_stem": "eng18800_disraeli",
+        "repo_id": "eltec-eng",
+        "work_title": "Project Gutenberg text of Endymion",
+        "author_name": "Disraeli, Benjamin (1804-1881)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7926/7926-h/7926-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/503687801.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/49233448/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18820_Anstey.xml",
+        "file_stem": "eng18820_anstey",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Vice Versa, by F. Anstey",
+        "author_name": "Anstey, F. [pseud.] (1856-1934)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/26853/26853-h/26853-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/503310642.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/69063398/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18830_Broughton.xml",
+        "file_stem": "eng18830_broughton",
+        "repo_id": "eltec-eng",
+        "work_title": "Belinda: A Novel",
+        "author_name": "Broughton, Rhoda (1840-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590301085.pdf",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/45106836/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18831_Ouida.xml",
+        "file_stem": "eng18831_ouida",
+        "repo_id": "eltec-eng",
+        "work_title": "Folle-Farine : VWWP edition",
+        "author_name": "Ouida, [pseud.] (1839-1908)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7066",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/600060606.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/34490941/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18840_Lee.xml",
+        "file_stem": "eng18840_lee",
+        "repo_id": "eltec-eng",
+        "work_title": "Miss Brown : VWWP edition",
+        "author_name": "Lee, Vernon (1856-1935)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7107",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/missbrownnovel01leevuoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/68945580/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18850_Rutherford.xml",
+        "file_stem": "eng18850_rutherford",
+        "repo_id": "eltec-eng",
+        "work_title": "Mark Rutherford's Deliverance, by Mark Rutherford",
+        "author_name": "White, William Hale (1831-1913).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/5338/5338-h/5338-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590914594.pdf",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/79398669/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18860_Hardy.xml",
+        "file_stem": "eng18860_hardy",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of The Mayor of Casterbridge, by Thomas Hardy",
+        "author_name": "Hardy, Thomas (1840-1928).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/143/143-h/143-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/mayorofcasterbri01hard",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/54148778/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18870_Barry.xml",
+        "file_stem": "eng18870_barry",
+        "repo_id": "eltec-eng",
+        "work_title": "The New Antigone: A Romance",
+        "author_name": "Barry, William Francis (1849-1930)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/newantigoneroman01barr",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/38159288/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18871_Broughton.xml",
+        "file_stem": "eng18871_broughton",
+        "repo_id": "eltec-eng",
+        "work_title": "Red as a rose is she : VWWP edition",
+        "author_name": "Broughton, Rhoda (1840-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7385",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/redasroseissheno00brourich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/45106836/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18872_Lyall.xml",
+        "file_stem": "eng18872_lyall",
+        "repo_id": "eltec-eng",
+        "work_title": "The Autobiography of a Slander",
+        "author_name": "Lyall, Edna [pseud.] (1857-1903).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/1273/1273-h/1273-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/autobiographyofs00lyal_0",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/5734093/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18880_Ward.xml",
+        "file_stem": "eng18880_ward",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Robert Elsmere, by Mrs. Humphry Ward.",
+        "author_name": "Ward, Humphry, Mrs. (1851-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/24898/24898-h/24898-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/mdp.39015063973435",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/27084321/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18890_Nesbit.xml",
+        "file_stem": "eng18890_nesbit",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Prophet's Mantle, by Fabian Bland.",
+        "author_name": "Nesbit, Edith (1858-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/55244/55244-h/55244-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "Bhttp://archive.org/details/landPhttp://archive.org/details/rophetsMhttp://archive.org/details/antle",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7394811/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18900_Doyle.xml",
+        "file_stem": "eng18900_doyle",
+        "repo_id": "eltec-eng",
+        "work_title": "The Sign of Four",
+        "author_name": "Doyle, Arthur Conan (1859-1930)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/signfour00doylgoog",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/65283845/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18901_Broughton.xml",
+        "file_stem": "eng18901_broughton",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Alas!, by Rhoda Broughton.",
+        "author_name": "Broughton, Rhoda (1840-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7926/7926-h/7926-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/alasnovel01brou",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/45106836/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18910_Yeats.xml",
+        "file_stem": "eng18910_yeats",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of John Sherman and Dhoya, by Ganconagh (William Butler Yeats)",
+        "author_name": "Yeats, William Butler (1865\u20131939)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/49109/49109-h/49109-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/johnshermandhoya00yeatrich",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/46768718/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18911_Gissing.xml",
+        "file_stem": "eng18911_gissing",
+        "repo_id": "eltec-eng",
+        "work_title": "New Grub Street: A Novel",
+        "author_name": "Gissing, George (1857-1903).",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/newgrubstreetnov01gissuoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/59083174/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18920_Grossmith.xml",
+        "file_stem": "eng18920_grossmith",
+        "repo_id": "eltec-eng",
+        "work_title": "The Diary of a Nobody by George Grossmith and Weedon Grossmith",
+        "author_name": "Grossmith, George (1847-1912)",
+        "work_ids": [
+            {
+                "id_value": "http://fiftywordsforsnow.com/ebooks/nobody/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/diarynobody",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/64144601/"
+            },
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/64144601/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18930_Benson.xml",
+        "file_stem": "eng18930_benson",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Dodo, A Detail of the Day, by E.F. Benson.",
+        "author_name": "Benson, Edward Frederic (1867-1940).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/44486/44486-h/44486-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/dododetailofday00bensuoft",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/49221488/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18931_Harraden.xml",
+        "file_stem": "eng18931_harraden",
+        "repo_id": "eltec-eng",
+        "work_title": "Project Gutenberg's Ships That Pass In The Night, by Beatrice Harraden",
+        "author_name": "Harraden, Beatrice (1864-1936).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/12476/12476-h/12476-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/shipsthatpassi00harr",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/10209589/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18940_Dixon.xml",
+        "file_stem": "eng18940_dixon",
+        "repo_id": "eltec-eng",
+        "work_title": "The Story of a Modern Woman : VWWP edition",
+        "author_name": "Dixon, Ella Hepworth (1857-1932)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7169",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/storyamodernwom00dixogoog",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/14904505/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18941_Caird.xml",
+        "file_stem": "eng18941_caird",
+        "repo_id": "eltec-eng",
+        "work_title": "The Daughters of Danaus : VWWP edition",
+        "author_name": "Caird, Mona (1854-1932)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7047",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/uc1.aa0016186033",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/24650758/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18950_Cross.xml",
+        "file_stem": "eng18950_cross",
+        "repo_id": "eltec-eng",
+        "work_title": "The Woman Who Didn't : VWWP edition",
+        "author_name": "Cross, Victoria (1868-1952)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7197",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/uiug.30112041697373",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/67411362/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18951_Ward.xml",
+        "file_stem": "eng18951_ward",
+        "repo_id": "eltec-eng",
+        "work_title": "The Story of Bessie Costrell : VWWP edition",
+        "author_name": "Ward, Humphry, Mrs. (1851-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7023",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/storyofbessiecos00ward",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/27084321/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18952_Wells.xml",
+        "file_stem": "eng18952_wells",
+        "repo_id": "eltec-eng",
+        "work_title": "The Time Machine: An Invention",
+        "author_name": "Wells, Herbert George (1866-1946)",
+        "work_ids": [
+            {
+                "id_value": "https://archive.org/details/timemachineinven00well/",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/97006424/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18953_Macdonald.xml",
+        "file_stem": "eng18953_macdonald",
+        "repo_id": "eltec-eng",
+        "work_title": "Lilith: A Romance",
+        "author_name": "MacDonald, George (1824-1905).",
+        "work_ids": [
+            {
+                "id_value": "https://www.ccel.org/ccel/m/macdonald/lilith.xml",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/lilithromance00macduoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/64008667/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18954_Sharp.xml",
+        "file_stem": "eng18954_sharp",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of At The Relton Arms, by Evelyn Sharp.",
+        "author_name": "Sharp, Evelyn (1869-1955)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/41403/41403-h/41403-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/atreltonarms00shar",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/42106129/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18960_Malet.xml",
+        "file_stem": "eng18960_malet",
+        "repo_id": "eltec-eng",
+        "work_title": "The Carissima : VWWP edition",
+        "author_name": "Malet, Lucas (1852-1931)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7033",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/carissimaamoder00malegoog",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/9890134/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18961_Griffiths.xml",
+        "file_stem": "eng18961_griffiths",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Rome Express, by Arthur Griffiths.",
+        "author_name": "Griffiths, Major Arthur George Frederick (1838-1908).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/11451/11451-h/11451-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/osu.32435009413329",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/74223175/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18970_Phillpots.xml",
+        "file_stem": "eng18970_phillpots",
+        "repo_id": "eltec-eng",
+        "work_title": "Gutenberg text of Lying Prophets: A Novel",
+        "author_name": "Phillpotts, Eden (1862-1960)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7968/7968-h/7968-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/lyingprophetsnov00phil",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/56811483/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18972_Morris.xml",
+        "file_stem": "eng18972_morris",
+        "repo_id": "eltec-eng",
+        "work_title": "The water of the wondrous isles",
+        "author_name": "Morris, William (1834-1896)",
+        "work_ids": [
+            {
+                "id_value": "http://morrisedition.lib.uiowa.edu/Images/WaterWondrousIsles/waterwondrouskelmscott.html",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://morrisedition.lib.uiowa.edu/waterwondrousisles.html",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://dbooks.bodleian.ox.ac.uk/books/PDFs/590699513.pdf",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/22146194/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18973_Cholmondeley.xml",
+        "file_stem": "eng18973_cholmondeley",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of A Devotee, by Mary Cholmondeley.",
+        "author_name": "Cholmondeley, Mary (1859-1925).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/40408/40408-h/40408-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/devoteeepisodein00cholrich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/40510526/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18980_BaringGould.xml",
+        "file_stem": "eng18980_baringgould",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Domitia by Sabine Baring-Gould",
+        "author_name": "Baring-Gould, Sabine (1834-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/43985/43985-h/43985-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/hvd.32044086815115 https://hdl.handle.net/2027/njp.32101067628774",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/66640079/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19001_Glyn.xml",
+        "file_stem": "eng19001_glyn",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Visits Of Elizabeth, by Elinor Glyn.",
+        "author_name": "Glyn, Elinor (1864-1943).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/10959/10959-h/10959-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/visitsofelizabet00glynrich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/59204544/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19004_Fowler.xml",
+        "file_stem": "eng19004_fowler",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Farringdons, by Ellen Thorneycroft Fowler.",
+        "author_name": "Fowler, Ellen Thorneycroft (1860-1929).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/19798/19798-h/19798-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/farringdons00fowl",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/72533655/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19005_Steel.xml",
+        "file_stem": "eng19005_steel",
+        "repo_id": "eltec-eng",
+        "work_title": "The Hosts of the Lord",
+        "author_name": "Steel, Flora Annie (1847-1929).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/39991/39991-h/39991-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/hostsoflord00steerich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/211452326/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19010_Mason.xml",
+        "file_stem": "eng19010_mason",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Clementina",
+        "author_name": "Mason, Alfred Edward Woodley (1865-1948)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/13567/13567-h/13567-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/clementinaatale00masogoog",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/89734277/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19011_Jerome.xml",
+        "file_stem": "eng19011_jerome",
+        "repo_id": "eltec-eng",
+        "work_title": "The Observations of Henry",
+        "author_name": "Jerome, Jerome K. (1859-1927)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/17943/17943-h/17943-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/observationsofhe00jero",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/12310310/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19020_Nesbit.xml",
+        "file_stem": "eng19020_nesbit",
+        "repo_id": "eltec-eng",
+        "work_title": "The Red House : VWWP edition",
+        "author_name": "Nesbit, Edith (1858-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7142",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/mdp.39015083443724",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7394811/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19060_Nesbit.xml",
+        "file_stem": "eng19060_nesbit",
+        "repo_id": "eltec-eng",
+        "work_title": "The Story of the Amulet : VWWP edition",
+        "author_name": "Nesbit, Edith (1858-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7012",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/storyofamulet00nesb_0",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/7394811/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19070_Machen.xml",
+        "file_stem": "eng19070_machen",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook The Hill of Dreams,",
+        "author_name": "Machen, Arthur (1863-1947)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/13969/13969-h/13969-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/hillofdreams00machrich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/2473758/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19071_Silberrad.xml",
+        "file_stem": "eng19071_silberrad",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Good Comrade, by Una L. Silberrad",
+        "author_name": "Silberrad, Una Lucy (1872-1955).",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/18060/18060-h/18060-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/goodcomrade00silbiala",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/4814869/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19080_Chesterton.xml",
+        "file_stem": "eng19080_chesterton",
+        "repo_id": "eltec-eng",
+        "work_title": "The Man Who Was Thursday",
+        "author_name": "Chesterton, Gilbert Keith (1874-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://ccel.org/c/chesterton/thursday/thursday.html",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/manwhowasthursda00chesrich",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/14767719/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19090_Wells.xml",
+        "file_stem": "eng19090_wells",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Tono Bungay, by H. G. Wells",
+        "author_name": "Wells, Herbert George (1866-1946)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/718/718-h/718-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/tonobungay00welluoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/97006424/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19091_Ward.xml",
+        "file_stem": "eng19091_ward",
+        "repo_id": "eltec-eng",
+        "work_title": "Daphne, or Marriage a la Mode : VWWP edition",
+        "author_name": "Ward, Humphry, Mrs. (1851-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://purl.dlib.indiana.edu/iudl/vwwp/VAB7046",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/daphneormarriage00ward",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/27084321/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19100_Forster.xml",
+        "file_stem": "eng19100_forster",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg Etext of Howards End, by E. M. Forster",
+        "author_name": "Forster, Edward Morgan (1879-1970)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/howardsend00fors_3",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/files/2891/2891-h/2891-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/31996364/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19111_Hornung.xml",
+        "file_stem": "eng19111_hornung",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of The Camera Fiend by E.W. Hornung",
+        "author_name": "Hornung, Ernest William (1866-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/30096/30096-h/30096-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/thecamerafiend00horn",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/71409962/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19120_Wells.xml",
+        "file_stem": "eng19120_wells",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Marriage, by H. G. Wells",
+        "author_name": "Wells, Herbert George (1866-1946)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/35338/35338-h/35338-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/marriage00wellgoog",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/97006424/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19121_Belloc.xml",
+        "file_stem": "eng19121_belloc",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Chink In The Armour, by Mrs. Belloc Lowndes.",
+        "author_name": "Belloc-Lowndes, Marie (1868-1947)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/16677/16677-h/16677-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/chinkinarmour00lown",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/24729680/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19150_Buchan.xml",
+        "file_stem": "eng19150_buchan",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg E-text of The Thirty-nine Steps, by John Buchan",
+        "author_name": "Buchan, John (1875-1940)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/558/558-h/558-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/thirtyninesteps00buch_2",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/66464527/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19170_Conrad.xml",
+        "file_stem": "eng19170_conrad",
+        "repo_id": "eltec-eng",
+        "work_title": "The Shadow-Line, by Joseph Conrad",
+        "author_name": "Conrad, Joseph (1857-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/451/451-h/451-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/shadowlineconfes00conruoft",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/73862853/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19180_Lewis.xml",
+        "file_stem": "eng19180_lewis",
+        "repo_id": "eltec-eng",
+        "work_title": "Tarr",
+        "author_name": "Lewis, Percy Wyndham (1882-1957)",
+        "work_ids": [
+            {
+                "id_value": "http://archive.org/details/tarregoist00lewi",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/41843119/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19181_West.xml",
+        "file_stem": "eng19181_west",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The Return of The Soldier, by Rebecca West.",
+        "author_name": "West, Rebecca [pseud. Cicily Isabel Fairfield] (1892-1983)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/37189/37189-h/37189-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://archive.org/details/returnofsoldier00west2",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "http://viaf.org/viaf/108321467"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19190_Benson.xml",
+        "file_stem": "eng19190_benson",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of Living Alone, by Stella Benson.",
+        "author_name": "Benson, Stella (1892-1933)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/14907/14907-h/14907-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/livingalone00bensiala",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/90724564/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19191_Hamilton.xml",
+        "file_stem": "eng19191_hamilton",
+        "repo_id": "eltec-eng",
+        "work_title": "William \u2014 an Englishman",
+        "author_name": "Hamilton, Cicely (1872-1952)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/7926/7926-h/7926-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/williamanenglish00hamiiala",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/54947993/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19192_Woolf.xml",
+        "file_stem": "eng19192_woolf",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Night and Day, by Virginia Woolf",
+        "author_name": "Woolf, Virginia (1882-1941)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/1245/1245-h/1245-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/nightday00wool",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/39385478/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19200_Lawrence.xml",
+        "file_stem": "eng19200_lawrence",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg EBook of Women in Love, by D. H. Lawrence",
+        "author_name": "Lawrence, David Herbert (1885-1930)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/4240/4240-h/4240-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/inlovewomen00lawrrich",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/95150359/"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19201_Arlen.xml",
+        "file_stem": "eng19201_arlen",
+        "repo_id": "eltec-eng",
+        "work_title": "The Project Gutenberg eBook of The London Venture, by Michael Arlen.",
+        "author_name": "Arlen, Michael [pseud.] (1895-1956)",
+        "work_ids": [
+            {
+                "id_value": "http://www.gutenberg.org/files/40375/40375-h/40375-h.htm",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://archive.org/details/londonventure00sevigoog",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "https://viaf.org/viaf/19715803/"
+            }
+        ]
+    }
+]

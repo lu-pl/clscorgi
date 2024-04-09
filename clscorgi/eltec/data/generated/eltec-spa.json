@@ -1,0 +1,2377 @@
+[
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1001_GilYCarrasco_ElSenyorDeBembibre.xml",
+        "file_stem": "spa1001_gilycarrasco_elsenyordebembibre",
+        "repo_id": "eltec-spa",
+        "work_title": "El Se\u00f1or de Bembibre",
+        "author_name": "Gil y Carrasco, Enrique (1815-1846)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000246543",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-senor-de-bembibre--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:27087132"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1002_AlonsoDeAvecilla_LaConquistaDelPeru.xml",
+        "file_stem": "spa1002_alonsodeavecilla_laconquistadelperu",
+        "repo_id": "eltec-spa",
+        "work_title": "Conquista del Per\u00fa",
+        "author_name": "Alonso de la Avecilla, Pablo (1810-1860)",
+        "work_ids": [
+            {
+                "id_value": "https://books.google.es/books?id=-Nm0sPwZ-OgC",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-conquista-del-peru-novela-historica-original--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9453280"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1003_ArnoizYBosch_ElTestamento.xml",
+        "file_stem": "spa1003_arnoizybosch_eltestamento",
+        "repo_id": "eltec-spa",
+        "work_title": "El testamento de Don Juan I",
+        "author_name": "Arr\u00f3riz y Bosch, Teresa (1827-1890)",
+        "work_ids": [
+            {
+                "id_value": "https://sirio.ua.es/libros/BFilosofia/testamento_don_juan_I/thm0000.htm",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-infanta-dona-teresa--0",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:268680340"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1004_Foz_VidaDePedroSaputo.xml",
+        "file_stem": "spa1004_foz_vidadepedrosaputo",
+        "repo_id": "eltec-spa",
+        "work_title": "Vida de Pedro Saputo",
+        "author_name": "Foz, Braulio (1791-1865)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/vida-de-pedro-saputo--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:22213455"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1005_FernanCaballero_Clemencia.xml",
+        "file_stem": "spa1005_fernancaballero_clemencia",
+        "repo_id": "eltec-spa",
+        "work_title": "Clemencia. Novela de costumbres",
+        "author_name": "B\u00f6hl de Faber y Ruiz de Larrea, Cecilia [Fern\u00e1n Caballero] (1796-1877)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000185567",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/clemencia--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9859150"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1006_AmadoSalzar_ElHonorCastellano.xml",
+        "file_stem": "spa1006_amadosalzar_elhonorcastellano",
+        "repo_id": "eltec-spa",
+        "work_title": "El honor castellano. Novela hist\u00f3rica original",
+        "author_name": "Amado Salazar, Jos\u00e9 Mar\u00eda (-)",
+        "work_ids": [
+            {
+                "id_value": "http://bibliotecadigital.jcyl.es/i18n/catalogo_imagenes/imagen.cmd?path=10065193",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-honor-castellano-novela-historica--0",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1007_RosaliaDeCastro_LaHijaDelMar.xml",
+        "file_stem": "spa1007_rosaliadecastro_lahijadelmar",
+        "repo_id": "eltec-spa",
+        "work_title": "La hija del mar",
+        "author_name": "Castro, Rosal\u00eda de (1837-1885)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-hija-del-mar--1/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51711491"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1008_Mora_LosTemplarios.xml",
+        "file_stem": "spa1008_mora_lostemplarios",
+        "repo_id": "eltec-spa",
+        "work_title": "Los templarios. Tomo I",
+        "author_name": "Mora, Juan de Dios (1827-1884)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/los-templarios-tomo-i-novela-original--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:87109591"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1009_RosDeOlano_ElDiabloLasCarga.xml",
+        "file_stem": "spa1009_rosdeolano_eldiablolascarga",
+        "repo_id": "eltec-spa",
+        "work_title": "El diablo las carga",
+        "author_name": "Ros de Olano, Antonio (1808-1886)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000174050",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:60729092"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1010_Guerrero_AnatomiaDelCorazon.xml",
+        "file_stem": "spa1010_guerrero_anatomiadelcorazon",
+        "repo_id": "eltec-spa",
+        "work_title": "Anatom\u00eda del coraz\u00f3n",
+        "author_name": "Guerrero, Teodoro (1824-1904)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000008613",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:39156046"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1011_Dominguez_DonJuanIdeCastilla.xml",
+        "file_stem": "spa1011_dominguez_donjuanidecastilla",
+        "repo_id": "eltec-spa",
+        "work_title": "Don Juan I de Castilla o La Venganza de un Rey",
+        "author_name": "Dom\u00ednguez, P. J. (-)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/don-juan-i-de-castilla-o-la-venganza-de-un-rey--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1012_CarolinaCoronado_Jarilla.xml",
+        "file_stem": "spa1012_carolinacoronado_jarilla",
+        "repo_id": "eltec-spa",
+        "work_title": "Jarilla",
+        "author_name": "Coronado, Carolina (1820-1911)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000120607",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:5738205"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1013_Campoamor_LosManuscritosDeMiPadre.xml",
+        "file_stem": "spa1013_campoamor_losmanuscritosdemipadre",
+        "repo_id": "eltec-spa",
+        "work_title": "Los manuscritos de mi padre",
+        "author_name": "De Campoamor, Ram\u00f3n (1817-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000238209",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:2542317"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1014_OrtegaYFrias_Cervantes.xml",
+        "file_stem": "spa1014_ortegayfrias_cervantes",
+        "repo_id": "eltec-spa",
+        "work_title": "Cervantes",
+        "author_name": "Ortega y Fr\u00edas, Ram\u00f3n (1825-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh.bne.es/bnesearch/detalle/bdh0000192742",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:11235414"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1015_Jover_LasAmarguras.xml",
+        "file_stem": "spa1015_jover_lasamarguras",
+        "repo_id": "eltec-spa",
+        "work_title": "Las amarguras de un rey",
+        "author_name": "Jover, Nicasio Camilo (1821-1881)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/las-amarguras-de-un-rey-novela-historica--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:3785113"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1016_ManuelTorrijos_LaInfantaDonyaTeresa.xml",
+        "file_stem": "spa1016_manueltorrijos_lainfantadonyateresa",
+        "repo_id": "eltec-spa",
+        "work_title": "La infanta Do\u00f1a Teresa",
+        "author_name": "Torrijos, Manuel (1835-1865)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-infanta-dona-teresa--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000246543",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1017_FernanCaballero_Lagrimas.xml",
+        "file_stem": "spa1017_fernancaballero_lagrimas",
+        "repo_id": "eltec-spa",
+        "work_title": "L\u00e1grimas",
+        "author_name": "B\u00f6hl de Faber y Ruiz de Larrea, Cecilia [Fern\u00e1n Caballero] (1796-1877)",
+        "work_ids": [
+            {
+                "id_value": "http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/lagrimas-novela-de-costumbres-contemporaneas--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": null,
+                "id_value": "9859150"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1018_Andueza_DonFelipe.xml",
+        "file_stem": "spa1018_andueza_donfelipe",
+        "repo_id": "eltec-spa",
+        "work_title": "Don Felipe el prudente. Novela hist\u00f3rica original",
+        "author_name": "Andueza, Jos\u00e9 Mar\u00eda (1809-1865)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/don-felipe-el-prudente-novela-historica--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:102336641"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml",
+        "file_stem": "spa1021_gomezdeavellaneda_sab",
+        "repo_id": "eltec-spa",
+        "work_title": "Sab. Novela original",
+        "author_name": "G\u00f3mez de Avellaneda, Gertrudis (1814-1873)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/sab--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76328537"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1022_GomezDeAvellaneda_DosMujeres.xml",
+        "file_stem": "spa1022_gomezdeavellaneda_dosmujeres",
+        "repo_id": "eltec-spa",
+        "work_title": "Dos mujeres",
+        "author_name": "G\u00f3mez de Avellaneda, Gertrudis (1814-1873)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/dos-mujeres-tomo-i--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76328537"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1023_GomezDeAvellaneda_LaVeladaDelHelecho.xml",
+        "file_stem": "spa1023_gomezdeavellaneda_laveladadelhelecho",
+        "repo_id": "eltec-spa",
+        "work_title": "La velada del helecho o El donativo del diablo",
+        "author_name": "G\u00f3mez de Avellaneda, Gertrudis (1814-1873)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/la-velada-del-helecho-o-el-donativo-del-diablo-novela--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76328537"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1024_FerandezYGonzalez_LossieteinfantesdeLara.xml",
+        "file_stem": "spa1024_ferandezygonzalez_lossieteinfantesdelara",
+        "repo_id": "eltec-spa",
+        "work_title": "Los siete infantes de Lara",
+        "author_name": "Fern\u00e1ndez y Gonzalez, Manuel (1821-1888)",
+        "work_ids": [
+            {
+                "id_value": "http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bimo0000862453",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000239956",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": null,
+                "id_value": "10223685"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1025_NavarroVilloslada_DonaBlanca.xml",
+        "file_stem": "spa1025_navarrovilloslada_donablanca",
+        "repo_id": "eltec-spa",
+        "work_title": "Do\u00f1a Blanca de Navarra",
+        "author_name": "Navarro Villoslada, Francisco (1818-1895)",
+        "work_ids": [
+            {
+                "id_value": "https://archive.org/details/doablancadenava00nava/mode/2up",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "https://archive.org/details/donablancadenava00nava/mode/2up",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76396892"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2001_EmilioCastelar_Ricardo.xml",
+        "file_stem": "spa2001_emiliocastelar_ricardo",
+        "repo_id": "eltec-spa",
+        "work_title": "Ricardo",
+        "author_name": "Castelar y Ripoll, Emilio (1832-1899)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/ricardo--1/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000007546",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34167700"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2002_RosaliaDeCastro_ElCaballeroDeLasBotas.xml",
+        "file_stem": "spa2002_rosaliadecastro_elcaballerodelasbotas",
+        "repo_id": "eltec-spa",
+        "work_title": "El caballero de las botas azules",
+        "author_name": "Castro, Rosal\u00eda de (1837-1885)",
+        "work_ids": [
+            {
+                "id_value": "http://biblioteca.galiciana.gal/es/consulta/registro.cmd?id=5976",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/buscador/?q=el+caballero+de+las+botas+azules/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51711491"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2003_PerezGaldos_Trafalgar.xml",
+        "file_stem": "spa2003_perezgaldos_trafalgar",
+        "repo_id": "eltec-spa",
+        "work_title": "Trafalgar",
+        "author_name": "P\u00e9rez Gald\u00f3s, Benito (1843-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/trafalgar--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:71395987"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2004_Alarcon_ElEscandalo.xml",
+        "file_stem": "spa2004_alarcon_elescandalo",
+        "repo_id": "eltec-spa",
+        "work_title": "El Esc\u00e1ndalo",
+        "author_name": "Alarc\u00f3n, Pedro Antonio de (1833-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/el-escandalo--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:44294383"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2005_Alarcon_ElSombreroDeTresPicos.xml",
+        "file_stem": "spa2005_alarcon_elsombrerodetrespicos",
+        "repo_id": "eltec-spa",
+        "work_title": "El sombrero de tres picos",
+        "author_name": "Alarc\u00f3n, Pedro Antonio de (1833-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-sombrero-de-tres-picos--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:44294383"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2006_LlofriuYSagrera_ElNaufragioDelGrumete.xml",
+        "file_stem": "spa2006_llofriuysagrera_elnaufragiodelgrumete",
+        "repo_id": "eltec-spa",
+        "work_title": "El naufragio del grumete",
+        "author_name": "Llofriu y Sagrera, Eleuterio (1835-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/el-naufragio-del-grumete--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:232440021"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2007_LlofriuYSagrera_GloriaDineroyMujer.xml",
+        "file_stem": "spa2007_llofriuysagrera_gloriadineroymujer",
+        "repo_id": "eltec-spa",
+        "work_title": "Gloria, dinero y mujer",
+        "author_name": "Llofriu y Sagrera, Eleuterio (1835-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/el-naufragio-del-grumete--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:232440021"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2008_FernanCaballero_UnServilonYUnLibertario.xml",
+        "file_stem": "spa2008_fernancaballero_unservilonyunlibertario",
+        "repo_id": "eltec-spa",
+        "work_title": "Un servil\u00f3n y un liberalito, \u00f3 Tres almas de Dios",
+        "author_name": "B\u00f6hl de Faber y Ruiz de Larrea, Cecilia [Fern\u00e1n Caballero] (1796-1877)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000185562",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/un-servilon-y-un-liberalito-o-tres-almas-de-dios-novela--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9859150"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2009_PerezGaldos_Marianela.xml",
+        "file_stem": "spa2009_perezgaldos_marianela",
+        "repo_id": "eltec-spa",
+        "work_title": "Marianela",
+        "author_name": "P\u00e9rez Gald\u00f3s, Benito (1843-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/marianela--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000250027",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:71395987"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2010_Mart\u00ednezDeVelasco_NocheDeVenganzas.xml",
+        "file_stem": "spa2010_mart\u00ednezdevelasco_nochedevenganzas",
+        "repo_id": "eltec-spa",
+        "work_title": "Noche de venganzas. Episodio hist\u00f3rico de la guerra de las comunidades de Castilla",
+        "author_name": "Mart\u00ednez de Velasco, Eusebio (1836-1893)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/noche-de-venganzas-episodio-historico-de-la-guerra-de-las-comunidades-de-castilla--0/html/fefa6dd8-82b1-11df-acc7-002185ce6064_2.html#I_1_",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:202683359"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2011_PastorDeLaRoca_LaCoronaDeFuego.xml",
+        "file_stem": "spa2011_pastordelaroca_lacoronadefuego",
+        "repo_id": "eltec-spa",
+        "work_title": "La corona de fuego o Los subterraneos de las torres de Altamira",
+        "author_name": "Pastor de la Roca, Jos\u00e9 (1824-1875)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-corona-de-fuego-o-los-subterraneos-de-las-torres-de-altamira--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:87642331"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2012_Altadill_BarcelonaYsusMisterios.xml",
+        "file_stem": "spa2012_altadill_barcelonaysusmisterios",
+        "repo_id": "eltec-spa",
+        "work_title": "Barcelona y sus misterios",
+        "author_name": "Altadill, Antonio (1828-1880)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000013473",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:6401758"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2013_OrtegaYFrias_ElDuende.xml",
+        "file_stem": "spa2013_ortegayfrias_elduende",
+        "repo_id": "eltec-spa",
+        "work_title": "El duende de la corte",
+        "author_name": "Ortega y Fr\u00edas, Ram\u00f3n (1825-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000191113",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:11235414"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2014_OrtegayFrias_UnAnyoEntreLosSalvajes.xml",
+        "file_stem": "spa2014_ortegayfrias_unanyoentrelossalvajes",
+        "repo_id": "eltec-spa",
+        "work_title": "Un a\u00f1o entre los salvajes",
+        "author_name": "Ortega y Fr\u00edas, Ram\u00f3n (1825-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh.bne.es/bnesearch/detalle/bdh0000191110",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:11235414"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2015_Grassi_ElCopoDeNieve.xml",
+        "file_stem": "spa2015_grassi_elcopodenieve",
+        "repo_id": "eltec-spa",
+        "work_title": "El copo de nieve",
+        "author_name": "Grassi de la Cuenca, \u00c1ngela (1826-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000173888",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/nd/ark:/59851/bmc66893",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:85064176"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2016_JuanValera_DonyaLuz.xml",
+        "file_stem": "spa2016_juanvalera_donyaluz",
+        "repo_id": "eltec-spa",
+        "work_title": "Do\u00f1a Luz",
+        "author_name": "Valera y Alcal\u00e1-Galiano, Juan (1824-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/dona-luz--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46770556"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2017_JuanValera_PepitaJimenez.xml",
+        "file_stem": "spa2017_juanvalera_pepitajimenez",
+        "repo_id": "eltec-spa",
+        "work_title": "Pepita Jim\u00e9nez",
+        "author_name": "Valera y Alcal\u00e1-Galiano, Juan (1824-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/pepita-jimenez--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46770556"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2018_LopezBago_LosAmores.xml",
+        "file_stem": "spa2018_lopezbago_losamores",
+        "repo_id": "eltec-spa",
+        "work_title": "Los amores",
+        "author_name": "L\u00f3pez Bago, Eduardo (1853-1931)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000192805",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100260835"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2019_JuanValera_LasIlusionesDelDrFaustino.xml",
+        "file_stem": "spa2019_juanvalera_lasilusionesdeldrfaustino",
+        "repo_id": "eltec-spa",
+        "work_title": "Las ilusiones del doctor Faustino",
+        "author_name": "Valera y Alcal\u00e1-Galiano, Juan (1824-1905)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000185596",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46770556"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2020_Pereda_DonGonzaloGonzalez.xml",
+        "file_stem": "spa2020_pereda_dongonzalogonzalez",
+        "repo_id": "eltec-spa",
+        "work_title": "Don Gonzalo Gonz\u00e1lez de la Gonzalera",
+        "author_name": "Pereda, Jos\u00e9 Mar\u00eda de (1833-1906)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000130243",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/don-gonzalo-gonzalez-de-la-gonzalera--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54167127"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2021_RafaelDelCastillo_LosCaballerosDelAmor.xml",
+        "file_stem": "spa2021_rafaeldelcastillo_loscaballerosdelamor",
+        "repo_id": "eltec-spa",
+        "work_title": "Los caballeros del amor",
+        "author_name": "Castillo, Rafael del (1830-1908)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/los-caballeros-del-amor-memorias-del-reinado-de-carlos-iii--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000013419",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:46419719"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2022_Sinues_ElAlmaEnferma.xml",
+        "file_stem": "spa2022_sinues_elalmaenferma",
+        "repo_id": "eltec-spa",
+        "work_title": "El alma enferma",
+        "author_name": "Sinu\u00e9s de Marco, Mar\u00eda del Pilar (1835-1893)",
+        "work_ids": [
+            {
+                "id_value": "https://archive.org/details/elalmaenfermanov01sinu",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59398413"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3001_PerezGaldos_FortunataYJacinta.xml",
+        "file_stem": "spa3001_perezgaldos_fortunatayjacinta",
+        "repo_id": "eltec-spa",
+        "work_title": "Fortunata y Jacinta",
+        "author_name": "P\u00e9rez Gald\u00f3s, Benito (1843-1920)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/fortunata-y-jacinta-dos-historias-de-casadas--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:71395987"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3002_LeopoldoAlas_LaRegenta.xml",
+        "file_stem": "spa3002_leopoldoalas_laregenta",
+        "repo_id": "eltec-spa",
+        "work_title": "La Regenta",
+        "author_name": "Alas, Leopoldo [Clar\u00edn] (1852-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh.bne.es/bnesearch/detalle/bdh0000212416",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17218138"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3003_LeopoldoAlas_SuUnicoHijo.xml",
+        "file_stem": "spa3003_leopoldoalas_suunicohijo",
+        "repo_id": "eltec-spa",
+        "work_title": "Su \u00fanico hijo",
+        "author_name": "Alas, Leopoldo [Clar\u00edn] (1852-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000058866",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/su-unico-hijo--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17218138"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3004_PardoBazan_LosPazos.xml",
+        "file_stem": "spa3004_pardobazan_lospazos",
+        "repo_id": "eltec-spa",
+        "work_title": "Los pazos de Ulloa",
+        "author_name": "Pardo Baz\u00e1n, Emilia (1851-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000193140",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/los-pazos-de-ulloa--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51699645"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3005_PardoBazan_LaMadreNaturaleza.xml",
+        "file_stem": "spa3005_pardobazan_lamadrenaturaleza",
+        "repo_id": "eltec-spa",
+        "work_title": "La madre naturaleza",
+        "author_name": "Pardo Baz\u00e1n, Emilia (1851-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000146774",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://http://www.cervantesvirtual.com/obra/la-madre-naturaleza/--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51699645"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3006_Alarcon_ElCapitanVeneno.xml",
+        "file_stem": "spa3006_alarcon_elcapitanveneno",
+        "repo_id": "eltec-spa",
+        "work_title": "El Capitan Veneno",
+        "author_name": "Alarc\u00f3n, Pedro Antonio de (1833-1891)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000243326",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000210770",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-capitan-veneno-novela--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:44294383 "
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3007_Pereda_Sotileza.xml",
+        "file_stem": "spa3007_pereda_sotileza",
+        "repo_id": "eltec-spa",
+        "work_title": "Sotileza",
+        "author_name": "Pereda, Jos\u00e9 Mar\u00eda de (1833-1906)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000185594",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/sotileza--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54167127"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3008_Pereda_PArriba.xml",
+        "file_stem": "spa3008_pereda_parriba",
+        "repo_id": "eltec-spa",
+        "work_title": "Pe\u00f1as arriba",
+        "author_name": "Pereda, Jos\u00e9 Mar\u00eda de (1833 - 1906)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/penas-arriba--1/html/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000092180",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/penas-arriba--1/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54167127"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3009_BlascoIbanez_ArrozyTartana.xml",
+        "file_stem": "spa3009_blascoibanez_arrozytartana",
+        "repo_id": "eltec-spa",
+        "work_title": "Arroz y tartana",
+        "author_name": "Blasco Ib\u00e1\u00f1ez, Vicente (1867 - 1928)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000199514",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "https://github.com/cligs/textbox/tree/master/spanish/novela-espanola",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/16413",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:73848096"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3010_BlascoIbanez_LaBarraca.xml",
+        "file_stem": "spa3010_blascoibanez_labarraca",
+        "repo_id": "eltec-spa",
+        "work_title": "La barraca",
+        "author_name": "Blasco Ib\u00e1\u00f1ez, Vicente (1867 - 1928)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/textbox/tree/master/spanish/novela-espanola",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/14944",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://bivaldi.gva.es/es/consulta/registro.cmd?id=2689",
+                "id_type": null,
+                "source_type": "printSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:73848096"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3011_Asensi_SantiagoArabal.xml",
+        "file_stem": "spa3011_asensi_santiagoarabal",
+        "repo_id": "eltec-spa",
+        "work_title": "Santiago Arabal",
+        "author_name": "Asensi, Julia de, (1859-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/santiago-arabal-historia-de-un-pobre-nino--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:87707610"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3012_Barreras_ElEspadachin.xml",
+        "file_stem": "spa3012_barreras_elespadachin",
+        "repo_id": "eltec-spa",
+        "work_title": "El espadach\u00edn. Narraci\u00f3n hist\u00f3rica del mot\u00edn de Madrid en 1766",
+        "author_name": "Barreras, Antonio (-)",
+        "work_ids": [
+            {
+                "id_value": "http://bibliotecadigital.jcyl.es/es/consulta/registro.cmd?id=22744",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-espadachin-narracion-historica-del-motin-de-madrid-en-1766--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3013_Coloma_Pequeneces.xml",
+        "file_stem": "spa3013_coloma_pequeneces",
+        "repo_id": "eltec-spa",
+        "work_title": "Peque\u00f1eces",
+        "author_name": "Coloma, Luis (1851-1915)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/pequeneces--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59211037"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3014_Alberola_ElSochantre.xml",
+        "file_stem": "spa3014_alberola_elsochantre",
+        "repo_id": "eltec-spa",
+        "work_title": "El sochantre de mi pueblo",
+        "author_name": "Alberola, Gin\u00e9s (1855-1935)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-sochantre-de-mi-pueblo--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:78581932"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3015_Sawa_LaMujerDeTodoElMundo.xml",
+        "file_stem": "spa3015_sawa_lamujerdetodoelmundo",
+        "repo_id": "eltec-spa",
+        "work_title": "La mujer de todo el mundo",
+        "author_name": "Sawa, Alejandro (1862-1909)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-mujer-de-todo-el-mundo--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000048692",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59126336"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3016_Zamacois_LaEnferma.xml",
+        "file_stem": "spa3016_zamacois_laenferma",
+        "repo_id": "eltec-spa",
+        "work_title": "La enferma",
+        "author_name": "Zamacois, Eduardo (1873-1971)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/48302",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51728159"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3017_RosaliaDeCastro_ElPrimerLoco.xml",
+        "file_stem": "spa3017_rosaliadecastro_elprimerloco",
+        "repo_id": "eltec-spa",
+        "work_title": "El primer loco",
+        "author_name": "Castro, Rosal\u00eda de (1837-1885)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-primer-loco--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51711491"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3018_Ganivet_LaConquista.xml",
+        "file_stem": "spa3018_ganivet_laconquista",
+        "repo_id": "eltec-spa",
+        "work_title": "La conquista del reino de Maya por el \u00faltimo conquistador espa\u00f1ol P\u00edo Cid",
+        "author_name": "Ganivet, \u00c1ngel (1865-1898)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-conquista-del-reino-de-maya-por-el-ultimo-conquistador-espanol-pio-cid--2/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000245120",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:76339208"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3019_OctavioPicon_JuanVulgar.xml",
+        "file_stem": "spa3019_octaviopicon_juanvulgar",
+        "repo_id": "eltec-spa",
+        "work_title": "Juan Vulgar",
+        "author_name": "Octavio Pic\u00f3n, Jacinto (1852-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/lazaro-juan-vulgar--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000094383",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:35252653"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3020_PalacioValdes_Maximina.xml",
+        "file_stem": "spa3020_palaciovaldes_maximina",
+        "repo_id": "eltec-spa",
+        "work_title": "Maximina",
+        "author_name": "Palacio Vald\u00e9s, Armando (1853-1938)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/40810",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000250923",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:61554068"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3021_Lanza_DesdeLaQuilla.xml",
+        "file_stem": "spa3021_lanza_desdelaquilla",
+        "repo_id": "eltec-spa",
+        "work_title": "Desde la quilla hasta el tope",
+        "author_name": "Amor\u00f3s y V\u00e1zquez de Figueroa, Juan Bautista [Silverio Lanza] (1856-1912)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/novela-ii--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000167944",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:24624818"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3022_PalacioValdes_LaEspuma.xml",
+        "file_stem": "spa3022_palaciovaldes_laespuma",
+        "repo_id": "eltec-spa",
+        "work_title": "La espuma",
+        "author_name": "Palacio Vald\u00e9s, Armando (1853-1938)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/11529",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:61554068"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3023_OrtegaMunilla_DonJuanSolo.xml",
+        "file_stem": "spa3023_ortegamunilla_donjuansolo",
+        "repo_id": "eltec-spa",
+        "work_title": "Don Juan Solo",
+        "author_name": "Ortega Munilla, Jos\u00e9 (1856-1922)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000201414&page=1",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:42728255"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3024_Rueda_LaGitana.xml",
+        "file_stem": "spa3024_rueda_lagitana",
+        "repo_id": "eltec-spa",
+        "work_title": "La gitana",
+        "author_name": "Rueda, Salvador (1857-1933)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/la-gitana-idilio-en-la-sierra-novela-andaluza/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17371849"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3025_LopezBago_LaBuscona.xml",
+        "file_stem": "spa3025_lopezbago_labuscona",
+        "repo_id": "eltec-spa",
+        "work_title": "La buscona",
+        "author_name": "L\u00f3pez Bago, Eduardo (1853-1931)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000171684",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100260835"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3026_LeopoldoAlas_Pipa.xml",
+        "file_stem": "spa3026_leopoldoalas_pipa",
+        "repo_id": "eltec-spa",
+        "work_title": "Pip\u00e1",
+        "author_name": "Alas, Leopoldo [Clar\u00edn] (1852-1901)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000250881",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/pipa--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:17218138"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3027_SelgasYCarrasco_Nona.xml",
+        "file_stem": "spa3027_selgasycarrasco_nona",
+        "repo_id": "eltec-spa",
+        "work_title": "Nona",
+        "author_name": "Selgas y Carrasco, Jos\u00e9 (1822-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000236035",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/nona-novela-postuma--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:74118486"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3028_PascualDeSanjuan_Flora.xml",
+        "file_stem": "spa3028_pascualdesanjuan_flora",
+        "repo_id": "eltec-spa",
+        "work_title": "Flora o La educaci\u00f3n de una ni\u00f1a",
+        "author_name": "Pascual de Sanju\u00e1n, Pilar (1827-1899)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/flora-o-la-educacion-de-una-nina--0/html/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:86993429"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3029_Blanco_Cercado.xml",
+        "file_stem": "spa3029_blanco_cercado",
+        "repo_id": "eltec-spa",
+        "work_title": "El cercado ajeno",
+        "author_name": "Blanco, Ramiro (1857-1913)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000108107",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:86973454"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4001_TrigoFelipe_ATodoHonor.xml",
+        "file_stem": "spa4001_trigofelipe_atodohonor",
+        "repo_id": "eltec-spa",
+        "work_title": "A todo honor",
+        "author_name": "Trigo, Felipe (1864-1916)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000204489",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/a-todo-honor--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:79060694"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4002_MiroGabriel_LasCerezasDelCementerio.xml",
+        "file_stem": "spa4002_mirogabriel_lascerezasdelcementerio",
+        "repo_id": "eltec-spa",
+        "work_title": "Las cerezas del cementerio",
+        "author_name": "Mir\u00f3, Gabriel (1879-1930)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000107203",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": null,
+                "id_value": "29542991"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4003_Unamuno_Niebla.xml",
+        "file_stem": "spa4003_unamuno_niebla",
+        "repo_id": "eltec-spa",
+        "work_title": "Niebla",
+        "author_name": "Unamuno, Miguel de (1864-1936)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000200718",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "https://github.com/cligs/textbox/tree/master/spanish/novela-espanola",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:88844103"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4004_TrigoFelipe_Jarrapellejos.xml",
+        "file_stem": "spa4004_trigofelipe_jarrapellejos",
+        "repo_id": "eltec-spa",
+        "work_title": "Jarrapellejos",
+        "author_name": "Trigo, Felipe (1864 - 1916)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/jarrapellejos-vida-arcaica-feliz-e-independiente-de-un-espanol-representativo-novela--0/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "https://github.com/cligs/textbox/tree/master/spanish/novela-espanola",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/jarrapellejos--1/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:79060694"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4005_ValleInclan_SonataEstio.xml",
+        "file_stem": "spa4005_valleinclan_sonataestio",
+        "repo_id": "eltec-spa",
+        "work_title": "Sonata de est\u00edo",
+        "author_name": "Valle-Incl\u00e1n, Ram\u00f3n Mar\u00eda del (1866-1936)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000201974",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "https://github.com/cligs/textbox/tree/master/spanish/novela-espanola",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/42424",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68936773"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4006_Dicenta_LasEsmeraldas.xml",
+        "file_stem": "spa4006_dicenta_lasesmeraldas",
+        "repo_id": "eltec-spa",
+        "work_title": "Las esmeraldas",
+        "author_name": "Dicenta, Joaqu\u00edn (1862 - 1917)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/las-esmeraldas--0/html/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/las-esmeraldas--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68949187"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4007_Colombine_LosInadapatados.xml",
+        "file_stem": "spa4007_colombine_losinadapatados",
+        "repo_id": "eltec-spa",
+        "work_title": "Los inadaptados",
+        "author_name": "Burgos y Segu\u00ed, Carmen de [Colombine] (1867 - 1932)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000076340",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:95256735"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4008_Ciges_Vicario.xml",
+        "file_stem": "spa4008_ciges_vicario",
+        "repo_id": "eltec-spa",
+        "work_title": "El Vicario",
+        "author_name": "Ciges Aparicio, Manuel (1873-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:4959739"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4009_ValleInclan_SonataOtonyo.xml",
+        "file_stem": "spa4009_valleinclan_sonataotonyo",
+        "repo_id": "eltec-spa",
+        "work_title": "Sonata de oto\u00f1o",
+        "author_name": "Valle-Incl\u00e1n, Ram\u00f3n Mar\u00eda del (1866-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/46182",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://www.archivodigitalvalleinclan.es/publica/edicion/ver/Sonata-de-Otono--Memorias-del-Marques-de-Bradomin-1.htm",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68936773"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4010_ValleInclan_Resplandor.xml",
+        "file_stem": "spa4010_valleinclan_resplandor",
+        "repo_id": "eltec-spa",
+        "work_title": "El resplandor de la hoguera",
+        "author_name": "Valle-Incl\u00e1n, Ram\u00f3n Mar\u00eda del (1866-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://archive.org/details/elresplandordela00vall",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "bdh-rd.bne.es/viewer.vm?id=0000200837",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:68936773"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4011_Zamacois_Incesto.xml",
+        "file_stem": "spa4011_zamacois_incesto",
+        "repo_id": "eltec-spa",
+        "work_title": "Incesto",
+        "author_name": "Zamacois, Eduardo (1873-1971)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/48654",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51728159"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4012_MiroGabriel_ElAbueloDelRey.xml",
+        "file_stem": "spa4012_mirogabriel_elabuelodelrey",
+        "repo_id": "eltec-spa",
+        "work_title": "El abuelo del rey",
+        "author_name": "Mir\u00f3, Gabriel (1879-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-abuelo-del-rey-1/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/el-abuelo-del-rey/html/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29542991"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4013_MiroGabriel_ElHumoDormido.xml",
+        "file_stem": "spa4013_mirogabriel_elhumodormido",
+        "repo_id": "eltec-spa",
+        "work_title": "El humo dormido",
+        "author_name": "Mir\u00f3, Gabriel (1879-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/el-humo-dormido/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra-visor/el-humo-dormido-1/html/",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:29542991"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4014_Colombine_ElUltimoContrabandista.xml",
+        "file_stem": "spa4014_colombine_elultimocontrabandista",
+        "repo_id": "eltec-spa",
+        "work_title": "El \u00faltimo contrabandista",
+        "author_name": "Burgos y Segu\u00ed, Carmen de [Colombine] (1867-1932)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://hdl.handle.net/2027/uc1.$b253835",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:95256735"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4015_Unamuno_AbelSanchez.xml",
+        "file_stem": "spa4015_unamuno_abelsanchez",
+        "repo_id": "eltec-spa",
+        "work_title": "Abel S\u00e1nchez",
+        "author_name": "Unamuno, Miguel de (1864-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://www.epublibre.org/libro/detalle/6069",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000200790",
+                "id_type": null,
+                "source_type": "printSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000200724",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:88844103"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4016_Unamuno_AmorPedagogia.xml",
+        "file_stem": "spa4016_unamuno_amorpedagogia",
+        "repo_id": "eltec-spa",
+        "work_title": "Amor y pedagog\u00eda",
+        "author_name": "Unamuno, Miguel de (1864-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://www.epublibre.org/libro/detalle/22353",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000200835",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:88844103"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4017_Maetzu_LaGuerraDelTransvaal.xml",
+        "file_stem": "spa4017_maetzu_laguerradeltransvaal",
+        "repo_id": "eltec-spa",
+        "work_title": "La guerra del Transvaal y los misterios de la Banca de Londres",
+        "author_name": "Maeztu, Ramiro de (1875-1936)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000200758",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34495436"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4018_PardoBazan_Misterio.xml",
+        "file_stem": "spa4018_pardobazan_misterio",
+        "repo_id": "eltec-spa",
+        "work_title": "Misterio",
+        "author_name": "Pardo Baz\u00e1n, Emilia (1851-1921)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/portales/pardo_bazan/obra/misterio--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51699645"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4019_Bobadilla_AFuegoLento.xml",
+        "file_stem": "spa4019_bobadilla_afuegolento",
+        "repo_id": "eltec-spa",
+        "work_title": "A fuego lento",
+        "author_name": "Bobadilla, Emilio (1862-1921)",
+        "work_ids": [
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/a-fuego-lento--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000122999",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:86959601"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4020_Colombine_LaRampa.xml",
+        "file_stem": "spa4020_colombine_larampa",
+        "repo_id": "eltec-spa",
+        "work_title": "La rampa",
+        "author_name": "Burgos y Segu\u00ed, Carmen de [Colombine] (1867-1932)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000098145",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:95256735"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4021_Costa_ElUltimoDia.xml",
+        "file_stem": "spa4021_costa_elultimodia",
+        "repo_id": "eltec-spa",
+        "work_title": "\u00daltimo d\u00eda del paganismo primero de... lo mismo",
+        "author_name": "Costa, Joaqu\u00edn (1846-1911)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/ultimo-dia-del-paganismo-y-primero-de-lo-mismo--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000160169",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59098193"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4022_Lanza_LaRendicionDeSantiago.xml",
+        "file_stem": "spa4022_lanza_larendiciondesantiago",
+        "repo_id": "eltec-spa",
+        "work_title": "La rendici\u00f3n de Santiago",
+        "author_name": "Amor\u00f3s y V\u00e1zquez de Figueroa, Juan Bautista [Silverio Lanza] (1856-1912)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.cervantesvirtual.com/obra/novela-i--0/",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000246912",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:24624818"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4023_OrtegaMunilla_ElPanyoPardo.xml",
+        "file_stem": "spa4023_ortegamunilla_elpanyopardo",
+        "repo_id": "eltec-spa",
+        "work_title": "El pa\u00f1o pardo",
+        "author_name": "Ortega Munilla, Jos\u00e9 (1856-1922)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh.bne.es/bnesearch/detalle/bdh0000099126",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:42728255"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4024_BlascoIbanez_SangreYArena.xml",
+        "file_stem": "spa4024_blascoibanez_sangreyarena",
+        "repo_id": "eltec-spa",
+        "work_title": "Sangre y arena",
+        "author_name": "Blasco Ib\u00e1\u00f1ez, Vicente (1867-1928)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://www.gutenberg.org/ebooks/26983",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:73848096"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4025_Coloma_Jeromin.xml",
+        "file_stem": "spa4025_coloma_jeromin",
+        "repo_id": "eltec-spa",
+        "work_title": "Jerom\u00edn, estudios histo\u0301ricos sobre el siglo XVI",
+        "author_name": "Coloma, Luis (1851-1915)",
+        "work_ids": [
+            {
+                "id_value": "https://github.com/cligs/conssa",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "https://www.epublibre.org/libro/detalle/37322",
+                "id_type": null,
+                "source_type": "digitalSource"
+            },
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000008765",
+                "id_type": null,
+                "source_type": "firstEdition"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:59211037"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4026_SoledadGustavo_LasDiosasDeLaVida.xml",
+        "file_stem": "spa4026_soledadgustavo_lasdiosasdelavida",
+        "repo_id": "eltec-spa",
+        "work_title": "Las diosas de la vida",
+        "author_name": "Ma\u00f1\u00e9 Miravet, Teresa [Soledad Gustavo] (1865-1939)",
+        "work_ids": [
+            {
+                "id_value": "http://bdh-rd.bne.es/viewer.vm?id=0000252370",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:102144648418827440923"
+            }
+        ]
+    }
+]

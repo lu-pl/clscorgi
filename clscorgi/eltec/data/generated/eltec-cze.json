@@ -1,0 +1,1887 @@
+[
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0001_1855_Stroupeznicka_Boure.xml",
+        "file_stem": "cs0001_1855_stroupeznicka_boure",
+        "repo_id": "eltec-cze",
+        "work_title": "Bou\u0159e aneb ou\u010dinky zl\u00e9ho sv\u011bdom\u00ed",
+        "author_name": "Stroupe\u017enick\u00e1, Marie (1809-1883)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=23459",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0002_1857_Janda-Cidlinsky_Jaroslav.xml",
+        "file_stem": "cs0002_1857_janda-cidlinsky_jaroslav",
+        "repo_id": "eltec-cze",
+        "work_title": "Jaroslav",
+        "author_name": "Janda Cidlinsk\u00fd, Bohumil (1831-1875)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=15536",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0003_1857_Zizala-Donovsky_Karbanik-a-rodina-jeho.xml",
+        "file_stem": "cs0003_1857_zizala-donovsky_karbanik-a-rodina-jeho",
+        "repo_id": "eltec-cze",
+        "work_title": "Karban\u00edk a rodina jeho",
+        "author_name": "\u017d\u00ed\u017eala-Donovsk\u00fd, V\u00e1clav (1824-1890)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=QFIAAAAAcAAJ&hl=cs&pg=GBS.PA1",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0004_1857_Ehrenberg_Vitezstvi-u-Horine.xml",
+        "file_stem": "cs0004_1857_ehrenberg_vitezstvi-u-horine",
+        "repo_id": "eltec-cze",
+        "work_title": "V\u00edt\u011bzstv\u00ed u Ho\u0159\u00edn\u011b",
+        "author_name": "Ehrenberg, Josef (1815-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.svkhk.cz/search/i.jsp?pid=uuid:53f011e7-9aec-4e33-bc31-efc99c5727fe",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0005_1857_Kricensky_Lichvar-a-pokoutnik.xml",
+        "file_stem": "cs0005_1857_kricensky_lichvar-a-pokoutnik",
+        "repo_id": "eltec-cze",
+        "work_title": "Lichv\u00e1\u0159 a pokoutn\u00edk",
+        "author_name": "K\u0159i\u010densk\u00fd, Josef Jaroslav (1809-1886)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=JVIAAAAAcAAJ&hl=cs&pg=GBS.PA1",
+                "id_type": null,
+                "source_type": "unspecified"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0006_1857_Pravda_Krejci-Fortunat.xml",
+        "file_stem": "cs0006_1857_pravda_krejci-fortunat",
+        "repo_id": "eltec-cze",
+        "work_title": "Krej\u010d\u00ed Fortunat",
+        "author_name": "Pravda, Franti\u0161ek (1817-1904)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=EVIAAAAAcAAJ&hl=cs&pg=GBS.PA1",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0007_1857_Prokop_Jeden-rok-z-mladeho-zivota.xml",
+        "file_stem": "cs0007_1857_prokop_jeden-rok-z-mladeho-zivota",
+        "repo_id": "eltec-cze",
+        "work_title": "Jeden rok z\u00a0mlad\u00e9ho \u017eivota",
+        "author_name": "Prokop, F. F. (?-?)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=b1gdAQAAIAAJ&hl=cs&pg=GBS.PA3",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0008_1858_Formanek-Cinovesky_Bitva-u-Nyrska.xml",
+        "file_stem": "cs0008_1858_formanek-cinovesky_bitva-u-nyrska",
+        "repo_id": "eltec-cze",
+        "work_title": "Bitva u N\u00fdrska",
+        "author_name": "Form\u00e1nek-\u010cinovesk\u00fd, Jan (1809-1878)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=molHAQAAMAAJ&hl=cs&pg=GBS.PP1",
+                "id_type": null,
+                "source_type": "unspecified"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0009_1860_Formanek-Cinovesky_Smirena-vina.xml",
+        "file_stem": "cs0009_1860_formanek-cinovesky_smirena-vina",
+        "repo_id": "eltec-cze",
+        "work_title": "Sm\u00ed\u0159en\u00e1 vina",
+        "author_name": "Form\u00e1nek-\u010cinovesk\u00fd, Jan (1809-1878)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=ak8AAAAAcAAJ&hl=cs&pg=GBS.PA1",
+                "id_type": null,
+                "source_type": "unspecified"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0010_1860_Sabina_Jen-tri-leta.xml",
+        "file_stem": "cs0010_1860_sabina_jen-tri-leta",
+        "repo_id": "eltec-cze",
+        "work_title": "Jen t\u0159i l\u00e9ta!",
+        "author_name": "Sabina, Karel (1813-1877)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=XE8AAAAAcAAJ&hl=cs&pg=GBS.PA2",
+                "id_type": null,
+                "source_type": "unspecified"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0011_1864_Svestka_Posledni-vecer-v-roce.xml",
+        "file_stem": "cs0011_1864_svestka_posledni-vecer-v-roce",
+        "repo_id": "eltec-cze",
+        "work_title": "Posledn\u00ed ve\u010der v roce",
+        "author_name": "\u0160vestka, Josef (1816-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=24939",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0012_1867_Chocholousek_Templari-v-Cechach.xml",
+        "file_stem": "cs0012_1867_chocholousek_templari-v-cechach",
+        "repo_id": "eltec-cze",
+        "work_title": "Templ\u00e1\u0159i v \u010cech\u00e1ch. Poprava \u010deskobrodsk\u00e1",
+        "author_name": "Chocholou\u0161ek, Prokop (1819-1864)",
+        "work_ids": [
+            {
+                "id_value": "https://play.google.com/books/reader?id=hnpQAAAAYAAJ&hl=cs&pg=GBS.PP1",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0013_1867_Mollenda_Vecer-svatojansky.xml",
+        "file_stem": "cs0013_1867_mollenda_vecer-svatojansky",
+        "repo_id": "eltec-cze",
+        "work_title": "Ve\u010der svatojansk\u00fd",
+        "author_name": "Mollenda, V\u00e1clav (1840-1903)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=3833",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0014_1870_Vlcek_Pani-Lichnicka.xml",
+        "file_stem": "cs0014_1870_vlcek_pani-lichnicka",
+        "repo_id": "eltec-cze",
+        "work_title": "Pan\u00ed lichnick\u00e1",
+        "author_name": "Vl\u010dek, V\u00e1clav (1839-1908)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=24560",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0015_1874_Vavra_Ratmir.xml",
+        "file_stem": "cs0015_1874_vavra_ratmir",
+        "repo_id": "eltec-cze",
+        "work_title": "Ratm\u00edr",
+        "author_name": "V\u00e1vra, Jan (1843-1900)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=13504",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0016_1875_Jirasek_Skalaci.xml",
+        "file_stem": "cs0016_1875_jirasek_skalaci",
+        "repo_id": "eltec-cze",
+        "work_title": "Skal\u00e1ci",
+        "author_name": "Jir\u00e1sek, Alois (1851-1930)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=25323",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0017_1878_Stasek_Nedokonceny-obraz.xml",
+        "file_stem": "cs0017_1878_stasek_nedokonceny-obraz",
+        "repo_id": "eltec-cze",
+        "work_title": "Nedokon\u010den\u00fd obraz",
+        "author_name": "Sta\u0161ek, Antal (1843-1931)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=14420",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0018_1881_Svestka_Pravy-pritel.xml",
+        "file_stem": "cs0018_1881_svestka_pravy-pritel",
+        "repo_id": "eltec-cze",
+        "work_title": "Prav\u00fd p\u0159\u00edtel",
+        "author_name": "\u0160vestka, Josef (1816-1882)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=24911",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0019_1881_Vitek_Dva-nestejni-bratri.xml",
+        "file_stem": "cs0019_1881_vitek_dva-nestejni-bratri",
+        "repo_id": "eltec-cze",
+        "work_title": "Dva nestejn\u00ed brat\u0159i",
+        "author_name": "V\u00edtek, Jan (1849-1924)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=13890",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0020_1885_Karas_Cesky-plavec-na-severu.xml",
+        "file_stem": "cs0020_1885_karas_cesky-plavec-na-severu",
+        "repo_id": "eltec-cze",
+        "work_title": "\u010cesk\u00fd plavec na severu",
+        "author_name": "Karas, Mat\u011bj (1839-1898)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=13886",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0021_1891_Unger_Mlada-knezna-abatyse.xml",
+        "file_stem": "cs0021_1891_unger_mlada-knezna-abatyse",
+        "repo_id": "eltec-cze",
+        "work_title": "Mlada, kn\u011b\u017ena abaty\u0161e",
+        "author_name": "Unger, Ludv\u00edk (1840-1917)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=13536",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0022_1896_Kuchar_Paserova-Anezka.xml",
+        "file_stem": "cs0022_1896_kuchar_paserova-anezka",
+        "repo_id": "eltec-cze",
+        "work_title": "Pa\u0161erova Ane\u017eka",
+        "author_name": "Kucha\u0159, Josef (1847-1926)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=19052",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0023_1899_Vikova-Kuneticka_Silhouetty-muzu.xml",
+        "file_stem": "cs0023_1899_vikova-kuneticka_silhouetty-muzu",
+        "repo_id": "eltec-cze",
+        "work_title": "Silhouetty mu\u017e\u016f",
+        "author_name": "Vikov\u00e1-Kun\u011btick\u00e1, Bo\u017eena (1862-1934)",
+        "work_ids": [
+            {
+                "id_value": "http://kramerius.nkp.cz/kramerius/MShowMonograph.do?id=17313",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": []
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0024_1853_Pravda_Zenich-se-ctyrmi-sty-zlatymi.xml",
+        "file_stem": "cs0024_1853_pravda_zenich-se-ctyrmi-sty-zlatymi",
+        "repo_id": "eltec-cze",
+        "work_title": "Perly \u010desk\u00e9, pov\u00eddka \u017denich se \u010dtyrmi sty zlat\u00fdmi",
+        "author_name": "Pravda, Franti\u0161ek (1817-1904)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:c7b987a0-baa4-11dc-9838-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:243510323"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0025_1855_Nemcova_Babicka.xml",
+        "file_stem": "cs0025_1855_nemcova_babicka",
+        "repo_id": "eltec-cze",
+        "work_title": "Babi\u010dka",
+        "author_name": "N\u011bmcov\u00e1, Bo\u017eena (1820-1862)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:2f58bcf0-f6ae-11dd-8224-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56763450"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0026_1856_Nemcova_Pohorska-vesnice.xml",
+        "file_stem": "cs0026_1856_nemcova_pohorska-vesnice",
+        "repo_id": "eltec-cze",
+        "work_title": "Pohorsk\u00e1 vesnice",
+        "author_name": "N\u011bmcov\u00e1, Bo\u017eena (1820-1862)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:9b70d4e0-b707-11dd-b1fc-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56763450"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0027_1858_Pfleger-Moravsky_Dva-umelci.xml",
+        "file_stem": "cs0027_1858_pfleger-moravsky_dva-umelci",
+        "repo_id": "eltec-cze",
+        "work_title": "Dva um\u011blci",
+        "author_name": "Pfleger-Moravsk\u00fd, Gustav (1833-1875)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:2070aea0-4eaa-11e4-a830-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:72907969"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0028_1866_Krousky_Bratri-z-kalichu.xml",
+        "file_stem": "cs0028_1866_krousky_bratri-z-kalichu",
+        "repo_id": "eltec-cze",
+        "work_title": "Brat\u0159\u00ed z kalichu",
+        "author_name": "Krousk\u00fd, Franti\u0161ek Karel (1823-1909)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:b37ffb40-f2be-11dd-8f8a-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83793015"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0029_1868_Svetla_Kriz-u-potoka.xml",
+        "file_stem": "cs0029_1868_svetla_kriz-u-potoka",
+        "repo_id": "eltec-cze",
+        "work_title": "K\u0159\u00ed\u017e u potoka",
+        "author_name": "Sv\u011btl\u00e1, Karolina (1830-1899)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:9b26fe10-9226-11de-b2a7-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9890083"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0030_1869_Hruby-Bradelsky_Bratri-smrti.xml",
+        "file_stem": "cs0030_1869_hruby-bradelsky_bratri-smrti",
+        "repo_id": "eltec-cze",
+        "work_title": "Brat\u0159\u00ed smrti",
+        "author_name": "Hrub\u00fd-Br\u00e1delsk\u00fd, Mat\u011bj Anton\u00edn (1837-1876)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:194888f0-5739-11de-aae7-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83742904"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0031_1870_Sabina_Ozivene-hroby.xml",
+        "file_stem": "cs0031_1870_sabina_ozivene-hroby",
+        "repo_id": "eltec-cze",
+        "work_title": "O\u017eiven\u00e9 hroby",
+        "author_name": "Sabina, Karel (1813-1877)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:1e0dc6d0-8084-11dc-9e72-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:42003196"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0032_1872_Stankovsky_Kral-a-biskup.xml",
+        "file_stem": "cs0032_1872_stankovsky_kral-a-biskup",
+        "repo_id": "eltec-cze",
+        "work_title": "Kr\u00e1l a biskup",
+        "author_name": "Stankovsk\u00fd, Josef Ji\u0159\u00ed (1844-1879)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:18b4d200-10a1-11e4-8f64-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": null,
+                "id_value": "53331568"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0033_1873_Svetla_Nemodlenec.xml",
+        "file_stem": "cs0033_1873_svetla_nemodlenec",
+        "repo_id": "eltec-cze",
+        "work_title": "Nemodlenec",
+        "author_name": "Sv\u011btl\u00e1, Karolina (1830-1899)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:cfc67a70-9225-11de-9902-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9890083"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0034_1874_Ptacek_Dva-bratri.xml",
+        "file_stem": "cs0034_1874_ptacek_dva-bratri",
+        "repo_id": "eltec-cze",
+        "work_title": "Dva brat\u0159i",
+        "author_name": "Pt\u00e1\u010dek, Anton\u00edn (1842-1882)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:aa3c7b90-f115-11dc-ab26-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83874859"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0035_1876_Svetla_Cerny-petricek.xml",
+        "file_stem": "cs0035_1876_svetla_cerny-petricek",
+        "repo_id": "eltec-cze",
+        "work_title": "\u010cern\u00fd pet\u0159\u00ed\u010dek",
+        "author_name": "Sv\u011btl\u00e1, Karolina (1830-1899)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:560d80d0-922e-11de-b79e-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:9890083"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0036_1878_Arbes_Newtonuv-mozek.xml",
+        "file_stem": "cs0036_1878_arbes_newtonuv-mozek",
+        "repo_id": "eltec-cze",
+        "work_title": "Newton\u016fv mozek",
+        "author_name": "Arbes, Jakub (1840-1914)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:ef692330-01ed-11e5-9506-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54185097"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0037_1878_Podlipska_Nalzovsky.xml",
+        "file_stem": "cs0037_1878_podlipska_nalzovsky",
+        "repo_id": "eltec-cze",
+        "work_title": "Nal\u017eovsk\u00fd",
+        "author_name": "Podlipsk\u00e1, Sofie (1833-1897)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:45f87220-99c5-11dd-88dc-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:23253388"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0038_1878_Stroupeznicky_Cavani.xml",
+        "file_stem": "cs0038_1878_stroupeznicky_cavani",
+        "repo_id": "eltec-cze",
+        "work_title": "Cavani",
+        "author_name": "Stroupe\u017enick\u00fd, Ladislav (1850-1892)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:294582b0-0629-11dd-82ae-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:3910920"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0039_1879_Klicpera_Bitva-u-Lipan.xml",
+        "file_stem": "cs0039_1879_klicpera_bitva-u-lipan",
+        "repo_id": "eltec-cze",
+        "work_title": "Bitva u Lipan",
+        "author_name": "Klicpera, Ivan (1845-1881)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:1159df50-e06a-11dc-93af-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:122054805"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0040_1881_Vinaricky_Tajnosti-Svatovaclavske-trestnice.xml",
+        "file_stem": "cs0040_1881_vinaricky_tajnosti-svatovaclavske-trestnice",
+        "repo_id": "eltec-cze",
+        "work_title": "Tajnosti Svatov\u00e1clavsk\u00e9 trestnice v Praze, aneb, Pomstychtivost \u017eeny",
+        "author_name": "Vina\u0159ick\u00fd, Karel Alois (1803-1869)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:f5b0e8c0-0273-11de-a3e3-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:37280683"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0041_1883_Kostelecky_Z-lasky.xml",
+        "file_stem": "cs0041_1883_kostelecky_z-lasky",
+        "repo_id": "eltec-cze",
+        "work_title": "Z l\u00e1sky",
+        "author_name": "Kosteleck\u00fd, Old\u0159ich S. (1857-1922)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:83482130-ba08-11dd-a642-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83782685"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0042_1885_Reznicek_Povidka-o-Viktorce.xml",
+        "file_stem": "cs0042_1885_reznicek_povidka-o-viktorce",
+        "repo_id": "eltec-cze",
+        "work_title": "Pov\u00eddka o Viktorce",
+        "author_name": "\u0158ezn\u00ed\u010dek, V\u00e1clav (1861-1924)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:94234f30-b18d-11dd-a9b3-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:26636691"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0043_1886_Jirasek_Psohlavci.xml",
+        "file_stem": "cs0043_1886_jirasek_psohlavci",
+        "repo_id": "eltec-cze",
+        "work_title": "Psohlavci",
+        "author_name": "Jir\u00e1sek, Alois (1851-1930)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:59dd5b80-bf45-11dc-8930-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34469656"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0044_1886_Zitek_Drama-rodiny-pana-Daniele.xml",
+        "file_stem": "cs0044_1886_zitek_drama-rodiny-pana-daniele",
+        "repo_id": "eltec-cze",
+        "work_title": "Drama rodiny pana Daniele",
+        "author_name": "Z\u00edtek, Emanuel (1856-1934)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:9450a720-6ac8-11dd-99ff-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:306139253"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0045_1887_Arbes_Kandidati-existence.xml",
+        "file_stem": "cs0045_1887_arbes_kandidati-existence",
+        "repo_id": "eltec-cze",
+        "work_title": "Kandid\u00e1ti existence",
+        "author_name": "Arbes, Jakub (1840-1914)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:2f1985e0-8e07-11dd-9075-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54185097"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0046_1887_Skaba_Masopust-v-Sobeslavi.xml",
+        "file_stem": "cs0046_1887_skaba_masopust-v-sobeslavi",
+        "repo_id": "eltec-cze",
+        "work_title": "Masopust v Sob\u011bslavi",
+        "author_name": "\u0160k\u00e1ba, Karel (1858-1904)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:543d15a0-6209-11dd-8d45-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:39188906"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0047_1888_Cech_Pravy-vylet-pana-Broucka-do-Mesice.xml",
+        "file_stem": "cs0047_1888_cech_pravy-vylet-pana-broucka-do-mesice",
+        "repo_id": "eltec-cze",
+        "work_title": "Prav\u00fd v\u00fdlet pana Brou\u010dka do M\u011bs\u00edce",
+        "author_name": "\u010cech, Svatopluk (1846-1908)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:8b132af0-dffe-11de-aeaf-000bdb925259",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:47560290"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0048_1889_Simacek_Bratri.xml",
+        "file_stem": "cs0048_1889_simacek_bratri",
+        "repo_id": "eltec-cze",
+        "work_title": "Brat\u0159i",
+        "author_name": "\u0160im\u00e1\u010dek, Mat\u011bj Anastasia (1860-1913)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:32aab540-1a7f-11dd-adc1-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56167367"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0049_1889_Slejhar_Kure-melancholik.xml",
+        "file_stem": "cs0049_1889_slejhar_kure-melancholik",
+        "repo_id": "eltec-cze",
+        "work_title": "Ku\u0159e melancholik",
+        "author_name": "\u0160lejhar, Josef Karel (1864-1914)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:5e71c430-b15a-11dd-838a-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:62971865"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0050_1889_Cech_Novy-epochalni-vylet-pana-Broucka.xml",
+        "file_stem": "cs0050_1889_cech_novy-epochalni-vylet-pana-broucka",
+        "repo_id": "eltec-cze",
+        "work_title": "Nov\u00fd epoch\u00e1ln\u00ed v\u00fdlet pana Brou\u010dka, tentokr\u00e1t do patn\u00e1ct\u00e9ho stolet\u00ed",
+        "author_name": "\u010cech, Svatopluk (1846-1908)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:2e5c6eb0-e019-11e2-b28b-001018b5eb5c",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:47560290"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0051_1890_Arbes_Andel-miru.xml",
+        "file_stem": "cs0051_1890_arbes_andel-miru",
+        "repo_id": "eltec-cze",
+        "work_title": "And\u011bl m\u00edru",
+        "author_name": "Arbes, Jakub (1840-1914)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:2206bbc0-df6f-11e7-8cdd-5ef3fc9bb22f",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54185097"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0052_1890_Jirasek_Filosofska-historie.xml",
+        "file_stem": "cs0052_1890_jirasek_filosofska-historie",
+        "repo_id": "eltec-cze",
+        "work_title": "Filosofsk\u00e1 historie",
+        "author_name": "Jir\u00e1sek, Alois (1851-1930)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:623d9db0-9d83-11e5-84c7-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:34469656"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0053_1890_Slama_Rytir-Kobylka.xml",
+        "file_stem": "cs0053_1890_slama_rytir-kobylka",
+        "repo_id": "eltec-cze",
+        "work_title": "Ryt\u00ed\u0159 Kobylka",
+        "author_name": "Sl\u00e1ma, Franti\u0161ek (1850-1917)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:51757b30-2d9e-11de-9c3b-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:51683557"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0054_1891_Zeyer_Jan-Maria-Plojhar.xml",
+        "file_stem": "cs0054_1891_zeyer_jan-maria-plojhar",
+        "repo_id": "eltec-cze",
+        "work_title": "Jan Maria Plojhar",
+        "author_name": "Zeyer, Julius (1841-1901)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:3af2a0f0-c2b5-11ea-a037-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:24621314"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0055_1893_Jelinek_Motylek-z-norske-pohadky.xml",
+        "file_stem": "cs0055_1893_jelinek_motylek-z-norske-pohadky",
+        "repo_id": "eltec-cze",
+        "work_title": "Mot\u00fdlek z norsk\u00e9 poh\u00e1dky",
+        "author_name": "Jel\u00ednek, Edvard (1855-1897)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:4642c630-3584-11de-8d93-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56167322"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0056_1893_Klostermann_V-raji-sumavskem.xml",
+        "file_stem": "cs0056_1893_klostermann_v-raji-sumavskem",
+        "repo_id": "eltec-cze",
+        "work_title": "V r\u00e1ji \u0161umavsk\u00e9m",
+        "author_name": "Klostermann, Karel (1848-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:97c8ad00-38d8-11e4-8f64-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:810251"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0057_1893_Mrstik_Santa-Lucia.xml",
+        "file_stem": "cs0057_1893_mrstik_santa-lucia",
+        "repo_id": "eltec-cze",
+        "work_title": "Santa Lucia",
+        "author_name": "Mr\u0161t\u00edk, Vil\u00e9m (1863-1912)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:eb2f8800-b617-11e2-b6da-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:22185988"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0058_1894_Adamec_Jakub-Prochazka.xml",
+        "file_stem": "cs0058_1894_adamec_jakub-prochazka",
+        "repo_id": "eltec-cze",
+        "work_title": "Jakub Proch\u00e1zka",
+        "author_name": "Adamec, Anton\u00edn (1853-1913)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:4bb30690-6aa8-11e2-8aec-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83654693"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0059_1894_Klostermann_Ze-sveta-lesnich-samot.xml",
+        "file_stem": "cs0059_1894_klostermann_ze-sveta-lesnich-samot",
+        "repo_id": "eltec-cze",
+        "work_title": "Ze sv\u011bta lesn\u00edch samot",
+        "author_name": "Klostermann, Karel (1848-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:d276a370-7854-11de-ab38-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:810251"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0060_1894_Rais_Zapadli-vlastenci.xml",
+        "file_stem": "cs0060_1894_rais_zapadli-vlastenci",
+        "repo_id": "eltec-cze",
+        "work_title": "Zapadl\u00ed vlastenci",
+        "author_name": "Rais, Karel V\u00e1clav (1859-1926)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:494761e0-ba39-11dd-930b-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:50033731"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0061_1895_Capek-Chod_V-tretim-dvore.xml",
+        "file_stem": "cs0061_1895_capek-chod_v-tretim-dvore",
+        "repo_id": "eltec-cze",
+        "work_title": "V t\u0159et\u00edm dvo\u0159e",
+        "author_name": "\u010capek-Chod, Karel Mat\u011bj (1860-1927)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:0b9568b0-01ab-11de-ad15-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54187784"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0062_1895_Rais_Kalibuv-zlocin.xml",
+        "file_stem": "cs0062_1895_rais_kalibuv-zlocin",
+        "repo_id": "eltec-cze",
+        "work_title": "Kalib\u016fv zlo\u010din",
+        "author_name": "Rais, Karel V\u00e1clav (1859-1926)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:256c4ea0-12f5-11e4-8e0d-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:50033731"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0063_1884_Bubnik_V-temnotach-bludu.xml",
+        "file_stem": "cs0063_1884_bubnik_v-temnotach-bludu",
+        "repo_id": "eltec-cze",
+        "work_title": "V temnot\u00e1ch bludu",
+        "author_name": "Bubn\u00edk, Karel (1847-1887)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:278794c0-2593-11dd-8ddd-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83677561"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0064_1896_Klostermann_Sklari.xml",
+        "file_stem": "cs0064_1896_klostermann_sklari",
+        "repo_id": "eltec-cze",
+        "work_title": "Skl\u00e1\u0159i",
+        "author_name": "Klostermann, Karel (1848-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:862d7990-f1a4-11dc-a80f-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:810251"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0065_1897_Mrstik_Pohadka-maje.xml",
+        "file_stem": "cs0065_1897_mrstik_pohadka-maje",
+        "repo_id": "eltec-cze",
+        "work_title": "Poh\u00e1dka m\u00e1je",
+        "author_name": "Mr\u0161t\u00edk, Vil\u00e9m (1863-1912)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:11dd72a0-96eb-11de-917f-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:22185988"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0066_1897_Popelkova_Za-jeden-hrich.xml",
+        "file_stem": "cs0066_1897_popelkova_za-jeden-hrich",
+        "repo_id": "eltec-cze",
+        "work_title": "Za jeden h\u0159\u00edch",
+        "author_name": "Popelkov\u00e1, Anna (1866-1928)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:42f2f030-8afd-11de-98fb-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83867922"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0067_1898_Baar_Makabejsti.xml",
+        "file_stem": "cs0067_1898_baar_makabejsti",
+        "repo_id": "eltec-cze",
+        "work_title": "Makabej\u0161t\u00ed",
+        "author_name": "Baar, Jind\u0159ich \u0160imon (1869-1925)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:e8e9aa90-3c54-11dd-acbc-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54946709"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0068_1899_Zahradnik-Brodsky_Rodina-Sillerova.xml",
+        "file_stem": "cs0068_1899_zahradnik-brodsky_rodina-sillerova",
+        "repo_id": "eltec-cze",
+        "work_title": "Rodina \u0160illerova",
+        "author_name": "Zahradn\u00edk-Brodsk\u00fd, Bohumil (1862-1939)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:3bf6b180-24c0-11e2-85be-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:63896409"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0069_1899_Konrad_Druha-laska.xml",
+        "file_stem": "cs0069_1899_konrad_druha-laska",
+        "repo_id": "eltec-cze",
+        "work_title": "Druh\u00e1 l\u00e1ska",
+        "author_name": "Konr\u00e1d, Josef Deograt (1859-1921)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:04e30a50-f83b-11dd-8ff9-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:41746070"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0070_1899_Rais_Zapad.xml",
+        "file_stem": "cs0070_1899_rais_zapad",
+        "repo_id": "eltec-cze",
+        "work_title": "Z\u00e1pad",
+        "author_name": "Rais, Karel V\u00e1clav (1859-1926)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:7ea12d40-26ac-11e4-8e0d-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:50033731"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0071_1899_Svobodova_Zamotana-vlakna.xml",
+        "file_stem": "cs0071_1899_svobodova_zamotana-vlakna",
+        "repo_id": "eltec-cze",
+        "work_title": "Zamotan\u00e1 vl\u00e1kna",
+        "author_name": "Svobodov\u00e1, R\u016f\u017eena (1868-1920)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:5dbcc7b0-8a2c-11dd-877e-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:50749113"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0072_1902_Benes-Sumavsky_Otrokar.xml",
+        "file_stem": "cs0072_1902_benes-sumavsky_otrokar",
+        "repo_id": "eltec-cze",
+        "work_title": "Otrok\u00e1\u0159",
+        "author_name": "Bene\u0161-\u0160umavsk\u00fd, V\u00e1clav (1850-1934)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:8139e740-b60a-11e2-b6da-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:100393519"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0073_1902_Hrdina_Vlastni-silou.xml",
+        "file_stem": "cs0073_1902_hrdina_vlastni-silou",
+        "repo_id": "eltec-cze",
+        "work_title": "Vlastn\u00ed silou",
+        "author_name": "Hrdina, Josef Leopold (1856-1933)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:3110ded0-7114-11e2-b1d4-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:170539218"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0074_1892_Heller_Roman-na-mori.xml",
+        "file_stem": "cs0074_1892_heller_roman-na-mori",
+        "repo_id": "eltec-cze",
+        "work_title": "Rom\u00e1n na mo\u0159i",
+        "author_name": "Heller, Serv\u00e1c (1845-1922)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:bf8b6310-3581-11de-ad48-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:48419087"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0075_1906_Necasek_Jarmo-millionu.xml",
+        "file_stem": "cs0075_1906_necasek_jarmo-millionu",
+        "repo_id": "eltec-cze",
+        "work_title": "Ja\u0159mo million\u016f",
+        "author_name": "Ne\u010d\u00e1sek, Anton\u00edn (1871-1938)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:55a5f360-eadc-11e2-9923-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:21860571"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0076_1908_Baar_Jan-Cimbura.xml",
+        "file_stem": "cs0076_1908_baar_jan-cimbura",
+        "repo_id": "eltec-cze",
+        "work_title": "Jan Cimbura",
+        "author_name": "Baar, Jind\u0159ich \u0160imon (1869-1925)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:9fcee230-06be-11ea-af21-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54946709"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0077_1908_Malirova_Pravo-na-stesti.xml",
+        "file_stem": "cs0077_1908_malirova_pravo-na-stesti",
+        "repo_id": "eltec-cze",
+        "work_title": "Pr\u00e1vo na \u0161t\u011bst\u00ed",
+        "author_name": "Mal\u00ed\u0159ov\u00e1, Helena (1877-1940)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:0122ba00-0280-11e4-89c6-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:47255955"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0078_1909_Mahen_Kamaradi-svobody.xml",
+        "file_stem": "cs0078_1909_mahen_kamaradi-svobody",
+        "repo_id": "eltec-cze",
+        "work_title": "Kamar\u00e1di svobody",
+        "author_name": "Mahen, Ji\u0159\u00ed (1882-1939)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:733fcfa0-a444-11e3-9d7d-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:61589020"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0079_1909_Winter_Mistr-Kampanus.xml",
+        "file_stem": "cs0079_1909_winter_mistr-kampanus",
+        "repo_id": "eltec-cze",
+        "work_title": "Mistr Kampanus",
+        "author_name": "Winter, Zikmund (1846-1912)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:37ecdd40-4631-11e5-8851-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:32047458"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0080_1900_Cervinka_Boj-s-kapitalem.xml",
+        "file_stem": "cs0080_1900_cervinka_boj-s-kapitalem",
+        "repo_id": "eltec-cze",
+        "work_title": "Boj s kapit\u00e1lem",
+        "author_name": "\u010cervinka, Otakar (1846-1915)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:ab787430-d93e-11dc-98d3-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83688650"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0081_1912_Ladecky_Na-tichem-venkove.xml",
+        "file_stem": "cs0081_1912_ladecky_na-tichem-venkove",
+        "repo_id": "eltec-cze",
+        "work_title": "Na tich\u00e9m venkov\u011b",
+        "author_name": "Ladeck\u00fd, Jan (1861-1907)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:ad5ebc10-60b9-11e3-ac69-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:66352226"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0082_1912_Salda_Zivot-ironicky.xml",
+        "file_stem": "cs0082_1912_salda_zivot-ironicky",
+        "repo_id": "eltec-cze",
+        "work_title": "\u017divot ironick\u00fd a jin\u00e9 pov\u00eddky, pov\u00eddka \u017divot ironick\u00fd",
+        "author_name": "\u0160alda, Franti\u0161ek Xaver (1867-1937)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:4d85b980-544a-11e4-bc71-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:14783197"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0083_1913_Cecetka_Kralovsky-rychtar.xml",
+        "file_stem": "cs0083_1913_cecetka_kralovsky-rychtar",
+        "repo_id": "eltec-cze",
+        "work_title": "Kr\u00e1lovsk\u00fd rycht\u00e1\u0159",
+        "author_name": "\u010ce\u010detka, Franti\u0161ek Josef (1871-1942)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:3e8d38c0-3827-11e4-8f64-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:58938479"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0084_1914_Cervinka_Rusalka.xml",
+        "file_stem": "cs0084_1914_cervinka_rusalka",
+        "repo_id": "eltec-cze",
+        "work_title": "Rusalka",
+        "author_name": "\u010cervinka, Karel (1872-1949)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:6d966900-8a65-11e2-a920-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:58867257"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0085_1915_Dyk_Krysar.xml",
+        "file_stem": "cs0085_1915_dyk_krysar",
+        "repo_id": "eltec-cze",
+        "work_title": "Krysa\u0159",
+        "author_name": "Dyk, Viktor (1877-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:809460a0-a519-11e3-b74a-5ef3fc9ae867",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:32074913"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0086_1915_Karas_Do-ctyr-artikulu.xml",
+        "file_stem": "cs0086_1915_karas_do-ctyr-artikulu",
+        "repo_id": "eltec-cze",
+        "work_title": "Do \u010dty\u0159 artikul\u016f",
+        "author_name": "Karas, Josef Franti\u0161ek (1876-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:d0c596e0-b971-11e3-b833-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56481130"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0087_1915_Smilovsky_Parnassie.xml",
+        "file_stem": "cs0087_1915_smilovsky_parnassie",
+        "repo_id": "eltec-cze",
+        "work_title": "Parnassie",
+        "author_name": "\u0160milovsk\u00fd, Alois Vojt\u011bch (1837-1883)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:9c383e50-1bf4-11e5-8cc8-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:295593657"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0088_1916_Capek-Chod_Turbina.xml",
+        "file_stem": "cs0088_1916_capek-chod_turbina",
+        "repo_id": "eltec-cze",
+        "work_title": "Turbina",
+        "author_name": "\u010capek-Chod, Karel Mat\u011bj (1860-1927)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:b75167e0-e1a0-11e4-82a1-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54187784"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0089_1916_Chocholousek_Karel-IV-a-rimsky-tribun-lidu.xml",
+        "file_stem": "cs0089_1916_chocholousek_karel-iv-a-rimsky-tribun-lidu",
+        "repo_id": "eltec-cze",
+        "work_title": "Karel IV. a \u0159\u00edmsk\u00fd tribun lidu",
+        "author_name": "Chocholou\u0161ek, Prokop (1819-1864)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:bb722650-af58-11e3-9d7d-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:57514269"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0090_1916_Sova_Ivuv-roman.xml",
+        "file_stem": "cs0090_1916_sova_ivuv-roman",
+        "repo_id": "eltec-cze",
+        "work_title": "Iv\u016fv rom\u00e1n",
+        "author_name": "Sova, Anton\u00edn (1864-1928)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:a8fcb150-dd6e-11e2-9923-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:61679211"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0091_1917_Salda_Loutky-i-delnici-bozi.xml",
+        "file_stem": "cs0091_1917_salda_loutky-i-delnici-bozi",
+        "repo_id": "eltec-cze",
+        "work_title": "Loutky i d\u011bln\u00edci bo\u017e\u00ed",
+        "author_name": "\u0160alda, Franti\u0161ek Xaver (1867-1937)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:23b02310-26a6-11e4-8c14-5ef3fc9bb22f",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:14783197"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0092_1918_Herrmann_Vdavky-Nanynky-Kulichovy.xml",
+        "file_stem": "cs0092_1918_herrmann_vdavky-nanynky-kulichovy",
+        "repo_id": "eltec-cze",
+        "work_title": "Vdavky Nanynky Kulichovy a co se kolem nich sb\u011bhlo",
+        "author_name": "Herrmann, Ign\u00e1t (1854-1935)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:8bdccc80-1e14-11e4-8f64-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:61679211"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0093_1918_Klecanda_Pravo-mladi.xml",
+        "file_stem": "cs0093_1918_klecanda_pravo-mladi",
+        "repo_id": "eltec-cze",
+        "work_title": "Pr\u00e1vo ml\u00e1d\u00ed",
+        "author_name": "Klecanda, Jan (1855-1920)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:f01d8980-dc0d-11e3-b110-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:56422442"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0094_1918_Vlasakova_Myslivcova-dceruska.xml",
+        "file_stem": "cs0094_1918_vlasakova_myslivcova-dceruska",
+        "repo_id": "eltec-cze",
+        "work_title": "Myslivcova dceru\u0161ka",
+        "author_name": "Vlas\u00e1kov\u00e1, Julie (1860-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:3b309e70-c2d9-11e2-b6da-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83957886"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0095_1920_Hasek_Osudy-dobreho-vojaka-Svejka.xml",
+        "file_stem": "cs0095_1920_hasek_osudy-dobreho-vojaka-svejka",
+        "repo_id": "eltec-cze",
+        "work_title": "Osudy dobr\u00e9ho voj\u00e1ka \u0160vejka za sv\u011btov\u00e9 v\u00e1lky",
+        "author_name": "Ha\u0161ek, Jaroslav (1883-1923)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/view/uuid:79cd9aa0-dfd2-11e2-9923-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:4931097"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0096_1900_Filip_Markyza-s-trojim-srdcem.xml",
+        "file_stem": "cs0096_1900_filip_markyza-s-trojim-srdcem",
+        "repo_id": "eltec-cze",
+        "work_title": "Mark\u00fdza s troj\u00edm srdcem",
+        "author_name": "Filip, Otakar (1874-1931)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:e2f3e6b0-8a1e-11dd-af4c-000d606f5dc6",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83707680"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0097_1901_Javornik_Svaty-Hostyn.xml",
+        "file_stem": "cs0097_1901_javornik_svaty-hostyn",
+        "repo_id": "eltec-cze",
+        "work_title": "Svat\u00fd Host\u00fdn",
+        "author_name": "Javorn\u00edk, Vojt\u011bch Kristian (1866-????)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:c8ec8590-b23a-11e6-a108-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83755391"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0098_1904_Vlcek_Golgota-i-Tabor.xml",
+        "file_stem": "cs0098_1904_vlcek_golgota-i-tabor",
+        "repo_id": "eltec-cze",
+        "work_title": "Golgota i T\u00e1bor",
+        "author_name": "Vl\u010dek, V\u00e1cslav (1839-1908)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:6e9ed820-8cb1-11e2-8593-005056827e52",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:18789968"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0099_1909_Kopal_Apostol-trhanu.xml",
+        "file_stem": "cs0099_1909_kopal_apostol-trhanu",
+        "repo_id": "eltec-cze",
+        "work_title": "Apo\u0161tol trhan\u016f",
+        "author_name": "Kopal, Petr (1834-1917)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:34338b40-2f28-11e7-a77b-001018b5eb5c",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:83780260"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0100_1914_Baar_K-bohu.xml",
+        "file_stem": "cs0100_1914_baar_k-bohu",
+        "repo_id": "eltec-cze",
+        "work_title": "K bohu",
+        "author_name": "Baar, Jind\u0159ich \u0160imon (1869-1925)",
+        "work_ids": [
+            {
+                "id_value": "https://ndk.cz/uuid/uuid:d4c42fe0-50d6-11e7-aac4-005056827e51",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "viaf",
+                "id_value": "viaf:54946709"
+            }
+        ]
+    }
+]

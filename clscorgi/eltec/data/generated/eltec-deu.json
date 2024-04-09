@@ -1,0 +1,1990 @@
+[
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU001.xml",
+        "file_stem": "deu001",
+        "repo_id": "eltec-deu",
+        "work_title": "Weisse Sclaven oder die Leiden des Volkes",
+        "author_name": "Willkomm, Ernst Adolf (1810-1886)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:x9j6.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11739467X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU002.xml",
+        "file_stem": "deu002",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Lehnhold",
+        "author_name": "Auerbach, Berthold (1812-1882)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k8gc.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11865103X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU003.xml",
+        "file_stem": "deu003",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Pedlar",
+        "author_name": "Ruppius, Otto (1819-1864)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tndt.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/116708859"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU004.xml",
+        "file_stem": "deu004",
+        "repo_id": "eltec-deu",
+        "work_title": "N\u00fcrnberg. Zweiter Band",
+        "author_name": "Otto, Louise (1819-1895)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:swh8.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118590901"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU005.xml",
+        "file_stem": "deu005",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Sonnenwirt",
+        "author_name": "Kurz, Hermann (1813-1873)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:rdgh.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118778277"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU006.xml",
+        "file_stem": "deu006",
+        "repo_id": "eltec-deu",
+        "work_title": "Fragment eines Romans",
+        "author_name": "Weerth, Georg (1822-1856)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:x3xk.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/117208612"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU007.xml",
+        "file_stem": "deu007",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Mappe meines Urgro\u00dfvaters",
+        "author_name": "Stifter, Adalbert (1805-1868)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vs29.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118618156"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU008.xml",
+        "file_stem": "deu008",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Lautenbacher",
+        "author_name": "Auerbach, Berthold (1812-1882)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k8fq.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11865103X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU009.xml",
+        "file_stem": "deu009",
+        "repo_id": "eltec-deu",
+        "work_title": "Das Verm\u00e4chtnis des Pedlars",
+        "author_name": "Ruppius, Otto (1819-1864)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tndq.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/116708859"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU010.xml",
+        "file_stem": "deu010",
+        "repo_id": "eltec-deu",
+        "work_title": "Lydia",
+        "author_name": "Aston, Louise (1814-1871)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k8b1.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118650769"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU011.xml",
+        "file_stem": "deu011",
+        "repo_id": "eltec-deu",
+        "work_title": "Soll und Haben",
+        "author_name": "Freytag, Gustav (1816-1895)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118535455"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU012.xml",
+        "file_stem": "deu012",
+        "repo_id": "eltec-deu",
+        "work_title": "Aus dem Leben einer Frau",
+        "author_name": "Aston, Louise (1814-1871)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k8ck.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118650769"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU013.xml",
+        "file_stem": "deu013",
+        "repo_id": "eltec-deu",
+        "work_title": "Barf\u00fc\u00dfele",
+        "author_name": "Auerbach, Berthold (1812-1882)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k8fk.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11865103X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU014.xml",
+        "file_stem": "deu014",
+        "repo_id": "eltec-deu",
+        "work_title": "Vittoria Accorombona",
+        "author_name": "Tieck, Ludwig (1773-1853)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:wczc.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/12989432X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU015.xml",
+        "file_stem": "deu015",
+        "repo_id": "eltec-deu",
+        "work_title": "Die G\u00fcnderode",
+        "author_name": "Arnim, Bettina von (1785-1859)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k2k1.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118504185"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU016.xml",
+        "file_stem": "deu016",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Regulatoren in Arkansas. Aus dem Waldleben Amerikas",
+        "author_name": "Gerst\u00e4cker, Friedrich (1816-1872)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:ndn4.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118538810"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU017.xml",
+        "file_stem": "deu017",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Narrenburg",
+        "author_name": "Stifter, Adalbert (1805-1868)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vs2p.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118618156"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU018.xml",
+        "file_stem": "deu018",
+        "repo_id": "eltec-deu",
+        "work_title": "Anna",
+        "author_name": "Schopenhauer, Adele (1797-1849)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vbhs.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11880510X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU019.xml",
+        "file_stem": "deu019",
+        "repo_id": "eltec-deu",
+        "work_title": "Zwei Schwestern",
+        "author_name": "Stifter, Adalbert (1805-1868)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vs33.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118618156"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU020.xml",
+        "file_stem": "deu020",
+        "repo_id": "eltec-deu",
+        "work_title": "Sibylle",
+        "author_name": "Hahn-Hahn, Ida Gr\u00e4fin von (1805-1880)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:phvd.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118544918"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU021.xml",
+        "file_stem": "deu021",
+        "repo_id": "eltec-deu",
+        "work_title": "Jenny",
+        "author_name": "Lewald, Fanny (1811-1889)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:rm5b.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118572393"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU022.xml",
+        "file_stem": "deu022",
+        "repo_id": "eltec-deu",
+        "work_title": "Clemens Brentanos Fr\u00fchlingskranz",
+        "author_name": "Arnim, Bettina von (1785-1859)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:k2k7.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118572393"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU023.xml",
+        "file_stem": "deu023",
+        "repo_id": "eltec-deu",
+        "work_title": "Feldblumen",
+        "author_name": "Stifter, Adalbert (1805-1868)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vs1h.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118618156"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU024.xml",
+        "file_stem": "deu024",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Zauberer von Rom",
+        "author_name": "Gutzkow, Karl (1811-1878)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:p5bm.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118543830"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU025.xml",
+        "file_stem": "deu025",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Amerika-M\u00fcde",
+        "author_name": "K\u00fcrnberger, Ferdinand (1823-1879)",
+        "work_ids": [
+            {
+                "id_value": "urn:nbn:de:kobv:b4-200905197133",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118567764"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU026.xml",
+        "file_stem": "deu026",
+        "repo_id": "eltec-deu",
+        "work_title": "Auch Einer 2",
+        "author_name": "Vischer, Friedrich Theodor (1807-1887)",
+        "work_ids": [
+            {
+                "id_value": "urn:nbn:de:kobv:b4-200905196655",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11862721X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU027.xml",
+        "file_stem": "deu027",
+        "repo_id": "eltec-deu",
+        "work_title": "Bozena",
+        "author_name": "Ebner-Eschenbach, Marie von (1830-1916)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mktj.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118528661"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU028.xml",
+        "file_stem": "deu028",
+        "repo_id": "eltec-deu",
+        "work_title": "Die letzte Reckenburgerin",
+        "author_name": "Fran\u00e7ois, Louise von (1817-1893)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n24t.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU029.xml",
+        "file_stem": "deu029",
+        "repo_id": "eltec-deu",
+        "work_title": "Alte Nester",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t90t.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118597442"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU030.xml",
+        "file_stem": "deu030",
+        "repo_id": "eltec-deu",
+        "work_title": "Die verlorene Handschrift",
+        "author_name": "Freytag, Gustav (1816-1895)",
+        "work_ids": [],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/pnd:118535455"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU031.xml",
+        "file_stem": "deu031",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Sch\u00fcdderump",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t90p.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU032.xml",
+        "file_stem": "deu032",
+        "repo_id": "eltec-deu",
+        "work_title": "J\u00fcrg Jenatsch",
+        "author_name": "Meyer, Conrad Ferdinand (1825-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sd2m.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118581775"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU033.xml",
+        "file_stem": "deu033",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Geschichte meines Urgro\u00dfvaters",
+        "author_name": "Fran\u00e7ois, Louise von (1817-1893)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n24j.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU034.xml",
+        "file_stem": "deu034",
+        "repo_id": "eltec-deu",
+        "work_title": "Auch Einer 1",
+        "author_name": "Vischer, Friedrich Theodor (1807-1887)",
+        "work_ids": [
+            {
+                "id_value": "urn:nbn:de:kobv:b4-200905196648",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11862721X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU035.xml",
+        "file_stem": "deu035",
+        "repo_id": "eltec-deu",
+        "work_title": "Vor dem Sturm",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n11c.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU036.xml",
+        "file_stem": "deu036",
+        "repo_id": "eltec-deu",
+        "work_title": "Der gr\u00fcne Heinrich2 [Zweite Fassung]",
+        "author_name": "Keller, Gottfried (1819-1890)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:qt4g.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11856109X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU037.xml",
+        "file_stem": "deu037",
+        "repo_id": "eltec-deu",
+        "work_title": "Das Heideprinze\u00dfchen",
+        "author_name": "Marlitt, Eugenie (1825-1887)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:s8dz.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014122880"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU038.xml",
+        "file_stem": "deu038",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Hungerpastor",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t91r.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118597442"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU039.xml",
+        "file_stem": "deu039",
+        "repo_id": "eltec-deu",
+        "work_title": "Problematische Naturen. Erste Abtheilung",
+        "author_name": "Spielhagen, Friedrich (1823-1911)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vqkr.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118616196"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU040.xml",
+        "file_stem": "deu040",
+        "repo_id": "eltec-deu",
+        "work_title": "Goldelse",
+        "author_name": "Marlitt, Eugenie (1825-1887)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:s8f0.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014122880"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU041.xml",
+        "file_stem": "deu041",
+        "repo_id": "eltec-deu",
+        "work_title": "Das Geheimnis der alten Mamsell",
+        "author_name": "Marlitt, Eugenie (1825-1887)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:s8ds.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014122880"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU042.xml",
+        "file_stem": "deu042",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Mandanenwaise",
+        "author_name": "M\u00f6llhausen, Balduin (1825-1905)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sf4q.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118784412"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU043.xml",
+        "file_stem": "deu043",
+        "repo_id": "eltec-deu",
+        "work_title": "Hammer und Ambo\u00df",
+        "author_name": "Spielhagen, Friedrich (1823-1911)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vqkq.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118616196"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU044.xml",
+        "file_stem": "deu044",
+        "repo_id": "eltec-deu",
+        "work_title": "Kampf um Rom",
+        "author_name": "Dahn, Felix (1834-1912)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:m531.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118523392"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU045.xml",
+        "file_stem": "deu045",
+        "repo_id": "eltec-deu",
+        "work_title": "Witiko",
+        "author_name": "Stifter, Adalbert (1805-1868)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vs2k.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118618156"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU046.xml",
+        "file_stem": "deu046",
+        "repo_id": "eltec-deu",
+        "work_title": "Grete Minde",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1mm.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU047.xml",
+        "file_stem": "deu047",
+        "repo_id": "eltec-deu",
+        "work_title": "Judith die Kluswirtin",
+        "author_name": "Fran\u00e7ois, Louise von (1817-1893)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n24f.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU048.xml",
+        "file_stem": "deu048",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Ahnen",
+        "author_name": "Freytag, Gustav (1816-1895)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n2kn.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118535455"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU049.xml",
+        "file_stem": "deu049",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Leute aus dem Walde, ihre Sterne, Wege und Schicksale",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t91c.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU050.xml",
+        "file_stem": "deu050",
+        "repo_id": "eltec-deu",
+        "work_title": "Abu Telfan oder Die Heimkehr vom Mondgebirge",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t923.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU051.xml",
+        "file_stem": "deu051",
+        "repo_id": "eltec-deu",
+        "work_title": "Unterm Birnbaum",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1vv.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU052.xml",
+        "file_stem": "deu052",
+        "repo_id": "eltec-deu",
+        "work_title": "Heidis Lehr- und Wanderjahre",
+        "author_name": "Spyri, Johanna (1827-1901)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vqn2.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118616455"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU053.xml",
+        "file_stem": "deu053",
+        "repo_id": "eltec-deu",
+        "work_title": "Graf Pet\u00f6fy",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1zq.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU054.xml",
+        "file_stem": "deu054",
+        "repo_id": "eltec-deu",
+        "work_title": "Am Jenseits",
+        "author_name": "May, Karl (1842-1912)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sb4n.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118818651"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU055.xml",
+        "file_stem": "deu055",
+        "repo_id": "eltec-deu",
+        "work_title": "Die gute Schule",
+        "author_name": "Bahr, Hermann (1836-1934)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kcj8.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118505955"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU056.xml",
+        "file_stem": "deu056",
+        "repo_id": "eltec-deu",
+        "work_title": "Adam Mensch",
+        "author_name": "Conradi, Hermann (1862-1890)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:m060.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118669923"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU057.xml",
+        "file_stem": "deu057",
+        "repo_id": "eltec-deu",
+        "work_title": "Sibilla Dalmar",
+        "author_name": "Dohm, Hedwig (1831-1919)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mh3s.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11852643X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU058.xml",
+        "file_stem": "deu058",
+        "repo_id": "eltec-deu",
+        "work_title": "Lotti, die Uhrmacherin",
+        "author_name": "Ebner-Eschenbach, Marie von (1830-1916)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mks5.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118528661"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU059.xml",
+        "file_stem": "deu059",
+        "repo_id": "eltec-deu",
+        "work_title": "Irrungen, Wirrungen",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n121.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU060.xml",
+        "file_stem": "deu060",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Amazonenschlacht",
+        "author_name": "Janitschek, Maria (1859-1927)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:qmnz.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/117078719"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU061.xml",
+        "file_stem": "deu061",
+        "repo_id": "eltec-deu",
+        "work_title": "Gr\u00f6\u00dfenwahn",
+        "author_name": "Bleibtreu, Karl (1859-1928)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kmq8.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118663909"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU062.xml",
+        "file_stem": "deu062",
+        "repo_id": "eltec-deu",
+        "work_title": "Der B\u00fcttnerbauer",
+        "author_name": "Polenz, Wilhelm von (1861-1903)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t4qk.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118803336"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU063.xml",
+        "file_stem": "deu063",
+        "repo_id": "eltec-deu",
+        "work_title": "Wie Frauen werden",
+        "author_name": "Dohm, Hedwig (1831-1919)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mh34.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11852643X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU064.xml",
+        "file_stem": "deu064",
+        "repo_id": "eltec-deu",
+        "work_title": "Jungfer Mutter",
+        "author_name": "Christen, Ada (1839-1901)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kx8q.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014783895"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU065.xml",
+        "file_stem": "deu065",
+        "repo_id": "eltec-deu",
+        "work_title": "Zum Zeitvertreib",
+        "author_name": "Spielhagen, Friedrich (1823-1911)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vqkz.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118616196"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU066.xml",
+        "file_stem": "deu066",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Stechlin",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n143.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU067.xml",
+        "file_stem": "deu067",
+        "repo_id": "eltec-deu",
+        "work_title": "Schlo\u00df Hubertus",
+        "author_name": "Ganghofer, Ludwig (1855-1920)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n3cb.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118537490"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU068.xml",
+        "file_stem": "deu068",
+        "repo_id": "eltec-deu",
+        "work_title": "Conrad",
+        "author_name": "Spitteler, Carl (1845-1925)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:vqmn.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118616277"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU069.xml",
+        "file_stem": "deu069",
+        "repo_id": "eltec-deu",
+        "work_title": "Meister Timpe",
+        "author_name": "Kretzer, Max (1854-1941)",
+        "work_ids": [
+            {
+                "id_value": "urn:nbn:de:kobv:b4-200905193391",
+                "id_type": null,
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118715917"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU070.xml",
+        "file_stem": "deu070",
+        "repo_id": "eltec-deu",
+        "work_title": "Schach von Wuthenow",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1dg.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU071.xml",
+        "file_stem": "deu071",
+        "repo_id": "eltec-deu",
+        "work_title": "C\u00e9cile",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1s9.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU072.xml",
+        "file_stem": "deu072",
+        "repo_id": "eltec-deu",
+        "work_title": "Im alten Eisen",
+        "author_name": "Raabe, Wilhelm (1831-1910)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:t911.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118692577"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU073.xml",
+        "file_stem": "deu073",
+        "repo_id": "eltec-deu",
+        "work_title": "Schicksale einer Seele",
+        "author_name": "Dohm, Hedwig (1831-1919)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mh36.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11852643X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU074.xml",
+        "file_stem": "deu074",
+        "repo_id": "eltec-deu",
+        "work_title": "Fanny F\u00f6rster",
+        "author_name": "Boy-Ed, Ida (1852-1928)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kpzg.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118662473"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU075.xml",
+        "file_stem": "deu075",
+        "repo_id": "eltec-deu",
+        "work_title": "Ninive",
+        "author_name": "Janitschek, Maria (1859-1927)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:qmpc.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/117078719"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU076.xml",
+        "file_stem": "deu076",
+        "repo_id": "eltec-deu",
+        "work_title": "Caspar Hauser",
+        "author_name": "Wassermann, Jakob (1873-1934)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:x26t.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014784077"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU077.xml",
+        "file_stem": "deu077",
+        "repo_id": "eltec-deu",
+        "work_title": "Ellen Olestjerne",
+        "author_name": "Reventlow, Franziska Gr\u00e4fin zu (1871-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tbbm.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118600044"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU078.xml",
+        "file_stem": "deu078",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Taifun",
+        "author_name": "Essig, Hermann (1878-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mvr8.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118531212"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU079.xml",
+        "file_stem": "deu079",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Aufzeichnungen des Malte Laurids Brigge",
+        "author_name": "Rilke, Rainer Maria (1875-1926)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tbvd.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118601024"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU080.xml",
+        "file_stem": "deu080",
+        "repo_id": "eltec-deu",
+        "work_title": "Dumala",
+        "author_name": "Keyserling, Eduard von (1855-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:qx5c.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118561812"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU081.xml",
+        "file_stem": "deu081",
+        "repo_id": "eltec-deu",
+        "work_title": "Und Friede auf Erden!",
+        "author_name": "May, Karl (1842-1912)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sbhs.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118818651"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU082.xml",
+        "file_stem": "deu082",
+        "repo_id": "eltec-deu",
+        "work_title": "Lebenssucher",
+        "author_name": "Braun, Lily (1865-1916)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kq64.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11867353X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU083.xml",
+        "file_stem": "deu083",
+        "repo_id": "eltec-deu",
+        "work_title": "Paralyse",
+        "author_name": "Sack, Gustav (1885-1916)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tqbp.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118750607"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU084.xml",
+        "file_stem": "deu084",
+        "repo_id": "eltec-deu",
+        "work_title": "Ardistan und Dschinnistan II",
+        "author_name": "May, Karl (1842-1912)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sb5d.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118818651"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU085.xml",
+        "file_stem": "deu085",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Ochsenkrieg",
+        "author_name": "Ganghofer, Ludwig (1855-1920)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n3cg.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118537490"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU086.xml",
+        "file_stem": "deu086",
+        "repo_id": "eltec-deu",
+        "work_title": "Himmlische und irdische Liebe",
+        "author_name": "Meysenbug, Malwida Freiin von (1861-1903)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sdgb.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/1014784034"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU087.xml",
+        "file_stem": "deu087",
+        "repo_id": "eltec-deu",
+        "work_title": "Briefe, die ihn nicht erreichten",
+        "author_name": "Heyking, Elisabeth von (1861-1925)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:q366.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/104359080"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU088.xml",
+        "file_stem": "deu088",
+        "repo_id": "eltec-deu",
+        "work_title": "Mathilde M\u00f6hring",
+        "author_name": "Fontane, Theodor (1819-1898)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:n1zz.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118534262"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU089.xml",
+        "file_stem": "deu089",
+        "repo_id": "eltec-deu",
+        "work_title": "Die Abendburg",
+        "author_name": "Wille, Bruno (1860-1928)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:x96c.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/11863318X"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU090.xml",
+        "file_stem": "deu090",
+        "repo_id": "eltec-deu",
+        "work_title": "Von Paul zu Pedro",
+        "author_name": "Reventlow, Franziska Gr\u00e4fin zu (1871-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tb9w.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118600044"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU091.xml",
+        "file_stem": "deu091",
+        "repo_id": "eltec-deu",
+        "work_title": "Casanovas Heimfahrt",
+        "author_name": "Schnitzler, Arthur (1862-1931)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:v3t9.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118609807"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU092.xml",
+        "file_stem": "deu092",
+        "repo_id": "eltec-deu",
+        "work_title": "Jons und Erdme",
+        "author_name": "Sudermann, Hermann (1857-1928)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:w40b.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118619853"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU093.xml",
+        "file_stem": "deu093",
+        "repo_id": "eltec-deu",
+        "work_title": "Madam B\u00e4urin",
+        "author_name": "Christ, Lena (1881-1920)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kxdx.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118520555"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU094.xml",
+        "file_stem": "deu094",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Weg ins Freie",
+        "author_name": "Schnitzler, Arthur (1862-1931)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:v3s8.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118609807"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU095.xml",
+        "file_stem": "deu095",
+        "repo_id": "eltec-deu",
+        "work_title": "Flammetti",
+        "author_name": "Ball, Hugo (1886-1927)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:12671.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118506234"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU096.xml",
+        "file_stem": "deu096",
+        "repo_id": "eltec-deu",
+        "work_title": "Der Golem",
+        "author_name": "Meyrink, Gustav (1868-1932)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:sdcd.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118582046"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU097.xml",
+        "file_stem": "deu097",
+        "repo_id": "eltec-deu",
+        "work_title": "Wellen",
+        "author_name": "Keyserling, Eduard von (1855-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:qx55.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118561812"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU098.xml",
+        "file_stem": "deu098",
+        "repo_id": "eltec-deu",
+        "work_title": "Herrn Dames Aufzeichnungen",
+        "author_name": "Reventlow, Franziska Gr\u00e4fin zu (1871-1918)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:tbbk.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118600044"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU099.xml",
+        "file_stem": "deu099",
+        "repo_id": "eltec-deu",
+        "work_title": "Mathias Bichler",
+        "author_name": "Christ, Lena (1881-1920)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:kxft.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118520555"
+            }
+        ]
+    },
+    {
+        "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU100.xml",
+        "file_stem": "deu100",
+        "repo_id": "eltec-deu",
+        "work_title": "Agave",
+        "author_name": "Ebner-Eschenbach, Marie von (1830-1916)",
+        "work_ids": [
+            {
+                "id_value": "textgrid:mks9.0",
+                "id_type": "textgrid",
+                "source_type": "digitalSource"
+            }
+        ],
+        "author_ids": [
+            {
+                "id_type": "gnd",
+                "id_value": "http://d-nb.info/gnd/118528661"
+            }
+        ]
+    }
+]
