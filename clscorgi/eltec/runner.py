@@ -17,36 +17,28 @@ from clscorgi.eltec.extractors.link_extractor import get_eltec_xml_links
 from clscorgi.rdfgenerators import ELTeCRDFGenerator
 
 
-_REPOS: list[str] = [
-    "ELTeC-eng",
-    "ELTeC-deu",
-    "ELTeC-cze",
-    "ELTeC-fra",
-    "ELTeC-spa",
-]
-
-def _generate_graph(repo: str) -> None:
-    """Process an ELTeC repo, generate a graph and serialize to output files."""
-
-    _input_file = files("clscorgi.eltec.data.generated") / "eltec.json"
-    output_file = files("clscorgi.output.eltec") / "from_json.ttl"
-
-    with open(_input_file) as input_f:
-        input_json = json.load(input_f)
-
-    g = Graph()
-    CLSInfraNamespaceManager(g)
-
-    for data in input_json:
-        triples = ELTeCRDFGenerator(**data)
-
-        for triple in triples:
-            g.add(triple)
-
-    with open(output_file, "w") as f:
-        f.write(g.serialize())
-
 def eltec_runner() -> None:
     """ELTeC runner."""
-    for repo in _REPOS:
-        _generate_graph(repo)
+    input_files: dict[str, Path] = {
+        input_file.stem: input_file
+        for input_file in files("clscorgi.eltec.data.generated").iterdir()
+        if input_file.name.split(".")[-1] == "json"
+    }
+
+    for input_name, input_file in input_files.items():
+        with open(input_file) as input_f:
+            input_json = json.load(input_f)
+
+        g = Graph()
+        CLSInfraNamespaceManager(g)
+
+        for data in input_json:
+            triples = ELTeCRDFGenerator(**data)
+
+            for triple in triples:
+                g.add(triple)
+
+        output_dir = files("clscorgi.output.eltec")
+        output_file = output_dir / f"{input_name}.ttl"
+        with open(output_file, "w") as f:
+            f.write(g.serialize())
