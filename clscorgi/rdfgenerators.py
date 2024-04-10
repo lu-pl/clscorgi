@@ -97,6 +97,11 @@ class ELTeCRDFGenerator(RDFGenerator):
         x1_triples = ttl(
             x1_uri,
             (RDF.type, crmcls.X1_Corpus),
+            (crm.P1_is_identified_by, ttl(
+                mkuri(f"{self.bindings.repo_id} [X1 Appellation]"),
+                (RDF.type, crm.E41_Appellation),
+                (RDF.value, Literal(f"ELTeC {self.bindings.repo_id.split('-')[1].upper()}"))
+            )),
             (lrm.R71_has_part, uris.x2),
             (crmcls.Y4i_is_subcorpus_of, uris.x1_eltec)
         )
