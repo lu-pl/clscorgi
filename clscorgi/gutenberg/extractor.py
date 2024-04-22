@@ -1,4 +1,4 @@
-"""Generators for retrieving Gutendex results."""
+"""API result generators for Gutendex."""
 
 from collections.abc import Iterator
 from itertools import islice

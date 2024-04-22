@@ -137,7 +137,7 @@ def x2_pg_triple_generator(
 
 
 def e55_triple_generator() -> Iterator[_Triple]:
-    """Static E55 triples."""
+    """Static E55 triple generators."""
     e55_id_triples = ttl(
         mkuri("Gutenberg ID [Type]"),
         (RDF.type, crm.E55_Type),

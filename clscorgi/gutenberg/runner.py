@@ -13,7 +13,7 @@ from clscorgi.rdfgenerators import GutenbergRDFGenerator
 
 
 def gutenberg_runner() -> None:
-    "Runner for Gutenberg RDF conversions."
+    "Runner for Gutenberg RDF conversion."
     cnt = count()
     output_dir = files("clscorgi.output.gutenberg")
 
