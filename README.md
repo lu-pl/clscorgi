@@ -35,3 +35,5 @@ The gists listed below hold modelling examples and notes.
   - [ReM modelling notes](https://gist.github.com/lu-pl/9ecf90094e6355e10a120b80229aa54c)
   - [ReM CLSCor example](https://gist.github.com/lu-pl/e96478123950719df0093ad9458720d3)
 
+- Gutenberg
+  - [Gutenberg modelling notes](https://gist.github.com/lu-pl/774837ec70943c5d30f3b7bd2901db30)
