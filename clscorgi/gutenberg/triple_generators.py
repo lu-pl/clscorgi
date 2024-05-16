@@ -27,14 +27,18 @@ def lrm_boilerplate_triple_generator(
         namespace.f1,
         (RDF.type, lrm.F1_Work),
         (RDFS.label, Literal(f"{bindings.title} [Work Title]")),
-        (lrm.R3_is_realized_in, namespace.f2)
+        (lrm.R3_is_realized_in, namespace.f2),
+        # inverse
+        (lrm.R16i_was_created_by, namespace.f27)
     )
 
     f2_triples = ttl(
         namespace.f2,
         (RDF.type, lrm.F2_Expression),
         (RDFS.label, Literal(f"{bindings.title} [Expression Title]")),
-        (lrm.R4i_is_embodied_in, namespace.x2)
+        (lrm.R4i_is_embodied_in, namespace.x2),
+        # inverse
+        (lrm.R17i_was_created_by, namespace.f28)
     )
 
     f27_triples = ttl(
@@ -61,7 +65,9 @@ def lrm_boilerplate_triple_generator(
                     mkuri(f"{author_name} [Actor Appellation]"),
                     (RDF.type, crm.E41_Appellation),
                     (crm.P190_has_symbolic_content, Literal(f"{author_name} [Actor]"))
-                ))
+                )),
+                # inverses
+                (crm.P14i_performed, (namespace.f27, namespace.f28))
             )
 
     triples = chain(
