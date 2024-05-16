@@ -12,8 +12,13 @@ from rdflib import Literal, URIRef, namespace
 from rdflib.namespace import OWL, RDF, RDFS, XSD
 
 from clscorgi.gutenberg.triple_generators import lrm_boilerplate_triple_generator, x2_pg_triple_generator
-from clscorgi.models import (ELTeCBindingsModel, GutenbergBindingsModel,
-                             IDMapping, ReMBindingsModel, SourceData)
+from clscorgi.models import (
+    ELTeCBindingsModel,
+    GutenbergBindingsModel,
+    IDMapping,
+    ReMBindingsModel,
+    SourceData
+)
 from clscorgi.rdfgenerator_abc import RDFGenerator
 from clscorgi.rem.triple_generators import (e17_triple_generator,
                                             e35_triple_generator,
