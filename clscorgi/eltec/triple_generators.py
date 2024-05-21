@@ -139,7 +139,8 @@ def eltec_wemi_triples(
         (RDF.type, crm.E42_Identifier),
         (RDFS.label, Literal(f"{bindings.work_title} [ELTeC ID]")),
         (crm.P190_has_symbolic_content, Literal(f"{bindings.file_stem}")),
-        (crm.P2_has_type, mkuri("ELTeC Title"))
+        # todo: generate uri in namespace class
+        (crm.P2_has_type, mkuri("ELTeC ID"))
     )
 
     triples = chain(
@@ -152,3 +153,72 @@ def eltec_wemi_triples(
     )
 
     return triples
+
+
+def schema_triples(
+        bindings: ELTeCBindingsModel,
+        namespace: URINamespace
+) -> Iterator[_Triple]:
+    """Triple generator for X* Schema assertions."""
+    schema_url: str = (
+        "https://raw.githubusercontent.com/COST-ELTeC/"
+        "Schemas/master/eltec-1.rng"
+    )
+
+    yield from ttl(
+        namespace.x8_eltec,
+        (RDF.type, crmcls.X8_Schema),
+        (RDFS.label, Literal("ELTeC Level 1 RNG Schema")),
+        (crmcls.Y3i_is_schema_of, namespace.x2),
+        (crm.P1_is_identified_by, [
+            (RDF.type, crm.E42_Identifier),
+            (RDFS.label, Literal("Link to ELTeC Level 1 RNG Schema")),
+            (crm.P190_has_symbolic_content, Literal(schema_url))
+        ])
+    )
+
+
+def e2_triples(
+        bindings: ELTeCBindingsModel,
+        namespace: URINamespace
+) -> Iterator[_Triple]:
+    """Triple generator for LRM event assertions."""
+
+    f27_triples = ttl(
+        namespace.f27,
+        (RDF.type, lrm.F27_Work_Creation),
+        (RDFS.label, Literal(f"{bindings.work_title} [Work Creation]")),
+        (crm.P14_carried_out_by, namespace.e39),
+        (lrm.R16_created, namespace.f1)
+    )
+
+    f28_triples = ttl(
+        namespace.f28,
+        (RDF.type, lrm.F28_Expression_Creation),
+        (
+            RDFS.label,
+            Literal(f"{bindings.work_title} [Expression Creation]")
+        ),
+        (crm.P14_carried_out_by, namespace.e39),
+        (lrm.R17_created, namespace.f2)
+    )
+
+    triples = chain(
+        f27_triples,
+        f28_triples
+    )
+
+    return triples
+
+
+# todo: e35 + e55_eltec_title_triples
+# done: e55_eltec_schema_triples
+#
+
+# todo: e39 horror
+def e39_triples(
+        bindings: ELTeCBindingsModel,
+        namespace: URINamespace
+) -> Iterator[_Triple]:
+    """Triple generator for E39 author assertions."""
+    pass
