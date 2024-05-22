@@ -117,7 +117,7 @@ def x2_pg_triple_generator(
         ])
     )
 
-    def p36_triples() -> Iterator[_Triple]:
+    def e36_triples() -> Iterator[_Triple]:
         try:
             image_uri = bindings.formats["image/jpeg"]
         except KeyError:
@@ -127,7 +127,7 @@ def x2_pg_triple_generator(
             yield from ttl(
                 namespace.x2,
                 (crm.P148_has_component, [
-                    (RDF.type, crm.P36_Visual_Item),
+                    (RDF.type, crm.E36_Visual_Item),
                     (RDFS.label, Literal(f"{bindings.title} [Visual Item]")),
                     (crm.P138_represents, namespace.x2),
                     (crm.P1_is_identified_by, [
@@ -138,9 +138,8 @@ def x2_pg_triple_generator(
 
     return chain(
         main_x2_triples,
-        p36_triples()
+        e36_triples()
     )
-
 
 def e55_triple_generator() -> Iterator[_Triple]:
     """Static E55 triple generators."""
