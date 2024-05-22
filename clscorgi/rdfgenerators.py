@@ -373,7 +373,7 @@ class ReMRDFGenerator(RDFGenerator):
 
 
 class GutenbergRDFGenerator(RDFGenerator):
-    """CLSCor RdfGenerator for the Gutenberg corpus"""
+    """CLSCor RdfGenerator for the Gutenberg corpus."""
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, model=GutenbergBindingsModel, **kwargs)
 

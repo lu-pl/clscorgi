@@ -94,18 +94,32 @@ def x2_triple_generator(
             (crm.P148_has_component, uris.x2)
         )),
         (crm.P137_exemplifies, ttl(uris.x11_rem, (RDF.type, crmcls.X11_Prototypical_Document))),
-        (crmcls.Y2_has_format, URIRef("https://clscor.io/entity/type/format/tei")),
-        (crmcls.Y1_exhibits_feature, [
+        (crmcls.Y2_has_format, URIRef("https://clscor.io/entity/type/format/tei"))
+    )
+
+    e13_feature_triples = ttl(
+        mkuri(),
+        (RDF.type, crm.E13_Attribute_Assignment),
+        (crm.P16_used_specific_object, uris.x2),
+        (crm.P140_assigned_attribute_to, uris.x2),
+        (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
+        (crm.P141_assigned, ttl(
+            mkuri(),
             (RDF.type, crmcls.X3_Feature),
             (crm.P2_has_type, URIRef("https://clscor.io/entity/type/feature/token")),
             (crm.P91i_is_unit_of, [
                 (RDF.type, crm.E54_Dimension),
                 (crm.P90_has_value, Literal(f"{bindings.token_count}", datatype=XSD.integer))
             ])
-        ])
+        ))
     )
 
-    return x2_triples
+    triples = itertools.chain(
+        x2_triples,
+        e13_feature_triples
+    )
+
+    return triples
 
 
 def f3_triple_generator(
