@@ -4,7 +4,6 @@ import collections
 
 from dataclasses import dataclass, InitVar
 from urllib.request import urlretrieve
-from urllib.parse import quote
 from pathlib import Path
 
 from lxml import etree
@@ -22,7 +21,6 @@ from clscorgi.eltec.extractors.tree_extractors import (
 @dataclass
 class ELTeCPath:
     """Object representation for ELTeC raw links."""
-
     _eltec_url: InitVar
 
     def __post_init__(self, eltec_url):
