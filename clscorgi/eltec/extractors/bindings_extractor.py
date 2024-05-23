@@ -44,16 +44,6 @@ class ELTeCBindingsExtractor(BindingsExtractor):
 
         super().__init__()
 
-    def _quote_iri(self, eltec_url: str) -> str:
-        """Parse and ascii quote IRIs for processing."""
-        parts = eltec_url.split("/")
-        path = parts.pop()
-        parts.append(quote(path))
-
-        quoted_iri = "/".join(parts)
-
-        return quoted_iri
-
     def generate_bindings(self) -> dict:
         """Construct kwarg bindings for RDF generation."""
         _temp_file_name, _ = urlretrieve(self._eltec_url)
