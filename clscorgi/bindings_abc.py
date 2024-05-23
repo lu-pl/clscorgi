@@ -3,6 +3,8 @@
 import abc
 import collections
 
+from urllib.parse import quote
+
 
 class BindingsExtractor(abc.ABC, collections.UserDict):
     """Binding Representation for an ELTeC resource."""
