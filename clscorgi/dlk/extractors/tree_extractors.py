@@ -43,7 +43,10 @@ def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
         yield names
 
 def get_title(tree: etree._ElementTree) -> str:
-    title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
+    try:
+        title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
+    except IndexError:
+        title = "N.A."
     return title
 
 def get_first_line(tree: etree._ElementTree) -> str:

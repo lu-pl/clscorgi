@@ -37,7 +37,7 @@ class DLKBindingsExtractor(BindingsExtractor):
     """Binding Representation for a DLK resource."""
 
     def __init__(self, dlk_url: str):
-        self.dlk_url = dlk_url
+        self.dlk_url = self._quote_iri(dlk_url)
         self.dlk_path = DLKPath(dlk_url)
 
         super().__init__()
