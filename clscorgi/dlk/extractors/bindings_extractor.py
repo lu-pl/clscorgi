@@ -13,13 +13,15 @@ from clscorgi.dlk.extractors.tree_extractors import (
     get_features,
     get_author_names,
     get_title,
-    get_first_line
+    get_first_line,
+    get_urn
 )
 
 
 @dataclass
 class DLKPath:
     """Object representation for DLK raw links."""
+
     _eltec_url: InitVar
 
     def __post_init__(self, dlk_url):
@@ -33,6 +35,7 @@ class DLKPath:
 
 class DLKBindingsExtractor(BindingsExtractor):
     """Binding Representation for a DLK resource."""
+
     def __init__(self, dlk_url: str):
         self.dlk_url = dlk_url
         self.dlk_path = DLKPath(dlk_url)
@@ -48,6 +51,7 @@ class DLKBindingsExtractor(BindingsExtractor):
 
         bindings = {
             "resource_uri": self.dlk_path.url,
+            "urn": get_urn(tree),
             "dlk_id": self.dlk_path.dlk_id,
             "authors": list(get_author_names(tree)),
             "title": get_title(tree),

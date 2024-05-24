@@ -51,13 +51,17 @@ def get_first_line(tree: etree._ElementTree) -> str:
     return first_line
 
 
+def get_urn(tree: etree._ElementTree) -> str:
+    urn = TEIXPath("//tei:sourceDesc/tei:p/@corresp")(tree)[0]
+    return urn
+
 
 
 ##################################################
-# from urllib.request import urlretrieve
+from urllib.request import urlretrieve
 
-# test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
-# _temp_file_name, _ = urlretrieve(test_url)
+test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
+_temp_file_name, _ = urlretrieve(test_url)
 
-# with open(_temp_file_name) as f:
-#     tree = etree.parse(f)
+with open(_temp_file_name) as f:
+    tree = etree.parse(f)
