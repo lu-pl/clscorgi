@@ -1,0 +1,7 @@
+
+services:
+  veld:
+    build: .
+    volumes:
+      - ./:/veld/executable/
+
