@@ -4,7 +4,16 @@ from collections.abc import Iterator
 from typing import Annotated, Literal
 
 import lodkit.importer
-from pydantic import BaseModel, ConfigDict, Field, ValidationInfo, field_validator, model_validator
+from pydantic import (
+    BaseModel,
+    ConfigDict,
+    Field,
+    ValidationInfo,
+    field_validator,
+    model_validator,
+    HttpUrl,
+    AnyUrl
+)
 from rdflib.namespace import RDFS
 
 from clscorgi.vocabs import identifier
@@ -93,3 +102,37 @@ class GutenbergBindingsModel(BaseModel):
     def _get_id_url(cls, value: None, info: ValidationInfo) -> str:
         id_value: int = info.data["id"]
         return f"https://www.gutenberg.org/ebooks/{id_value}"
+
+
+
+class _DLKAuthorsModel(BaseModel):
+    forename: str
+    surname: str
+    full_name: str
+
+    @model_validator(mode="after")
+    def check_full_name(self):
+        if not self.full_name == f"{self.forename} {self.surname}":
+            raise Exception(f"Field fullname is not composed of forename and surname.")
+        return self
+
+class _DLKFeaturesModel(BaseModel):
+    stanzas: str
+    verses: str
+    verses_per_stanza: str
+    syllables: str
+    tokens: str
+    characters: str
+
+
+class DLKBindingsModel(BaseModel):
+    """Bindings model for Gutenberg data."""
+    model_config = ConfigDict(extra="ignore")
+
+    resource_uri: HttpUrl
+    urn: AnyUrl
+    dlk_id: Annotated[str, Field(pattern=r"dta.poem.\d+")]
+    authors: list[_DLKAuthorsModel]
+    title: str
+    first_line: str
+    features: _DLKFeaturesModel
