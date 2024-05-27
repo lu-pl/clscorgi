@@ -1,12 +1,11 @@
 """Persist DLK data as JSON for further processing."""
 
 import json
-
 from collections.abc import Iterator
 from importlib.resources import files
 
-from clscorgi.dlk.extractors.link_extractor import get_dlk_raw_links
 from clscorgi.dlk.extractors.bindings_extractor import DLKBindingsExtractor
+from clscorgi.dlk.extractors.link_extractor import get_dlk_raw_links
 from clscorgi.models import DLKBindingsModel
 
 
@@ -15,8 +14,9 @@ def get_dlk_data() -> Iterator[dict]:
     dlk_uris = get_dlk_raw_links()
 
     for dlk_uri in dlk_uris:
-        print(dlk_uri)
+        print(f"Processing '{dlk_uri}'...")
         dlk_bindings = DLKBindingsExtractor(dlk_uri)
+        DLKBindingsModel(**dlk_bindings)
         yield dict(dlk_bindings)
 
 
