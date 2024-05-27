@@ -2,7 +2,6 @@
 
 import abc
 import collections
-
 from urllib.parse import quote
 
 
@@ -17,7 +16,8 @@ class BindingsExtractor(abc.ABC, collections.UserDict):
     def generate_bindings(self) -> dict:
         raise NotImplementedError
 
-    def _quote_iri(self, url: str) -> str:
+    @staticmethod
+    def _quote_iri(url: str) -> str:
         """Parse and ascii quote IRIs for processing."""
         parts = url.split("/")
         path = parts.pop()
