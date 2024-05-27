@@ -1,12 +1,10 @@
 """XML tree extractors for the DLK corpus."""
 
 import re
-
 from collections.abc import Iterator
 from functools import partial
 
 from lxml import etree
-
 
 TEIXPath = partial(
     etree.XPath,
@@ -27,7 +25,9 @@ def get_features(tree: etree._ElementTree) -> dict:
 
     return features
 
+
 def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
+    """Extract author names from a DLK tree."""
     xpath_result = TEIXPath("//tei:author")(tree)
 
     for element in xpath_result:
@@ -42,19 +42,24 @@ def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
 
         yield names
 
+
 def get_title(tree: etree._ElementTree) -> str:
+    """Extract title from a DLK tree."""
     try:
         title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
     except IndexError:
         title = "N.A."
     return title
 
+
 def get_first_line(tree: etree._ElementTree) -> str:
+    """Extract the first line text from a DLK tree."""
     first_line = TEIXPath("//tei:lg[@type='poem']/tei:lg/tei:l[1]/text()")(tree)[0]
     return first_line
 
 
 def get_urn(tree: etree._ElementTree) -> str:
+    """Extract URN from a DLK tree."""
     urn = TEIXPath("//tei:sourceDesc/tei:p/@corresp")(tree)[0]
     return urn
 
