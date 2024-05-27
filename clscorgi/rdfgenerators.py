@@ -5,20 +5,16 @@ from collections.abc import Iterator
 from contextlib import suppress
 from types import SimpleNamespace
 
-from clisn import crm, crmcls, lrm, clscore
-from lodkit import URINamespace, mkuri_factory, ttl
+from clisn import clscore, crm, crmcls, lrm
+from lodkit import ttl
 from lodkit.types import _Triple
-from rdflib import Literal, URIRef, namespace
-from rdflib.namespace import OWL, RDF, RDFS, XSD
+from rdflib import Literal, URIRef
+from rdflib.namespace import OWL, RDF, RDFS
 
-from clscorgi.gutenberg.triple_generators import lrm_boilerplate_triple_generator, x2_pg_triple_generator
-from clscorgi.models import (
-    ELTeCBindingsModel,
-    GutenbergBindingsModel,
-    IDMapping,
-    ReMBindingsModel,
-    SourceData
-)
+from clscorgi.gutenberg.triple_generators import (
+    lrm_boilerplate_triple_generator, x2_pg_triple_generator)
+from clscorgi.models import (ELTeCBindingsModel, GutenbergBindingsModel,
+                             IDMapping, ReMBindingsModel, SourceData)
 from clscorgi.rdfgenerator_abc import RDFGenerator
 from clscorgi.rem.triple_generators import (e17_triple_generator,
                                             e35_triple_generator,
@@ -29,8 +25,8 @@ from clscorgi.rem.triple_generators import (e17_triple_generator,
                                             generate_uri_namespace,
                                             wemi_e2_triple_generator,
                                             x2_triple_generator)
-from clscorgi.utils.utils import mkuri, resolve_source_type, uri_ns
 from clscorgi.utils.namespace import nsbase
+from clscorgi.utils.utils import mkuri, resolve_source_type, uri_ns
 from clscorgi.vocabs.vocabs import VocabLookupException, vocab
 
 
