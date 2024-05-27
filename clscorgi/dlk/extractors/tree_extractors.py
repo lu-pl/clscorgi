@@ -47,14 +47,19 @@ def get_title(tree: etree._ElementTree) -> str:
     """Extract title from a DLK tree."""
     try:
         title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
+        title = title.strip()
+
+        if re.search(r"N\.A\.", title):
+            title = None
     except IndexError:
-        title = "N.A."
+        title = None
     return title
 
 
 def get_first_line(tree: etree._ElementTree) -> str:
     """Extract the first line text from a DLK tree."""
     first_line = TEIXPath("//tei:lg[@type='poem']/tei:lg/tei:l[1]/text()")(tree)[0]
+    first_line = first_line.strip(", ")
     return first_line
 
 
