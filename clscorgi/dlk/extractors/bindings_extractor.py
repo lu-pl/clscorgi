@@ -8,8 +8,9 @@ from urllib.request import urlretrieve
 from clscorgi.bindings_abc import BindingsExtractor
 from clscorgi.dlk.extractors.tree_extractors import (get_author_names,
                                                      get_features,
-                                                     get_first_line, get_title,
-                                                     get_urn)
+                                                     get_first_line,
+                                                     get_publication_date,
+                                                     get_title, get_urn)
 from lxml import etree
 
 
@@ -50,7 +51,8 @@ class DLKBindingsExtractor(BindingsExtractor):
             "authors": list(get_author_names(tree)),
             "title": get_title(tree),
             "first_line": get_first_line(tree),
-            "features_dlk": get_features(tree)
+            "features_dlk": get_features(tree),
+            "publication_date": get_publication_date(tree)
         }
 
         return bindings

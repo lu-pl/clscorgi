@@ -106,7 +106,7 @@ class _DLKAuthorsModel(BaseModel):
     @model_validator(mode="after")
     def check_full_name(self):
         if not self.full_name == f"{self.forename} {self.surname}":
-            raise Exception(f"Field fullname is not composed of forename and surname.")
+            raise Exception("Field fullname is not composed of forename and surname.")
         return self
 
 
@@ -133,6 +133,7 @@ class DLKBindingsModel(BaseModel):
     title: str | None
     first_line: str
     features_dlk: _DLKFeaturesModel
+    publication_date: str
 
     @field_validator("title")
     @classmethod

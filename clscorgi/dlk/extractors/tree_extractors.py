@@ -69,12 +69,29 @@ def get_urn(tree: etree._ElementTree) -> str:
     return urn
 
 
+def get_publication_date(tree: etree._ElementTree) -> str:
+    """Extract the publication date from a DLK tree."""
+    xpath: str = "//tei:publicationStmt/tei:date[@type='publication']/text()"
+    date: str = TEIXPath(xpath)(tree)[0]
+    return date
+
+
 
 ##################################################
-from urllib.request import urlretrieve
+# from urllib.request import urlretrieve
 
-test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
-_temp_file_name, _ = urlretrieve(test_url)
+# from clscorgi.bindings_abc import BindingsExtractor
+# from clscorgi.dlk.extractors.link_extractor import get_dlk_raw_links
 
-with open(_temp_file_name) as f:
-    tree = etree.parse(f)
+# test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
+
+
+# for link in get_dlk_raw_links():
+#     link = BindingsExtractor._quote_iri(link)
+#     _temp_file_name, _ = urlretrieve(link)
+
+#     with open(_temp_file_name) as f:
+#         tree = etree.parse(f)
+
+#     date = get_publication_date(tree)
+#     print(date)
