@@ -132,7 +132,7 @@ class DLKBindingsModel(BaseModel):
     authors: list[_DLKAuthorsModel]
     title: str | None
     first_line: str
-    features: _DLKFeaturesModel
+    features_dlk: _DLKFeaturesModel
 
     @field_validator("title")
     @classmethod

@@ -21,8 +21,6 @@ class DLKPath:
 
     def __post_init__(self, dlk_url):
         """Postinit hook for DLKPath."""
-        _path = Path(dlk_url)
-
         self.url = dlk_url
         # todo: regex needs revision
         self.dlk_id = re.search(r".+/([\w.]+)-.+", dlk_url).group(1)
@@ -52,7 +50,7 @@ class DLKBindingsExtractor(BindingsExtractor):
             "authors": list(get_author_names(tree)),
             "title": get_title(tree),
             "first_line": get_first_line(tree),
-            "features": get_features(tree)
+            "features_dlk": get_features(tree)
         }
 
         return bindings
