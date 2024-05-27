@@ -1,21 +1,16 @@
 """Binding extractor for the DLK corpus."""
 
 import re
-
-from dataclasses import dataclass, InitVar
-from urllib.request import urlretrieve
+from dataclasses import InitVar, dataclass
 from pathlib import Path
-
-from lxml import etree
+from urllib.request import urlretrieve
 
 from clscorgi.bindings_abc import BindingsExtractor
-from clscorgi.dlk.extractors.tree_extractors import (
-    get_features,
-    get_author_names,
-    get_title,
-    get_first_line,
-    get_urn
-)
+from clscorgi.dlk.extractors.tree_extractors import (get_author_names,
+                                                     get_features,
+                                                     get_first_line, get_title,
+                                                     get_urn)
+from lxml import etree
 
 
 @dataclass
@@ -37,7 +32,8 @@ class DLKBindingsExtractor(BindingsExtractor):
     """Binding Representation for a DLK resource."""
 
     def __init__(self, dlk_url: str):
-        self.dlk_url = self._quote_iri(dlk_url)
+        # self.dlk_url = self._quote_iri(dlk_url)
+        self.dlk_url = dlk_url
         self.dlk_path = DLKPath(dlk_url)
 
         super().__init__()
