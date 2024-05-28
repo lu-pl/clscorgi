@@ -22,7 +22,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:27087132"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 129449
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1002_AlonsoDeAvecilla_LaConquistaDelPeru.xml",
@@ -47,7 +50,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9453280"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 69606
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1003_ArnoizYBosch_ElTestamento.xml",
@@ -72,7 +78,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:268680340"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 140687
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1004_Foz_VidaDePedroSaputo.xml",
@@ -92,7 +101,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:22213455"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 113011
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1005_FernanCaballero_Clemencia.xml",
@@ -117,7 +129,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9859150"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 113026
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1006_AmadoSalzar_ElHonorCastellano.xml",
@@ -137,7 +152,10 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "conllu_data": {
+            "token_count": 118598
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1007_RosaliaDeCastro_LaHijaDelMar.xml",
@@ -157,7 +175,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51711491"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61329
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1008_Mora_LosTemplarios.xml",
@@ -177,7 +198,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:87109591"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 256004
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1009_RosDeOlano_ElDiabloLasCarga.xml",
@@ -197,7 +221,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:60729092"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 18340
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1010_Guerrero_AnatomiaDelCorazon.xml",
@@ -217,7 +244,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:39156046"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 153971
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1011_Dominguez_DonJuanIdeCastilla.xml",
@@ -232,7 +262,10 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "conllu_data": {
+            "token_count": 186039
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1012_CarolinaCoronado_Jarilla.xml",
@@ -252,7 +285,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:5738205"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 57379
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1013_Campoamor_LosManuscritosDeMiPadre.xml",
@@ -272,7 +308,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:2542317"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 63855
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1014_OrtegaYFrias_Cervantes.xml",
@@ -292,7 +331,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:11235414"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 329277
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1015_Jover_LasAmarguras.xml",
@@ -312,7 +354,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:3785113"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 105859
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1016_ManuelTorrijos_LaInfantaDonyaTeresa.xml",
@@ -332,7 +377,10 @@
                 "source_type": "firstEdition"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "conllu_data": {
+            "token_count": 87569
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1017_FernanCaballero_Lagrimas.xml",
@@ -357,7 +405,10 @@
                 "id_type": null,
                 "id_value": "9859150"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 89802
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1018_Andueza_DonFelipe.xml",
@@ -377,7 +428,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:102336641"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 211948
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml",
@@ -397,7 +451,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76328537"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61357
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1022_GomezDeAvellaneda_DosMujeres.xml",
@@ -417,7 +474,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76328537"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 96581
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1023_GomezDeAvellaneda_LaVeladaDelHelecho.xml",
@@ -437,7 +497,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76328537"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 22791
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1024_FerandezYGonzalez_LossieteinfantesdeLara.xml",
@@ -462,7 +525,10 @@
                 "id_type": null,
                 "id_value": "10223685"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 165337
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA1025_NavarroVilloslada_DonaBlanca.xml",
@@ -487,7 +553,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76396892"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 191984
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2001_EmilioCastelar_Ricardo.xml",
@@ -512,7 +581,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34167700"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 106090
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2002_RosaliaDeCastro_ElCaballeroDeLasBotas.xml",
@@ -537,7 +609,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51711491"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 89725
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2003_PerezGaldos_Trafalgar.xml",
@@ -557,7 +632,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:71395987"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 60487
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2004_Alarcon_ElEscandalo.xml",
@@ -577,7 +655,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:44294383"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 115156
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2005_Alarcon_ElSombreroDeTresPicos.xml",
@@ -597,7 +678,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:44294383"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 30130
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2006_LlofriuYSagrera_ElNaufragioDelGrumete.xml",
@@ -617,7 +701,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:232440021"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 20503
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2007_LlofriuYSagrera_GloriaDineroyMujer.xml",
@@ -637,7 +724,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:232440021"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 38341
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2008_FernanCaballero_UnServilonYUnLibertario.xml",
@@ -662,7 +752,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9859150"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 23173
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2009_PerezGaldos_Marianela.xml",
@@ -687,7 +780,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:71395987"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 59967
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2010_Mart\u00ednezDeVelasco_NocheDeVenganzas.xml",
@@ -707,7 +803,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:202683359"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 20116
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2011_PastorDeLaRoca_LaCoronaDeFuego.xml",
@@ -727,7 +826,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:87642331"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 164937
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2012_Altadill_BarcelonaYsusMisterios.xml",
@@ -747,7 +849,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:6401758"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 330627
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2013_OrtegaYFrias_ElDuende.xml",
@@ -767,7 +872,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:11235414"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 194323
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2014_OrtegayFrias_UnAnyoEntreLosSalvajes.xml",
@@ -787,7 +895,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:11235414"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 48267
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2015_Grassi_ElCopoDeNieve.xml",
@@ -812,7 +923,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:85064176"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 90918
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2016_JuanValera_DonyaLuz.xml",
@@ -832,7 +946,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46770556"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 69020
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2017_JuanValera_PepitaJimenez.xml",
@@ -852,7 +969,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46770556"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 65953
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2018_LopezBago_LosAmores.xml",
@@ -872,7 +992,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100260835"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 65056
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2019_JuanValera_LasIlusionesDelDrFaustino.xml",
@@ -892,7 +1015,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46770556"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 139122
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2020_Pereda_DonGonzaloGonzalez.xml",
@@ -917,7 +1043,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54167127"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 103303
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2021_RafaelDelCastillo_LosCaballerosDelAmor.xml",
@@ -942,7 +1071,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46419719"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 473703
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA2022_Sinues_ElAlmaEnferma.xml",
@@ -962,7 +1094,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59398413"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 133746
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3001_PerezGaldos_FortunataYJacinta.xml",
@@ -982,7 +1117,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:71395987"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 475850
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3002_LeopoldoAlas_LaRegenta.xml",
@@ -1002,7 +1140,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17218138"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 363030
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3003_LeopoldoAlas_SuUnicoHijo.xml",
@@ -1027,7 +1168,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17218138"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 108539
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3004_PardoBazan_LosPazos.xml",
@@ -1052,7 +1196,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51699645"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 100903
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3005_PardoBazan_LaMadreNaturaleza.xml",
@@ -1077,7 +1224,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51699645"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 108418
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3006_Alarcon_ElCapitanVeneno.xml",
@@ -1107,7 +1257,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:44294383 "
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 26388
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3007_Pereda_Sotileza.xml",
@@ -1132,7 +1285,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54167127"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 139947
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3008_Pereda_PArriba.xml",
@@ -1162,7 +1318,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54167127"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 159278
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3009_BlascoIbanez_ArrozyTartana.xml",
@@ -1192,7 +1351,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:73848096"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 107448
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3010_BlascoIbanez_LaBarraca.xml",
@@ -1222,7 +1384,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:73848096"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61919
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3011_Asensi_SantiagoArabal.xml",
@@ -1242,7 +1407,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:87707610"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 16248
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3012_Barreras_ElEspadachin.xml",
@@ -1262,7 +1430,10 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "conllu_data": {
+            "token_count": 142298
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3013_Coloma_Pequeneces.xml",
@@ -1282,7 +1453,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59211037"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 167929
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3014_Alberola_ElSochantre.xml",
@@ -1302,7 +1476,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:78581932"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 49802
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3015_Sawa_LaMujerDeTodoElMundo.xml",
@@ -1327,7 +1504,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59126336"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 45816
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3016_Zamacois_LaEnferma.xml",
@@ -1352,7 +1532,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51728159"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 71832
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3017_RosaliaDeCastro_ElPrimerLoco.xml",
@@ -1377,7 +1560,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51711491"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 36403
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3018_Ganivet_LaConquista.xml",
@@ -1407,7 +1593,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76339208"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 107311
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3019_OctavioPicon_JuanVulgar.xml",
@@ -1437,7 +1626,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:35252653"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 37928
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3020_PalacioValdes_Maximina.xml",
@@ -1467,7 +1659,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:61554068"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 118314
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3021_Lanza_DesdeLaQuilla.xml",
@@ -1497,7 +1692,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:24624818"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 38245
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3022_PalacioValdes_LaEspuma.xml",
@@ -1522,7 +1720,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:61554068"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 145244
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3023_OrtegaMunilla_DonJuanSolo.xml",
@@ -1547,7 +1748,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:42728255"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 49219
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3024_Rueda_LaGitana.xml",
@@ -1572,7 +1776,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17371849"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 44736
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3025_LopezBago_LaBuscona.xml",
@@ -1592,7 +1799,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100260835"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 49945
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3026_LeopoldoAlas_Pipa.xml",
@@ -1617,7 +1827,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17218138"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 15954
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3027_SelgasYCarrasco_Nona.xml",
@@ -1642,7 +1855,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:74118486"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 77166
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3028_PascualDeSanjuan_Flora.xml",
@@ -1662,7 +1878,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:86993429"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 112552
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA3029_Blanco_Cercado.xml",
@@ -1682,7 +1901,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:86973454"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 48392
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4001_TrigoFelipe_ATodoHonor.xml",
@@ -1707,7 +1929,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:79060694"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 19473
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4002_MiroGabriel_LasCerezasDelCementerio.xml",
@@ -1727,7 +1952,10 @@
                 "id_type": null,
                 "id_value": "29542991"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61986
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4003_Unamuno_Niebla.xml",
@@ -1752,7 +1980,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:88844103"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 69761
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4004_TrigoFelipe_Jarrapellejos.xml",
@@ -1782,7 +2013,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:79060694"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 138841
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4005_ValleInclan_SonataEstio.xml",
@@ -1812,7 +2046,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68936773"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 26533
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4006_Dicenta_LasEsmeraldas.xml",
@@ -1837,7 +2074,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68949187"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 12997
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4007_Colombine_LosInadapatados.xml",
@@ -1857,7 +2097,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:95256735"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 52053
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4008_Ciges_Vicario.xml",
@@ -1877,7 +2120,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:4959739"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 48391
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4009_ValleInclan_SonataOtonyo.xml",
@@ -1907,7 +2153,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68936773"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 24488
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4010_ValleInclan_Resplandor.xml",
@@ -1937,7 +2186,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68936773"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 29646
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4011_Zamacois_Incesto.xml",
@@ -1962,7 +2214,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51728159"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 44088
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4012_MiroGabriel_ElAbueloDelRey.xml",
@@ -1992,7 +2247,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29542991"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 39663
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4013_MiroGabriel_ElHumoDormido.xml",
@@ -2022,7 +2280,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29542991"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 38122
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4014_Colombine_ElUltimoContrabandista.xml",
@@ -2047,7 +2308,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:95256735"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 60913
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4015_Unamuno_AbelSanchez.xml",
@@ -2082,7 +2346,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:88844103"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 35804
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4016_Unamuno_AmorPedagogia.xml",
@@ -2112,7 +2379,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:88844103"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 59314
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4017_Maetzu_LaGuerraDelTransvaal.xml",
@@ -2137,7 +2407,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34495436"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 202467
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4018_PardoBazan_Misterio.xml",
@@ -2162,7 +2435,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51699645"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 130452
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4019_Bobadilla_AFuegoLento.xml",
@@ -2187,7 +2463,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:86959601"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 75529
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4020_Colombine_LaRampa.xml",
@@ -2212,7 +2491,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:95256735"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 70890
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4021_Costa_ElUltimoDia.xml",
@@ -2242,7 +2524,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59098193"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 147376
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4022_Lanza_LaRendicionDeSantiago.xml",
@@ -2272,7 +2557,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:24624818"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 45995
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4023_OrtegaMunilla_ElPanyoPardo.xml",
@@ -2297,7 +2585,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:42728255"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 95812
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4024_BlascoIbanez_SangreYArena.xml",
@@ -2322,7 +2613,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:73848096"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 132223
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4025_Coloma_Jeromin.xml",
@@ -2352,7 +2646,10 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59211037"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 169503
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/master/level1/SPA4026_SoledadGustavo_LasDiosasDeLaVida.xml",
@@ -2372,6 +2669,9 @@
                 "id_type": "viaf",
                 "id_value": "viaf:102144648418827440923"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 21262
+        }
     }
 ]

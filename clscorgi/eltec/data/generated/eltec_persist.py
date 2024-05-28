@@ -8,8 +8,16 @@ from importlib.resources import files
 
 from clscorgi.eltec.extractors.bindings_extractor import ELTeCBindingsExtractor
 from clscorgi.eltec.extractors.link_extractor import get_eltec_xml_links
-from clscorgi.eltec.runner import _REPOS
 
+# temporary workaround
+# from clscorgi.eltec.runner import _REPOS
+_REPOS: list[str] = [
+    "ELTeC-eng",
+    "ELTeC-deu",
+    "ELTeC-cze",
+    "ELTeC-fra",
+    "ELTeC-spa",
+]
 
 if __name__ == "__main__":
     for repo in _REPOS:
