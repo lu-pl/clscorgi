@@ -1,6 +1,6 @@
 """Functionality for ELTeC to RDF conversion."""
-
 import itertools
+import json
 from collections.abc import Iterator
 from contextlib import suppress
 from types import SimpleNamespace
@@ -11,10 +11,12 @@ from lodkit.types import _Triple
 from rdflib import Literal, URIRef
 from rdflib.namespace import OWL, RDF, RDFS
 
+from clscorgi.dlk.triple_generators import dlk_static_triples, dlk_wemi_triples
 from clscorgi.gutenberg.triple_generators import (
     lrm_boilerplate_triple_generator, x2_pg_triple_generator)
-from clscorgi.models import (ELTeCBindingsModel, GutenbergBindingsModel,
-                             IDMapping, ReMBindingsModel, SourceData)
+from clscorgi.models import (DLKBindingsModel, ELTeCBindingsModel,
+                             GutenbergBindingsModel, IDMapping,
+                             ReMBindingsModel, SourceData)
 from clscorgi.rdfgenerator_abc import RDFGenerator
 from clscorgi.rem.triple_generators import (e17_triple_generator,
                                             e35_triple_generator,
@@ -370,22 +372,23 @@ class ReMRDFGenerator(RDFGenerator):
 
 class GutenbergRDFGenerator(RDFGenerator):
     """CLSCor RdfGenerator for the Gutenberg corpus."""
-    def __init__(self, *args, **kwargs) -> None:
+
+    def __init__(self, *args, **kwargs) -> None: # noqa
         super().__init__(*args, model=GutenbergBindingsModel, **kwargs)
 
-    def generate_triples(self) -> Iterator[_Triple]:
+    def generate_triples(self) -> Iterator[_Triple]: # noqa
         """CLSCor triple generator for Gutenberg data sets."""
         class namespace(nsbase(clscore)):
             """Namespaces for Gutenberg triple generators."""
+
             f1, f2,
             x2, x11
             f27, f28, e39
 
-            x1_gutenberg="PG [X1]"
-            x11_gutenberg="PG [X11]"
-            e55_id="Gutenberg ID [Type]"
-            e55_id_url="Gutenberg ID URL [Type]"
-
+            x1_gutenberg = "PG [X1]"
+            x11_gutenberg = "PG [X11]"
+            e55_id = "Gutenberg ID [Type]"
+            e55_id_url = "Gutenberg ID URL [Type]"
 
         triple_generators = (
             lrm_boilerplate_triple_generator,
@@ -395,5 +398,36 @@ class GutenbergRDFGenerator(RDFGenerator):
         triples = itertools.chain.from_iterable(
             map(lambda f: f(self.bindings, namespace), triple_generators)
         )
+
+        return triples
+
+
+class DLKRDFGenerator(RDFGenerator):
+    """CLSCor RdfGenerator for the DLK corpus."""
+
+    def __init__(self, *args, **kwargs) -> None: # noqa
+        super().__init__(*args, model=DLKBindingsModel, **kwargs)
+
+    def generate_triples(self) -> Iterator[_Triple]: # noqa
+        """CLSCor triple generator for DLK data sets."""
+        class namespace(nsbase(clscore)):
+            """URI Namespace for DLK."""
+
+            f1, f2, f3, x2
+            f27, f28, f30
+
+            x1_dlk = "DLK [X1]"
+            x11_dlk = "DLK [X11]"
+            e55_id = "DLK ID [Type]"
+            e55_id_url = "DLK ID URL [Type]"
+
+        triple_generators = (
+            dlk_wemi_triples,
+            dlk_static_triples
+        )
+
+        triples = itertools.chain.from_iterable(
+            map(lambda f: f(self.bindings, namespace), triple_generators)
+            )
 
         return triples
