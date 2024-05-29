@@ -17,7 +17,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11739467X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 300943
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU002.xml",
@@ -37,7 +40,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11865103X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 62558
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU003.xml",
@@ -57,7 +63,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/116708859"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 84881
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU004.xml",
@@ -77,7 +86,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118590901"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 53753
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU005.xml",
@@ -97,7 +109,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118778277"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 201478
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU006.xml",
@@ -117,7 +132,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/117208612"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 12
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU007.xml",
@@ -137,7 +155,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118618156"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 80726
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU008.xml",
@@ -157,7 +178,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11865103X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 28732
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU009.xml",
@@ -177,7 +201,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/116708859"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 91469
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU010.xml",
@@ -197,7 +224,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118650769"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 57323
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU011.xml",
@@ -211,7 +241,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118535455"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 323188
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU012.xml",
@@ -231,7 +264,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118650769"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 27313
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU013.xml",
@@ -251,7 +287,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11865103X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 70462
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU014.xml",
@@ -271,7 +310,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/12989432X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 117997
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU015.xml",
@@ -291,7 +333,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118504185"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 167777
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU016.xml",
@@ -311,7 +356,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118538810"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 167118
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU017.xml",
@@ -331,7 +379,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118618156"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 40463
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU018.xml",
@@ -351,7 +402,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11880510X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 100826
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU019.xml",
@@ -371,7 +425,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118618156"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 56315
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU020.xml",
@@ -391,7 +448,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118544918"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 124962
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU021.xml",
@@ -411,7 +471,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118572393"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 108593
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU022.xml",
@@ -431,7 +494,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118572393"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 102041
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU023.xml",
@@ -451,7 +517,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118618156"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 42872
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU024.xml",
@@ -471,7 +540,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118543830"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 863577
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU025.xml",
@@ -491,7 +563,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118567764"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 193444
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU026.xml",
@@ -511,7 +586,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11862721X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 75489
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU027.xml",
@@ -531,7 +609,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118528661"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 71294
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU028.xml",
@@ -551,7 +632,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 104288
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU029.xml",
@@ -571,7 +655,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118597442"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 93691
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU030.xml",
@@ -585,7 +672,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/pnd:118535455"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 289596
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU031.xml",
@@ -605,7 +695,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 130207
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU032.xml",
@@ -625,7 +718,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118581775"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 80022
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU033.xml",
@@ -645,7 +741,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 36407
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU034.xml",
@@ -665,7 +764,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11862721X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 93782
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU035.xml",
@@ -685,7 +787,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 252500
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU036.xml",
@@ -705,7 +810,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11856109X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 280091
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU037.xml",
@@ -725,7 +833,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014122880"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 139649
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU038.xml",
@@ -745,7 +856,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118597442"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 160366
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU039.xml",
@@ -765,7 +879,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118616196"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 217372
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU040.xml",
@@ -785,7 +902,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014122880"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 112387
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU041.xml",
@@ -805,7 +925,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014122880"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 100259
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU042.xml",
@@ -825,7 +948,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118784412"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 212298
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU043.xml",
@@ -845,7 +971,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118616196"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 310119
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU044.xml",
@@ -865,7 +994,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118523392"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 242549
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU045.xml",
@@ -885,7 +1017,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118618156"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 311891
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU046.xml",
@@ -905,7 +1040,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 36983
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU047.xml",
@@ -925,7 +1063,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 53041
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU048.xml",
@@ -945,7 +1086,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118535455"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 675873
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU049.xml",
@@ -965,7 +1109,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 141589
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU050.xml",
@@ -985,7 +1132,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 131318
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU051.xml",
@@ -1005,7 +1155,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 37182
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU052.xml",
@@ -1025,7 +1178,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118616455"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 57283
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU053.xml",
@@ -1045,7 +1201,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 67055
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU054.xml",
@@ -1065,7 +1224,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118818651"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 171409
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU055.xml",
@@ -1085,7 +1247,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118505955"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61787
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU056.xml",
@@ -1105,7 +1270,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118669923"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 112250
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU057.xml",
@@ -1125,7 +1293,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11852643X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 92318
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU058.xml",
@@ -1145,7 +1316,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118528661"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 38595
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU059.xml",
@@ -1165,7 +1339,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 59124
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU060.xml",
@@ -1185,7 +1362,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/117078719"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 20124
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU061.xml",
@@ -1205,7 +1385,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118663909"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 272790
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU062.xml",
@@ -1225,7 +1408,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118803336"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 133542
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU063.xml",
@@ -1245,7 +1431,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11852643X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 35725
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU064.xml",
@@ -1265,7 +1454,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014783895"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 44171
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU065.xml",
@@ -1285,7 +1477,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118616196"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 64447
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU066.xml",
@@ -1305,7 +1500,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 144285
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU067.xml",
@@ -1325,7 +1523,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118537490"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 181108
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU068.xml",
@@ -1345,7 +1546,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118616277"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 47490
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU069.xml",
@@ -1365,7 +1569,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118715917"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 89523
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU070.xml",
@@ -1385,7 +1592,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 47466
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU071.xml",
@@ -1405,7 +1615,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 63402
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU072.xml",
@@ -1425,7 +1638,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118692577"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 61460
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU073.xml",
@@ -1445,7 +1661,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11852643X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 99532
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU074.xml",
@@ -1465,7 +1684,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118662473"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 78528
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU075.xml",
@@ -1485,7 +1707,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/117078719"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 50970
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU076.xml",
@@ -1505,7 +1730,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014784077"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 148797
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU077.xml",
@@ -1525,7 +1753,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118600044"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 69884
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU078.xml",
@@ -1545,7 +1776,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118531212"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 110732
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU079.xml",
@@ -1565,7 +1799,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118601024"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 69175
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU080.xml",
@@ -1585,7 +1822,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118561812"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 33583
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU081.xml",
@@ -1605,7 +1845,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118818651"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 198375
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU082.xml",
@@ -1625,7 +1868,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11867353X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 131383
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU083.xml",
@@ -1645,7 +1891,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118750607"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 22530
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU084.xml",
@@ -1665,7 +1914,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118818651"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 192408
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU085.xml",
@@ -1685,7 +1937,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118537490"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 195614
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU086.xml",
@@ -1705,7 +1960,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/1014784034"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 42194
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU087.xml",
@@ -1725,7 +1983,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/104359080"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 54541
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU088.xml",
@@ -1745,7 +2006,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118534262"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 37651
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU089.xml",
@@ -1765,7 +2029,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/11863318X"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 169871
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU090.xml",
@@ -1785,7 +2052,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118600044"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 23919
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU091.xml",
@@ -1805,7 +2075,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118609807"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 124
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU092.xml",
@@ -1825,7 +2098,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118619853"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 44737
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU093.xml",
@@ -1845,7 +2121,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118520555"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 37826
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU094.xml",
@@ -1865,7 +2144,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118609807"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 134279
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU095.xml",
@@ -1885,7 +2167,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118506234"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 51052
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU096.xml",
@@ -1905,7 +2190,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118582046"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 82496
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU097.xml",
@@ -1925,7 +2213,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118561812"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 51319
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU098.xml",
@@ -1945,7 +2236,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118600044"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 38028
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU099.xml",
@@ -1965,7 +2259,10 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118520555"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 74782
+        }
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU100.xml",
@@ -1985,6 +2282,9 @@
                 "id_type": "gnd",
                 "id_value": "http://d-nb.info/gnd/118528661"
             }
-        ]
+        ],
+        "conllu_data": {
+            "token_count": 48349
+        }
     }
 ]

@@ -16,6 +16,7 @@ from clscorgi.eltec.extractors.tree_extractors import (
     get_work_ids,
     get_author_ids
 )
+from clscorgi.eltec.extractors.conllu_extractor import get_conllu_data
 
 
 @dataclass
@@ -58,7 +59,9 @@ class ELTeCBindingsExtractor(BindingsExtractor):
             "author_name": get_author_name(tree),
 
             "work_ids": get_work_ids(tree),
-            "author_ids": get_author_ids(tree)
+            "author_ids": get_author_ids(tree),
+            
+            "conllu_data": get_conllu_data(self._eltec_path.repo_id, self._eltec_path.stem),
         }
 
         return bindings
