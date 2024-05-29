@@ -1,18 +1,17 @@
 """ABC and base model for CLSCor RDF generator."""
 
 import abc
-
 from collections.abc import Iterator
 from typing import Any
 
 from lodkit.types import _Triple
-from rdflib import Graph as RDFLibGraph
-
 from pydantic import BaseModel
+from rdflib import Graph as RDFLibGraph
 
 
 class RDFGenerator(abc.ABC):
     """RDFGenerator ABC."""
+
     def __init__(self,
                  model: type[BaseModel],
                  graph: RDFLibGraph | None = None,
