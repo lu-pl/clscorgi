@@ -1,12 +1,10 @@
 """XML tree extractors for the DLK corpus."""
 
 import re
-
 from collections.abc import Iterator
 from functools import partial
 
 from lxml import etree
-
 
 TEIXPath = partial(
     etree.XPath,
@@ -27,7 +25,9 @@ def get_features(tree: etree._ElementTree) -> dict:
 
     return features
 
+
 def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
+    """Extract author names from a DLK tree."""
     xpath_result = TEIXPath("//tei:author")(tree)
 
     for element in xpath_result:
@@ -42,29 +42,56 @@ def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
 
         yield names
 
+
 def get_title(tree: etree._ElementTree) -> str:
+    """Extract title from a DLK tree."""
     try:
         title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
+        title = title.strip()
+
+        if re.search(r"N\.A\.", title):
+            title = None
     except IndexError:
-        title = "N.A."
+        title = None
     return title
 
+
 def get_first_line(tree: etree._ElementTree) -> str:
+    """Extract the first line text from a DLK tree."""
     first_line = TEIXPath("//tei:lg[@type='poem']/tei:lg/tei:l[1]/text()")(tree)[0]
+    first_line = first_line.strip(", ")
     return first_line
 
 
 def get_urn(tree: etree._ElementTree) -> str:
+    """Extract URN from a DLK tree."""
     urn = TEIXPath("//tei:sourceDesc/tei:p/@corresp")(tree)[0]
     return urn
 
 
+def get_publication_date(tree: etree._ElementTree) -> str:
+    """Extract the publication date from a DLK tree."""
+    xpath: str = "//tei:publicationStmt/tei:date[@type='publication']/text()"
+    date: str = TEIXPath(xpath)(tree)[0]
+    return date
+
+
 
 ##################################################
-from urllib.request import urlretrieve
+# from urllib.request import urlretrieve
 
-test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
-_temp_file_name, _ = urlretrieve(test_url)
+# from clscorgi.bindings_abc import BindingsExtractor
+# from clscorgi.dlk.extractors.link_extractor import get_dlk_raw_links
 
-with open(_temp_file_name) as f:
-    tree = etree.parse(f)
+# test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
+
+
+# for link in get_dlk_raw_links():
+#     link = BindingsExtractor._quote_iri(link)
+#     _temp_file_name, _ = urlretrieve(link)
+
+#     with open(_temp_file_name) as f:
+#         tree = etree.parse(f)
+
+#     date = get_publication_date(tree)
+#     print(date)

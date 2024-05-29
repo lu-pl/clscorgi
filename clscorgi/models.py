@@ -1,23 +1,16 @@
 """Pydantic models for RDFGenerator bindings validation."""
 
+import re
 from collections.abc import Iterator
 from typing import Annotated, Literal
 
 import lodkit.importer
-from pydantic import (
-    BaseModel,
-    ConfigDict,
-    Field,
-    ValidationInfo,
-    field_validator,
-    model_validator,
-    HttpUrl,
-    AnyUrl
-)
+from pydantic import (AnyUrl, BaseModel, ConfigDict, Field, HttpUrl,
+                      ValidationError, ValidationInfo, field_validator,
+                      model_validator)
 from rdflib.namespace import RDFS
 
 from clscorgi.vocabs import identifier
-
 
 # better list cast here, else the iterator will likely be exhausted somewhere
 vocab_id_types: tuple[str, ...] = tuple(
@@ -113,26 +106,38 @@ class _DLKAuthorsModel(BaseModel):
     @model_validator(mode="after")
     def check_full_name(self):
         if not self.full_name == f"{self.forename} {self.surname}":
-            raise Exception(f"Field fullname is not composed of forename and surname.")
+            raise Exception("Field fullname is not composed of forename and surname.")
         return self
 
+
 class _DLKFeaturesModel(BaseModel):
-    stanzas: str
-    verses: str
+    """Model for DLK features data."""
+
+    stanzas: int
+    verses: int
     verses_per_stanza: str
-    syllables: str
-    tokens: str
-    characters: str
+    syllables: int
+    tokens: int
+    characters: int
 
 
 class DLKBindingsModel(BaseModel):
     """Bindings model for Gutenberg data."""
+
     model_config = ConfigDict(extra="ignore")
 
     resource_uri: HttpUrl
     urn: AnyUrl
     dlk_id: Annotated[str, Field(pattern=r"dta.poem.\d+")]
     authors: list[_DLKAuthorsModel]
-    title: str
+    title: str | None
     first_line: str
-    features: _DLKFeaturesModel
+    features_dlk: _DLKFeaturesModel
+    publication_date: str
+
+    @field_validator("title")
+    @classmethod
+    def title_validator(cls, value):
+        """Validate the title field."""
+        if isinstance(value, str) and re.match(r"N\.A\.", value):
+            raise ValidationError("Field title must not be 'N.A.'.")

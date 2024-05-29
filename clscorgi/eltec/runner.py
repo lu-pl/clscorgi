@@ -1,20 +1,12 @@
 """ELTeC runner: Main entry point for ELTeC conversions."""
 
 import json
-
-from collections.abc import Iterator
-from os import PathLike
+from importlib.resources import files
 from pathlib import Path
 
-from importlib.resources import files
-
 from clisn import CLSInfraNamespaceManager
-from lodkit.graph import Graph
-from loguru import logger
-
-from clscorgi.eltec.extractors.bindings_extractor import ELTeCBindingsExtractor
-from clscorgi.eltec.extractors.link_extractor import get_eltec_xml_links
 from clscorgi.rdfgenerators import ELTeCRDFGenerator
+from lodkit.graph import Graph
 
 
 def eltec_runner() -> None:

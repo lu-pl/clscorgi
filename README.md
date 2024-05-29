@@ -19,7 +19,7 @@ TOKEN=<valid_github_api_token>
 
 Either use [poetry](https://python-poetry.org/) or activate a virtual environment (Python >=3.11) and run the following commands:
 ```shell
-git clone git@github.com:lu-pl/clscorgi.git
+git clone https://github.com/lu-pl/clscorgi.git
 cd clscorgi/
 pip install .
 ```
