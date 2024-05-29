@@ -7,7 +7,7 @@ from clisn import clscore, crm, lrm
 from clscorgi.models import DLKBindingsModel
 from lodkit import URINamespace, _Triple, mkuri_factory, ttl
 from rdflib import Literal, URIRef
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS, XSD
 
 mkuri = mkuri_factory(clscore)
 
@@ -22,7 +22,12 @@ class dlk_wemi_triples:
     ) -> None: # noqa
         self.bindings = bindings
         self.namespace = namespace
+
         self.title = self.bindings.title or self.bindings.first_line
+        self.authors_mapping: dict[str, URIRef] = {
+            author.full_name: mkuri(author.full_name)
+            for author in self.bindings.authors
+        }
 
     def __next__(self) -> _Triple: # noqa
         return next(self)
