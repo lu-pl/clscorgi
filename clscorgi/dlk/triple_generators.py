@@ -31,8 +31,10 @@ class dlk_wemi_triples:
         yield from self.f123_triples()
         yield from self.e35_triples()
         yield from self.x2_triples()
+        yield from self.lrm_e2_triples()
+        yield from self.e39_triples()
 
-    def e35_triples(self):
+    def e35_triples(self) -> Iterator[_Triple]:
         """Triple generator for E35s."""
         yield from ttl(
             mkuri(f"{self.title} [Title]"),
@@ -115,14 +117,85 @@ class dlk_wemi_triples:
             ))
         )
 
-    def f272830_triples(self):
+    def lrm_e2_triples(self) -> Iterator[_Triple]:
         """Triple generator for F27, F28, F30 triples."""
-        pass
+        author_uris: tuple[URIRef, ...] = tuple(self.authors_mapping.values())
+
+        f27_triples = ttl(
+            self.namespace.f27,
+            (RDF.type, lrm.F27_Work_Creation),
+            (RDFS.label, Literal(f"{self.title} [Work Creation]")),
+            (lrm.R16_created, self.namespace.f1),
+            (lrm.P14_carried_out_by, author_uris)
+        )
+
+        f28_triples = ttl(
+            self.namespace.f28,
+            (RDF.type, lrm.F28_Expression_Creation),
+            (RDFS.label, Literal(f"{self.title} [Expression Creation]")),
+            (lrm.R17_created, self.namespace.f2),
+            (crm.P14_carried_out_by, author_uris)
+        )
+
+        f30_triples = ttl(
+            self.namespace.f30,
+            (RDF.type, lrm.F30_Manifestation_Creation),
+            (lrm.R24_created, self.namespace.f3),
+            (crm.P14_carried_out_by, author_uris),
+            (crm["P4_has_time-span"], [
+                (RDF.type, crm["E52_Time-Span"]),
+                (
+                    crm.P82_at_some_time_within,
+                    Literal(
+                        f"{self.bindings.publication_date}",
+                        datatype=XSD.gYear
+                    )
+                )
+            ])
+        )
+
+        triples = itertools.chain(
+            f27_triples,
+            f28_triples,
+            f30_triples
+        )
+
+        return triples
+
+    def e39_triples(self) -> Iterator[_Triple]:
+        """Triple generator for E39 Authors triples."""
+        for author_name, author_uri in self.authors_mapping.items():
+            yield from ttl(
+                author_uri,
+                (RDF.type, crm.E39_Author),
+                (RDFS.label, Literal(f"{author_name} [Actor]")),
+                (crm.P1_is_identified_by, [
+                    (RDF.type, crm.E41_Appellation),
+                    (crm.P190_has_symbolic_content, Literal(f"{author_name} [Actor]"))
+                ])
+            )
 
 
-def static_triples(
+def dlk_static_triples(
         bindings: DLKBindingsModel,
         namespace: URINamespace
 ) -> Iterator[_Triple]:
     """Generate static E55 triples for DLK."""
-    pass
+    e55_id_triples = ttl(
+        namespace.e55_id,
+        (RDF.type, crm.E55_Type),
+        (RDFS.label, Literal("DLK Document ID"))
+    )
+
+    e55_id_url_triples = ttl(
+        namespace.e55_id_url,
+        (RDF.type, crm.E55_Type),
+        (RDFS.label, Literal("DLK Document ID URL"))
+    )
+
+    triples = itertools.chain(
+        e55_id_triples,
+        e55_id_url_triples
+    )
+
+    return triples
