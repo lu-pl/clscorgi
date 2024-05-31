@@ -1,9 +1,10 @@
 """XML tree extractors for the DLK corpus."""
 
 import re
-from collections.abc import Iterator
+from collections.abc import Callable, Iterator
 from functools import partial
 
+from clscorgi.utils.utils import unescape, unescaped
 from lxml import etree
 
 TEIXPath = partial(
@@ -31,8 +32,8 @@ def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
     xpath_result = TEIXPath("//tei:author")(tree)
 
     for element in xpath_result:
-        surname = TEIXPath("tei:persName/tei:surname/text()")(element)[0]
-        forename = TEIXPath("tei:persName/tei:forename/text()")(element)[0]
+        surname = unescape(TEIXPath("tei:persName/tei:surname/text()")(element)[0])
+        forename = unescape(TEIXPath("tei:persName/tei:forename/text()")(element)[0])
 
         names = {
             "forename": forename,
@@ -43,7 +44,8 @@ def get_author_names(tree: etree._ElementTree) -> Iterator[dict]:
         yield names
 
 
-def get_title(tree: etree._ElementTree) -> str:
+@unescaped
+def get_title(tree: etree._ElementTree) -> str | None:
     """Extract title from a DLK tree."""
     try:
         title = TEIXPath("//tei:titleStmt/tei:title/text()")(tree)[0]
@@ -53,9 +55,11 @@ def get_title(tree: etree._ElementTree) -> str:
             title = None
     except IndexError:
         title = None
+
     return title
 
 
+@unescaped
 def get_first_line(tree: etree._ElementTree) -> str:
     """Extract the first line text from a DLK tree."""
     first_line = TEIXPath("//tei:lg[@type='poem']/tei:lg/tei:l[1]/text()")(tree)[0]
@@ -75,23 +79,4 @@ def get_publication_date(tree: etree._ElementTree) -> str:
     date: str = TEIXPath(xpath)(tree)[0]
     return date
 
-
-
 ##################################################
-# from urllib.request import urlretrieve
-
-# from clscorgi.bindings_abc import BindingsExtractor
-# from clscorgi.dlk.extractors.link_extractor import get_dlk_raw_links
-
-# test_url = "https://raw.githubusercontent.com/tnhaider/DLK/master/DLK/tei/tei_plain/dta.poem.1-Ebeling%2C_Johann_Justus-N.A..tei.xml"
-
-
-# for link in get_dlk_raw_links():
-#     link = BindingsExtractor._quote_iri(link)
-#     _temp_file_name, _ = urlretrieve(link)
-
-#     with open(_temp_file_name) as f:
-#         tree = etree.parse(f)
-
-#     date = get_publication_date(tree)
-#     print(date)
