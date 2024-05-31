@@ -1,23 +1,18 @@
 """Miscellaneous utilies for clscorgi."""
 
 import contextlib
-import hashlib
-from logging import raiseExceptions
-import re
 import functools
+import hashlib
+import html
 import inspect
-
-from collections.abc import Callable, Iterator, Sequence, Mapping, Container
-from itertools import repeat
-from typing import TypeVar, Optional, Any
+import re
+from collections.abc import Callable, Mapping, Sequence
 from types import SimpleNamespace
+from typing import Any, TypeVar
 from uuid import uuid4
-from pydantic import BaseModel
 
-from rdflib import Namespace, URIRef, Graph, BNode
 from lodkit.utils import genhash
-from lodkit.types import _Triple, _TripleObject
-
+from rdflib import URIRef
 
 T = TypeVar("T")
 TDefault = TypeVar("TDefault")
@@ -160,3 +155,8 @@ def require_defaults(
     if _f is None:
         return _decor
     return _decor(_f)
+
+
+def unescape(string: str) -> str:
+    """Double unescape XML/HTML encoded strings."""
+    return html.escape(html.escape(string))
