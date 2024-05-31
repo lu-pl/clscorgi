@@ -2,7 +2,7 @@
 
 import re
 from collections.abc import Iterator
-from typing import Annotated, Literal
+from typing import Annotated, Any, Literal
 
 import lodkit.importer
 from pydantic import (AnyUrl, BaseModel, ConfigDict, Field, HttpUrl,
@@ -141,3 +141,4 @@ class DLKBindingsModel(BaseModel):
         """Validate the title field."""
         if isinstance(value, str) and re.match(r"N\.A\.", value):
             raise ValidationError("Field title must not be 'N.A.'.")
+        return value
