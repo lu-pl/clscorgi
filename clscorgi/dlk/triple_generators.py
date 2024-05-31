@@ -28,16 +28,19 @@ class dlk_wemi_triples:
             author.full_name: mkuri(author.full_name)
             for author in self.bindings.authors
         }
+        self.triples: Iterator[_Triple] = itertools.chain(
+            self.f123_triples(),
+            self.e35_triples(),
+            self.x2_triples(),
+            self.lrm_e2_triples(),
+            self.e39_triples()
+        )
 
     def __next__(self) -> _Triple: # noqa
-        return next(self)
+        return next(self.triples)
 
     def __iter__(self) -> Iterator[_Triple]: # noqa
-        yield from self.f123_triples()
-        yield from self.e35_triples()
-        yield from self.x2_triples()
-        yield from self.lrm_e2_triples()
-        yield from self.e39_triples()
+        return self
 
     def e35_triples(self) -> Iterator[_Triple]:
         """Triple generator for E35s."""
