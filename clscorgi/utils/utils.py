@@ -159,4 +159,13 @@ def require_defaults(
 
 def unescape(string: str) -> str:
     """Double unescape XML/HTML encoded strings."""
-    return html.escape(html.escape(string))
+    return trim(html.unescape(html.unescape(string)))
+
+def unescaped(f) -> Callable:
+    """Decorator for double unescaping XML/HTML return values."""
+    def _wrapper(*args, **kwargs):
+        result = f(*args, **kwargs)
+        if result is None:
+            return result
+        return unescape(result)
+    return _wrapper
