@@ -11,7 +11,7 @@ from lodkit.types import _Triple
 from rdflib import Literal, URIRef
 from rdflib.namespace import OWL, RDF, RDFS
 
-from clscorgi.dlk.triple_generators import dlk_static_triples, dlk_wemi_triples
+from clscorgi.dlk.triple_generators import dlk_wemi_triples
 from clscorgi.gutenberg.triple_generators import (
     lrm_boilerplate_triple_generator, x2_pg_triple_generator)
 from clscorgi.models import (DLKBindingsModel, ELTeCBindingsModel,
@@ -421,13 +421,7 @@ class DLKRDFGenerator(RDFGenerator):
             e55_id = "DLK ID [Type]"
             e55_id_url = "DLK ID URL [Type]"
 
-        triple_generators = (
-            dlk_wemi_triples,
-            dlk_static_triples
+        return dlk_wemi_triples(
+            bindings=self.bindings,
+            namespace=namespace
         )
-
-        triples = itertools.chain.from_iterable(
-            map(lambda f: f(self.bindings, namespace), triple_generators)
-            )
-
-        return triples
