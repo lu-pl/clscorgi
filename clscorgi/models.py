@@ -133,7 +133,7 @@ class DLKBindingsModel(BaseModel):
     dlk_id: Annotated[str, Field(pattern=r"dta.poem.\d+")]
     authors: list[_DLKAuthorsModel]
     title: str | None
-    first_line: str
+    artificial_title: str
     features_dlk: _DLKFeaturesModel
     publication_date: str
 
