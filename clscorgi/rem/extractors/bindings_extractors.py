@@ -3,19 +3,15 @@
 from collections.abc import Callable
 from pathlib import Path
 
+from clscorgi.bindings_abc import BindingsExtractor
+from clscorgi.rem.extractors.tree_extractors import (get_genre, get_id,
+                                                     get_publication,
+                                                     get_resource_url,
+                                                     get_source, get_title,
+                                                     get_token)
+from clscorgi.utils.utils import revalmap
 from lxml import etree
 from toolz import compose, valmap
-
-from clscorgi.bindings_abc import BindingsExtractor
-from clscorgi.utils.utils import revalmap
-from clscorgi.rem.extractors.tree_extractors import (
-    get_id,
-    get_title,
-    get_genre,
-    get_token,
-    get_publication,
-    get_source
-)
 
 value_sanitizer = compose(
     lambda x: None if x in ("-", "NA", "") else x
@@ -34,8 +30,9 @@ class ReMBindingsExtractor(BindingsExtractor):
             "title": get_title,
             "genre": get_genre,
             "token_count": get_token,
+            "resource_url": get_resource_url,
             "publication": get_publication,
-            "source": get_source
+            "source": get_source,
         }
 
         _bindings = valmap(lambda x: x(tree), _bindings_mapping)

@@ -6,9 +6,8 @@ from importlib.resources import files
 from pathlib import Path
 from typing import Any
 
-from lxml import etree
 from clscorgi.utils.utils import first
-
+from lxml import etree
 
 TEIXPath = partial(
     etree.XPath,
@@ -64,3 +63,9 @@ get_id = xpath_factory("//tei:fileDesc/@xml:id")
 get_title = xpath_factory("//tei:titleStmt/tei:title/text()")
 get_genre = xpath_factory("//tei:teiHeader/@style")
 get_token = xpath_factory("//tei:fileDesc/tei:extent[@type='Tokens']/text()")
+
+def get_resource_url(tree: etree._ElementTree) -> str:
+    """Construct resource URL based on a tree."""
+    _id = get_id(tree)
+    resource_url = f"https://www.linguistics.rub.de/rem/corpus/details.html#{_id}"
+    return resource_url
