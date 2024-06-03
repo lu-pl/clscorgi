@@ -1,21 +1,16 @@
 """Functionality for parsing ELTeC XML file links and extracting bindings."""
 
 import collections
-
-from dataclasses import dataclass, InitVar
-from urllib.request import urlretrieve
+from dataclasses import InitVar, dataclass
 from pathlib import Path
-
-from lxml import etree
-
+from urllib.request import urlretrieve
 
 from clscorgi.bindings_abc import BindingsExtractor
-from clscorgi.eltec.extractors.tree_extractors import (
-    get_work_title,
-    get_author_name,
-    get_work_ids,
-    get_author_ids
-)
+from clscorgi.eltec.extractors.tree_extractors import (get_author_ids,
+                                                       get_author_name,
+                                                       get_date, get_work_ids,
+                                                       get_work_title)
+from lxml import etree
 
 
 @dataclass
@@ -58,7 +53,9 @@ class ELTeCBindingsExtractor(BindingsExtractor):
             "author_name": get_author_name(tree),
 
             "work_ids": get_work_ids(tree),
-            "author_ids": get_author_ids(tree)
+            "author_ids": get_author_ids(tree),
+
+            "date": get_date(tree)
         }
 
         return bindings

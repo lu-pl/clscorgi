@@ -123,6 +123,18 @@ def get_work_ids(tree: etree._ElementTree) -> list[dict]:
     return list(_work_ids())
 
 
+def get_date(tree: etree._ElementTree):
+    """Extract date from bibl."""
+    date_bibl = TEIXPath("//tei:sourceDesc/tei:bibl/tei:date/text()")(tree)
+    date_bibl = [trim(date) for date in date_bibl]
+    print("INFO: ", date_bibl)
+    if date_bibl:
+        date = min(date_bibl)
+        return date
+    return None
+
+
+
 def get_author_ids(tree: etree._ElementTree) -> list[dict]:
     """Try to extract author ids from a tree.
 
