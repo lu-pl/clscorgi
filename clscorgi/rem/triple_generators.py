@@ -1,25 +1,22 @@
 """Triple generators for ReM conversions."""
 
 import itertools
-
 from collections.abc import Iterator
 from typing import NoReturn
 
-from clisn import crmcls, lrm, crm, clscore
-from lodkit import mkuri_factory, URINamespace, ttl, _Triple
-
-from rdflib import Literal, URIRef, Namespace
-from rdflib.namespace import RDF, RDFS, XSD
-
+from clisn import clscore, crm, crmcls, lrm
 from clscorgi.models import ReMBindingsModel
 from clscorgi.utils.utils import require_defaults
-
+from lodkit import URINamespace, _Triple, mkuri_factory, ttl
+from rdflib import Literal, Namespace, URIRef
+from rdflib.namespace import RDF, RDFS, XSD
 
 e55_pairs: tuple[tuple[str, str]] = (
     ("e55_work_title", "ReM Work Title [Type]"),
     ("e55_rem_document_id", "ReM Document ID [Type]"),
     ("e55_genre_assignment", "ReM Genre Assignment [Type]"),
-    ("e55_genre", "Wikidata Genre [Type]")
+    ("e55_genre", "Wikidata Genre [Type]"),
+    ("e55_url_id", "ReM URL ID")
 )
 
 mkuri = mkuri_factory(crmcls)
@@ -86,6 +83,13 @@ def x2_triple_generator(
             (RDFS.label, Literal(f"{bindings.title} [ReM ID]")),
             (crm.P190_has_symbolic_value, Literal(f"{bindings.id}")),
             (crm.P2_has_type, uris.e55_rem_document_id)
+        )),
+        (crm.P1_is_identified_by, ttl(
+            mkuri(),
+            (RDF.type, crm.E42_Identifier),
+            (RDFS.label, Literal(f"{bindings.title} [ReM URL ID]")),
+            (crm.P190_has_symbolic_value, Literal(f"{bindings.resource_url}")),
+            (crm.P2_has_type, uris.e55_url_id)
         )),
         (lrm.R71i_is_part_of, ttl(
             uris.x1_rem,
