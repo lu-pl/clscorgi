@@ -94,8 +94,13 @@ def get_work_title(tree: etree._ElementTree) -> str | None:
 
 def get_author_name(tree: etree._ElementTree) -> str:
     """Extract the author name from tei:titleStmt."""
-    _name = TEIXPath("//tei:titleStmt/tei:author/text()")(tree)
-    return trim(first(_name))
+    name = trim(first(TEIXPath("//tei:titleStmt/tei:author/text()")(tree)))
+    # new schema fix
+    if not name:
+        _forename = TEIXPath("//tei:titleStmt/tei:author/tei:persName/tei:forename/text()")(tree)
+        _surname = TEIXPath("//tei:titleStmt/tei:author/tei:persName/tei:surname/text()")(tree)
+        alt_name = f"{trim(first(_forename))} {trim(first(_surname))}"
+    return name
 
 
 def get_work_ids(tree: etree._ElementTree) -> list[dict]:
@@ -127,7 +132,6 @@ def get_date(tree: etree._ElementTree):
     """Extract date from bibl."""
     date_bibl = TEIXPath("//tei:sourceDesc/tei:bibl/tei:date/text()")(tree)
     date_bibl = [trim(date) for date in date_bibl]
-    print("INFO: ", date_bibl)
     if date_bibl:
         date = min(date_bibl)
         return date
