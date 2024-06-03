@@ -127,7 +127,17 @@ class ELTeCRDFGenerator(RDFGenerator):
             (crmcls.Y2_has_format, vocab("TEI")),
             (crmcls.Y3_adheres_to_schema, x8_uri),
             # X2 -> P137 -> X11
-            (crm.P137_exemplifies, uris.x11_eltec)
+            (crm.P137_exemplifies, uris.x11_eltec),
+            (crm.P1_is_identified_by, [
+                (RDF.type, crm.E42_Identifier),
+                (RDFS.label, Literal(f"{self.bindings.work_title} [ELTeC ID URL]")),
+                (crm.P190_has_symbolic_content, Literal(f"{self.bindings.resource_uri}")),
+                (crm.P2_has_type, ttl(
+                    mkuri("ELTeC ID URL [E55]"),
+                    (RDF.type, crm.E55_Type),
+                    (RDFS.label, Literal("ELTeC Document ID URL"))
+                ))
+            ])
         )
 
         x2_e42_triples = ttl(
@@ -209,7 +219,8 @@ class ELTeCRDFGenerator(RDFGenerator):
                 Literal(f"{self.bindings.work_title} [Expression Creation]")
             ),
             (crm.P14_carried_out_by, uris.e39),
-            (lrm.R17_created, uris.f2)
+            (lrm.R17_created, uris.f2),
+            (crm.P82_at_some_time_within, Literal(f"{self.bindings.date}"))
         )
 
         e35_triples = ttl(
