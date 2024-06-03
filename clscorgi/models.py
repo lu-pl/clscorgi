@@ -47,6 +47,7 @@ class ELTeCBindingsModel(BaseModel):
 
     author_ids: list[IDMapping] | None = None
     work_ids: list[SourceData] | None = None
+    date: str | None
 
 
 class PublicationData(BaseModel):
