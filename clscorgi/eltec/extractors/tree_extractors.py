@@ -1,16 +1,13 @@
 """Extractors for pulling data from TEI/XML for use in bindings_extractor."""
 
 import re
-
 from collections.abc import Sequence
 from functools import partial
 from typing import Any, Literal, TypeVar
 
-from lxml import etree
-
 from clscorgi.models import vocab_id_types
 from clscorgi.utils.utils import first, trim
-
+from lxml import etree
 
 T = TypeVar("T")
 
