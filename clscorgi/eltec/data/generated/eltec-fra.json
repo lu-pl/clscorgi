@@ -4,7 +4,7 @@
         "file_stem": "fra00101_adam",
         "repo_id": "eltec-fra",
         "work_title": "Mon village",
-        "author_name": "Adam, Juliette (1836-1936)",
+        "author_name": "",
         "work_ids": [
             {
                 "id_value": "https://fr.wikisource.org/wiki/Mon_village/Texte_entier",
@@ -22,7 +22,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:64000638 wikidata:Q270617"
             }
-        ]
+        ],
+        "date": "1860"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00102_Adam.xml",
@@ -47,7 +48,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:64000638 wikidata:Q270617"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00201_Audoux.xml",
@@ -72,7 +74,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:71386673 wikidata:Q466650"
             }
-        ]
+        ],
+        "date": "1910"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00301_Aimard.xml",
@@ -97,7 +100,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9841962 wikidata:Q472068"
             }
-        ]
+        ],
+        "date": "1858"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00302_Aimard.xml",
@@ -122,7 +126,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9841962 wikidata:Q472068"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00401_Allais.xml",
@@ -152,7 +157,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:302147306 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00501_Balzac.xml",
@@ -177,7 +183,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29529595 wikidata:Q9711"
             }
-        ]
+        ],
+        "date": "1842"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00502_Balzac.xml",
@@ -202,7 +209,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29529595 wikidata:Q9711"
             }
-        ]
+        ],
+        "date": "1842-1848"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00503_Balzac.xml",
@@ -227,7 +235,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29529595 wikidata:Q9711"
             }
-        ]
+        ],
+        "date": "1842-1848"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00601_Boisgobey.xml",
@@ -241,7 +250,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19720225 wikidata:Q969321"
             }
-        ]
+        ],
+        "date": "1881"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00602_Boisgobey.xml",
@@ -255,7 +265,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19720225 wikidata:Q969321"
             }
-        ]
+        ],
+        "date": "1886"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00701_Carraud.xml",
@@ -280,7 +291,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66529196 wikidata:Q2030046"
             }
-        ]
+        ],
+        "date": "1852"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00801_Dash.xml",
@@ -300,7 +312,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:102278 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1843"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA00901_Daudet.xml",
@@ -330,7 +343,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:4928621 wikidata:Q228546"
             }
-        ]
+        ],
+        "date": "1868"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01002_DelarueMardrus.xml",
@@ -350,7 +364,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34455354 wikidata:Q3087508"
             }
-        ]
+        ],
+        "date": "1919"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01101_Dombre.xml",
@@ -370,7 +385,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:37053113 wikidata:Q42529454"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01102_Dombre.xml",
@@ -390,7 +406,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:37053113 wikidata:Q42529454"
             }
-        ]
+        ],
+        "date": "1889"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01201_Feval.xml",
@@ -404,7 +421,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17222447 wikidata:Q472568"
             }
-        ]
+        ],
+        "date": "1868"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01202_Feval.xml",
@@ -424,7 +442,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17222447 wikidata:Q472568"
             }
-        ]
+        ],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01203_Feval.xml",
@@ -444,7 +463,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17222447 wikidata:Q472568"
             }
-        ]
+        ],
+        "date": "1845"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01301_Flaubert.xml",
@@ -469,7 +489,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9846192 wikidata:Q43444"
             }
-        ]
+        ],
+        "date": "1869-1870"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01302_Flaubert.xml",
@@ -499,7 +520,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9846192 wikidata:Q43444"
             }
-        ]
+        ],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01303_Flaubert.xml",
@@ -524,7 +546,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9846192 wikidata:Q43444"
             }
-        ]
+        ],
+        "date": "1862"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01401_Fleuriot.xml",
@@ -549,7 +572,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:41872490 wikidata:Q3086433"
             }
-        ]
+        ],
+        "date": "1877"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01402_Fleuriot.xml",
@@ -574,7 +598,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:41872490 wikidata:Q3086433"
             }
-        ]
+        ],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01403_Fleuriot.xml",
@@ -604,7 +629,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:41872490 wikidata:Q3086433"
             }
-        ]
+        ],
+        "date": "1881"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01501_France.xml",
@@ -634,7 +660,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:4925052 wikidata:Q42443"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01601_GautierJ.xml",
@@ -664,7 +691,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54148064 wikidata:Q2523100"
             }
-        ]
+        ],
+        "date": "1875"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01602_GautierJ.xml",
@@ -689,7 +717,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54148064 wikidata:Q2523100"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01603_GautierJ.xml",
@@ -714,7 +743,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54148064 wikidata:Q2523100"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01701_GautierT.xml",
@@ -739,7 +769,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:96428598 wikidata:Q183713"
             }
-        ]
+        ],
+        "date": "1847"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01801_Gay.xml",
@@ -764,7 +795,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:27059297 wikidata:Q273200"
             }
-        ]
+        ],
+        "date": "1844"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA01902_Gaboriau.xml",
@@ -789,7 +821,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100177491 wikidata:Q463513"
             }
-        ]
+        ],
+        "date": "1869"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02001_Gilbert.xml",
@@ -819,7 +852,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51823427 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02101_Girardin.xml",
@@ -849,7 +883,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:24601979 wikidata:Q437094"
             }
-        ]
+        ],
+        "date": "1854"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02201_Gouraud.xml",
@@ -879,7 +914,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:31987653 wikidata:Q18115130"
             }
-        ]
+        ],
+        "date": "1888"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02202_Gouraud.xml",
@@ -909,7 +945,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:31987653 wikidata:Q18115130"
             }
-        ]
+        ],
+        "date": "1867"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02203_Gouraud.xml",
@@ -939,7 +976,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:31987653 wikidata:Q18115130"
             }
-        ]
+        ],
+        "date": "1876"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02301_Greville.xml",
@@ -959,7 +997,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49258322 wikidata:Q2266038"
             }
-        ]
+        ],
+        "date": null
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02302_Greville.xml",
@@ -989,7 +1028,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49258322 wikidata:Q2266038"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02303_Greville.xml",
@@ -1014,7 +1054,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49258322 wikidata:Q2266038"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02401_LeRouge.xml",
@@ -1034,7 +1075,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:7392910 wikidata:Q2409143"
             }
-        ]
+        ],
+        "date": "1904"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02501_Loti.xml",
@@ -1059,7 +1101,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:89440078 wikidata:Q311854"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02601_Malot.xml",
@@ -1084,7 +1127,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49228546 wikidata:Q315003"
             }
-        ]
+        ],
+        "date": "1869"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02602_Malot.xml",
@@ -1109,7 +1153,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49228546 wikidata:Q315003"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02603_Malot.xml",
@@ -1134,7 +1179,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49228546 wikidata:Q315003"
             }
-        ]
+        ],
+        "date": "1888"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02701_Maupassant.xml",
@@ -1154,7 +1200,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29537765 wikidata:Q9327"
             }
-        ]
+        ],
+        "date": "1885"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02702_Maupassant.xml",
@@ -1174,7 +1221,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29537765 wikidata:Q9327"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02802_Mirbeau.xml",
@@ -1194,7 +1242,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100204602 wikidata:Q23441"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA02901_Noailles.xml",
@@ -1219,7 +1268,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:95303465 wikidata:Q6050"
             }
-        ]
+        ],
+        "date": "1903"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03001_Ohnet.xml",
@@ -1244,7 +1294,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66497284 wikidata:Q1393388"
             }
-        ]
+        ],
+        "date": "1885"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03002_Ohnet.xml",
@@ -1264,7 +1315,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66497284 wikidata:Q1393388"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03003_Ohnet.xml",
@@ -1278,7 +1330,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66497284 wikidata:Q1393388"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03101_Ponson.xml",
@@ -1303,7 +1356,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:17228199 wikidata:Q2595750"
             }
-        ]
+        ],
+        "date": "1852"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03201_Blandy.xml",
@@ -1328,7 +1382,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:39410255 wikidata:Q3498121"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03302_Rattazzi.xml",
@@ -1348,7 +1403,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:30341384 wikidata:Q3292106"
             }
-        ]
+        ],
+        "date": "2012"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03401_Reybaud.xml",
@@ -1368,7 +1424,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:36959845 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1855"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03601_Proust.xml",
@@ -1388,7 +1445,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:32001793 wikidata:Q7199"
             }
-        ]
+        ],
+        "date": "1913"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03701_Sand.xml",
@@ -1413,7 +1471,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46766944 wikidata:Q3816"
             }
-        ]
+        ],
+        "date": "1872"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03702_Sand.xml",
@@ -1438,7 +1497,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46766944 wikidata:Q3816"
             }
-        ]
+        ],
+        "date": "1867"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03704_Sand.xml",
@@ -1458,7 +1518,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:46766944 wikidata:Q3816"
             }
-        ]
+        ],
+        "date": "1840"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03802_Stern.xml",
@@ -1483,7 +1544,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:186930001 wikidata:Q253453"
             }
-        ]
+        ],
+        "date": "1846"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA03903_Stolz.xml",
@@ -1508,7 +1570,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19850120 wikidata:Q3275360"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04001_Verne.xml",
@@ -1533,7 +1596,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76323989 wikidata:Q33977"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04002_Verne.xml",
@@ -1558,7 +1622,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76323989 wikidata:Q33977"
             }
-        ]
+        ],
+        "date": "1898"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04102_Erckmann.xml",
@@ -1583,7 +1648,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:31995972 wikidata:Q3246593"
             }
-        ]
+        ],
+        "date": "1863"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04202_Rolland.xml",
@@ -1613,7 +1679,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:71397100 wikidata:Q47162"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04301_Achard.xml",
@@ -1638,7 +1705,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:22137477 wikidata:Q482162"
             }
-        ]
+        ],
+        "date": "1847"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04401_Barbusse.xml",
@@ -1663,7 +1731,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68925116 wikidata:Q18404"
             }
-        ]
+        ],
+        "date": "1916"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04501_Barres.xml",
@@ -1688,7 +1757,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66463260 wikidata:Q314957"
             }
-        ]
+        ],
+        "date": "1908"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04601_Bazin.xml",
@@ -1713,7 +1783,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:24597541 wikidata:Q127539"
             }
-        ]
+        ],
+        "date": "1907"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04701_Bourget.xml",
@@ -1733,7 +1804,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:29530799 wikidata:Q198644"
             }
-        ]
+        ],
+        "date": "1919"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04801_Corday.xml",
@@ -1753,7 +1825,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9861444 wikidata:Q17485888"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA04901_Dumas.xml",
@@ -1778,7 +1851,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51688902 wikidata:Q38337"
             }
-        ]
+        ],
+        "date": "1845"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05101_Eekhoud.xml",
@@ -1803,7 +1877,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19677089 wikidata:Q728405"
             }
-        ]
+        ],
+        "date": "1904"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05201_Feuillet.xml",
@@ -1828,7 +1903,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:68928998 wikidata:Q1091989"
             }
-        ]
+        ],
+        "date": "1856"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05301_Galopin.xml",
@@ -1853,7 +1929,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66488375 wikidata:Q2863411"
             }
-        ]
+        ],
+        "date": "1906"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05401_Kock.xml",
@@ -1878,7 +1955,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100183137 wikidata:Q982058"
             }
-        ]
+        ],
+        "date": "1849"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05501_Lermina.xml",
@@ -1903,7 +1981,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:49244018 wikidata:Q3087202"
             }
-        ]
+        ],
+        "date": "1910"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05602_Lesueur.xml",
@@ -1923,7 +2002,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:39520913 wikidata:Q5217915"
             }
-        ]
+        ],
+        "date": "1904"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05702_Maquet.xml",
@@ -1948,7 +2028,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:62618234 wikidata:Q766768"
             }
-        ]
+        ],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05801_Mille.xml",
@@ -1973,7 +2054,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100905302 wikidata:Q731510"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA05901_Moselly.xml",
@@ -1993,7 +2075,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19681833 wikidata:Q2356724"
             }
-        ]
+        ],
+        "date": "1907"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06001_Rebell.xml",
@@ -2018,7 +2101,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9852444 wikidata:Q3142674"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06101_Sandeau.xml",
@@ -2043,7 +2127,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56616138 wikidata:Q609039"
             }
-        ]
+        ],
+        "date": "1847"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06201_Viel-Castel.xml",
@@ -2068,7 +2153,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:69051610 wikidata:Q3140481"
             }
-        ]
+        ],
+        "date": "1845"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06301_Montepin.xml",
@@ -2093,7 +2179,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:87953024 wikidata:Q2735316"
             }
-        ]
+        ],
+        "date": "1884"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06401_Chandeneux.xml",
@@ -2118,7 +2205,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54272906 wikidata:Q2975144"
             }
-        ]
+        ],
+        "date": "1876"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06501_Gyp.xml",
@@ -2143,7 +2231,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:96218572 wikidata:Q199228"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06601_Peladan.xml",
@@ -2173,7 +2262,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:934869 wikidata:Q710019"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06701_Uchard.xml",
@@ -2198,7 +2288,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:64099498 wikidata:Q14867927"
             }
-        ]
+        ],
+        "date": "1882"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06801_Vaillant.xml",
@@ -2223,7 +2314,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51823427"
             }
-        ]
+        ],
+        "date": "1861"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA06901_Vignon.xml",
@@ -2248,7 +2340,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54831988 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1879"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07001_Mendes.xml",
@@ -2273,7 +2366,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34460397 wikidata:Q971215"
             }
-        ]
+        ],
+        "date": "1892"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07101_Blondel.xml",
@@ -2298,7 +2392,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:301138355 wikidata:missing"
             }
-        ]
+        ],
+        "date": "1856"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07201_Montagne.xml",
@@ -2328,7 +2423,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:76379741 wikidata:Q47843466"
             }
-        ]
+        ],
+        "date": "1886"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07301_Valgand.xml",
@@ -2358,7 +2454,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:missing wikidata:Q111329011"
             }
-        ]
+        ],
+        "date": "1853"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07401_Leblanc.xml",
@@ -2372,7 +2469,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:22144617 wikidata:Q314993"
             }
-        ]
+        ],
+        "date": "1910"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07501_Darien.xml",
@@ -2392,7 +2490,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:59052457 wikidata:Q1508877"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-fra/master/level1/FRA07601_Leroux.xml",
@@ -2406,6 +2505,7 @@
                 "id_type": "viaf",
                 "id_value": "viaf:19680417 wikidata:Q298827"
             }
-        ]
+        ],
+        "date": "1913"
     }
 ]

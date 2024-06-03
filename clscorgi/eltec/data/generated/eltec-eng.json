@@ -11,7 +11,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34551336"
             }
-        ]
+        ],
+        "date": "1840"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18410_Sinclair.xml",
@@ -36,7 +37,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/37692813/"
             }
-        ]
+        ],
+        "date": "1841"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18411_Tupper.xml",
@@ -61,7 +63,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/44385259/"
             }
-        ]
+        ],
+        "date": "1844"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18440_Disraeli.xml",
@@ -81,7 +84,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/49233448/"
             }
-        ]
+        ],
+        "date": "1844"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18450_Disraeli.xml",
@@ -106,7 +110,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/49233448/"
             }
-        ]
+        ],
+        "date": "1845"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18460_Reynolds.xml",
@@ -131,7 +136,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/72764995/"
             }
-        ]
+        ],
+        "date": "1846"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18470_Aguilar.xml",
@@ -156,7 +162,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7628015/"
             }
-        ]
+        ],
+        "date": "1847"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18471_Bronte.xml",
@@ -181,7 +188,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/97097302/"
             }
-        ]
+        ],
+        "date": "1847"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18480_Thackeray.xml",
@@ -206,7 +214,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/95208604/"
             }
-        ]
+        ],
+        "date": "1848"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18481_Dickens.xml",
@@ -231,7 +240,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/88666393/"
             }
-        ]
+        ],
+        "date": "1848"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18482_Gaskell.xml",
@@ -256,7 +266,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/39377536/"
             }
-        ]
+        ],
+        "date": "1848"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18490_Skene.xml",
@@ -281,7 +292,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/26018946/"
             }
-        ]
+        ],
+        "date": "1849"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18500_Ainsworth.xml",
@@ -306,7 +318,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/46894596/"
             }
-        ]
+        ],
+        "date": "1850"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18510_Kingsley.xml",
@@ -331,7 +344,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/27081838/"
             }
-        ]
+        ],
+        "date": "1851"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18530_Dickens.xml",
@@ -356,7 +370,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/88666393/"
             }
-        ]
+        ],
+        "date": "1853"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18531_Yonge.xml",
@@ -376,7 +391,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/71399881/"
             }
-        ]
+        ],
+        "date": "1853"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18540_Dickens.xml",
@@ -401,7 +417,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/88666393/"
             }
-        ]
+        ],
+        "date": "1854"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18551_Trollope.xml",
@@ -415,7 +432,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/61683295/"
             }
-        ]
+        ],
+        "date": "1855"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18552_Kavanagh.xml",
@@ -440,7 +458,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/89854315/"
             }
-        ]
+        ],
+        "date": "1856"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18560_Yonge.xml",
@@ -460,7 +479,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/71399881/"
             }
-        ]
+        ],
+        "date": "1856"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18570_Bronte.xml",
@@ -485,7 +505,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/71388025/"
             }
-        ]
+        ],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18600_Clive.xml",
@@ -510,7 +531,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/3337325/"
             }
-        ]
+        ],
+        "date": "1860"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18610_Eliot.xml",
@@ -530,7 +552,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/89000553/"
             }
-        ]
+        ],
+        "date": "1861"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18621_Braddon.xml",
@@ -555,7 +578,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/66826682/"
             }
-        ]
+        ],
+        "date": "1862"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18630_Craik.xml",
@@ -580,7 +604,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/46793285/"
             }
-        ]
+        ],
+        "date": "1862"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18632_Reade.xml",
@@ -605,7 +630,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/44314913/"
             }
-        ]
+        ],
+        "date": "1863"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18640_Blackmore.xml",
@@ -630,7 +656,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/59105182/"
             }
-        ]
+        ],
+        "date": "1864"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18641_Stretton.xml",
@@ -655,7 +682,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/29892399/"
             }
-        ]
+        ],
+        "date": "1864"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18650_Trollope.xml",
@@ -680,7 +708,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/61683295/"
             }
-        ]
+        ],
+        "date": "1865"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18651_Yonge.xml",
@@ -700,7 +729,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/71399881/"
             }
-        ]
+        ],
+        "date": "1865"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18652_Carroll.xml",
@@ -725,7 +755,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/66462036/"
             }
-        ]
+        ],
+        "date": "1865"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18660_Eliot.xml",
@@ -745,7 +776,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/89000553/"
             }
-        ]
+        ],
+        "date": "1866"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18661_Oliphant.xml",
@@ -770,7 +802,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/49256072/"
             }
-        ]
+        ],
+        "date": "1866"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18670_Ouida.xml",
@@ -790,7 +823,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/34490941/"
             }
-        ]
+        ],
+        "date": "1867"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18700_Oliphant.xml",
@@ -815,7 +849,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/17265739/"
             }
-        ]
+        ],
+        "date": "1870"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18702_Jenkins.xml",
@@ -840,7 +875,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/24837293/"
             }
-        ]
+        ],
+        "date": "1871"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18720_Lynn.xml",
@@ -865,7 +901,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7521381/"
             }
-        ]
+        ],
+        "date": "1872"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18721_Eliot.xml",
@@ -890,7 +927,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/89000553/"
             }
-        ]
+        ],
+        "date": "1872"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18740_Ouida.xml",
@@ -915,7 +953,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/34490941/"
             }
-        ]
+        ],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18741_Bulwer.xml",
@@ -940,7 +979,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/99871326/"
             }
-        ]
+        ],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18742_Trollope.xml",
@@ -965,7 +1005,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/61683295/"
             }
-        ]
+        ],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18760_Collins.xml",
@@ -990,7 +1031,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/95173526/"
             }
-        ]
+        ],
+        "date": "1876"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18770_Mallock.xml",
@@ -1015,7 +1057,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7455306/"
             }
-        ]
+        ],
+        "date": "1877"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18800_Disraeli.xml",
@@ -1040,7 +1083,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/49233448/"
             }
-        ]
+        ],
+        "date": "1880"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18820_Anstey.xml",
@@ -1065,7 +1109,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/69063398/"
             }
-        ]
+        ],
+        "date": "1882"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18830_Broughton.xml",
@@ -1085,7 +1130,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/45106836/"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18831_Ouida.xml",
@@ -1110,7 +1156,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/34490941/"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18840_Lee.xml",
@@ -1135,7 +1182,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/68945580/"
             }
-        ]
+        ],
+        "date": "1884"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18850_Rutherford.xml",
@@ -1160,7 +1208,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/79398669/"
             }
-        ]
+        ],
+        "date": "1885"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18860_Hardy.xml",
@@ -1185,7 +1234,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/54148778/"
             }
-        ]
+        ],
+        "date": "1886"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18870_Barry.xml",
@@ -1205,7 +1255,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/38159288/"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18871_Broughton.xml",
@@ -1230,7 +1281,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/45106836/"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18872_Lyall.xml",
@@ -1255,7 +1307,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/5734093/"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18880_Ward.xml",
@@ -1280,7 +1333,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/27084321/"
             }
-        ]
+        ],
+        "date": "1888"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18890_Nesbit.xml",
@@ -1305,7 +1359,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7394811/"
             }
-        ]
+        ],
+        "date": "1889"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18900_Doyle.xml",
@@ -1325,7 +1380,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/65283845/"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18901_Broughton.xml",
@@ -1350,7 +1406,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/45106836/"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18910_Yeats.xml",
@@ -1375,7 +1432,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/46768718/"
             }
-        ]
+        ],
+        "date": "1891"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18911_Gissing.xml",
@@ -1395,7 +1453,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/59083174/"
             }
-        ]
+        ],
+        "date": "1891"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18920_Grossmith.xml",
@@ -1424,7 +1483,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/64144601/"
             }
-        ]
+        ],
+        "date": "1892"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18930_Benson.xml",
@@ -1449,7 +1509,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/49221488/"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18931_Harraden.xml",
@@ -1474,7 +1535,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/10209589/"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18940_Dixon.xml",
@@ -1499,7 +1561,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/14904505/"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18941_Caird.xml",
@@ -1524,7 +1587,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/24650758/"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18950_Cross.xml",
@@ -1549,7 +1613,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/67411362/"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18951_Ward.xml",
@@ -1574,7 +1639,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/27084321/"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18952_Wells.xml",
@@ -1594,7 +1660,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/97006424/"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18953_Macdonald.xml",
@@ -1619,7 +1686,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/64008667/"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18954_Sharp.xml",
@@ -1644,7 +1712,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/42106129/"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18960_Malet.xml",
@@ -1669,7 +1738,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/9890134/"
             }
-        ]
+        ],
+        "date": "1896"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18961_Griffiths.xml",
@@ -1694,7 +1764,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/74223175/"
             }
-        ]
+        ],
+        "date": "1896"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18970_Phillpots.xml",
@@ -1719,7 +1790,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/56811483/"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18972_Morris.xml",
@@ -1749,7 +1821,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/22146194/"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18973_Cholmondeley.xml",
@@ -1774,7 +1847,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/40510526/"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG18980_BaringGould.xml",
@@ -1799,7 +1873,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/66640079/"
             }
-        ]
+        ],
+        "date": "1898"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19001_Glyn.xml",
@@ -1824,7 +1899,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/59204544/"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19004_Fowler.xml",
@@ -1849,7 +1925,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/72533655/"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19005_Steel.xml",
@@ -1874,7 +1951,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/211452326/"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19010_Mason.xml",
@@ -1899,7 +1977,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/89734277/"
             }
-        ]
+        ],
+        "date": "1901"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19011_Jerome.xml",
@@ -1924,7 +2003,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/12310310/"
             }
-        ]
+        ],
+        "date": "1901"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19020_Nesbit.xml",
@@ -1949,7 +2029,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7394811/"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19060_Nesbit.xml",
@@ -1974,7 +2055,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/7394811/"
             }
-        ]
+        ],
+        "date": "1906"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19070_Machen.xml",
@@ -1999,7 +2081,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/2473758/"
             }
-        ]
+        ],
+        "date": "1907"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19071_Silberrad.xml",
@@ -2024,7 +2107,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/4814869/"
             }
-        ]
+        ],
+        "date": "1907"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19080_Chesterton.xml",
@@ -2049,7 +2133,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/14767719/"
             }
-        ]
+        ],
+        "date": "1908"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19090_Wells.xml",
@@ -2074,7 +2159,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/97006424/"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19091_Ward.xml",
@@ -2099,7 +2185,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/27084321/"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19100_Forster.xml",
@@ -2124,7 +2211,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/31996364/"
             }
-        ]
+        ],
+        "date": "1910"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19111_Hornung.xml",
@@ -2149,7 +2237,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/71409962/"
             }
-        ]
+        ],
+        "date": "1911"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19120_Wells.xml",
@@ -2174,7 +2263,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/97006424/"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19121_Belloc.xml",
@@ -2199,7 +2289,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/24729680/"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19150_Buchan.xml",
@@ -2224,7 +2315,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/66464527/"
             }
-        ]
+        ],
+        "date": "1915"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19170_Conrad.xml",
@@ -2249,7 +2341,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/73862853/"
             }
-        ]
+        ],
+        "date": "1917"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19180_Lewis.xml",
@@ -2269,7 +2362,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/41843119/"
             }
-        ]
+        ],
+        "date": "1918"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19181_West.xml",
@@ -2294,7 +2388,8 @@
                 "id_type": "viaf",
                 "id_value": "http://viaf.org/viaf/108321467"
             }
-        ]
+        ],
+        "date": "1918"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19190_Benson.xml",
@@ -2319,7 +2414,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/90724564/"
             }
-        ]
+        ],
+        "date": "1919"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19191_Hamilton.xml",
@@ -2344,7 +2440,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/54947993/"
             }
-        ]
+        ],
+        "date": "1919"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19192_Woolf.xml",
@@ -2369,7 +2466,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/39385478/"
             }
-        ]
+        ],
+        "date": "1919"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19200_Lawrence.xml",
@@ -2394,7 +2492,8 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/95150359/"
             }
-        ]
+        ],
+        "date": "1920"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-eng/master/level1/ENG19201_Arlen.xml",
@@ -2419,6 +2518,7 @@
                 "id_type": "viaf",
                 "id_value": "https://viaf.org/viaf/19715803/"
             }
-        ]
+        ],
+        "date": "1919"
     }
 ]

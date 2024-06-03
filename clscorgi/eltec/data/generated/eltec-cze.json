@@ -12,7 +12,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1855"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0002_1857_Janda-Cidlinsky_Jaroslav.xml",
@@ -27,7 +28,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0003_1857_Zizala-Donovsky_Karbanik-a-rodina-jeho.xml",
@@ -42,7 +44,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0004_1857_Ehrenberg_Vitezstvi-u-Horine.xml",
@@ -57,7 +60,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0005_1857_Kricensky_Lichvar-a-pokoutnik.xml",
@@ -72,7 +76,8 @@
                 "source_type": "unspecified"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0006_1857_Pravda_Krejci-Fortunat.xml",
@@ -87,7 +92,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0007_1857_Prokop_Jeden-rok-z-mladeho-zivota.xml",
@@ -102,7 +108,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1857"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0008_1858_Formanek-Cinovesky_Bitva-u-Nyrska.xml",
@@ -117,7 +124,8 @@
                 "source_type": "unspecified"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1858"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0009_1860_Formanek-Cinovesky_Smirena-vina.xml",
@@ -132,7 +140,8 @@
                 "source_type": "unspecified"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1860"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0010_1860_Sabina_Jen-tri-leta.xml",
@@ -147,7 +156,8 @@
                 "source_type": "unspecified"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1860"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0011_1864_Svestka_Posledni-vecer-v-roce.xml",
@@ -162,7 +172,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1864"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0012_1867_Chocholousek_Templari-v-Cechach.xml",
@@ -177,7 +188,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1867"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0013_1867_Mollenda_Vecer-svatojansky.xml",
@@ -192,7 +204,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1867"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0014_1870_Vlcek_Pani-Lichnicka.xml",
@@ -207,7 +220,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1870"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0015_1874_Vavra_Ratmir.xml",
@@ -222,7 +236,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0016_1875_Jirasek_Skalaci.xml",
@@ -237,7 +252,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1875"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0017_1878_Stasek_Nedokonceny-obraz.xml",
@@ -252,7 +268,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0018_1881_Svestka_Pravy-pritel.xml",
@@ -267,7 +284,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1881"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0019_1881_Vitek_Dva-nestejni-bratri.xml",
@@ -282,7 +300,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1881"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0020_1885_Karas_Cesky-plavec-na-severu.xml",
@@ -297,7 +316,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1885"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0021_1891_Unger_Mlada-knezna-abatyse.xml",
@@ -312,7 +332,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1891"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0022_1896_Kuchar_Paserova-Anezka.xml",
@@ -327,7 +348,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1896"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0023_1899_Vikova-Kuneticka_Silhouetty-muzu.xml",
@@ -342,7 +364,8 @@
                 "source_type": "digitalSource"
             }
         ],
-        "author_ids": []
+        "author_ids": [],
+        "date": "1899"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0024_1853_Pravda_Zenich-se-ctyrmi-sty-zlatymi.xml",
@@ -362,7 +385,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:243510323"
             }
-        ]
+        ],
+        "date": "1853"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0025_1855_Nemcova_Babicka.xml",
@@ -382,7 +406,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56763450"
             }
-        ]
+        ],
+        "date": "1855"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0026_1856_Nemcova_Pohorska-vesnice.xml",
@@ -402,7 +427,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56763450"
             }
-        ]
+        ],
+        "date": "1856"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0027_1858_Pfleger-Moravsky_Dva-umelci.xml",
@@ -422,7 +448,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:72907969"
             }
-        ]
+        ],
+        "date": "1858"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0028_1866_Krousky_Bratri-z-kalichu.xml",
@@ -442,7 +469,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83793015"
             }
-        ]
+        ],
+        "date": "1866"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0029_1868_Svetla_Kriz-u-potoka.xml",
@@ -462,7 +490,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9890083"
             }
-        ]
+        ],
+        "date": "1868"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0030_1869_Hruby-Bradelsky_Bratri-smrti.xml",
@@ -482,7 +511,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83742904"
             }
-        ]
+        ],
+        "date": "1869"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0031_1870_Sabina_Ozivene-hroby.xml",
@@ -502,7 +532,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:42003196"
             }
-        ]
+        ],
+        "date": "1870"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0032_1872_Stankovsky_Kral-a-biskup.xml",
@@ -522,7 +553,8 @@
                 "id_type": null,
                 "id_value": "53331568"
             }
-        ]
+        ],
+        "date": "1872"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0033_1873_Svetla_Nemodlenec.xml",
@@ -542,7 +574,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9890083"
             }
-        ]
+        ],
+        "date": "1873"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0034_1874_Ptacek_Dva-bratri.xml",
@@ -562,7 +595,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83874859"
             }
-        ]
+        ],
+        "date": "1874"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0035_1876_Svetla_Cerny-petricek.xml",
@@ -582,7 +616,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:9890083"
             }
-        ]
+        ],
+        "date": "1876"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0036_1878_Arbes_Newtonuv-mozek.xml",
@@ -602,7 +637,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54185097"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0037_1878_Podlipska_Nalzovsky.xml",
@@ -622,7 +658,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:23253388"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0038_1878_Stroupeznicky_Cavani.xml",
@@ -642,7 +679,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:3910920"
             }
-        ]
+        ],
+        "date": "1878"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0039_1879_Klicpera_Bitva-u-Lipan.xml",
@@ -662,7 +700,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:122054805"
             }
-        ]
+        ],
+        "date": "1879"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0040_1881_Vinaricky_Tajnosti-Svatovaclavske-trestnice.xml",
@@ -682,7 +721,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:37280683"
             }
-        ]
+        ],
+        "date": "1881"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0041_1883_Kostelecky_Z-lasky.xml",
@@ -702,7 +742,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83782685"
             }
-        ]
+        ],
+        "date": "1883"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0042_1885_Reznicek_Povidka-o-Viktorce.xml",
@@ -722,7 +763,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:26636691"
             }
-        ]
+        ],
+        "date": "1885"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0043_1886_Jirasek_Psohlavci.xml",
@@ -742,7 +784,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34469656"
             }
-        ]
+        ],
+        "date": "1886"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0044_1886_Zitek_Drama-rodiny-pana-Daniele.xml",
@@ -762,7 +805,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:306139253"
             }
-        ]
+        ],
+        "date": "1886"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0045_1887_Arbes_Kandidati-existence.xml",
@@ -782,7 +826,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54185097"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0046_1887_Skaba_Masopust-v-Sobeslavi.xml",
@@ -802,7 +847,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:39188906"
             }
-        ]
+        ],
+        "date": "1887"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0047_1888_Cech_Pravy-vylet-pana-Broucka-do-Mesice.xml",
@@ -822,7 +868,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:47560290"
             }
-        ]
+        ],
+        "date": "1888"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0048_1889_Simacek_Bratri.xml",
@@ -842,7 +889,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56167367"
             }
-        ]
+        ],
+        "date": "1889"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0049_1889_Slejhar_Kure-melancholik.xml",
@@ -862,7 +910,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:62971865"
             }
-        ]
+        ],
+        "date": "1889"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0050_1889_Cech_Novy-epochalni-vylet-pana-Broucka.xml",
@@ -882,7 +931,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:47560290"
             }
-        ]
+        ],
+        "date": "1889"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0051_1890_Arbes_Andel-miru.xml",
@@ -902,7 +952,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54185097"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0052_1890_Jirasek_Filosofska-historie.xml",
@@ -922,7 +973,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:34469656"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0053_1890_Slama_Rytir-Kobylka.xml",
@@ -942,7 +994,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:51683557"
             }
-        ]
+        ],
+        "date": "1890"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0054_1891_Zeyer_Jan-Maria-Plojhar.xml",
@@ -962,7 +1015,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:24621314"
             }
-        ]
+        ],
+        "date": "1891"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0055_1893_Jelinek_Motylek-z-norske-pohadky.xml",
@@ -982,7 +1036,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56167322"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0056_1893_Klostermann_V-raji-sumavskem.xml",
@@ -1002,7 +1057,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:810251"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0057_1893_Mrstik_Santa-Lucia.xml",
@@ -1022,7 +1078,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:22185988"
             }
-        ]
+        ],
+        "date": "1893"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0058_1894_Adamec_Jakub-Prochazka.xml",
@@ -1042,7 +1099,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83654693"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0059_1894_Klostermann_Ze-sveta-lesnich-samot.xml",
@@ -1062,7 +1120,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:810251"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0060_1894_Rais_Zapadli-vlastenci.xml",
@@ -1082,7 +1141,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:50033731"
             }
-        ]
+        ],
+        "date": "1894"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0061_1895_Capek-Chod_V-tretim-dvore.xml",
@@ -1102,7 +1162,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54187784"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0062_1895_Rais_Kalibuv-zlocin.xml",
@@ -1122,7 +1183,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:50033731"
             }
-        ]
+        ],
+        "date": "1895"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0063_1884_Bubnik_V-temnotach-bludu.xml",
@@ -1142,7 +1204,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83677561"
             }
-        ]
+        ],
+        "date": "1884"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0064_1896_Klostermann_Sklari.xml",
@@ -1162,7 +1225,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:810251"
             }
-        ]
+        ],
+        "date": "1896"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0065_1897_Mrstik_Pohadka-maje.xml",
@@ -1182,7 +1246,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:22185988"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0066_1897_Popelkova_Za-jeden-hrich.xml",
@@ -1202,7 +1267,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83867922"
             }
-        ]
+        ],
+        "date": "1897"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0067_1898_Baar_Makabejsti.xml",
@@ -1222,7 +1288,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54946709"
             }
-        ]
+        ],
+        "date": "1898"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0068_1899_Zahradnik-Brodsky_Rodina-Sillerova.xml",
@@ -1242,7 +1309,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:63896409"
             }
-        ]
+        ],
+        "date": "1899"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0069_1899_Konrad_Druha-laska.xml",
@@ -1262,7 +1330,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:41746070"
             }
-        ]
+        ],
+        "date": "1899"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0070_1899_Rais_Zapad.xml",
@@ -1282,7 +1351,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:50033731"
             }
-        ]
+        ],
+        "date": "1899"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0071_1899_Svobodova_Zamotana-vlakna.xml",
@@ -1302,7 +1372,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:50749113"
             }
-        ]
+        ],
+        "date": "1899"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0072_1902_Benes-Sumavsky_Otrokar.xml",
@@ -1322,7 +1393,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:100393519"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0073_1902_Hrdina_Vlastni-silou.xml",
@@ -1342,7 +1414,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:170539218"
             }
-        ]
+        ],
+        "date": "1902"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0074_1892_Heller_Roman-na-mori.xml",
@@ -1362,7 +1435,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:48419087"
             }
-        ]
+        ],
+        "date": "1892"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0075_1906_Necasek_Jarmo-millionu.xml",
@@ -1382,7 +1456,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:21860571"
             }
-        ]
+        ],
+        "date": "1906"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0076_1908_Baar_Jan-Cimbura.xml",
@@ -1402,7 +1477,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54946709"
             }
-        ]
+        ],
+        "date": "1908"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0077_1908_Malirova_Pravo-na-stesti.xml",
@@ -1422,7 +1498,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:47255955"
             }
-        ]
+        ],
+        "date": "1908"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0078_1909_Mahen_Kamaradi-svobody.xml",
@@ -1442,7 +1519,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:61589020"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0079_1909_Winter_Mistr-Kampanus.xml",
@@ -1462,7 +1540,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:32047458"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0080_1900_Cervinka_Boj-s-kapitalem.xml",
@@ -1482,7 +1561,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83688650"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0081_1912_Ladecky_Na-tichem-venkove.xml",
@@ -1502,7 +1582,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:66352226"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0082_1912_Salda_Zivot-ironicky.xml",
@@ -1522,7 +1603,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:14783197"
             }
-        ]
+        ],
+        "date": "1912"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0083_1913_Cecetka_Kralovsky-rychtar.xml",
@@ -1542,7 +1624,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:58938479"
             }
-        ]
+        ],
+        "date": "1913"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0084_1914_Cervinka_Rusalka.xml",
@@ -1562,7 +1645,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:58867257"
             }
-        ]
+        ],
+        "date": "1914"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0085_1915_Dyk_Krysar.xml",
@@ -1582,7 +1666,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:32074913"
             }
-        ]
+        ],
+        "date": "1915"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0086_1915_Karas_Do-ctyr-artikulu.xml",
@@ -1602,7 +1687,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56481130"
             }
-        ]
+        ],
+        "date": "1915"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0087_1915_Smilovsky_Parnassie.xml",
@@ -1622,7 +1708,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:295593657"
             }
-        ]
+        ],
+        "date": "1915"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0088_1916_Capek-Chod_Turbina.xml",
@@ -1642,7 +1729,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54187784"
             }
-        ]
+        ],
+        "date": "1916"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0089_1916_Chocholousek_Karel-IV-a-rimsky-tribun-lidu.xml",
@@ -1662,7 +1750,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:57514269"
             }
-        ]
+        ],
+        "date": "1916"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0090_1916_Sova_Ivuv-roman.xml",
@@ -1682,7 +1771,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:61679211"
             }
-        ]
+        ],
+        "date": "1916"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0091_1917_Salda_Loutky-i-delnici-bozi.xml",
@@ -1702,7 +1792,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:14783197"
             }
-        ]
+        ],
+        "date": "1917"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0092_1918_Herrmann_Vdavky-Nanynky-Kulichovy.xml",
@@ -1722,7 +1813,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:61679211"
             }
-        ]
+        ],
+        "date": "1918"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0093_1918_Klecanda_Pravo-mladi.xml",
@@ -1742,7 +1834,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:56422442"
             }
-        ]
+        ],
+        "date": "1918"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0094_1918_Vlasakova_Myslivcova-dceruska.xml",
@@ -1762,7 +1855,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83957886"
             }
-        ]
+        ],
+        "date": "1918"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0095_1920_Hasek_Osudy-dobreho-vojaka-Svejka.xml",
@@ -1782,7 +1876,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:4931097"
             }
-        ]
+        ],
+        "date": "1920"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0096_1900_Filip_Markyza-s-trojim-srdcem.xml",
@@ -1802,7 +1897,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83707680"
             }
-        ]
+        ],
+        "date": "1900"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0097_1901_Javornik_Svaty-Hostyn.xml",
@@ -1822,7 +1918,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83755391"
             }
-        ]
+        ],
+        "date": "1901"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0098_1904_Vlcek_Golgota-i-Tabor.xml",
@@ -1842,7 +1939,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:18789968"
             }
-        ]
+        ],
+        "date": "1904"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0099_1909_Kopal_Apostol-trhanu.xml",
@@ -1862,7 +1960,8 @@
                 "id_type": "viaf",
                 "id_value": "viaf:83780260"
             }
-        ]
+        ],
+        "date": "1909"
     },
     {
         "resource_uri": "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-cze/master/level1/CS0100_1914_Baar_K-bohu.xml",
@@ -1882,6 +1981,7 @@
                 "id_type": "viaf",
                 "id_value": "viaf:54946709"
             }
-        ]
+        ],
+        "date": "1914"
     }
 ]
