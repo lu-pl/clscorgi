@@ -69,6 +69,7 @@ class ReMBindingsModel(BaseModel):
     title: str
     genre: str | None
     token_count: str
+    resource_url: AnyUrl
     publication: PublicationData
     source: ReMSourceData
 
