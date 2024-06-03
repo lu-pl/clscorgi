@@ -172,12 +172,11 @@ def unescaped(f) -> Callable:
 
 
 def construct_artificial_title(value: str):
+    _match = re.match(r".+[A-Z]\w*(?!\-)\b", value)
+    if _match is not None:
+        value = _match.group()
+
     _match = re.match(r".+[,.!]", value)
     if _match is not None:
         value = _match.group().rstrip(",")
-
-    elif value.endswith("-"):
-        _match = re.match(r".+[A-Z]\w+", value)
-        if _match is not None:
-            value = _match.group()
     return value
