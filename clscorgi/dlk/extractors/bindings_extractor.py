@@ -6,9 +6,9 @@ from pathlib import Path
 from urllib.request import urlretrieve
 
 from clscorgi.bindings_abc import BindingsExtractor
-from clscorgi.dlk.extractors.tree_extractors import (get_author_names,
+from clscorgi.dlk.extractors.tree_extractors import (get_artificial_title,
+                                                     get_author_names,
                                                      get_features,
-                                                     get_first_line,
                                                      get_publication_date,
                                                      get_title, get_urn)
 from lxml import etree
@@ -50,7 +50,7 @@ class DLKBindingsExtractor(BindingsExtractor):
             "dlk_id": self.dlk_path.dlk_id,
             "authors": list(get_author_names(tree)),
             "title": get_title(tree),
-            "first_line": get_first_line(tree),
+            "artificial_title": get_artificial_title(tree),
             "features_dlk": get_features(tree),
             "publication_date": get_publication_date(tree)
         }

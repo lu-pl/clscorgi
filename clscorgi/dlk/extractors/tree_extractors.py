@@ -4,7 +4,8 @@ import re
 from collections.abc import Callable, Iterator
 from functools import partial
 
-from clscorgi.utils.utils import unescape, unescaped
+from clscorgi.utils.utils import (construct_artificial_title, unescape,
+                                  unescaped)
 from lxml import etree
 
 TEIXPath = partial(
@@ -60,11 +61,11 @@ def get_title(tree: etree._ElementTree) -> str | None:
 
 
 @unescaped
-def get_first_line(tree: etree._ElementTree) -> str:
-    """Extract the first line text from a DLK tree."""
+def get_artificial_title(tree: etree._ElementTree) -> str:
+    """Extract the first line text from a DLK tree and construt a title."""
     first_line = TEIXPath("//tei:lg[@type='poem']/tei:lg/tei:l[1]/text()")(tree)[0]
-    first_line = first_line.strip(", ")
-    return first_line
+    artificial_title = construct_artificial_title(first_line.strip(","))
+    return artificial_title
 
 
 def get_urn(tree: etree._ElementTree) -> str:
