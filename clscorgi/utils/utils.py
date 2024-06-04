@@ -179,4 +179,4 @@ def construct_artificial_title(value: str):
     _match = re.match(r".+[,.!]", value)
     if _match is not None:
         value = _match.group().rstrip(",")
-    return value
+    return value.capitalize()
