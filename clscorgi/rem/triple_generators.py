@@ -281,7 +281,7 @@ def wemi_e2_triple_generator(
         if pub_idno := bindings.publication.idno:
             yield from ttl(
                 uris.f30_f3pub,
-                (RDF.type, lrm.F30_Manifestation),
+                (RDF.type, lrm.F30_Manifestation_Creation),
                 (RDFS.label, Literal(f"{pub_idno} [Manifestation Creation]"))
             )
 
