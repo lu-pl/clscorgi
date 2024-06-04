@@ -23,7 +23,7 @@ class dlk_wemi_triples:
         self.bindings = bindings
         self.namespace = namespace
 
-        self.title = self.bindings.title or self.bindings.first_line
+        self.title = self.bindings.title or self.bindings.artificial_title
         self.authors_mapping: dict[str, URIRef] = {
             author.full_name: mkuri(author.full_name)
             for author in self.bindings.authors
