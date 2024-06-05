@@ -81,7 +81,7 @@ class dlk_wemi_triples:
             self.namespace.f2,
             (RDF.type, lrm.F2_Expression),
             (RDFS.label, Literal(f"{self.title} [Expression Title]")),
-            (lrm.R41_is_embodied_in, (self.namespace.f3, self.namespace.x2))
+            (lrm.R4i_is_embodied_in, (self.namespace.f3, self.namespace.x2))
         )
 
         f3_triples = ttl(
@@ -107,7 +107,7 @@ class dlk_wemi_triples:
             (RDFS.label, Literal(f"{self.title} [Corpus Document Title]")),
             (lrm.R4_embodies, self.namespace.f2),
             (lrm.R71i_is_part_of, self.namespace.x1_dlk),
-            (lrm.P148i_is_component_of, self.namespace.x1_dlk),
+            (crm.P148i_is_component_of, self.namespace.x1_dlk),
             (crm.P137_exemplifies, self.namespace.x11_dlk),
             (crm.P72_has_language, URIRef("https://vocabs.acdh.oeaw.ac.at/iso6391/de")),
             (crm.P1_is_identified_by, (
@@ -135,7 +135,7 @@ class dlk_wemi_triples:
             (RDF.type, lrm.F27_Work_Creation),
             (RDFS.label, Literal(f"{self.title} [Work Creation]")),
             (lrm.R16_created, self.namespace.f1),
-            (lrm.P14_carried_out_by, author_uris)
+            (crm.P14_carried_out_by, author_uris)
         )
 
         f28_triples = ttl(
