@@ -180,3 +180,20 @@ def construct_artificial_title(value: str):
     if _match is not None:
         value = _match.group().rstrip(",")
     return value.capitalize()
+
+
+def ntimes(*, n: int = 1, default: Any = None) -> Callable[[Callable], Any]:
+    """Decorator for running a function n times before returning a result."""
+    _cnt = 0
+    def _decor(f: Callable):
+        def _wrapper(*args, **kwargs):
+            nonlocal _cnt
+            _cnt += 1
+            if _cnt <= n:
+                result = f(*args, **kwargs)
+                return result
+            return default
+        return _wrapper
+    return _decor
+
+static: Callable[[Callable], Any] = ntimes(n=1, default=tuple())
