@@ -3,7 +3,7 @@
 import itertools
 from collections.abc import Iterator
 
-from clisn import clscore, crm, lrm
+from clisn import clscore, crm, crmcls, lrm
 from clscorgi.models import DLKBindingsModel
 from lodkit import URINamespace, _Triple, mkuri_factory, ttl
 from rdflib import Literal, URIRef
@@ -103,7 +103,7 @@ class dlk_wemi_triples:
         """Triple generator for X2 triples."""
         return ttl(
             self.namespace.x2,
-            (RDF.type, crm.X2_Corpus_Document),
+            (RDF.type, crmcls.X2_Corpus_Document),
             (RDFS.label, Literal(f"{self.title} [Corpus Document Title]")),
             (lrm.R4_embodies, self.namespace.f2),
             (lrm.R71i_is_part_of, self.namespace.x1_dlk),
