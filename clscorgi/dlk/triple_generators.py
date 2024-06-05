@@ -47,6 +47,7 @@ class dlk_wemi_triples:
         yield from ttl(
             mkuri(f"{self.title} [Title]"),
             (RDF.type, crm.E35_Title),
+            (RDFS.label, Literal(f"{self.title} [Title]")),
             (
                 crm.P102i_is_title_of, (
                     self.namespace.f1,
@@ -112,13 +113,13 @@ class dlk_wemi_triples:
             (crm.P1_is_identified_by, (
                 [
                     (RDF.type, crm.E42_Identifier),
-                    (RDFS.label, Literal(f"{self.bindings.dlk_id} [DLK ID]")),
+                    (RDFS.label, Literal(f"{self.bindings.title} [DLK ID]")),
                     (crm.P190_has_symbolic_content, Literal(f"{self.bindings.dlk_id}")),
                     (crm.P2_has_type, self.namespace.e55_id)
                 ],
                 [
                     (RDF.type, crm.E42_Identifier),
-                    (RDFS.label, Literal(f"{self.bindings.resource_uri} [DLK ID URL]")),
+                    (RDFS.label, Literal(f"{self.bindings.title} [DLK ID URL]")),
                     (crm.P190_has_symbolic_content, Literal(f"{self.bindings.resource_uri}")),
                     (crm.P2_has_type, self.namespace.e55_id_url)
                 ]
@@ -177,10 +178,11 @@ class dlk_wemi_triples:
                 author_uri,
                 (RDF.type, crm.E39_Author),
                 (RDFS.label, Literal(f"{author_name} [Actor]")),
-                (crm.P1_is_identified_by, [
+                (crm.P1_is_identified_by, ttl(
+                    mkuri(f"{author_name} [Actor]"),
                     (RDF.type, crm.E41_Appellation),
                     (crm.P190_has_symbolic_content, Literal(f"{author_name} [Actor]"))
-                ])
+                ))
             )
 
 
