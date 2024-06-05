@@ -167,7 +167,10 @@ def f3_triple_generator(
         symbolic_content=bindings.source.idno
     )
 
-    return itertools.chain(f3pub_triples, f3src_triples)
+    return itertools.chain(
+        f3pub_triples,
+        f3src_triples
+    )
 
 
 def f5_triple_generator(
@@ -282,7 +285,8 @@ def wemi_e2_triple_generator(
             yield from ttl(
                 uris.f30_f3pub,
                 (RDF.type, lrm.F30_Manifestation_Creation),
-                (RDFS.label, Literal(f"{pub_idno} [Manifestation Creation]"))
+                (RDFS.label, Literal(f"{pub_idno} [Manifestation Creation]")),
+                (lrm.R24_created, uris.f3pub)
             )
 
             if date := bindings.publication.date:
