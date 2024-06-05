@@ -183,7 +183,7 @@ def construct_artificial_title(value: str):
 
 
 def ntimes(*, n: int = 1, default: Any = None) -> Callable[[Callable], Any]:
-    """Decorator for running a function n times before returning a result."""
+    """Decorator for running a function n times before returning a default."""
     _cnt = 0
     def _decor(f: Callable):
         def _wrapper(*args, **kwargs):
