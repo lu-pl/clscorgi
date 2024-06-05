@@ -106,13 +106,13 @@ def x2_pg_triple_generator(
         (crm.P1_is_identified_by, [
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal(f"{bindings.title} [Gutenberg ID]")),
-            (crm.P190_has_symbolic_value, Literal(f"{bindings.id}", datatype=XSD.integer)),
+            (crm.P190_has_symbolic_content, Literal(f"{bindings.id}", datatype=XSD.integer)),
             (crm.P2_has_type, namespace.e55_id)
         ]),
         (crm.P1_is_identified_by, [
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal(f"{bindings.title} [Gutenberg ID URL]")),
-            (crm.P190_has_symbolic_value, Literal(f"{bindings.id_url}", datatype=XSD.anyURI)),
+            (crm.P190_has_symbolic_content, Literal(f"{bindings.id_url}", datatype=XSD.anyURI)),
             (crm.P2_has_type, namespace.e55_id_url)
         ])
     )
