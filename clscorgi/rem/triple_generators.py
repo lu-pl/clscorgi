@@ -81,14 +81,14 @@ def x2_triple_generator(
             mkuri(),
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal(f"{bindings.title} [ReM ID]")),
-            (crm.P190_has_symbolic_value, Literal(f"{bindings.id}")),
+            (crm.P190_has_symbolic_content, Literal(f"{bindings.id}")),
             (crm.P2_has_type, uris.e55_rem_document_id)
         )),
         (crm.P1_is_identified_by, ttl(
             mkuri(),
             (RDF.type, crm.E42_Identifier),
             (RDFS.label, Literal(f"{bindings.title} [ReM URL ID]")),
-            (crm.P190_has_symbolic_value, Literal(f"{bindings.resource_url}")),
+            (crm.P190_has_symbolic_content, Literal(f"{bindings.resource_url}")),
             (crm.P2_has_type, uris.e55_url_id)
         )),
         (lrm.R71i_is_part_of, ttl(
