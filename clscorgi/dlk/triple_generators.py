@@ -74,7 +74,7 @@ class dlk_wemi_triples:
             self.namespace.f1,
             (RDF.type, lrm.F1_Work),
             (RDFS.label, Literal(f"{self.title} [Work Title]")),
-            (lrm.R3_is_realized_in, self.namespace.f2)
+            (lrm.R3_is_realised_in, self.namespace.f2)
         )
 
         f2_triples = ttl(
