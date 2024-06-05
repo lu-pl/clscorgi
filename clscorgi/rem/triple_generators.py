@@ -28,7 +28,7 @@ def generate_uri_namespace() -> URINamespace:
         names=(
             "f1", "f2", "x2", "f3pub", "f3src", "f5",
             "f27", "f28", "f30_x2", "f30_f3pub", "f30_f3src", "f32",
-            "e17", "e35", "e53",
+            "e17", "e35", "e52",
             ("x1_rem", "ReM [X1]"),
             ("x11_rem", "ReM [X11]"),
             *e55_pairs
@@ -310,14 +310,14 @@ def wemi_e2_triple_generator(
             yield from ttl(
                 uris.f32,
                 (crm["P4_has_time-span"], ttl(
-                    uris.e53, (RDF.type, crm["E53_Time-Span"])
+                    uris.e52, (RDF.type, crm["E52_Time-Span"])
                 ))
             )
 
             if tpq := bindings.source.tpq:
-                yield (uris.e53, crm.P81a_end_of_the_begin, Literal(tpq, datatype=XSD.gYear))
+                yield (uris.e52, crm.P81a_end_of_the_begin, Literal(tpq, datatype=XSD.gYear))
             if taq := bindings.source.taq:
-                yield (uris.e53, crm.P81b_begin_of_the_end, Literal(taq, datatype=XSD.gYear))
+                yield (uris.e52, crm.P81b_begin_of_the_end, Literal(taq, datatype=XSD.gYear))
 
 
     return itertools.chain(
