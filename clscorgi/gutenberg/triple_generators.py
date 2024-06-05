@@ -3,7 +3,7 @@
 from collections.abc import Iterator
 from itertools import chain
 
-from clisn import crm, crmcls, lrm, clscore
+from clisn import clscore, crm, crmcls, lrm
 from clscorgi.models import GutenbergBindingsModel
 from lodkit import URINamespace, _Triple, mkuri_factory, ttl
 from rdflib import Literal, Namespace, URIRef
@@ -105,13 +105,13 @@ def x2_pg_triple_generator(
         )),
         (crm.P1_is_identified_by, [
             (RDF.type, crm.E42_Identifier),
-            (RDFS.label, Literal(f"{bindings.id} [Gutenberg ID]")),
+            (RDFS.label, Literal(f"{bindings.title} [Gutenberg ID]")),
             (crm.P190_has_symbolic_value, Literal(f"{bindings.id}", datatype=XSD.integer)),
             (crm.P2_has_type, namespace.e55_id)
         ]),
         (crm.P1_is_identified_by, [
             (RDF.type, crm.E42_Identifier),
-            (RDFS.label, Literal(f"{bindings.id_url} [Gutenberg ID URL]")),
+            (RDFS.label, Literal(f"{bindings.title} [Gutenberg ID URL]")),
             (crm.P190_has_symbolic_value, Literal(f"{bindings.id_url}", datatype=XSD.anyURI)),
             (crm.P2_has_type, namespace.e55_id_url)
         ])
