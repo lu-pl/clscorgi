@@ -176,7 +176,7 @@ class dlk_wemi_triples:
         for author_name, author_uri in self.authors_mapping.items():
             yield from ttl(
                 author_uri,
-                (RDF.type, crm.E39_Author),
+                (RDF.type, crm.E39_Actor),
                 (RDFS.label, Literal(f"{author_name} [Actor]")),
                 (crm.P1_is_identified_by, ttl(
                     mkuri(f"{author_name} [Actor]"),
