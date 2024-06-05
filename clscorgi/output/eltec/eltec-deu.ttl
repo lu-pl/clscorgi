@@ -5206,7 +5206,7 @@ clscore:038681e3-3 a crmcls:X2_Corpus_Document ;
     crm:P137_exemplifies clscore:82c7507d1b ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
             rdfs:label "Die Amazonenschlacht [ELTeC ID URL]" ;
-            crm:P190_has_symbolic_content "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU060.xml" ;
+    crm:P190_has_symbolic_content "https://raw.githubusercontent.com/COST-ELTeC/ELTeC-deu/master/level1/DEU060.xml" ;
             crm:P2_has_type clscore:119ae0d4fb ],
         clscore:6de860e7-9 ;
     crmcls:Y2_has_format <https://clscor.io/entity/type/format/tei> ;
