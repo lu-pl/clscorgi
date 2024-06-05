@@ -103,7 +103,7 @@ class dlk_wemi_triples:
         """Triple generator for X2 triples."""
         return ttl(
             self.namespace.x2,
-            (RDF.type, clscore.X2_Corpus_Document),
+            (RDF.type, crm.X2_Corpus_Document),
             (RDFS.label, Literal(f"{self.title} [Corpus Document Title]")),
             (lrm.R4_embodies, self.namespace.f2),
             (lrm.R71i_is_part_of, self.namespace.x1_dlk),
