@@ -188,7 +188,11 @@ def dlk_static_triples(
         bindings: DLKBindingsModel,
         namespace: URINamespace
 ) -> Iterator[_Triple]:
-    """Generate static E55 triples for DLK."""
+    """Generate static E55 triples for DLK.
+
+    Note that static triples need to be generated only once
+    not at every data iteration. Todo: find a good solution for this.
+    """
     e55_id_triples = ttl(
         namespace.e55_id,
         (RDF.type, crm.E55_Type),
