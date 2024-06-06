@@ -25,6 +25,19 @@ source_types: tuple[str, ...] = (
 )
 
 
+class _ELTeConlluStatsModel(BaseModel):
+    """Model for ELTeC conllu stats."""
+    model_config = ConfigDict(extra="allow")
+    count_token: int
+
+
+class ELTeCFeaturesBindingsModel(BaseModel):
+    """Bindings model for ELTeC featues data."""
+    resource_uri: AnyUrl
+    conllu_stats: _ELTeConlluStatsModel
+
+
+
 class IDMapping(BaseModel):
     """Simple model schema for IDMappings."""
     id_type: Literal[vocab_id_types] | None  # type: ignore
