@@ -12,7 +12,7 @@ def e13_eltec_features_generator(
         bindings: ELTeCFeaturesBindingsModel,
 ):
     """Triple generator for ELTec Features triples"""
-    x2_uri = mkuri(f"{bindings.resource_uri}")
+    x2_uri = mkuri(f"{bindings.resource_uri} [X2]")
 
     e13_token_triples = ttl(
         mkuri(),
@@ -30,7 +30,7 @@ def e13_eltec_features_generator(
         (crm.P140_assigned_attribute_to, x2_uri),
         (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
         (crm.P141_assigned, ttl(
-            mkuri("Token [X3]"),
+            mkuri(),
             (RDF.type, crmcls.X3_Feature),
             (crm.P2_has_type, URIRef("https://clscor.io/entity/type/feature/token")),
             (crm.P91i_is_unit_of, [
