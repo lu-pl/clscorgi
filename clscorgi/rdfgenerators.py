@@ -12,6 +12,8 @@ from rdflib import Literal, URIRef
 from rdflib.namespace import OWL, RDF, RDFS
 
 from clscorgi.dlk.triple_generators import dlk_wemi_triples
+from clscorgi.eltec_features.triple_generators import \
+    e13_eltec_features_generator
 from clscorgi.gutenberg.triple_generators import (
     lrm_boilerplate_triple_generator, x2_pg_triple_generator)
 from clscorgi.models import (DLKBindingsModel, ELTeCBindingsModel,
@@ -40,7 +42,7 @@ class ELTeCFeaturesRDFGenerator(RDFGenerator):
 
     def generate_triples(self) -> Iterator[_Triple]:
         """Generate ELTeC feature triples."""
-        pass
+        return e13_eltec_features_generator(self.bindings)
 
 class ELTeCRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for ELTeC corpora."""
