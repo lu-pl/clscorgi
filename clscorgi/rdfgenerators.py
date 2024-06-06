@@ -15,6 +15,7 @@ from clscorgi.dlk.triple_generators import dlk_wemi_triples
 from clscorgi.gutenberg.triple_generators import (
     lrm_boilerplate_triple_generator, x2_pg_triple_generator)
 from clscorgi.models import (DLKBindingsModel, ELTeCBindingsModel,
+                             ELTeCFeaturesBindingsModel,
                              GutenbergBindingsModel, IDMapping,
                              ReMBindingsModel, SourceData)
 from clscorgi.rdfgenerator_abc import RDFGenerator
@@ -31,6 +32,15 @@ from clscorgi.utils.namespace import nsbase
 from clscorgi.utils.utils import mkuri, resolve_source_type, uri_ns
 from clscorgi.vocabs.vocabs import VocabLookupException, vocab
 
+
+class ELTeCFeaturesRDFGenerator(RDFGenerator):
+    """CLSCor RDFGenerator for ELTeC features."""
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, model=ELTeCFeaturesBindingsModel, **kwargs)
+
+    def generate_triples(self) -> Iterator[_Triple]:
+        """Generate ELTeC feature triples."""
+        pass
 
 class ELTeCRDFGenerator(RDFGenerator):
     """CLSCor RDFGenerator for ELTeC corpora."""
