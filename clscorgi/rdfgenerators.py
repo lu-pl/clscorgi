@@ -42,6 +42,13 @@ class ELTeCFeaturesRDFGenerator(RDFGenerator):
 
     def generate_triples(self) -> Iterator[_Triple]:
         """Generate ELTeC feature triples."""
+        class namespace(nsbase(clscore)):
+            """URI Namespace for ELTeC features.
+
+            Note: For now Namespaces get generated in the triple generator directly;
+            this namespace object should be used if the generator gets more complex.
+            """
+
         return e13_eltec_features_generator(self.bindings)
 
 class ELTeCRDFGenerator(RDFGenerator):
