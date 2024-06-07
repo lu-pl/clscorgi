@@ -2,6 +2,8 @@ dlk_full.json
 notes.org
 scratch.py
 
+postdata/data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
