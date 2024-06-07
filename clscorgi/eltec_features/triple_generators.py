@@ -22,7 +22,7 @@ def e13_eltec_features_generator(
             (RDF.type, crmdig.D1_Digital_Object),
             (crm.P1_is_identified_by, ttl(
                 mkuri("veld_data_16_eltec_conllu_stats [E42]"),
-                (RDF.type, crm.E41_Identifier),
+                (RDF.type, crm.E42_Identifier),
                 (crm.P190_has_symbolic_content,
                  Literal("https://github.com/acdh-oeaw/veld_data_16_eltec_conllu_stats/"))
             ))
