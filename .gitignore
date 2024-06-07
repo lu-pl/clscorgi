@@ -2,7 +2,7 @@ dlk_full.json
 notes.org
 scratch.py
 
-postdata/data/*
+clscorgi/clscorgi/postdata/data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
