@@ -6,6 +6,7 @@ from types import SimpleNamespace
 
 from clscorgi.dlk.runner import dlk_runner
 from clscorgi.eltec.runner import eltec_runner
+from clscorgi.eltec_features.runner import eltec_feature_runner
 from clscorgi.gutenberg.runner import gutenberg_runner
 from clscorgi.rem.runner import rem_runner
 
@@ -15,6 +16,7 @@ runners.eltec = eltec_runner
 runners.rem = rem_runner
 runners.gutenberg = gutenberg_runner
 runners.dlk = dlk_runner
+runners.eltec_features = eltec_feature_runner
 
 
 parser = argparse.ArgumentParser(
