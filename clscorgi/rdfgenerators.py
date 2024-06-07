@@ -77,7 +77,8 @@ class ELTeCRDFGenerator(RDFGenerator):
         uris: SimpleNamespace = uri_ns(
             "e39", "e35",
             ("e39_e41", f"{self.bindings.author_name} [E41]"),
-            "x2", "x2_e42",
+            "x2_e42",
+            ("x2", f"{self.bindings.resource_uri} [X2]"),
             ("x1_eltec", "ELTeC [X1]"),
             ("x11_eltec", "ELTeC [X11]"),
             "f1", "f2", "f3", "f27", "f28"
