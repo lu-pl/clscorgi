@@ -6,16 +6,20 @@ from functools import partial
 from importlib.resources import files
 from itertools import chain
 
-from lodkit import _Triple, ttl
+from lodkit import NamespaceGraph, _Triple, ttl
 import numpy as np
 import pandas as pd
-from rdflib import Graph, Literal, RDF, RDFS, URIRef
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef
 
 
 _data_path = files("clscorgi.tool_inventory.data") / "tool_inventory.csv"
 df = pd.read_csv(_data_path)
 
 ttl = partial(ttl, skip_if=lambda s, p, o: pd.isna(o))
+
+crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
+clscore = Namespace("https://clscor.io/entity/")
 
 
 class _ABCRowConverter(abc.ABC):
@@ -38,7 +42,7 @@ class _TaskDescriptionRowConverter(_ABCRowConverter):
     def _generate_task_description_triples(self):
         return ttl(
             URIRef("TaskDescSubject"),
-            (URIRef("predicate_1"), "ok"),
+            (crm.P1_is_identified_by, "ok"),
             (URIRef("predicate_1"), np.nan),
         )
 
@@ -53,7 +57,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         return ttl(
             URIRef("subject"),
             (URIRef("predicate"), "literal"),
-            (URIRef("predicate"), np.nan),
+            (URIRef("predicate_2"), np.nan),
         )
 
     def generate_task_description_triples(self):
@@ -63,7 +67,13 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             yield from _TaskDescriptionRowConverter(row)
 
 
-graph = Graph()
+class CLSGraph(NamespaceGraph):
+    crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+    crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
+    clscore = Namespace("https://clscor.io/entity/")
+
+
+graph = CLSGraph()
 
 for _, row in df.iterrows():
     for triple in ToolInventoryRowConverter(row):
