@@ -5,11 +5,12 @@ from collections.abc import Iterator
 from importlib.resources import files
 from itertools import chain
 
+from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.vocabs.vocab_lookup import vocabs
 from lodkit import NamespaceGraph, URIConstructorFactory, _Triple, ttl
 import numpy as np
 import pandas as pd
-from rdflib import Literal, Namespace, RDF, URIRef, XSD
+from rdflib import Literal, Namespace, RDF, RDFS, URIRef, XSD
 
 
 crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
@@ -109,7 +110,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
                     URIRef("https://doi.org/10.5281/zenodo.11094000"),
                 ),
             ),
-            # (crm.P14_carried_out_by)
+            (crm.P14_carried_out_by, tuple(actor.uri for actor in actors)),
             (
                 crm["P4_has_time-span"],
                 [
@@ -172,6 +173,14 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             yield from _TaskDescriptionRowConverter(row)
 
 
+def generate_actor_triples() -> Iterator[_Triple]:
+    for actor in actors:
+        yield from ttl(actor.uri, (RDF.type, crm.E39_Actor), (RDFS.label, actor.name))
+
+        if (note := actor.note) is not None:
+            yield (actor.uri, crm.P3_has_note, Literal(note))
+
+
 ##################################################
 #### runner logic
 
@@ -187,9 +196,12 @@ class CLSGraph(NamespaceGraph):
 
 graph = CLSGraph()
 
-for _, row in df.iterrows():
-    for triple in ToolInventoryRowConverter(row):
-        graph.add(triple)
+table_triples = chain.from_iterable(
+    ToolInventoryRowConverter(row) for _, row in df.iterrows()
+)
+actor_triples = generate_actor_triples()
 
+for triple in chain(table_triples, actor_triples):
+    graph.add(triple)
 
 print(graph.serialize())
