@@ -473,13 +473,13 @@ test = ["pytest", "pytest-cov"]
 
 [[package]]
 name = "lodkit"
-version = "0.2.5"
+version = "0.2.7"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "lodkit-0.2.5-py3-none-any.whl", hash = "sha256:bf951b818f279afb24f2cb7e709e4a63f06cf9d6573bfffbedd6f9936007172c"},
-    {file = "lodkit-0.2.5.tar.gz", hash = "sha256:583a3deedd2013cbe2f8a98c69a1db2e027d0fc1d415a1bdc5edaa2d2678056d"},
+    {file = "lodkit-0.2.7-py3-none-any.whl", hash = "sha256:1ea4cdcbd2bacfbdceeb8ec44d8d466420f1ec7f8a867890b808ba30d508b912"},
+    {file = "lodkit-0.2.7.tar.gz", hash = "sha256:a715133f3bbb8c7e5df0f6bfd1f593f143ec418d431aedc33771ef5771d91960"},
 ]
 
 [package.dependencies]
