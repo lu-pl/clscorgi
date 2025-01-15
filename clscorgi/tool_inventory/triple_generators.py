@@ -20,6 +20,13 @@ mkuri = URIConstructorFactory("https://clscor.io/entity/")
 
 
 class _ABCRowConverter(abc.ABC):
+    """ABC for pd.Series to RDF conversions.
+
+    Basically just an initializer and the iterator protocol.
+    Note: It is important that self._iter gets defined last
+    in the initializer; other init vars won't be accessible upon iteration.
+    """
+
     def __init__(self, series: pd.Series) -> None:
         self.series = series
 
@@ -37,6 +44,8 @@ class _ABCRowConverter(abc.ABC):
 
 
 class _TaskDescriptionRowConverter(_ABCRowConverter):
+    """RowConverter another sheet. Stub for now."""
+
     def __iter__(self) -> Iterator[_Triple]:
         return chain(self._generate_task_description_triples())
 
@@ -49,6 +58,12 @@ class _TaskDescriptionRowConverter(_ABCRowConverter):
 
 
 class ToolInventoryRowConverter(_ABCRowConverter):
+    """RowConverter for the main table.
+
+    RowConverters for sheets are looked up and called
+    from methods of this main RowConverter.
+    """
+
     def __iter__(self) -> Iterator[_Triple]:
         return chain(
             self.generate_appellation_triples(),
@@ -167,6 +182,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_task_description_triples(self):
+        """Triple generator for another sheet.
+
+        This generator needs to look up the applicable rows
+        in the respective sheet and loop + yield from those series.
+        """
         task_desc_df = df  # will be the respective sheet
 
         for _, row in task_desc_df.iterrows():
@@ -174,6 +194,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
 
 def generate_actor_triples() -> Iterator[_Triple]:
+    """Generator for static actor triples.
+
+    Those triples need to get generated only once per run
+    and not once per table row.
+    """
     for actor in actors:
         yield from ttl(actor.uri, (RDF.type, crm.E39_Actor), (RDFS.label, actor.name))
 
