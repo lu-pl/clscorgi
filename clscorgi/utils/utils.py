@@ -12,6 +12,7 @@ from typing import Any, TypeVar
 from uuid import uuid4
 
 import langcodes
+import language_data
 from lodkit import URIConstructorFactory
 from lodkit.uri_tools.utils import generate_uri_hash
 from rdflib import Namespace, URIRef

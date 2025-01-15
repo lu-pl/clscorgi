@@ -25,6 +25,9 @@ def _pull_remote_vocabs(vocab_urls: Iterable[str]):
 vocab_urls = [
     "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/appellation_vocab/appellation.ttl",
     "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/method_vocab/method.ttl",
+    "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/format_vocab/format.ttl",
+    "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/license_vocab/licenses.ttl",
+    "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/operating_system/operating_system.ttl",
 ]
 
 
