@@ -196,7 +196,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
                 crm.P1_is_identified_by,
                 ttl(
                     mkuri(),
-                    (RDF.type, crm.E42_Appellation),
+                    (RDF.type, crm.E41_Appellation),
                     (crm.P2_has_type, vocabs.appellation("tool name")),
                     (RDF.value, self.series["toolname"]),
                 ),
@@ -210,7 +210,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
                     crm.P1_is_identified,
                     ttl(
                         mkuri(),
-                        (RDF.type, crm.E42_Appellation),
+                        (RDF.type, crm.E41_Appellation),
                         (crm.P2_has_type, vocabs.appellation("alternate tool name")),
                         (RDF.value, alternate_name),
                     ),
