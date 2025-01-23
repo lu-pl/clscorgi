@@ -1,0 +1,641 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/feature/act> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "act" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "act" .
+
+<https://clscor.io/entity/type/feature/cluster> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "cluster" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "cluster" .
+
+<https://clscor.io/entity/type/feature/co_occurrence> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "co-occurrence" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "co-occurrence" .
+
+<https://clscor.io/entity/type/feature/collocation_profile> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "collocation profile" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "collocation profile" .
+
+<https://clscor.io/entity/type/feature/conjugation_form> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "conjugation form" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "conjugation form" .
+
+<https://clscor.io/entity/type/feature/coreference> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "coreference" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "coreference" .
+
+<https://clscor.io/entity/type/feature/document> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "document" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "document" .
+
+<https://clscor.io/entity/type/feature/document_classification> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "document classification" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "document classification" .
+
+<https://clscor.io/entity/type/feature/document_cluster> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "document cluster; distance/similarity matrix" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "document cluster; distance/similarity matrix" .
+
+<https://clscor.io/entity/type/feature/enjambment> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "enjambment" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "enjambment" .
+
+<https://clscor.io/entity/type/feature/event> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "event" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "event" .
+
+<https://clscor.io/entity/type/feature/excluded_stop_words> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "excluded stop words" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "excluded stop words" .
+
+<https://clscor.io/entity/type/feature/ipa_strings> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "IPA strings" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "IPA strings" .
+
+<https://clscor.io/entity/type/feature/label> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "label" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "label" .
+
+<https://clscor.io/entity/type/feature/label_for_semantic_role> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "label for semantic role" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "label for semantic role" .
+
+<https://clscor.io/entity/type/feature/lemma> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "lemma" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:definition "Basic dictionary form of a word,e.g.,verb in infinitive or noun in nominative singular (source: D8.1)" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "lemma" .
+
+<https://clscor.io/entity/type/feature/lexical_pattern> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "lexical pattern" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:example "lexical pattern observables extractions (source: D8.1)" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "lexical pattern" .
+
+<https://clscor.io/entity/type/feature/linguistically_annotated_feature> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "linguistically annotated feature" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "linguistically annotated feature" .
+
+<https://clscor.io/entity/type/feature/linked_entity> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "linked entity" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "linked entity" .
+
+<https://clscor.io/entity/type/feature/list> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "list" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "list" .
+
+<https://clscor.io/entity/type/feature/manually_annotated_feature> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "manually annotated feature" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "manually annotated feature" .
+
+<https://clscor.io/entity/type/feature/metric> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "metric" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "metric" .
+
+<https://clscor.io/entity/type/feature/metrical_scheme> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "metrical scheme" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "metrical scheme" .
+
+<https://clscor.io/entity/type/feature/morphological_category> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "morphological category" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "morphological category" .
+
+<https://clscor.io/entity/type/feature/morphological_feature> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "morphological feature" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "morphological feature" .
+
+<https://clscor.io/entity/type/feature/morphological_segment> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "morphological segment" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "morphological segment" .
+
+<https://clscor.io/entity/type/feature/name_of_character> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "name of character" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "name of character" .
+
+<https://clscor.io/entity/type/feature/named_entity> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "named entity" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "named entity" .
+
+<https://clscor.io/entity/type/feature/network_graph> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "network graph",
+        "network graph with characters as nodes and interactions as edges" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "network graph",
+        "network graph with characters as nodes and interactions as edges" .
+
+<https://clscor.io/entity/type/feature/number_of_characters> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "number of characters" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "number of characters" .
+
+<https://clscor.io/entity/type/feature/number_of_plays> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "number of plays" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "number of plays" .
+
+<https://clscor.io/entity/type/feature/number_of_sentences> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "number of sentences" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "number of sentences" .
+
+<https://clscor.io/entity/type/feature/number_of_tokens> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "number of tokens" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:example "number of tokens in speeches and stage directions (source: D8.1)" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "number of tokens" .
+
+<https://clscor.io/entity/type/feature/number_of_words> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "number of words" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "number of words" .
+
+<https://clscor.io/entity/type/feature/paragraph> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "paragraph" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "paragraph" .
+
+<https://clscor.io/entity/type/feature/phrase> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "phrase" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "phrase" .
+
+<https://clscor.io/entity/type/feature/pos_tag> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "part of speech tag" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "part of speech tag" .
+
+<https://clscor.io/entity/type/feature/relation> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "relation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "relation" .
+
+<https://clscor.io/entity/type/feature/relations_or_schema> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "relations or schema matching a query" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "relations or schema matching a query" .
+
+<https://clscor.io/entity/type/feature/rhyme> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "rhyme" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "rhyme" .
+
+<https://clscor.io/entity/type/feature/rhyme_scheme> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "rhyme scheme" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "rhyme scheme" .
+
+<https://clscor.io/entity/type/feature/scene> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "scene" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "scene" .
+
+<https://clscor.io/entity/type/feature/segment> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "segment" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "segment" .
+
+<https://clscor.io/entity/type/feature/segmented_topic> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "segmented topic" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "segmented topic" .
+
+<https://clscor.io/entity/type/feature/sentence> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "sentence" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "sentence" .
+
+<https://clscor.io/entity/type/feature/sentence_borders> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "sentence borders" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "sentence borders" .
+
+<https://clscor.io/entity/type/feature/sentiment_value> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "sentiment value" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "sentiment value" .
+
+<https://clscor.io/entity/type/feature/spelling> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "spelling" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "spelling" .
+
+<https://clscor.io/entity/type/feature/spoken_text_character> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "spoken text by character" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "spoken text by character" .
+
+<https://clscor.io/entity/type/feature/spoken_text_gender> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "spoken text by gender" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "spoken text by gender" .
+
+<https://clscor.io/entity/type/feature/stage_directions> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "stage directions" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "stage directions" .
+
+<https://clscor.io/entity/type/feature/stanza> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "stanza" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "stanza" .
+
+<https://clscor.io/entity/type/feature/stanza_type> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "stanza type" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "stanza type" .
+
+<https://clscor.io/entity/type/feature/stemma> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "stemma" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "stemma" .
+
+<https://clscor.io/entity/type/feature/syllable> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "syllable" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "syllable" .
+
+<https://clscor.io/entity/type/feature/syntactic_label> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "syntactic label" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "syntactic label" .
+
+<https://clscor.io/entity/type/feature/syntactic_relation> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "syntactic relation between tokens within one sentence" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "syntactic relation between tokens within one sentence" .
+
+<https://clscor.io/entity/type/feature/syntactic_tree> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "syntactic tree matching a query" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "syntactic tree matching a query" .
+
+<https://clscor.io/entity/type/feature/text_snippet> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "text snippet matching a query" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "text snippet matching a query" .
+
+<https://clscor.io/entity/type/feature/token> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "token" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:definition "Aka running word - each occurrence of a word form in a corpus (source: D8.1)" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "token" .
+
+<https://clscor.io/entity/type/feature/topic> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "topic" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "topic" .
+
+<https://clscor.io/entity/type/feature/variant> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "variant" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "variant" .
+
+<https://clscor.io/entity/type/feature/word> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "word" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "word" .
+
+<https://clscor.io/entity/type/feature/word_ending> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "word ending" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "word ending" .
+
+<https://clscor.io/entity/type/feature/word_form> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "word form" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "word form" .
+
+<https://clscor.io/entity/type/feature/word_list> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "word list matching a query" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    rdfs:comment "source: D8.1 terms" ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "word list matching a query" .
+
+<https://clscor.io/entity/type/feature/word_meaning> a skos:Concept,
+        crmcls:X3_Feature ;
+    rdfs:label "word meaning" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/feature> ;
+    skos:inScheme <https://clscor.io/entity/type/feature> ;
+    skos:prefLabel "word meaning" .
+
+<https://clscor.io/entity/type/feature> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Feature types" ;
+    crm:P71_lists <https://clscor.io/entity/type/feature/act>,
+        <https://clscor.io/entity/type/feature/cluster>,
+        <https://clscor.io/entity/type/feature/co_occurrence>,
+        <https://clscor.io/entity/type/feature/collocation_profile>,
+        <https://clscor.io/entity/type/feature/conjugation_form>,
+        <https://clscor.io/entity/type/feature/coreference>,
+        <https://clscor.io/entity/type/feature/document>,
+        <https://clscor.io/entity/type/feature/document_classification>,
+        <https://clscor.io/entity/type/feature/document_cluster>,
+        <https://clscor.io/entity/type/feature/enjambment>,
+        <https://clscor.io/entity/type/feature/event>,
+        <https://clscor.io/entity/type/feature/excluded_stop_words>,
+        <https://clscor.io/entity/type/feature/ipa_strings>,
+        <https://clscor.io/entity/type/feature/label>,
+        <https://clscor.io/entity/type/feature/label_for_semantic_role>,
+        <https://clscor.io/entity/type/feature/lemma>,
+        <https://clscor.io/entity/type/feature/lexical_pattern>,
+        <https://clscor.io/entity/type/feature/linguistically_annotated_feature>,
+        <https://clscor.io/entity/type/feature/linked_entity>,
+        <https://clscor.io/entity/type/feature/list>,
+        <https://clscor.io/entity/type/feature/manually_annotated_feature>,
+        <https://clscor.io/entity/type/feature/metric>,
+        <https://clscor.io/entity/type/feature/metrical_scheme>,
+        <https://clscor.io/entity/type/feature/morphological_category>,
+        <https://clscor.io/entity/type/feature/morphological_feature>,
+        <https://clscor.io/entity/type/feature/morphological_segment>,
+        <https://clscor.io/entity/type/feature/name_of_character>,
+        <https://clscor.io/entity/type/feature/named_entity>,
+        <https://clscor.io/entity/type/feature/network_graph>,
+        <https://clscor.io/entity/type/feature/number_of_characters>,
+        <https://clscor.io/entity/type/feature/number_of_plays>,
+        <https://clscor.io/entity/type/feature/number_of_sentences>,
+        <https://clscor.io/entity/type/feature/number_of_tokens>,
+        <https://clscor.io/entity/type/feature/number_of_words>,
+        <https://clscor.io/entity/type/feature/paragraph>,
+        <https://clscor.io/entity/type/feature/phrase>,
+        <https://clscor.io/entity/type/feature/pos_tag>,
+        <https://clscor.io/entity/type/feature/relation>,
+        <https://clscor.io/entity/type/feature/relations_or_schema>,
+        <https://clscor.io/entity/type/feature/rhyme>,
+        <https://clscor.io/entity/type/feature/rhyme_scheme>,
+        <https://clscor.io/entity/type/feature/scene>,
+        <https://clscor.io/entity/type/feature/segment>,
+        <https://clscor.io/entity/type/feature/segmented_topic>,
+        <https://clscor.io/entity/type/feature/sentence>,
+        <https://clscor.io/entity/type/feature/sentence_borders>,
+        <https://clscor.io/entity/type/feature/sentiment_value>,
+        <https://clscor.io/entity/type/feature/spelling>,
+        <https://clscor.io/entity/type/feature/spoken_text_character>,
+        <https://clscor.io/entity/type/feature/spoken_text_gender>,
+        <https://clscor.io/entity/type/feature/stage_directions>,
+        <https://clscor.io/entity/type/feature/stanza>,
+        <https://clscor.io/entity/type/feature/stanza_type>,
+        <https://clscor.io/entity/type/feature/stemma>,
+        <https://clscor.io/entity/type/feature/syllable>,
+        <https://clscor.io/entity/type/feature/syntactic_label>,
+        <https://clscor.io/entity/type/feature/syntactic_relation>,
+        <https://clscor.io/entity/type/feature/syntactic_tree>,
+        <https://clscor.io/entity/type/feature/text_snippet>,
+        <https://clscor.io/entity/type/feature/token>,
+        <https://clscor.io/entity/type/feature/topic>,
+        <https://clscor.io/entity/type/feature/variant>,
+        <https://clscor.io/entity/type/feature/word>,
+        <https://clscor.io/entity/type/feature/word_ending>,
+        <https://clscor.io/entity/type/feature/word_form>,
+        <https://clscor.io/entity/type/feature/word_list>,
+        <https://clscor.io/entity/type/feature/word_meaning> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/feature/act>,
+        <https://clscor.io/entity/type/feature/cluster>,
+        <https://clscor.io/entity/type/feature/co_occurrence>,
+        <https://clscor.io/entity/type/feature/collocation_profile>,
+        <https://clscor.io/entity/type/feature/conjugation_form>,
+        <https://clscor.io/entity/type/feature/coreference>,
+        <https://clscor.io/entity/type/feature/document>,
+        <https://clscor.io/entity/type/feature/document_classification>,
+        <https://clscor.io/entity/type/feature/document_cluster>,
+        <https://clscor.io/entity/type/feature/enjambment>,
+        <https://clscor.io/entity/type/feature/event>,
+        <https://clscor.io/entity/type/feature/excluded_stop_words>,
+        <https://clscor.io/entity/type/feature/ipa_strings>,
+        <https://clscor.io/entity/type/feature/label>,
+        <https://clscor.io/entity/type/feature/label_for_semantic_role>,
+        <https://clscor.io/entity/type/feature/lemma>,
+        <https://clscor.io/entity/type/feature/lexical_pattern>,
+        <https://clscor.io/entity/type/feature/linguistically_annotated_feature>,
+        <https://clscor.io/entity/type/feature/linked_entity>,
+        <https://clscor.io/entity/type/feature/list>,
+        <https://clscor.io/entity/type/feature/manually_annotated_feature>,
+        <https://clscor.io/entity/type/feature/metric>,
+        <https://clscor.io/entity/type/feature/metrical_scheme>,
+        <https://clscor.io/entity/type/feature/morphological_category>,
+        <https://clscor.io/entity/type/feature/morphological_feature>,
+        <https://clscor.io/entity/type/feature/morphological_segment>,
+        <https://clscor.io/entity/type/feature/name_of_character>,
+        <https://clscor.io/entity/type/feature/named_entity>,
+        <https://clscor.io/entity/type/feature/network_graph>,
+        <https://clscor.io/entity/type/feature/number_of_characters>,
+        <https://clscor.io/entity/type/feature/number_of_plays>,
+        <https://clscor.io/entity/type/feature/number_of_sentences>,
+        <https://clscor.io/entity/type/feature/number_of_tokens>,
+        <https://clscor.io/entity/type/feature/number_of_words>,
+        <https://clscor.io/entity/type/feature/paragraph>,
+        <https://clscor.io/entity/type/feature/phrase>,
+        <https://clscor.io/entity/type/feature/pos_tag>,
+        <https://clscor.io/entity/type/feature/relation>,
+        <https://clscor.io/entity/type/feature/relations_or_schema>,
+        <https://clscor.io/entity/type/feature/rhyme>,
+        <https://clscor.io/entity/type/feature/rhyme_scheme>,
+        <https://clscor.io/entity/type/feature/scene>,
+        <https://clscor.io/entity/type/feature/segment>,
+        <https://clscor.io/entity/type/feature/segmented_topic>,
+        <https://clscor.io/entity/type/feature/sentence>,
+        <https://clscor.io/entity/type/feature/sentence_borders>,
+        <https://clscor.io/entity/type/feature/sentiment_value>,
+        <https://clscor.io/entity/type/feature/spelling>,
+        <https://clscor.io/entity/type/feature/spoken_text_character>,
+        <https://clscor.io/entity/type/feature/spoken_text_gender>,
+        <https://clscor.io/entity/type/feature/stage_directions>,
+        <https://clscor.io/entity/type/feature/stanza>,
+        <https://clscor.io/entity/type/feature/stanza_type>,
+        <https://clscor.io/entity/type/feature/stemma>,
+        <https://clscor.io/entity/type/feature/syllable>,
+        <https://clscor.io/entity/type/feature/syntactic_label>,
+        <https://clscor.io/entity/type/feature/syntactic_relation>,
+        <https://clscor.io/entity/type/feature/syntactic_tree>,
+        <https://clscor.io/entity/type/feature/text_snippet>,
+        <https://clscor.io/entity/type/feature/token>,
+        <https://clscor.io/entity/type/feature/topic>,
+        <https://clscor.io/entity/type/feature/variant>,
+        <https://clscor.io/entity/type/feature/word>,
+        <https://clscor.io/entity/type/feature/word_ending>,
+        <https://clscor.io/entity/type/feature/word_form>,
+        <https://clscor.io/entity/type/feature/word_list>,
+        <https://clscor.io/entity/type/feature/word_meaning> .
+
+

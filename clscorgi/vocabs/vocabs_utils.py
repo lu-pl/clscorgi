@@ -28,6 +28,8 @@ vocab_urls = [
     "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/format_vocab/format.ttl",
     "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/license_vocab/licenses.ttl",
     "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/operating_system/operating_system.ttl",
+    "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/feature_vocab/feature.ttl",
+    "https://gitlab.clsinfra.io/cls-infra/wp567/clscor/-/raw/main/vocabs/link_vocab/link.ttl",
 ]
 
 

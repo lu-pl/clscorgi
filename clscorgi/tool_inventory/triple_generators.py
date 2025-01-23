@@ -4,7 +4,6 @@ import abc
 from collections.abc import Iterator
 from importlib.resources import files
 from itertools import chain
-from pathlib import Path
 
 from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.utils.utils import get_language_uri
@@ -53,13 +52,104 @@ class _MethodsRowConverter(_ABCRowConverter):
         return chain(self._generate_task_description_triples())
 
     def _generate_task_description_triples(self) -> Iterator[_Triple]:
+        methods = tuple(
+            vocabs.method(value.strip())
+            for value in self.series["methods_used_consolidated CLSCor vocab"].split(
+                ","
+            )
+        )
+
+        e13_uri = mkuri()
+
+        yield from ttl(
+            e13_uri,
+            (RDF.type, crm.E13_Attribute_Assignment),
+            (crm.P134_continued, self.tool_descevent_uri),
+            (crm.P140_assigned_attribute_to, self.tool_uri),
+            (crm.P141_assigned, methods),
+            (crm.P177_assigned_property_of_type, crmcls.Y8_implements),
+        )
+
+        if (methods_used := self.series["methods_used_comments"]) is np.nan:
+            return
+
+        yield (e13_uri, crm.P3_has_note, Literal(methods_used))
+
+
+class _FeaturesRowConverter(_ABCRowConverter):
+    """RowConverter for the 'featues' table."""
+
+    def __iter__(self) -> Iterator[_Triple]:
+        return chain(self._generate_feature_triples())
+
+    def _generate_feature_triples(self) -> Iterator[_Triple]:
+        features = tuple(
+            vocabs.feature(value.strip())
+            for value in self.series["features_consolidated CLSCor vocab"].split(",")
+        )
+
+        e13_uri = mkuri()
+
+        yield from ttl(
+            e13_uri,
+            (RDF.type, crm.E13_Attribute_Assignment),
+            (crm.P134_continued, self.tool_descevent_uri),
+            (crm.P140_assigned_attribute_to, self.tool_uri),
+            (crm.P141_assigned, features),
+            (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
+        )
+
+        if (methods_used := self.series["features_comment"]) is np.nan:
+            return
+
+        yield (e13_uri, crm.P3_has_note, Literal(methods_used))
+
+
+class _RelatedPapersRowConverter(_ABCRowConverter):
+    def __iter__(self) -> Iterator[_Triple]:
+        return chain(self._generate_related_papers_triples())
+
+    def _generate_related_papers_triples(self) -> Iterator[_Triple]:
+        related_papers_literal = self.series["related papers"]
+
         return ttl(
-            mkuri(self.series["toolname"]),
+            mkuri(related_papers_literal),
+            (RDF.type, crm.PC3_has_note),
+            (crm["P3.1_has_type"], crmcls["related_papers"]),
+            (crm["P03_has_range_literal"], related_papers_literal),
+            (crm["P01_has_domain"], self.tool_uri),
+        )
+
+
+class _AdditionalLinksRowConverter(_ABCRowConverter):
+    def __iter__(self) -> Iterator[_Triple]:
+        return chain(self._generate_additional_links_triples())
+
+    def _generate_additional_links_triples(self) -> Iterator[_Triple]:
+        links = tuple(
+            vocabs.link(value.strip())
+            for value in self.series["link_type_vocab"].split(",")
+        )
+
+        e42_uri = mkuri(f"{self.tool_uri} link identifier")
+
+        yield from ttl(
+            self.tool_uri,
             (
                 crm.P1_is_identified_by,
-                self.series["methods_used_consolidated CLSCor vocab"],
+                ttl(
+                    e42_uri,
+                    (RDF.type, crm.E42_Identifier),
+                    (crm.P190_has_symbolic_content, self.series["links"]),
+                    (crm.P2_has_type, links),
+                ),
             ),
         )
+
+        if (link_comment := self.series["link_comment"]) is np.nan:
+            return
+
+        yield (e42_uri, crm.P3_has_note, Literal(link_comment))
 
 
 class ToolInventoryRowConverter(_ABCRowConverter):
@@ -91,8 +181,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             self.generate_os_triples(),
             self.generate_language_triples(),
             self.generate_tool_integration_triples(),
-            #
-            # self.generate_methods_triples(),
+            ## other sheets
+            self.generate_methods_triples(),
+            self.generate_features_triples(),
+            self.generate_related_papers_triples(),
+            self.generate_additional_links_triples(),
         )
 
     def generate_appellation_triples(self) -> Iterator[_Triple]:
@@ -347,11 +440,13 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_license_triples(self) -> Iterator[_Triple]:
-        if (license := self.series["License (consolidated CLSCor vocab)"]) is np.nan:
+        if (_license := self.series["License (consolidated CLSCor vocab)"]) is np.nan:
             return
 
         e13_uri = mkuri()
-        licenses = tuple(vocabs.licenses(value.strip()) for value in license.split(","))
+        licenses = tuple(
+            vocabs.licenses(value.strip()) for value in _license.split(",")
+        )
 
         yield from ttl(
             e13_uri,
@@ -429,7 +524,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         tools = tuple(mkuri(value.strip()) for value in tool.split(","))
         yield from ttl(self.tool_uri, (crmcls.Y7_uses, tools))
 
-    ## other sheet
+    ## other sheets
     def generate_methods_triples(self):
         """Triple generator for another sheet.
 
@@ -441,6 +536,27 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         for _, row in partition.iterrows():
             yield from _MethodsRowConverter(row)
+
+    def generate_features_triples(self):
+        df_methods: pd.DataFrame = pd.read_csv(_data_path / "features.csv")
+        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+
+        for _, row in partition.iterrows():
+            yield from _FeaturesRowConverter(row)
+
+    def generate_related_papers_triples(self):
+        df_methods: pd.DataFrame = pd.read_csv(_data_path / "related_papers.csv")
+        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+
+        for _, row in partition.iterrows():
+            yield from _RelatedPapersRowConverter(row)
+
+    def generate_additional_links_triples(self):
+        df_methods: pd.DataFrame = pd.read_csv(_data_path / "additional_links.csv")
+        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+
+        for _, row in partition.iterrows():
+            yield from _AdditionalLinksRowConverter(row)
 
 
 def generate_actor_triples() -> Iterator[_Triple]:

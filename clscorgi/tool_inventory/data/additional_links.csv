@@ -1,0 +1,102 @@
+id,toolname,links,link_type_vocab,link_comment
+1,Arborator Grew,https://github.com/Arborator,"data repository, project website",
+1,Arborator Grew,https://arborator.github.io/arborator-documentation/#/,documentation,
+2,conll-u editor,https://github.com/Orange-OpenSource/conllueditor,"data repository, project website",
+3,INCEpTION,https://inception-project.github.io,"data repository, project website",
+3,INCEpTION,https://inception-project.github.io/documentation/,documentation,
+3,INCEpTION,https://fortext.net/tools/tools/inception,info website,
+4,DraCor,https://github.com/dracor-org/dracor-api,api,see README.md
+4,DraCor,https://github.com/dracor-org/dracor-notebooks,tutorial,DraCor Notebooks
+4,DraCor,https://fortext.net/ressourcen/textsammlungen/dracor-drama-corpora-project ,info website,DraCor: Drama Corpora Project [in. German] by Jan Hostmann
+4,DraCor,https://hub.docker.com/u/dracor,docker instance,
+5,IMS Corpus Workbench,https://sourceforge.net/projects/cwb/,"project website, download page",CWB is developed and made available via this page
+5,IMS Corpus Workbench,https://cwb.sourceforge.io/documentation.php,documentation,
+6,Kontext,https://github.com/czcorpus/kontext/,"data repository, project website",KonText is developed openly at this page which includes an installation manual
+6,Kontext,https://www.korpus.cz/kontext,exploration ui,"KonText is deployed at several CLARIN centres in Europe, the canonical installation can be tested at this page"
+7,SimpleCorp,https://lindat.mff.cuni.cz/services/simplecorp/,project website,
+8,TEITOK,https://gitlab.com/maartenes/TEITOK,data repository,
+8,TEITOK,http://www.teitok.org/,project website,Project URL
+8,TEITOK,http://www.teitok.org/index.php?action=help,documentation,Help Pages
+8,TEITOK,https://github.com/rahonalab/TEITOK-docker,docker instance,There is a docker version of an earlier version TEITOK: https://github.com/rahonalab/TEITOK-docker
+9,TXM desktop,https://txm.gitpages.huma-num.fr/textometrie/files/software/TXM/0.8.2/en/,download page,Download
+9,TXM desktop,https://txm.gitpages.huma-num.fr/textometrie/en/ ,project website,Project URL
+9,TXM desktop,https://txm.gitpages.huma-num.fr/txm-manual,documentation,Online User Manual (French)
+9,TXM desktop,https://txm.gitpages.huma-num.fr/textometrie/files/documentation/TXM%20Manual%200.7.pdf,documentation,PDF User manual (old 0.7)
+9,TXM desktop,https://txm.gitpages.huma-num.fr/textometrie/en/Documentation,documentation,All the docs
+9,TXM desktop,https://groupes.renater.fr/wiki/txm-users/index,documentation,User Wiki (French) includes a FAQ
+9,TXM desktop,http://sourceforge.net/projects/txm/files/documentation/TXM%20Leaftlet%20EN.pdf/download ,info website,Leaflet
+9,TXM desktop,http://dhd-blog.org/?p=3384,tutorial,"Explore, play, analyse your corpus with TXM: A short introduction of TXM by José Calvo and Silvia Gutiérrez, April 17 2014"
+9,TXM desktop,https://zenodo.org/record/10769,tutorial,"TXM-Kurzreferenz by Christof Schöch, July 4 2014"
+9,TXM desktop,"https://txm.gitpages.huma-num.fr/textometrie/html/enregistrement_atelier_initiation_TXM_fr.html 
+",tutorial,"Videocast of TXM 0.6 initiation Workshop (in French) by Bénédicte Pincemin, September 27 2012"
+10,TXM portal,https://txm.gitpages.huma-num.fr/textometrie/files/software/TXM%20portal/0.6.3/,download page,Download
+10,TXM portal,https://txm-demo.huma-num.fr/txm/ ,exploration ui,See demo portal
+10,TXM portal,https://txm.gitpages.huma-num.fr/textometrie/en/,project website,Project URL
+10,TXM portal,https://txm.gitpages.huma-num.fr/textometrie/files/documentation/Portail%20TXM/Manuel%20du%20portail%20TXM%200.6.3%20-%20admin.pdf,documentation,Portal Administrator Manual (French)
+10,TXM portal,https://txm.gitpages.huma-num.fr/textometrie/en/Documentation  ,documentation,All the docs
+10,TXM portal,http://dhd-blog.org/?p=3384,tutorial,"Explore, play, analyse your corpus with TXM: A short introduction of TXM by José Calvo and Silvia Gutiérrez, April 17 2014"
+10,TXM portal,https://zenodo.org/record/10769,tutorial,"TXM-Kurzreferenz by Christof Schöch, July 4 2014"
+10,TXM portal,"https://txm.gitpages.huma-num.fr/textometrie/html/enregistrement_atelier_initiation_TXM_fr.html 
+",tutorial,"Videocast of TXM 0.6 initiation Workshop (in French) by Bénédicte Pincemin, September 27 2012"
+10,TXM portal,https://documentation.huma-num.fr/txm ,docker instance,VMWare Virtual Machine (to clone) available at https://documentation.huma-num.fr/txm 
+11,Calc,https://korpus.cz/calc/,"project website, documentation","The tool is running at this page, where also the documentation is available."
+12,Flair,https://github.com/flairNLP/flair,"data repository, project website",
+12,Flair,https://github.com/Aayushpatel007/FlairNER-Docker,docker instance,Editor's comment: probably a 3rd party docker instance
+13,NameTag 1,http://hdl.handle.net/11858/00-097C-0000-0023-43CE-E,project website,
+13,NameTag 1,https://lindat.mff.cuni.cz/services/nametag/,exploration ui,
+13,NameTag 1,https://ufal.mff.cuni.cz/nametag/1/tutorials (in Czech),tutorial,
+13,NameTag 1,https://github.com/ufal/nametag/blob/master/bindings/python/examples/run_ner_simple.py,tutorial,
+14,NameTag 1 Models,http://hdl.handle.net/11234/1-3118,info website,English Model (CoNLL-2003) for NameTag
+14,NameTag 1 Models,http://hdl.handle.net/11858/00-097C-0000-0023-7D42-8,info website,Czech Models (CNEC) for NameTag
+15,NameTag 2,http://hdl.handle.net/11858/00-097C-0000-0023-43CE-E,project website,
+15,NameTag 2,https://ufal.mff.cuni.cz/nametag/2,info website,
+15,NameTag 2,https://lindat.mff.cuni.cz/services/nametag/,exploration ui,
+15,NameTag 2,https://github.com/ufal/nametag/releases/tag/v2.0.0,data repository,
+16,NameTag 2 Models,https://ufal.mff.cuni.cz/nametag/2/models,info website,
+16,NameTag 2 Models,https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3773,info website,
+17,QuitaUp,https://korpus.cz/quitaup/,"project website, documentation","The tool is running at this page, where also the documentation is available."
+18,spaCy,https://spacy.io/,"project website, documentation",
+19,UDapi,https://udapi.readthedocs.io,documentation,
+19,UDapi,https://github.com/udapi/udapi-python,api,
+19,UDapi,https://github.com/udapi,api,
+19,UDapi,https://udapi.github.io/tutorial/,tutorial,Udapi Tutorial by Martin Popel
+19,UDapi,https://ufal.mff.cuni.cz/~popel/papers/2017_03_13_working_with_ud.pdf,tutorial,Slides about Udapi by Martin Popel
+19,UDapi,https://nbviewer.org/github/udapi/udapi-python/blob/master/tutorial/01-visualizing.ipynb,tutorial,Udapi visualization tutorial by Martin Popel
+20,UDPipe1,http://github.com/ufal/udpipe,data repository,
+20,UDPipe1,http://lindat.mff.cuni.cz/services/udpipe/,"project website, info website",
+20,UDPipe1,http://ufal.mff.cuni.cz/udpipe,info website,
+20,UDPipe1,http://hdl.handle.net/11234/1-1702,info website,"as of March 2023, only the 2016 version"
+20,UDPipe1,http://github.com/samisalkosuo/udpipe-rest-server-docker,docker instance,http://github.com/samisalkosuo/udpipe-rest-server-docker (third-party)
+21,UDPipe2,http://hdl.handle.net/11234/1-4816 ,info website,
+21,UDPipe2,http://ufal.mff.cuni.cz/udpipe,project website,Project URL
+21,UDPipe2,http://lindat.mff.cuni.cz/services/udpipe/,exploration ui,Demo URL
+21,UDPipe2,https://universaldependencies.org/,info website,"Universal Dependencies website is the information hub for Universal Dependencies: the list of currently available UD treebanks, the logic UD annotation scheme, language-specific UD annotation guidelines, how to contribute your own treebank, commonly used tools to query or annotate UD treebanks, and much more. "
+21,UDPipe2,ghcr.io/ufal/udpipe:2.10-all-tf-1.15.4-gpu-staging,docker instance,docker pull ghcr.io/ufal/udpipe:2.10-all-tf-1.15.4-gpu-staging
+22,Universal Dependencies Models for UDPipe,http://hdl.handle.net/11234/1-4804,info website,
+22,Universal Dependencies Models for UDPipe,http://ufal.mff.cuni.cz/udpipe,project website,Project URL
+22,Universal Dependencies Models for UDPipe,http://lindat.mff.cuni.cz/services/udpipe/,exploration ui,Demo URL
+22,Universal Dependencies Models for UDPipe,http://ufal.mff.cuni.cz/udpipe,download page,"To use these models, you have to install the tool UDPipe binary version at least 1.2, which you can download from this website"
+22,Universal Dependencies Models for UDPipe,https://ufal.mff.cuni.cz/udpipe/1/users-manual#run_udpipe_input,documentation,User’s manual to UDPipe 1
+22,Universal Dependencies Models for UDPipe,https://universaldependencies.org/,info website,"Universal Dependencies website is the information hub for Universal Dependencies: the list of currently available UD treebanks, the logic UD annotation scheme, language-specific UD annotation guidelines, how to contribute your own treebank, commonly used tools to query or annotate UD treebanks, and much more. "
+23,udpipe,https://cran.r-project.org/web/packages/udpipe/index.html,info website,
+23,udpipe,https://cran.r-project.org/web/packages/udpipe/udpipe.pdf,documentation,
+23,udpipe,https://bnosac.github.io/udpipe/en/index.html,"project website, info website",
+23,udpipe,https://cran.r-project.org/web/packages/udpipe/vignettes/udpipe-usecase-topicmodelling.html,tutorial,
+23,udpipe,https://cran.r-project.org/web/packages/udpipe/vignettes/udpipe-usecase-postagging-lemmatisation.html,tutorial,
+24,Alberti,https://huggingface.co/flax-community/alberti-bert-base-multilingual-cased,documentation,Readme
+24,Alberti,https://huggingface.co/spaces/flax-community/alberti,exploration ui,Demo
+25,Alberti-stanzas,https://huggingface.co/alvp/alberti-stanzas,info website,Model
+25,Alberti-stanzas,https://github.com/linhd-postdata/alberti-stanzas-streamlit,docker instance,UI/Docker
+25,Alberti-stanzas,https://github.com/linhd-postdata/alberti-stanzas-api,api,Metrics and instructions
+26,Averell,https://github.com/linhd-postdata/averell,"data repository, project website",
+26,Averell,https://averell.readthedocs.io/en/latest/,documentation,"Readme, basic usage and installation"
+26,Averell,https://github.com/linhd-postdata/averell-docker,docker instance,
+27,Horace,https://github.com/linhd-postdata/Horace,"data repository, project website, documentation",Readme
+27,Horace,https://horace.readthedocs.io/en/latest/,documentation,Documentation
+28,Poetrylab,https://github.com/linhd-postdata/poetrylab,"data repository, project website",
+28,Poetrylab,https://github.com/linhd-postdata/poetrylab/tree/develop/docker,docker instance,
+29,Poetrylab-API,https://github.com/linhd-postdata/poetrylab-api,"api, documentation",Readme
+29,Poetrylab-API,https://rantanplan.readthedocs.io/en/latest/readme.html,documentation,Documentation
+30,rhymetagger,https://github.com/versotym/rhymetagger,"data repository, project website, documentation","pip install rhymetagger, GitHub readme by Petr Plecháč"
+31,Rantanplan,https://github.com/linhd-postdata/rantanplan,"data repository, project website",pip install rantanplan
+31,Rantanplan,https://rantanplan.readthedocs.io/en/latest,documentation,"by Javier de la Rosa, Álvaro Pérez, Aitor Díaz"
