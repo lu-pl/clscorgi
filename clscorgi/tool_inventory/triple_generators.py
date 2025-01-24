@@ -9,9 +9,8 @@ from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.utils.utils import get_language_uri
 from clscorgi.vocabs.vocab_lookup import vocabs
 from lodkit import NamespaceGraph, URIConstructorFactory, _Triple, ttl
-import numpy as np
 import pandas as pd
-from rdflib import Literal, Namespace, RDF, RDFS, URIRef, XSD
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
 
 
 crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
@@ -19,6 +18,7 @@ crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
 clscor = Namespace("https://clscor.io/entity/")
 
 mkuri = URIConstructorFactory("https://clscor.io/entity/")
+_data_path = files("clscorgi.tool_inventory.data")
 
 
 class _ABCRowConverter(abc.ABC):
@@ -70,7 +70,7 @@ class _MethodsRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y8_implements),
         )
 
-        if (methods_used := self.series["methods_used_comments"]) is np.nan:
+        if pd.isna(methods_used := self.series["methods_used_comments"]):
             return
 
         yield (e13_uri, crm.P3_has_note, Literal(methods_used))
@@ -99,7 +99,7 @@ class _FeaturesRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
         )
 
-        if (methods_used := self.series["features_comment"]) is np.nan:
+        if pd.isna(methods_used := self.series["features_comment"]):
             return
 
         yield (e13_uri, crm.P3_has_note, Literal(methods_used))
@@ -146,7 +146,7 @@ class _AdditionalLinksRowConverter(_ABCRowConverter):
             ),
         )
 
-        if (link_comment := self.series["link_comment"]) is np.nan:
+        if pd.isna(link_comment := self.series["link_comment"]):
             return
 
         yield (e42_uri, crm.P3_has_note, Literal(link_comment))
@@ -203,7 +203,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             ),
         )
 
-        if (alternate_name := self.series["alternate name"]) is not np.nan:
+        if not pd.isna(alternate_name := self.series["alternate name"]):
             yield from ttl(
                 self.tool_uri,
                 (
@@ -296,7 +296,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_distribution_triples(self) -> Iterator[_Triple]:
-        if (distribution_literal := self.series["Distribution"]) is np.nan:
+        if pd.isna(distribution_literal := self.series["Distribution"]):
             return
 
         yield from ttl(
@@ -308,7 +308,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_user_interface_triples(self) -> Iterator[_Triple]:
-        if (userinterface_literal := self.series["User interface"]) is np.nan:
+        if pd.isna(userinterface_literal := self.series["User interface"]):
             return
 
         yield from ttl(
@@ -320,9 +320,9 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_tool_processing_triples(self) -> Iterator[_Triple]:
-        if (
+        if pd.isna(
             toolprocessing_literal := self.series["How does the tool process your text"]
-        ) is np.nan:
+        ):
             return
 
         yield from ttl(
@@ -334,9 +334,9 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_output_format_triples(self) -> Iterator[_Triple]:
-        if (
+        if pd.isna(
             output_format := self.series["output_format (consolidated CLSCor vocab)"]
-        ) is np.nan:
+        ):
             return
 
         e13_uri = mkuri()
@@ -353,13 +353,13 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y10_generates_output),
         )
 
-        if (output_comment := self.series["output_format_comment"]) is not np.nan:
+        if not pd.isna(output_comment := self.series["output_format_comment"]):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_input_format_triples(self) -> Iterator[_Triple]:
-        if (
+        if pd.isna(
             input_format := self.series["input_format (consolidated CLSCor vocab)"]
-        ) is np.nan:
+        ):
             return
 
         e13_uri = mkuri()
@@ -376,11 +376,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y9_expects_input),
         )
 
-        if (input_comment := self.series["input_format_comment"]) is not np.nan:
+        if not pd.isna(input_comment := self.series["input_format_comment"]):
             yield from ttl(e13_uri, (crm.P3_has_note, input_comment.strip()))
 
     def generate_metric_triples(self) -> Iterator[_Triple]:
-        if (metric_literal := self.series["metric"]) is np.nan:
+        if pd.isna(metric_literal := self.series["metric"]):
             return
 
         yield from ttl(
@@ -392,7 +392,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_visualisation_triples(self) -> Iterator[_Triple]:
-        if (visualisation_literal := self.series["visualisation"]) is np.nan:
+        if pd.isna(visualisation_literal := self.series["visualisation"]):
             return
 
         yield from ttl(
@@ -404,7 +404,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_formalism_triples(self) -> Iterator[_Triple]:
-        if (formalism_literal := self.series["formalism"]) is np.nan:
+        if pd.isna(formalism_literal := self.series["formalism"]):
             return
 
         yield from ttl(
@@ -416,7 +416,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_tagset_triples(self) -> Iterator[_Triple]:
-        if (tagset_literal := self.series["tagset"]) is np.nan:
+        if pd.isna(tagset_literal := self.series["tagset"]):
             return
 
         yield from ttl(
@@ -428,7 +428,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_statistical_models_triples(self) -> Iterator[_Triple]:
-        if (statistical_models_literal := self.series["statistical_models"]) is np.nan:
+        if pd.isna(statistical_models_literal := self.series["statistical_models"]):
             return
 
         yield from ttl(
@@ -440,7 +440,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_license_triples(self) -> Iterator[_Triple]:
-        if (_license := self.series["License (consolidated CLSCor vocab)"]) is np.nan:
+        if pd.isna(_license := self.series["License (consolidated CLSCor vocab)"]):
             return
 
         e13_uri = mkuri()
@@ -457,15 +457,15 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P2_has_type),
         )
 
-        if (output_comment := self.series["License_comment"]) is not np.nan:
+        if not pd.isna(output_comment := self.series["License_comment"]):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_os_triples(self) -> Iterator[_Triple]:
-        if (
+        if pd.isna(
             operating_system := self.series[
                 "Works on Operating Systems (consolidated CLSCor vocab)"
             ]
-        ) is np.nan:
+        ):
             return
 
         e13_uri = mkuri()
@@ -483,13 +483,13 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P2_has_type),
         )
 
-        if (
+        if not pd.isna(
             output_comment := self.series["Works on Operating Systems_comment"]
-        ) is not np.nan:
+        ):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_language_triples(self) -> Iterator[_Triple]:
-        if (language_data := self.series["Language_consolidated"]) is np.nan:
+        if pd.isna(language_data := self.series["Language_consolidated"]):
             return
 
         e13_uri = mkuri()
@@ -508,17 +508,17 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P72_has_language),
         )
 
-        if (language_comment := self.series["Language_comment"]) is np.nan:
+        if pd.isna(language_comment := self.series["Language_comment"]):
             return
 
         yield from ttl(e13_uri, (crm.P3_has_note, language_comment.strip()))
 
     def generate_tool_integration_triples(self) -> Iterator[_Triple]:
-        if (
+        if pd.isna(
             tool := self.series[
                 "Which other tools from this list does this tool integrate?"
             ]
-        ) is np.nan:
+        ):
             return
 
         tools = tuple(mkuri(value.strip()) for value in tool.split(","))
@@ -530,6 +530,9 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         This generator needs to look up the applicable rows
         in the respective sheet and loop + yield from those series.
+
+        Obviously, this design is flawed, as the csv gets read and partitioned
+        at ever row iteration of the main table.
         """
         df_methods: pd.DataFrame = pd.read_csv(_data_path / "methods.csv")
         partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
@@ -572,25 +575,22 @@ def generate_actor_triples() -> Iterator[_Triple]:
             yield (actor.uri, crm.P3_has_note, Literal(note))
 
 
-##################################################
-#### runner logic
+def generate_tool_inventory_graph() -> Graph:
+    df_tool_inventory = pd.read_csv(_data_path / "tool_inventory.csv")
 
-_data_path = files("clscorgi.tool_inventory.data")
-df_tool_inventory = pd.read_csv(_data_path / "tool_inventory.csv")
+    class CLSGraph(NamespaceGraph):
+        crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+        crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
+        clscor = Namespace("https://clscor.io/entity/")
 
+    graph = CLSGraph()
 
-class CLSGraph(NamespaceGraph):
-    crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-    crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
-    clscor = Namespace("https://clscor.io/entity/")
+    actor_triples = generate_actor_triples()
+    table_triples = chain.from_iterable(
+        ToolInventoryRowConverter(row) for _, row in df_tool_inventory.iterrows()
+    )
 
+    for triple in chain(table_triples, actor_triples):
+        graph.add(triple)
 
-graph = CLSGraph()
-
-actor_triples = generate_actor_triples()
-table_triples = chain.from_iterable(
-    ToolInventoryRowConverter(row) for _, row in df_tool_inventory.iterrows()
-)
-
-for triple in chain(table_triples, actor_triples):
-    graph.add(triple)
+    return graph
