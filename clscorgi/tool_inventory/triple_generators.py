@@ -571,7 +571,3 @@ def generate_tool_inventory_graph() -> Graph:
         graph.add(triple)
 
     return graph
-
-
-graph = generate_tool_inventory_graph()
-assert len(graph) == 4948

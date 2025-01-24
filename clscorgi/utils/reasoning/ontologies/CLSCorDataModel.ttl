@@ -1,0 +1,327 @@
+### CLSCor Data Model (DRAFT) ###
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix lrm: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pem: <http://parthenos.d4science.org/CRMext/CRMpe.rdfs> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+# Ontology
+#################################################################
+
+<https://clscor.io/ontologies/CRMcls> a owl:Ontology ;
+    rdfs:label "CRM CLS" ;
+    rdfs:comment "Ontology for describing corpora relevant to Computational Literary Studies. This ontology was developed in the context of the CLS INFRA Project."@en ;
+    owl:versionInfo "v.0.1.0" ;
+    dce:creator "Vera Maria Charvat", "Ingo Börner", "Matej Durco", "Lukas Plank" ;
+    dce:contributor "George Bruseker", "Michal Mrugalski", "Carolin Odebrecht", "Stefan Resch", "Salvador Ros" .
+
+#################################################################
+# Introduced classes
+#################################################################
+
+crmcls:X1_Corpus a owl:Class, rdfs:Class ;
+    rdfs:label "Korpus"@de ,
+        "Corpus"@en ;
+    rdfs:comment "This class stands for a corpus or text corpus. A corpus is a set or dataset, consisting of one or more corpus documents."@en ;
+    rdfs:subClassOf lrm:F3_Manifestation ,
+        crmdig:D1_Digital_Object ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X2_Corpus_Document a owl:Class, rdfs:Class ;
+    rdfs:label "Korpus-Dokument"@de ,
+        "Corpus Document"@en ;
+    rdfs:comment "This class stands for a corpus document, a container for different representations / expressions of a text. A corpus document is a single entity in a corpus."@en ;
+    rdfs:subClassOf lrm:F3_Manifestation ,
+        crmdig:D1_Digital_Object ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	
+crmcls:X3_Feature a owl:Class, rdfs:Class ;
+    rdfs:label "Feature"@de ,
+        "Feature"@en ;
+    rdfs:comment "This class stands for a feature, which allows to capture individual (atomic) aspects exhibited by a document or a set of documents. A feature is the output produced by a method (e.g., method 'Part of speech tagging' produces the feature 'part of speech tags')"@en ;
+    rdfs:subClassOf crm:E73_Information_Object , crm:E58_Measurement_Unit ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X4_Project a owl:Class, rdfs:Class ;
+    rdfs:label "(Forschungs-)Projekt"@de ,
+        "(Research) Project"@en ;
+    rdfs:comment "This class stands for a project, which is 'an individual or collaborative enterprise that is carefully planned to achieve a particular aim' (cited from the Oxford dictionary)."@en ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X5_Research_Activity a owl:Class, rdfs:Class ;
+    rdfs:label "Forschungsaktivität"@de ,
+        "Research Activity"@en ;
+    rdfs:comment "This class stands for a research activity, which describes 'the systematic search for new findings and their documentation and publication' (translated from the German Wikipedia article: https://de.wikipedia.org/wiki/Forschung) ."@en ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X6_Method a owl:Class, rdfs:Class ;
+    rdfs:label "Methode"@de ,
+        "Method"@en ;
+    rdfs:comment "This class stands for a method, which (in the CLSCor context) is a particular procedure for approaching/completing a task."@en ;
+    rdfs:subClassOf crm:E29_Design_or_Procedure ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X7_Format a owl:Class, rdfs:Class ;
+    rdfs:label "Format"@de ,
+        "Format"@en ;
+    rdfs:comment "This class stands for a format, which (in the CLSCor context) is a file format."@en ;
+    owl:equivalentClass pem:PE43_Encoding_Type ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X8_Schema a owl:Class, rdfs:Class ;
+    rdfs:label "Schema"@de ,
+        "Schema"@en ;
+    rdfs:comment "This class stands for a schema, which is a document formally expressing allowed structures a format may follow."@en ;
+    owl:equivalentClass pem:PE38_Schema ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X9_Corpus_Description a owl:Class, rdfs:Class ;
+    rdfs:label "Aktivität der Korpusbeschreibung"@de ,
+        "Corpus Description Activity"@en ;
+    rdfs:comment """This class stands for a corpus description activity/event, which describes the activity of collectiong metadata about 
+        a corpus by using E13_Attribute_Assignment's. These individual attribute assignments are grouped under a 
+        crmcls:X9_Corpus_Description event, which allows to efficiently capture, who, when and based on which sources the information 
+        about the corpus was produced."""@en ;
+    rdfs:subClassOf crm:E83_Type_Creation ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X10_Encoding_Pattern a owl:Class, rdfs:Class ;
+    rdfs:label "Encoding Vorlage"@de ,
+        "Encoding Pattern"@en ;
+    rdfs:comment "This class stands for an encoding pattern, which describes the pattern an encoding follows."@en ;
+    rdfs:subClassOf crm:E90_Symbolic_Object ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:X11_Prototypical_Document a owl:Class, rdfs:Class ;
+    rdfs:label "Prototypisches Dokument"@de ,
+        "Prototypical Document"@en ;
+    rdfs:comment """This class stands for a prototypical document, which serves as a surrogate entity for a single document inside a 
+        corpus, to deal with the problem of uncertainties when providing information on document level. This allows to distinguish if 
+        properties are assigned to a corpus as a whole (e.g., number of documents in corpus, number of words in corpus, corpusTimespan, 
+        corpusType) or to the documents it consists of (e.g., language, format, feature, license, etc.) without necessarily inspecting 
+        all of them."""@en ;
+    rdfs:subClassOf crm:E55_Type ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	
+crmcls:X12_Tool a owl:Class, rdfs:Class ;
+	rdfs:label "Tool"@de ,
+        "Tool"@en ;
+    rdfs:comment """This class stands for a tool [...definition to be added...]"""@en ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	
+crmcls:X13_Tool_Description a owl:Class, rdfs:Class ;
+    rdfs:label "Aktivität der Toolbeschreibung"@de ,
+        "Tool Description Activity"@en ;
+    rdfs:comment "This class stands for a tool description activity/event, which describes the activity of collectiong metadata about a tool by using E13_Attribute_Assignment's. These individual attribute assignments are grouped under a crmcls:X13_Tool_Description event, which allows to efficiently capture, who, when and based on which sources the information about the tool was produced."@en ;
+    rdfs:subClassOf crm:E83_Type_Creation ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+#################################################################
+# Introduced properties
+#################################################################
+
+crmcls:Y1_exhibits_feature a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "enthält Feature"@de,
+        "exhibits feature"@en ;
+    rdfs:comment "states that a corpus document or prototypical document exhibits a feature"@en ;
+    rdfs:domain crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    rdfs:range crmcls:X3_Feature ;
+    owl:inverseOf crmcls:Y1i_feature_is_exhibited_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y1i_feature_is_exhibited_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "Feature ist enthalten in"@de,
+        "feature is exhibited by"@en ;
+    rdfs:comment "states a feature which is exhibited by a corpus document or prototypical document"@en ;
+    rdfs:domain crmcls:X3_Feature ;
+    rdfs:range crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    owl:inverseOf crmcls:Y1_exhibits_feature ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y2_has_format a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "hat Format"@de,
+        "has format"@en ;
+    rdfs:comment "states that a corpus document or prototypical document is available in a format"@en ;
+    rdfs:domain crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    rdfs:range pem:PE43_Encoding_Type ;
+    owl:inverseOf crmcls:Y2i_is_format_of ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y2i_is_format_of a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "ist Format von"@de,
+        "is format of"@en ;
+    rdfs:comment "states the format a corpus document or prototypical document is available in"@en ;
+    rdfs:domain pem:PE43_Encoding_Type ;
+    rdfs:range crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    owl:inverseOf crmcls:Y2_has_format ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y3_adheres_to_schema a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "folgt Schema"@de,
+        "adheres to schema"@en ;
+    rdfs:comment "states that a corpus document or prototypical document adheres to a schema"@en ;
+    rdfs:domain crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    rdfs:range pem:PE38_Schema ;
+    owl:inverseOf crmcls:Y3i_is_schema_of ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y3i_is_schema_of a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "ist Schema von"@de,
+        "is schema of"@en ;
+    rdfs:comment "states a schema to which a corpus document or prototypical document adheres to"@en ;
+    rdfs:domain pem:PE38_Schema ;
+    rdfs:range crmcls:X2_Corpus_Document, crmcls:X11_Prototypical_Document ;
+    owl:inverseOf crmcls:Y3_adheres_to_schema ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y4_has_subcorpus a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "hat als Subkorpus"@de,
+        "has subcorpus"@en ;
+    rdfs:comment "associates a corpus with its subcorpus"@en ;
+    rdfs:domain crmcls:X1_Corpus ;
+    rdfs:range crmcls:X1_Corpus ;
+    rdfs:subPropertyOf crm:P148_has_component ;
+    owl:inverseOf crmcls:Y4i_is_subcorpus_of ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y4i_is_subcorpus_of a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "ist Subkorpus von"@de,
+        "is subcorpus of"@en ;
+    rdfs:comment "associates a subcorpus with its super corpus"@en ;
+    rdfs:domain crmcls:X1_Corpus ;
+    rdfs:range crmcls:X1_Corpus ;
+    rdfs:subPropertyOf crm:P148i_is_component_of ;
+    owl:inverseOf crmcls:Y4_has_subcorpus ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y5_encodes a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "enkodiert"@de,
+        "encodes"@en ;
+    rdfs:comment "states that an encoding pattern encodes a feature"@en ;
+    rdfs:domain crmcls:X10_Encoding_Pattern ;
+    rdfs:range crmcls:X3_Feature ;
+    owl:inverseOf crmcls:Y5i_is_encoded_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y5i_is_encoded_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "wird kodiert durch"@de,
+        "is encoded by"@en ;
+    rdfs:comment "states that a feature is encoded following an encoding pattern"@en ;
+    rdfs:domain crmcls:X3_Feature ;
+    rdfs:range crmcls:X10_Encoding_Pattern ;
+    owl:inverseOf crmcls:Y5_encodes ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y6_defines a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "definiert"@de,
+        "defines"@en ;
+    rdfs:comment "states that a procedure defines an encoding pattern."@en ;
+    rdfs:domain crmcls:E29_Design_or_Procedure ;
+    rdfs:range crmcls:X10_Encoding_Pattern ;
+    owl:inverseOf crmcls:Y6i_is_defined_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y6i_is_defined_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "wird definiert durch"@de,
+        "is defined by"@en ;
+    rdfs:comment "states that an encoding pattern is defined by a procedure"@en ;
+    rdfs:domain crmcls:X10_Encoding_Pattern ;
+    rdfs:range crmcls:E29_Design_or_Procedure ;
+    owl:inverseOf crmcls:Y6_defines ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y7_uses a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "verwendet"@de,
+        "uses"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X5_Research_Activity ,
+		crmcls:X12_Tool ;
+    rdfs:range crmcls:X12_Tool ;
+    owl:inverseOf crmcls:Y7i_is_used_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	
+crmcls:Y7i_is_used_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "wird verwendet von"@de,
+        "is used by"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X12_Tool ;
+    rdfs:range crmcls:X5_Research_Activity ,
+		crmcls:X12_Tool	;
+    owl:inverseOf crmcls:Y7_uses ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .	
+	
+crmcls:Y8_implements a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "implementiert"@de,
+        "implements"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X12_Tool ;
+    rdfs:range crmcls:X6_Method ;
+    owl:inverseOf crmcls:Y8i_is_implemented_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y8i_is_implemented_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "wird implementiert durch"@de,
+        "is implemented by"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X6_Method ;
+    rdfs:range crmcls:X12_Tool ;
+    owl:inverseOf crmcls:Y8_implements ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y9_expects_input a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "erwartet Input"@de,
+        "expects input"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X6_Method ,
+		crmcls:X12_Tool ;
+    rdfs:range crmcls:X3_Feature ,
+		crmcls:X7_Format ,
+		crmcls:X8_Schema ;
+    owl:inverseOf crmcls:Y9i_input_is_expected_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y9i_input_is_expected_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "Input wird erwartet von"@de,
+        "input is expected by"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X3_Feature ,
+		crmcls:X7_Format ,
+		crmcls:X8_Schema ;
+    rdfs:range crmcls:X6_Method ,
+		crmcls:X12_Tool ;
+    owl:inverseOf crmcls:Y9_expects_input ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	
+crmcls:Y10_generates_output a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "generiert Output"@de,
+        "generates output"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X6_Method ,
+		crmcls:X12_Tool ;
+    rdfs:range crmcls:X3_Feature ,
+		crmcls:X7_Format ,
+		crmcls:X8_Schema ;
+    owl:inverseOf crmcls:Y10i_output_is_generated_by ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+
+crmcls:Y10i_output_is_generated_by a owl:ObjectProperty, rdf:Property ;
+    rdfs:label "Output wird generiert von"@de,
+        "output is generated by"@en ;
+    rdfs:comment "[to be added]"@en ;
+    rdfs:domain crmcls:X3_Feature ,
+		crmcls:X7_Format ,
+		crmcls:X8_Schema ;
+    rdfs:range crmcls:X6_Method ,
+		crmcls:X12_Tool ;
+    owl:inverseOf crmcls:Y10_generates_output ;
+    rdfs:isDefinedBy <https://clscor.io/ontologies/CRMcls> .
+	

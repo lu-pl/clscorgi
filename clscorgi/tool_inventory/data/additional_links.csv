@@ -91,7 +91,7 @@ id,toolname,link,link_type,link_comment
 26,Averell,https://github.com/linhd-postdata/averell,"data repository, project website",
 26,Averell,https://averell.readthedocs.io/en/latest/,documentation,"Readme, basic usage and installation"
 26,Averell,https://github.com/linhd-postdata/averell-docker,docker instance,
-27,Horace,https://github.com/linhd-postdata/Horace,"data repository, project website, documentati",Readme
+27,Horace,https://github.com/linhd-postdata/Horace,"data repository, project website, documentation",Readme
 27,Horace,https://horace.readthedocs.io/en/latest/,documentation,Documentation
 28,Poetrylab,https://github.com/linhd-postdata/poetrylab,"data repository, project website",
 28,Poetrylab,https://github.com/linhd-postdata/poetrylab/tree/develop/docker,docker instance,
