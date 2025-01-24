@@ -1,6 +1,7 @@
 """OWL RL Reasoner for CLSCorgi"""
 
 from collections.abc import Iterator
+from importlib.resources import as_file, files
 import os
 from pathlib import Path
 from typing import Iterable
@@ -20,7 +21,8 @@ def _get_ontology_graph(ontologies: Iterable[os.PathLike]) -> Graph:
 
 
 def _get_ontology_paths() -> Iterator[Path]:
-    for path in Path("./ontologies").iterdir():
+    ontologies = files("clscorgi.utils.reasoning.ontologies")
+    for path in ontologies.iterdir():
         if path.suffix in [".rdf", ".ttl"]:
             yield path
 

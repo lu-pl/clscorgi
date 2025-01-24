@@ -42,4 +42,6 @@ def tool_inventory_runner(pull_vocabs: bool = False, generate_inferred=False) ->
             f.write(graph.serialize())
 
 
-tool_inventory_runner(generate_inferred=True)
+if __name__ == "__main__":
+    logger.info("Starting runner for Tool Iventory RDF generation.")
+    tool_inventory_runner(generate_inferred=True)
