@@ -53,10 +53,7 @@ class _MethodsRowConverter(_ABCRowConverter):
 
     def _generate_task_description_triples(self) -> Iterator[_Triple]:
         methods = tuple(
-            vocabs.method(value.strip())
-            for value in self.series["methods_used_consolidated CLSCor vocab"].split(
-                ","
-            )
+            vocabs.method(value.strip()) for value in self.series["method"].split(",")
         )
 
         e13_uri = mkuri()
@@ -70,7 +67,7 @@ class _MethodsRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y8_implements),
         )
 
-        if pd.isna(methods_used := self.series["methods_used_comments"]):
+        if pd.isna(methods_used := self.series["method_comment"]):
             return
 
         yield (e13_uri, crm.P3_has_note, Literal(methods_used))
@@ -84,8 +81,7 @@ class _FeaturesRowConverter(_ABCRowConverter):
 
     def _generate_feature_triples(self) -> Iterator[_Triple]:
         features = tuple(
-            vocabs.feature(value.strip())
-            for value in self.series["features_consolidated CLSCor vocab"].split(",")
+            vocabs.feature(value.strip()) for value in self.series["feature"].split(",")
         )
 
         e13_uri = mkuri()
@@ -99,7 +95,7 @@ class _FeaturesRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
         )
 
-        if pd.isna(methods_used := self.series["features_comment"]):
+        if pd.isna(methods_used := self.series["feature_comment"]):
             return
 
         yield (e13_uri, crm.P3_has_note, Literal(methods_used))
@@ -110,7 +106,7 @@ class _RelatedPapersRowConverter(_ABCRowConverter):
         return chain(self._generate_related_papers_triples())
 
     def _generate_related_papers_triples(self) -> Iterator[_Triple]:
-        related_papers_literal = self.series["related papers"]
+        related_papers_literal = self.series["related_paper"]
 
         return ttl(
             mkuri(related_papers_literal),
@@ -121,14 +117,13 @@ class _RelatedPapersRowConverter(_ABCRowConverter):
         )
 
 
-class _AdditionalLinksRowConverter(_ABCRowConverter):
+class _AdditionalLinkRowConverter(_ABCRowConverter):
     def __iter__(self) -> Iterator[_Triple]:
-        return chain(self._generate_additional_links_triples())
+        return chain(self._generate_additional_link_triples())
 
-    def _generate_additional_links_triples(self) -> Iterator[_Triple]:
-        links = tuple(
-            vocabs.link(value.strip())
-            for value in self.series["link_type_vocab"].split(",")
+    def _generate_additional_link_triples(self) -> Iterator[_Triple]:
+        link = tuple(
+            vocabs.link(value.strip()) for value in self.series["link_type"].split(",")
         )
 
         e42_uri = mkuri(f"{self.tool_uri} link identifier")
@@ -140,8 +135,8 @@ class _AdditionalLinksRowConverter(_ABCRowConverter):
                 ttl(
                     e42_uri,
                     (RDF.type, crm.E42_Identifier),
-                    (crm.P190_has_symbolic_content, self.series["links"]),
-                    (crm.P2_has_type, links),
+                    (crm.P190_has_symbolic_content, self.series["link"]),
+                    (crm.P2_has_type, link),
                 ),
             ),
         )
@@ -185,7 +180,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             self.generate_methods_triples(),
             self.generate_features_triples(),
             self.generate_related_papers_triples(),
-            self.generate_additional_links_triples(),
+            self.generate_additional_link_triples(),
         )
 
     def generate_appellation_triples(self) -> Iterator[_Triple]:
@@ -203,7 +198,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             ),
         )
 
-        if not pd.isna(alternate_name := self.series["alternate name"]):
+        if not pd.isna(alternate_name := self.series["alternate_name"]):
             yield from ttl(
                 self.tool_uri,
                 (
@@ -259,9 +254,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
     def generate_primary_purpose_triples(self) -> Iterator[_Triple]:
         methods = tuple(
             vocabs.method(value.strip())
-            for value in self.series["primary_purpose_consolidated_CLSCor_vocab"].split(
-                ","
-            )
+            for value in self.series["primary_purpose"].split(",")
         )
 
         return ttl(
@@ -274,7 +267,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_version_note_triples(self) -> Iterator[_Triple]:
-        note_literal = self.series["Version_consolidated"]
+        note_literal = self.series["version"]
 
         return ttl(
             mkuri(note_literal),
@@ -285,7 +278,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_version_date_triples(self) -> Iterator[_Triple]:
-        date_literal = self.series["Version Date_consolidated"]
+        date_literal = self.series["version_date"]
 
         return ttl(
             mkuri(date_literal),
@@ -296,7 +289,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_distribution_triples(self) -> Iterator[_Triple]:
-        if pd.isna(distribution_literal := self.series["Distribution"]):
+        if pd.isna(distribution_literal := self.series["distribution"]):
             return
 
         yield from ttl(
@@ -308,7 +301,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_user_interface_triples(self) -> Iterator[_Triple]:
-        if pd.isna(userinterface_literal := self.series["User interface"]):
+        if pd.isna(userinterface_literal := self.series["user_interface"]):
             return
 
         yield from ttl(
@@ -320,9 +313,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_tool_processing_triples(self) -> Iterator[_Triple]:
-        if pd.isna(
-            toolprocessing_literal := self.series["How does the tool process your text"]
-        ):
+        if pd.isna(toolprocessing_literal := self.series["text_processing"]):
             return
 
         yield from ttl(
@@ -334,9 +325,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_output_format_triples(self) -> Iterator[_Triple]:
-        if pd.isna(
-            output_format := self.series["output_format (consolidated CLSCor vocab)"]
-        ):
+        if pd.isna(output_format := self.series["output_format"]):
             return
 
         e13_uri = mkuri()
@@ -357,9 +346,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_input_format_triples(self) -> Iterator[_Triple]:
-        if pd.isna(
-            input_format := self.series["input_format (consolidated CLSCor vocab)"]
-        ):
+        if pd.isna(input_format := self.series["input_format"]):
             return
 
         e13_uri = mkuri()
@@ -440,7 +427,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_license_triples(self) -> Iterator[_Triple]:
-        if pd.isna(_license := self.series["License (consolidated CLSCor vocab)"]):
+        if pd.isna(_license := self.series["license"]):
             return
 
         e13_uri = mkuri()
@@ -457,15 +444,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P2_has_type),
         )
 
-        if not pd.isna(output_comment := self.series["License_comment"]):
+        if not pd.isna(output_comment := self.series["license_comment"]):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_os_triples(self) -> Iterator[_Triple]:
-        if pd.isna(
-            operating_system := self.series[
-                "Works on Operating Systems (consolidated CLSCor vocab)"
-            ]
-        ):
+        if pd.isna(operating_system := self.series["operating_system"]):
             return
 
         e13_uri = mkuri()
@@ -483,13 +466,11 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P2_has_type),
         )
 
-        if not pd.isna(
-            output_comment := self.series["Works on Operating Systems_comment"]
-        ):
+        if not pd.isna(output_comment := self.series["operating_system_comment"]):
             yield from ttl(e13_uri, (crm.P3_has_note, output_comment.strip()))
 
     def generate_language_triples(self) -> Iterator[_Triple]:
-        if pd.isna(language_data := self.series["Language_consolidated"]):
+        if pd.isna(language_data := self.series["language"]):
             return
 
         e13_uri = mkuri()
@@ -508,17 +489,13 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crm.P72_has_language),
         )
 
-        if pd.isna(language_comment := self.series["Language_comment"]):
+        if pd.isna(language_comment := self.series["language_comment"]):
             return
 
         yield from ttl(e13_uri, (crm.P3_has_note, language_comment.strip()))
 
     def generate_tool_integration_triples(self) -> Iterator[_Triple]:
-        if pd.isna(
-            tool := self.series[
-                "Which other tools from this list does this tool integrate?"
-            ]
-        ):
+        if pd.isna(tool := self.series["tool_integration"]):
             return
 
         tools = tuple(mkuri(value.strip()) for value in tool.split(","))
@@ -554,12 +531,12 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         for _, row in partition.iterrows():
             yield from _RelatedPapersRowConverter(row)
 
-    def generate_additional_links_triples(self):
+    def generate_additional_link_triples(self):
         df_methods: pd.DataFrame = pd.read_csv(_data_path / "additional_links.csv")
         partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
 
         for _, row in partition.iterrows():
-            yield from _AdditionalLinksRowConverter(row)
+            yield from _AdditionalLinkRowConverter(row)
 
 
 def generate_actor_triples() -> Iterator[_Triple]:
@@ -594,3 +571,7 @@ def generate_tool_inventory_graph() -> Graph:
         graph.add(triple)
 
     return graph
+
+
+graph = generate_tool_inventory_graph()
+assert len(graph) == 4948

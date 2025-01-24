@@ -1,4 +1,4 @@
-id,toolname,related papers
+id,toolname,related_paper
 1,Arborator Grew,"Guibon, G., Courtin, M., Gerdes, K., & Guillaume, B. (2020). When Collaborative Treebank Curation Meets Graph Grammars. Proceedings of The 12th Language Resources and Evaluation Conference, 5293–5302. https://www.aclweb.org/anthology/2020.lrec-1.651"
 2,conll-u editor,"Heinecke, J. (2019). ConlluEditor: A fully graphical editor for Universal Dependencies treebank files. Universal Dependencies Workshop 2019. Paris. https://syntaxfest.github.io/syntaxfest19/proceedings/papers/paper_55.pdf"
 3,INCEpTION,"Klie, J.-C., Bugert, M., Boullosa, B., de Castilho, R. E., & Gurevych, I. (2018). The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation. Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations, 5–9. http://tubiblio.ulb.tu-darmstadt.de/106270/"

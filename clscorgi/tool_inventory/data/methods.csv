@@ -1,4 +1,4 @@
-id,toolname,methods_used_consolidated CLSCor vocab,methods_used_comments
+id,toolname,method,method_comment
 2,conll-u editor,manual annotation,"manually provide labels to text, edit tokenization, sentence splitting, and syntactic relations. Validate your annotation against a scheme"
 3,INCEpTION,manual annotation,
 4,DraCor,statistical analysis,Give summary statistics of a corpus

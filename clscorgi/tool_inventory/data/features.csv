@@ -1,4 +1,4 @@
-id,toolname,features_consolidated CLSCor vocab,features_comment
+id,toolname,feature,feature_comment
 1,Arborator Grew,morphological feature,syntactic dependencies
 2,conll-u editor,morphological feature,
 2,conll-u editor,word form,
