@@ -126,7 +126,7 @@ class _AdditionalLinkRowConverter(_ABCRowConverter):
             vocabs.link(value.strip()) for value in self.series["link_type"].split(",")
         )
 
-        e42_uri = mkuri(f"{self.tool_uri} link identifier")
+        e42_uri = mkuri()
 
         yield from ttl(
             self.tool_uri,
@@ -571,3 +571,7 @@ def generate_tool_inventory_graph() -> Graph:
         graph.add(triple)
 
     return graph
+
+
+graph = generate_tool_inventory_graph()
+print(graph.serialize())
