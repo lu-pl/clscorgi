@@ -95,10 +95,10 @@ class _FeaturesRowConverter(_ABCRowConverter):
             (crm.P177_assigned_property_of_type, crmcls.Y1_exhibits_feature),
         )
 
-        if pd.isna(methods_used := self.series["feature_comment"]):
+        if pd.isna(features_used := self.series["feature_comment"]):
             return
 
-        yield (e13_uri, crm.P3_has_note, Literal(methods_used))
+        yield (e13_uri, crm.P3_has_note, Literal(features_used))
 
 
 class _RelatedPapersRowConverter(_ABCRowConverter):
@@ -111,7 +111,7 @@ class _RelatedPapersRowConverter(_ABCRowConverter):
         return ttl(
             mkuri(related_papers_literal),
             (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["related_papers"]),
+            (crm["P3.1_has_type"], crmcls["related_paper"]),
             (crm["P03_has_range_literal"], related_papers_literal),
             (crm["P01_has_domain"], self.tool_uri),
         )
@@ -313,14 +313,14 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         )
 
     def generate_tool_processing_triples(self) -> Iterator[_Triple]:
-        if pd.isna(toolprocessing_literal := self.series["text_processing"]):
+        if pd.isna(textprocessing_literal := self.series["text_processing"]):
             return
 
         yield from ttl(
-            mkuri(toolprocessing_literal),
+            mkuri(textprocessing_literal),
             (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["tool_processing"]),
-            (crm["P03_has_range_literal"], toolprocessing_literal.strip()),
+            (crm["P3.1_has_type"], crmcls["text_processing"]),
+            (crm["P03_has_range_literal"], textprocessing_literal.strip()),
             (crm["P01_has_domain"], self.tool_uri),
         )
 
@@ -511,29 +511,29 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         Obviously, this design is flawed, as the csv gets read and partitioned
         at ever row iteration of the main table.
         """
-        df_methods: pd.DataFrame = pd.read_csv(_data_path / "methods.csv")
-        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+        df: pd.DataFrame = pd.read_csv(_data_path / "methods.csv")
+        partition: pd.DataFrame = df[df["id"] == self.series["id"]]
 
         for _, row in partition.iterrows():
             yield from _MethodsRowConverter(row)
 
     def generate_features_triples(self):
-        df_methods: pd.DataFrame = pd.read_csv(_data_path / "features.csv")
-        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+        df: pd.DataFrame = pd.read_csv(_data_path / "features.csv")
+        partition: pd.DataFrame = df[df["id"] == self.series["id"]]
 
         for _, row in partition.iterrows():
             yield from _FeaturesRowConverter(row)
 
     def generate_related_papers_triples(self):
-        df_methods: pd.DataFrame = pd.read_csv(_data_path / "related_papers.csv")
-        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+        df: pd.DataFrame = pd.read_csv(_data_path / "related_papers.csv")
+        partition: pd.DataFrame = df[df["id"] == self.series["id"]]
 
         for _, row in partition.iterrows():
             yield from _RelatedPapersRowConverter(row)
 
     def generate_additional_link_triples(self):
-        df_methods: pd.DataFrame = pd.read_csv(_data_path / "additional_links.csv")
-        partition: pd.DataFrame = df_methods[df_methods["id"] == self.series["id"]]
+        df: pd.DataFrame = pd.read_csv(_data_path / "additional_links.csv")
+        partition: pd.DataFrame = df[df["id"] == self.series["id"]]
 
         for _, row in partition.iterrows():
             yield from _AdditionalLinkRowConverter(row)
@@ -571,7 +571,3 @@ def generate_tool_inventory_graph() -> Graph:
         graph.add(triple)
 
     return graph
-
-
-graph = generate_tool_inventory_graph()
-print(graph.serialize())
