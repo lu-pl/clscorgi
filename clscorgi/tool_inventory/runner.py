@@ -6,6 +6,7 @@ import logging
 from clscorgi.tool_inventory.triple_generators import generate_tool_inventory_graph
 from clscorgi.utils.reasoning.reasoner import run_reasoner
 from clscorgi.vocabs.vocabs_utils import pull_remote_vocabs
+from rdflib import Graph
 
 
 logger = logging.getLogger(__name__)
@@ -35,11 +36,21 @@ def tool_inventory_runner(pull_vocabs: bool = False, generate_inferred=False) ->
 
         output_file_inferred = _output_path / "tool_inventory_inferred.ttl"
 
+        query = """
+        construct {?s ?p ?o .}
+        where {
+          ?s ?p ?o .
+          filter (contains(str(?s), "https://clscor.io/entity/"))
+        }
+        """
+
+        reduced_graph: Graph = graph.query(query).graph
+
         with open(str(output_file_inferred), "w") as f:
             logger.info(
                 "Serializing inferred graph to output file '%s'.", output_file_inferred
             )
-            f.write(graph.serialize())
+            f.write(reduced_graph.serialize())
 
 
 if __name__ == "__main__":
