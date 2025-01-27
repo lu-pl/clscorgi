@@ -1,0 +1,1130 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmcls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/method/analytical_views_production_and_interaction> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "analytical views production and interaction" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "analytical views production and interaction" .
+
+<https://clscor.io/entity/type/method/annotating> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotating" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: TaDiRAH" ;
+    skos:definition "annotating refers to the activity of making information about a digital object explicit by adding notes metadata keywords tags or links to a digitized representation or to an annotation file associated with it. This can be in the form of explanatory annotations that comments or contextualize a passage annotations that make structural or linguistic information explicit as linked open data making the relationships between objects machine-readable or in the case of general metadata adding information about the object as a whole." ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotating" .
+
+<https://clscor.io/entity/type/method/annotation_editing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation editing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/editing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation editing" .
+
+<https://clscor.io/entity/type/method/annotation_of_stanza_type> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation of stanza type" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:definition "Automatic annotation of stanzas" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation of stanza type" .
+
+<https://clscor.io/entity/type/method/annotation_through_concordance> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation through concordance" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation through concordance" .
+
+<https://clscor.io/entity/type/method/annotation_through_scripts> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation through scripts" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation through scripts" .
+
+<https://clscor.io/entity/type/method/annotation_through_text_reading> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "annotation through text reading" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "annotation through text reading" .
+
+<https://clscor.io/entity/type/method/applying_ETL_process> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying ETL process" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/extracting>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying ETL process" .
+
+<https://clscor.io/entity/type/method/applying_RDF_schema> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying RDF schema" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying RDF schema" .
+
+<https://clscor.io/entity/type/method/applying_bible_studies> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying bible studies" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying bible studies" .
+
+<https://clscor.io/entity/type/method/applying_nlp_methods> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying NLP methods" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "general task of applying NLP methods" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying NLP methods" .
+
+<https://clscor.io/entity/type/method/applying_textometry_methods> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying textometry methods" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "general task of applying textometry methods" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying textometry methods" .
+
+<https://clscor.io/entity/type/method/applying_universal_dependencies> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "applying universal dependencies" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "applying universal dependencies" .
+
+<https://clscor.io/entity/type/method/automatic_annotation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "automatic annotation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "automatic annotation" .
+
+<https://clscor.io/entity/type/method/classification> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "classification" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "classification" .
+
+<https://clscor.io/entity/type/method/clustering> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "clustering" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/clusterAnalysis>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "clustering" .
+
+<https://clscor.io/entity/type/method/collocations_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "collocations analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Tell which words typically co-occur with a given word" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/collocationAnalysis>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "collocations analysis" .
+
+<https://clscor.io/entity/type/method/concordance_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "concordance analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:definition "Tabulate the contexts of occurrences of word patterns" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "concordance analysis" .
+
+<https://clscor.io/entity/type/method/contrastive_corpus_configuration> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "contrastive corpus configuration" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Build a contrastive corpus configuration (build a partition) by selecting a set of texts or a set of text parts" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "contrastive corpus configuration" .
+
+<https://clscor.io/entity/type/method/converting> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "converting" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: TaDiRAH" ;
+    skos:definition "converting refers to changing the file format of an object e.g. converting a .wmv video to a .mov file or converting VHS into a digital format. A conversion is not lossless and generates a different data format digital representation or a different digital object. When converting concerns metadata it may involve mapping one metadata schema to another." ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/converting>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "converting" .
+
+<https://clscor.io/entity/type/method/coreference_chain_search> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "coreference chain search" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/searching>" ;
+    skos:definition "Search in an annotated text corpus (co-reference)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "coreference chain search" .
+
+<https://clscor.io/entity/type/method/coreference_resolution> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "coreference resolution" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:altLabel "coreference (anaphora) resolution" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/coOccurrence>" ;
+    skos:definition "Identify mentions of an entity even when they are expressed by a personal pronoun" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "coreference resolution" .
+
+<https://clscor.io/entity/type/method/corpus_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "corpus analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "corpus analysis" .
+
+<https://clscor.io/entity/type/method/corpus_configuration> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "corpus configuration" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Build a corpus configuration (build a subcorpus) by selecting a set of texts or a set of text parts" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "corpus configuration" .
+
+<https://clscor.io/entity/type/method/corpus_extraction> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "corpus extraction" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "corpus extraction" .
+
+<https://clscor.io/entity/type/method/corpus_management> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "corpus management" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/managing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "corpus management" .
+
+<https://clscor.io/entity/type/method/correspondence_factor_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "correspondence factor analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:example "Correspondence factor analysis of a partition" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "correspondence factor analysis" .
+
+<https://clscor.io/entity/type/method/data_cleaning> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "data cleaning" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:altLabel "data cleansing" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/dataCleansing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "data cleaning" .
+
+<https://clscor.io/entity/type/method/data_visualization> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "data visualization" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/dataVisualization>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "data visualization" .
+
+<https://clscor.io/entity/type/method/dependency_parsing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "dependency parsing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/parsing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "dependency parsing" .
+
+<https://clscor.io/entity/type/method/drama_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "drama analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:definition "Retrieve parts of the text such as structural units and characters of a drama" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "drama analysis" .
+
+<https://clscor.io/entity/type/method/entity_linking> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "entity linking" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Connect named entities in a text with knowledge bases" ;
+    skos:example "Entity Linking (aka Wikification - Grounding)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "entity linking" .
+
+<https://clscor.io/entity/type/method/evaluating> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "evaluating" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "evaluating" .
+
+<https://clscor.io/entity/type/method/event_extraction> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "event extraction" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:altLabel "information extraction (event)" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/extracting>" ;
+    skos:definition "event information extraction" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "event extraction" .
+
+<https://clscor.io/entity/type/method/filtering_stop_words> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "filtering stop words" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "filtering stop words" .
+
+<https://clscor.io/entity/type/method/frequency_distribution> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "frequency distribution" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "frequency distribution" .
+
+<https://clscor.io/entity/type/method/grammatical_annotation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "grammatical annotation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "grammatical annotation" .
+
+<https://clscor.io/entity/type/method/hierarchical_cluster_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "hierarchical cluster analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/clusterAnalysis>" ;
+    skos:example "Hierarchical cluster analysis of a partition" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "hierarchical cluster analysis" .
+
+<https://clscor.io/entity/type/method/hierarchical_index_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "hierarchical index analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "hierarchical index analysis" .
+
+<https://clscor.io/entity/type/method/indexing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "indexing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "indexing" .
+
+<https://clscor.io/entity/type/method/information_extraction> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "information extraction" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "information extraction" .
+
+<https://clscor.io/entity/type/method/keyword_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "keyword analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:example "Keywords analysis of a partition or subcorpus" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "keyword analysis" .
+
+<https://clscor.io/entity/type/method/lemmatization> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "lemmatization" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Give the basic dictionary form of a token" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/lemmatizing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "lemmatization" .
+
+<https://clscor.io/entity/type/method/linear_text_search> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "linear text search" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/searching>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "linear text search" .
+
+<https://clscor.io/entity/type/method/machine_learning> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "machine learning" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1 and TaDiRAH" ;
+    skos:definition """
+branch of statistics and computer science which studies algorithms and architectures that learn from observed facts (Wikidata contributors "Q2539" Wikidata https://www.wikidata.org/w/index.php?title=Q2539&oldid=1228523395 (accessed July 30 2020).""" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/machineLearning>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "machine learning" .
+
+<https://clscor.io/entity/type/method/manual_annotation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "manual annotation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:altLabel "manual text annotation" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:definition "manually provide labels to text" ;
+    skos:example "Manually annotate your texts e.g. with named entities" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "manual annotation" .
+
+<https://clscor.io/entity/type/method/manual_token_annotation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "manual token annotation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:altLabel "manual token spans annotation" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:definition "Manually annotate your tokens" ;
+    skos:example "Manually annotate your tokens e.g. with pos or with co-reference chain units" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "manual token annotation" .
+
+<https://clscor.io/entity/type/method/morphological_segmentation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "morphological segmentation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/segmenting>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "morphological segmentation" .
+
+<https://clscor.io/entity/type/method/morphological_tagging> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "morphological tagging" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/tagging>" ;
+    skos:definition "Determine relevant morphological categories" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "morphological tagging" .
+
+<https://clscor.io/entity/type/method/named_entity_recognition> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "named entity recognition" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "identify and mark named entities in texts respectively extract entities such as persons dates and locations" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/namedEntityRecognition>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "named entity recognition" .
+
+<https://clscor.io/entity/type/method/named_entity_recognition_flat> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "named entity recognition (flat)" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/namedEntityRecognition>" ;
+    skos:definition "extraction of flat named entities" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "named entity recognition (flat)" .
+
+<https://clscor.io/entity/type/method/named_entity_recognition_nested> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "named entity recognition (nested)" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/namedEntityRecognition>" ;
+    skos:definition "extraction of named entities even nested" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "named entity recognition (nested)" .
+
+<https://clscor.io/entity/type/method/network_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "network analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/extracting>" ;
+    skos:definition "Extract a character network from a drama and calculate network metrics" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/networkAnalysis>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "network analysis" .
+
+<https://clscor.io/entity/type/method/paradigmatic_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "paradigmatic analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "paradigmatic analysis" .
+
+<https://clscor.io/entity/type/method/parsing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "parsing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1 and TaDiRAH" ;
+    skos:definition "process of analyzing a string of symbols either in natural language computer languages or data structures conforming to the rules of a formal grammar (Wikidata contributors \"Q194152\" Wikidata https://www.wikidata.org/w/index.php?title=Q194152&oldid=1264510115 (accessed September 4 2020)." ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/parsing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "parsing" .
+
+<https://clscor.io/entity/type/method/part_of_speech_tagging> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "part of speech tagging" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Determine part of speech" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/posTagging>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "part of speech tagging" .
+
+<https://clscor.io/entity/type/method/poetry_processing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "poetry processing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "poetry processing" .
+
+<https://clscor.io/entity/type/method/portal_management> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "portal management" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/managing>" ;
+    skos:definition "general task of managing a portal e.g. of a tool such as TXM portal" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "portal management" .
+
+<https://clscor.io/entity/type/method/preprocessing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "preprocessing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/preprocessing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "preprocessing" .
+
+<https://clscor.io/entity/type/method/progression_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "progression analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "progression analysis" .
+
+<https://clscor.io/entity/type/method/providing_a_demo> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "providing a demo" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "providing a demo" .
+
+<https://clscor.io/entity/type/method/qualitative_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "qualitative analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "qualitative analysis" .
+
+<https://clscor.io/entity/type/method/quantification> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "quantification" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "quantification" .
+
+<https://clscor.io/entity/type/method/quantitative_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "quantitative analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "quantitative analysis" .
+
+<https://clscor.io/entity/type/method/relation_extraction> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "relation extraction" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/extracting>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "relation extraction" .
+
+<https://clscor.io/entity/type/method/rhyme_detection> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "rhyme detection" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/finding>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "rhyme detection" .
+
+<https://clscor.io/entity/type/method/rule_based_enjambment_detection> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "rule-based enjambment detection" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/finding>" ;
+    skos:definition "Automatic enjambment detection" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "rule-based enjambment detection" .
+
+<https://clscor.io/entity/type/method/searching> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "searching" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/searching>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "searching" .
+
+<https://clscor.io/entity/type/method/semantic_parsing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "semantic parsing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/parsing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "semantic parsing" .
+
+<https://clscor.io/entity/type/method/semantic_role_labelling> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "semantic role labelling" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "semantic role labelling" .
+
+<https://clscor.io/entity/type/method/semi_automatical_token_annotation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "semi-automatical token annotation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/annotating>" ;
+    skos:definition "Semi-automatically annotate your tokens" ;
+    skos:example "Semi-automatically annotate your tokens e.g. with pos" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "semi-automatical token annotation" .
+
+<https://clscor.io/entity/type/method/sentence_counting> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentence counting" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "sentence counting" .
+
+<https://clscor.io/entity/type/method/sentence_splitting> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentence splitting" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Recognize borders of sentences" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "sentence splitting" .
+
+<https://clscor.io/entity/type/method/sentiment_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "sentiment analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/sentimentAnalysis>" ;
+    skos:example "Sentiment analysis (aka Opinion mining  Emotion AI)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "sentiment analysis" .
+
+<https://clscor.io/entity/type/method/stanza_detection> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "stanza detection" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/finding>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "stanza detection" .
+
+<https://clscor.io/entity/type/method/statistical_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "statistical analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "statistical analysis" .
+
+<https://clscor.io/entity/type/method/statistical_machine_learning> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "statistical machine learning" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/machineLearning>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "statistical machine learning" .
+
+<https://clscor.io/entity/type/method/stemming> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "stemming" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "stemming" .
+
+<https://clscor.io/entity/type/method/syllabification> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syllabification" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "syllabification" .
+
+<https://clscor.io/entity/type/method/syntactic_parsing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syntactic parsing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/parsing>" ;
+    skos:definition "Determine syntactic relations between tokens (e. g. verb subjects)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "syntactic parsing" .
+
+<https://clscor.io/entity/type/method/syntactic_tree_search> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syntactic tree search" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/searching>" ;
+    skos:definition "Search in a parsed text corpus (treebank)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "syntactic tree search" .
+
+<https://clscor.io/entity/type/method/syntagmatic_analysis> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "syntagmatic analysis" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/analyzing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "syntagmatic analysis" .
+
+<https://clscor.io/entity/type/method/testing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "testing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "testing" .
+
+<https://clscor.io/entity/type/method/text_classification> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "text classification" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:example "Text classification (classes: positive - neutral - negative)" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "text classification" .
+
+<https://clscor.io/entity/type/method/text_parsing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "text parsing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/parsing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "text parsing" .
+
+<https://clscor.io/entity/type/method/tokenization> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "tokenization" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:definition "Recognize borders of tokens" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "tokenization" .
+
+<https://clscor.io/entity/type/method/topic_modelling> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "topic modelling" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/topicModeling>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "topic modelling" .
+
+<https://clscor.io/entity/type/method/topic_segmentation> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "topic segmentation" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:broaderMatch "<https://vocabs.dariah.eu/tadirah/segmenting>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "topic segmentation" .
+
+<https://clscor.io/entity/type/method/transcribing> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "transcribing" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: TaDiRAH" ;
+    skos:definition "transcribing describes the activity of creating a representation of a manuscript or of audio or video recordings. The representation is generally textual for the verbal aspects of recordings and structured for example by speech turns. It can also contain multimodal information like gestures or events and multimedia information like time synchronization and relation to media files." ;
+    skos:exactMatch "<https://vocabs.dariah.eu/tadirah/transcribing>" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "transcribing" .
+
+<https://clscor.io/entity/type/method/using_a_database> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "using a database" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "using a database" .
+
+<https://clscor.io/entity/type/method/using_a_triplestore> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "using a triplestore" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: creating new method-terms for VELD mapping" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "using a triplestore" .
+
+<https://clscor.io/entity/type/method/word_counting> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "word counting" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "word counting" .
+
+<https://clscor.io/entity/type/method/word_embedding> a crm:E55_Type,
+        skos:Concept,
+        crmcls:X6_Method ;
+    rdfs:label "word embedding" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/method> ;
+    rdfs:comment "source: D8.1" ;
+    skos:inScheme <https://clscor.io/entity/type/method> ;
+    skos:prefLabel "word embedding" .
+
+<https://clscor.io/entity/type/method> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Method types" ;
+    crm:P71_lists <https://clscor.io/entity/type/method/analytical_views_production_and_interaction>,
+        <https://clscor.io/entity/type/method/annotating>,
+        <https://clscor.io/entity/type/method/annotation_editing>,
+        <https://clscor.io/entity/type/method/annotation_of_stanza_type>,
+        <https://clscor.io/entity/type/method/annotation_through_concordance>,
+        <https://clscor.io/entity/type/method/annotation_through_scripts>,
+        <https://clscor.io/entity/type/method/annotation_through_text_reading>,
+        <https://clscor.io/entity/type/method/applying_ETL_process>,
+        <https://clscor.io/entity/type/method/applying_RDF_schema>,
+        <https://clscor.io/entity/type/method/applying_bible_studies>,
+        <https://clscor.io/entity/type/method/applying_nlp_methods>,
+        <https://clscor.io/entity/type/method/applying_textometry_methods>,
+        <https://clscor.io/entity/type/method/applying_universal_dependencies>,
+        <https://clscor.io/entity/type/method/automatic_annotation>,
+        <https://clscor.io/entity/type/method/classification>,
+        <https://clscor.io/entity/type/method/clustering>,
+        <https://clscor.io/entity/type/method/collocations_analysis>,
+        <https://clscor.io/entity/type/method/concordance_analysis>,
+        <https://clscor.io/entity/type/method/contrastive_corpus_configuration>,
+        <https://clscor.io/entity/type/method/converting>,
+        <https://clscor.io/entity/type/method/coreference_chain_search>,
+        <https://clscor.io/entity/type/method/coreference_resolution>,
+        <https://clscor.io/entity/type/method/corpus_analysis>,
+        <https://clscor.io/entity/type/method/corpus_configuration>,
+        <https://clscor.io/entity/type/method/corpus_extraction>,
+        <https://clscor.io/entity/type/method/corpus_management>,
+        <https://clscor.io/entity/type/method/correspondence_factor_analysis>,
+        <https://clscor.io/entity/type/method/data_cleaning>,
+        <https://clscor.io/entity/type/method/data_visualization>,
+        <https://clscor.io/entity/type/method/dependency_parsing>,
+        <https://clscor.io/entity/type/method/drama_analysis>,
+        <https://clscor.io/entity/type/method/entity_linking>,
+        <https://clscor.io/entity/type/method/evaluating>,
+        <https://clscor.io/entity/type/method/event_extraction>,
+        <https://clscor.io/entity/type/method/filtering_stop_words>,
+        <https://clscor.io/entity/type/method/frequency_distribution>,
+        <https://clscor.io/entity/type/method/grammatical_annotation>,
+        <https://clscor.io/entity/type/method/hierarchical_cluster_analysis>,
+        <https://clscor.io/entity/type/method/hierarchical_index_analysis>,
+        <https://clscor.io/entity/type/method/indexing>,
+        <https://clscor.io/entity/type/method/information_extraction>,
+        <https://clscor.io/entity/type/method/keyword_analysis>,
+        <https://clscor.io/entity/type/method/lemmatization>,
+        <https://clscor.io/entity/type/method/linear_text_search>,
+        <https://clscor.io/entity/type/method/machine_learning>,
+        <https://clscor.io/entity/type/method/manual_annotation>,
+        <https://clscor.io/entity/type/method/manual_token_annotation>,
+        <https://clscor.io/entity/type/method/morphological_segmentation>,
+        <https://clscor.io/entity/type/method/morphological_tagging>,
+        <https://clscor.io/entity/type/method/named_entity_recognition>,
+        <https://clscor.io/entity/type/method/named_entity_recognition_flat>,
+        <https://clscor.io/entity/type/method/named_entity_recognition_nested>,
+        <https://clscor.io/entity/type/method/network_analysis>,
+        <https://clscor.io/entity/type/method/paradigmatic_analysis>,
+        <https://clscor.io/entity/type/method/parsing>,
+        <https://clscor.io/entity/type/method/part_of_speech_tagging>,
+        <https://clscor.io/entity/type/method/poetry_processing>,
+        <https://clscor.io/entity/type/method/portal_management>,
+        <https://clscor.io/entity/type/method/preprocessing>,
+        <https://clscor.io/entity/type/method/progression_analysis>,
+        <https://clscor.io/entity/type/method/providing_a_demo>,
+        <https://clscor.io/entity/type/method/qualitative_analysis>,
+        <https://clscor.io/entity/type/method/quantification>,
+        <https://clscor.io/entity/type/method/quantitative_analysis>,
+        <https://clscor.io/entity/type/method/relation_extraction>,
+        <https://clscor.io/entity/type/method/rhyme_detection>,
+        <https://clscor.io/entity/type/method/rule_based_enjambment_detection>,
+        <https://clscor.io/entity/type/method/searching>,
+        <https://clscor.io/entity/type/method/semantic_parsing>,
+        <https://clscor.io/entity/type/method/semantic_role_labelling>,
+        <https://clscor.io/entity/type/method/semi_automatical_token_annotation>,
+        <https://clscor.io/entity/type/method/sentence_counting>,
+        <https://clscor.io/entity/type/method/sentence_splitting>,
+        <https://clscor.io/entity/type/method/sentiment_analysis>,
+        <https://clscor.io/entity/type/method/stanza_detection>,
+        <https://clscor.io/entity/type/method/statistical_analysis>,
+        <https://clscor.io/entity/type/method/statistical_machine_learning>,
+        <https://clscor.io/entity/type/method/stemming>,
+        <https://clscor.io/entity/type/method/syllabification>,
+        <https://clscor.io/entity/type/method/syntactic_parsing>,
+        <https://clscor.io/entity/type/method/syntactic_tree_search>,
+        <https://clscor.io/entity/type/method/syntagmatic_analysis>,
+        <https://clscor.io/entity/type/method/testing>,
+        <https://clscor.io/entity/type/method/text_classification>,
+        <https://clscor.io/entity/type/method/text_parsing>,
+        <https://clscor.io/entity/type/method/tokenization>,
+        <https://clscor.io/entity/type/method/topic_modelling>,
+        <https://clscor.io/entity/type/method/topic_segmentation>,
+        <https://clscor.io/entity/type/method/transcribing>,
+        <https://clscor.io/entity/type/method/using_a_database>,
+        <https://clscor.io/entity/type/method/using_a_triplestore>,
+        <https://clscor.io/entity/type/method/word_counting>,
+        <https://clscor.io/entity/type/method/word_embedding> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/method/analytical_views_production_and_interaction>,
+        <https://clscor.io/entity/type/method/annotating>,
+        <https://clscor.io/entity/type/method/annotation_editing>,
+        <https://clscor.io/entity/type/method/annotation_of_stanza_type>,
+        <https://clscor.io/entity/type/method/annotation_through_concordance>,
+        <https://clscor.io/entity/type/method/annotation_through_scripts>,
+        <https://clscor.io/entity/type/method/annotation_through_text_reading>,
+        <https://clscor.io/entity/type/method/applying_ETL_process>,
+        <https://clscor.io/entity/type/method/applying_RDF_schema>,
+        <https://clscor.io/entity/type/method/applying_bible_studies>,
+        <https://clscor.io/entity/type/method/applying_nlp_methods>,
+        <https://clscor.io/entity/type/method/applying_textometry_methods>,
+        <https://clscor.io/entity/type/method/applying_universal_dependencies>,
+        <https://clscor.io/entity/type/method/automatic_annotation>,
+        <https://clscor.io/entity/type/method/classification>,
+        <https://clscor.io/entity/type/method/clustering>,
+        <https://clscor.io/entity/type/method/collocations_analysis>,
+        <https://clscor.io/entity/type/method/concordance_analysis>,
+        <https://clscor.io/entity/type/method/contrastive_corpus_configuration>,
+        <https://clscor.io/entity/type/method/converting>,
+        <https://clscor.io/entity/type/method/coreference_chain_search>,
+        <https://clscor.io/entity/type/method/coreference_resolution>,
+        <https://clscor.io/entity/type/method/corpus_analysis>,
+        <https://clscor.io/entity/type/method/corpus_configuration>,
+        <https://clscor.io/entity/type/method/corpus_extraction>,
+        <https://clscor.io/entity/type/method/corpus_management>,
+        <https://clscor.io/entity/type/method/correspondence_factor_analysis>,
+        <https://clscor.io/entity/type/method/data_cleaning>,
+        <https://clscor.io/entity/type/method/data_visualization>,
+        <https://clscor.io/entity/type/method/dependency_parsing>,
+        <https://clscor.io/entity/type/method/drama_analysis>,
+        <https://clscor.io/entity/type/method/entity_linking>,
+        <https://clscor.io/entity/type/method/evaluating>,
+        <https://clscor.io/entity/type/method/event_extraction>,
+        <https://clscor.io/entity/type/method/filtering_stop_words>,
+        <https://clscor.io/entity/type/method/frequency_distribution>,
+        <https://clscor.io/entity/type/method/grammatical_annotation>,
+        <https://clscor.io/entity/type/method/hierarchical_cluster_analysis>,
+        <https://clscor.io/entity/type/method/hierarchical_index_analysis>,
+        <https://clscor.io/entity/type/method/indexing>,
+        <https://clscor.io/entity/type/method/information_extraction>,
+        <https://clscor.io/entity/type/method/keyword_analysis>,
+        <https://clscor.io/entity/type/method/lemmatization>,
+        <https://clscor.io/entity/type/method/linear_text_search>,
+        <https://clscor.io/entity/type/method/machine_learning>,
+        <https://clscor.io/entity/type/method/manual_annotation>,
+        <https://clscor.io/entity/type/method/manual_token_annotation>,
+        <https://clscor.io/entity/type/method/morphological_segmentation>,
+        <https://clscor.io/entity/type/method/morphological_tagging>,
+        <https://clscor.io/entity/type/method/named_entity_recognition>,
+        <https://clscor.io/entity/type/method/named_entity_recognition_flat>,
+        <https://clscor.io/entity/type/method/named_entity_recognition_nested>,
+        <https://clscor.io/entity/type/method/network_analysis>,
+        <https://clscor.io/entity/type/method/paradigmatic_analysis>,
+        <https://clscor.io/entity/type/method/parsing>,
+        <https://clscor.io/entity/type/method/part_of_speech_tagging>,
+        <https://clscor.io/entity/type/method/poetry_processing>,
+        <https://clscor.io/entity/type/method/portal_management>,
+        <https://clscor.io/entity/type/method/preprocessing>,
+        <https://clscor.io/entity/type/method/progression_analysis>,
+        <https://clscor.io/entity/type/method/providing_a_demo>,
+        <https://clscor.io/entity/type/method/qualitative_analysis>,
+        <https://clscor.io/entity/type/method/quantification>,
+        <https://clscor.io/entity/type/method/quantitative_analysis>,
+        <https://clscor.io/entity/type/method/relation_extraction>,
+        <https://clscor.io/entity/type/method/rhyme_detection>,
+        <https://clscor.io/entity/type/method/rule_based_enjambment_detection>,
+        <https://clscor.io/entity/type/method/searching>,
+        <https://clscor.io/entity/type/method/semantic_parsing>,
+        <https://clscor.io/entity/type/method/semantic_role_labelling>,
+        <https://clscor.io/entity/type/method/semi_automatical_token_annotation>,
+        <https://clscor.io/entity/type/method/sentence_counting>,
+        <https://clscor.io/entity/type/method/sentence_splitting>,
+        <https://clscor.io/entity/type/method/sentiment_analysis>,
+        <https://clscor.io/entity/type/method/stanza_detection>,
+        <https://clscor.io/entity/type/method/statistical_analysis>,
+        <https://clscor.io/entity/type/method/statistical_machine_learning>,
+        <https://clscor.io/entity/type/method/stemming>,
+        <https://clscor.io/entity/type/method/syllabification>,
+        <https://clscor.io/entity/type/method/syntactic_parsing>,
+        <https://clscor.io/entity/type/method/syntactic_tree_search>,
+        <https://clscor.io/entity/type/method/syntagmatic_analysis>,
+        <https://clscor.io/entity/type/method/testing>,
+        <https://clscor.io/entity/type/method/text_classification>,
+        <https://clscor.io/entity/type/method/text_parsing>,
+        <https://clscor.io/entity/type/method/tokenization>,
+        <https://clscor.io/entity/type/method/topic_modelling>,
+        <https://clscor.io/entity/type/method/topic_segmentation>,
+        <https://clscor.io/entity/type/method/transcribing>,
+        <https://clscor.io/entity/type/method/using_a_database>,
+        <https://clscor.io/entity/type/method/using_a_triplestore>,
+        <https://clscor.io/entity/type/method/word_counting>,
+        <https://clscor.io/entity/type/method/word_embedding> .
+
+

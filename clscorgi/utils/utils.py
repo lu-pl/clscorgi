@@ -1,18 +1,21 @@
 """Miscellaneous utilies for clscorgi."""
 
+from collections.abc import Callable, Mapping, Sequence
 import contextlib
 import functools
 import hashlib
 import html
 import inspect
 import re
-from collections.abc import Callable, Mapping, Sequence
 from types import SimpleNamespace
 from typing import Any, TypeVar
 from uuid import uuid4
 
-from lodkit.utils import genhash
-from rdflib import URIRef
+import langcodes
+import language_data
+from lodkit import URIConstructorFactory
+from lodkit.uri_tools.utils import generate_uri_hash
+from rdflib import Namespace, URIRef
 
 T = TypeVar("T")
 TDefault = TypeVar("TDefault")
@@ -25,14 +28,13 @@ def resolve_source_type(source_type: str, join_value=" ") -> str:
     """
     resolved = functools.reduce(
         lambda x, y: f"{x.lower()}{join_value}" + y.lower(),
-        re.split('(?<=[a-z])(?=[A-Z])', source_type)
+        re.split("(?<=[a-z])(?=[A-Z])", source_type),
     )
 
     return resolved
 
 
-def first(seq: Sequence[T],
-          default: TDefault | None = None) -> T | TDefault | None:
+def first(seq: Sequence[T], default: TDefault | None = None) -> T | TDefault | None:
     """Try to return the first item of a Sequence.
 
     If index lookup fails, return a default value.
@@ -48,10 +50,9 @@ def trim(string: str) -> str:
     return trimmed
 
 
-def _or(*operands: Callable[..., T],
-        args: tuple = (),
-        kwargs: dict | None = None
-        ) -> T | None:
+def _or(
+    *operands: Callable[..., T], args: tuple = (), kwargs: dict | None = None
+) -> T | None:
     """Logical n-ary OR.
 
     Evaluates a series of callables (operands) with
@@ -66,9 +67,9 @@ def _or(*operands: Callable[..., T],
 
 
 def mkuri(
-        hash_value: str | None = None,
-        length: int | None = 10,
-        hash_function: Callable = hashlib.sha256
+    hash_value: str | None = None,
+    length: int | None = 10,
+    hash_function: Callable = hashlib.sha256,
 ) -> URIRef:
     """Create a CLSCor entity URI.
 
@@ -77,12 +78,9 @@ def mkuri(
     """
     _base_uri: str = "https://clscor.io/entity/"
     _path: str = (
-        str(uuid4()) if hash_value is None
-        else genhash(
-                hash_value,
-                length=length,
-                hash_function=hash_function
-        )
+        str(uuid4())
+        if hash_value is None
+        else generate_uri_hash(hash_value, length=length, hash_function=hash_function)
     )
 
     return URIRef(f"{_base_uri}{_path[:length]}")
@@ -90,6 +88,7 @@ def mkuri(
 
 def uri_ns(*names: str | tuple[str, str]) -> SimpleNamespace:
     """Generate a Namespace mapping for names and computed URIs."""
+
     def _uris():
         for name in names:
             match name:
@@ -98,9 +97,7 @@ def uri_ns(*names: str | tuple[str, str]) -> SimpleNamespace:
                 case tuple():
                     yield name[0], mkuri(name[1])
                 case _:
-                    raise Exception(
-                        "Args must be of type str | tuple[str, str]."
-                    )
+                    raise Exception("Args must be of type str | tuple[str, str].")
 
     return SimpleNamespace(**dict(_uris()))
 
@@ -121,18 +118,15 @@ def get_e39_hash_value(data: list[dict]):
 def revalmap(f: Callable, d: Mapping) -> dict:
     """Recursively apply a callable to mapping values."""
     return {
-        key: f(value)
-        if not isinstance(value, Mapping)
-        else revalmap(f, value)
-        for key, value
-        in d.items()
+        key: f(value) if not isinstance(value, Mapping) else revalmap(f, value)
+        for key, value in d.items()
     }
 
 
 def require_defaults(
-        _f: Callable | None = None,
-        check: Callable[[Any], bool] = bool,
-        fail_factory: Callable[[Any], Any] = lambda x: tuple()
+    _f: Callable | None = None,
+    check: Callable[[Any], bool] = bool,
+    fail_factory: Callable[[Any], Any] = lambda x: tuple(),
 ):
     """Skip decorator.
 
@@ -142,6 +136,7 @@ def require_defaults(
     the result of calling fail_factory is returned;
     else the decorator returns the decorated function.
     """
+
     def _decor(f: Callable):
         @functools.wraps(f)
         def _wrapper(*args, **kwargs):
@@ -150,6 +145,7 @@ def require_defaults(
                     if not check(default):
                         return fail_factory(default)
             return f(*args, **kwargs)
+
         return _wrapper
 
     if _f is None:
@@ -161,13 +157,16 @@ def unescape(string: str) -> str:
     """Double unescape XML/HTML encoded strings."""
     return trim(html.unescape(html.unescape(string)))
 
+
 def unescaped(f) -> Callable:
     """Decorator for double unescaping XML/HTML return values."""
+
     def _wrapper(*args, **kwargs):
         result = f(*args, **kwargs)
         if result is None:
             return result
         return unescape(result)
+
     return _wrapper
 
 
@@ -185,6 +184,7 @@ def construct_artificial_title(value: str):
 def ntimes(*, n: int = 1, default: Any = None) -> Callable[[Callable], Any]:
     """Decorator for running a function n times before returning a default."""
     _cnt = 0
+
     def _decor(f: Callable):
         def _wrapper(*args, **kwargs):
             nonlocal _cnt
@@ -193,7 +193,25 @@ def ntimes(*, n: int = 1, default: Any = None) -> Callable[[Callable], Any]:
                 result = f(*args, **kwargs)
                 return result
             return default
+
         return _wrapper
+
     return _decor
 
+
 static: Callable[[Callable], Any] = ntimes(n=1, default=tuple())
+
+
+def get_language_uri(
+    lang: str,
+    default_factory: Callable[[str], URIRef] = lambda lang: URIConstructorFactory(
+        "https://clscor.io/entity/"
+    )(f"language/{lang}"),
+) -> URIRef:
+    try:
+        _lang = langcodes.find(lang)
+    except LookupError:
+        return default_factory(lang)
+
+    iso_language_ns = Namespace("https://vocabs.acdh.oeaw.ac.at/iso6391/")
+    return iso_language_ns[_lang.to_tag()]

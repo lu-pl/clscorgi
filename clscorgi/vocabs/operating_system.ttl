@@ -1,0 +1,46 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/type/operating_system/linux> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Linux" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/operating_system> ;
+    skos:inScheme <https://clscor.io/entity/type/operating_system> ;
+    skos:prefLabel "nan" .
+
+<https://clscor.io/entity/type/operating_system/mac_os> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "MacOS" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/operating_system> ;
+    skos:altLabel "OsX" ;
+    skos:inScheme <https://clscor.io/entity/type/operating_system> ;
+    skos:prefLabel "nan" .
+
+<https://clscor.io/entity/type/operating_system/unix> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Unix" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/operating_system> ;
+    skos:inScheme <https://clscor.io/entity/type/operating_system> ;
+    skos:prefLabel "nan" .
+
+<https://clscor.io/entity/type/operating_system/windows> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Windows" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/operating_system> ;
+    skos:inScheme <https://clscor.io/entity/type/operating_system> ;
+    skos:prefLabel "nan" .
+
+<https://clscor.io/entity/type/operating_system> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "vocabulary for operating systems" ;
+    crm:P71_lists <https://clscor.io/entity/type/operating_system/linux>,
+        <https://clscor.io/entity/type/operating_system/mac_os>,
+        <https://clscor.io/entity/type/operating_system/unix>,
+        <https://clscor.io/entity/type/operating_system/windows> ;
+    skos:hasTopConcept <https://clscor.io/entity/type/operating_system/linux>,
+        <https://clscor.io/entity/type/operating_system/mac_os>,
+        <https://clscor.io/entity/type/operating_system/unix>,
+        <https://clscor.io/entity/type/operating_system/windows> .
+
+

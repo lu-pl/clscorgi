@@ -1,0 +1,128 @@
+id,toolname,feature,feature_comment
+1,Arborator Grew,morphological feature,syntactic dependencies
+2,conll-u editor,morphological feature,
+2,conll-u editor,word form,
+2,conll-u editor,lemma,
+2,conll-u editor,part of speech tag,
+3,INCEpTION,label,"labels of different kinds, some pre-defined (e. g. Universal Dependencies) "
+4,DraCor,number of plays,
+4,DraCor,number of characters,
+4,DraCor,number of tokens,number of tokens in speeches and stage directions
+4,DraCor,name of character,characters
+4,DraCor,segment,"segments (acts, scenes, etc.)"
+4,DraCor,act,"segments (acts, scenes, etc.)"
+4,DraCor,scene,"segments (acts, scenes, etc.)"
+4,DraCor,network graph,Network graph based on co-occurring characters in scenes
+4,DraCor,spoken text by character ,
+4,DraCor,spoken text by gender,
+4,DraCor,stage directions,
+5,IMS Corpus Workbench,text snippet matching a query,supports also displaying the syntactic trees
+6,Kontext,text snippet matching a query,supports also displaying the syntactic trees
+7,SimpleCorp,part of speech tag,
+7,SimpleCorp,lemma,
+7,SimpleCorp,token,token boundary tags
+7,SimpleCorp,syntactic label,
+8,TEITOK,token,
+8,TEITOK,sentence borders,
+8,TEITOK,text snippet matching a query,
+8,TEITOK,syntactic tree matching a query,
+8,TEITOK,token,Labeled text spans or tokens or their mutual relations
+8,TEITOK,network graph,Network graph with characters as nodes and interactions as edges
+9,TXM desktop,token,"Labeled token spans or tokens. Token properties (form, pos, lemma) list and frequencies. Structures properties list and frequencies"
+9,TXM desktop,sentence borders,
+9,TXM desktop,lemma,"Lemmas, aka dictionary forms of tokens"
+9,TXM desktop,part of speech tag,"Tabulate word pattern properties values (eg combine word form, pos or lemma) of occurrences with their frequency"
+9,TXM desktop,morphological category,
+9,TXM desktop,text snippet matching a query,Selection of texts by a combination of their properties. Selection of text structures by a combination of their properties
+9,TXM desktop,text snippet matching a query,selection of texts by a combination of their properties. Selection of text structures by a combination of their properties. The sum of selections is always the whole corpus (resp.) the whole text
+9,TXM desktop,lexical pattern,Lexical pattern observables extractions
+9,TXM desktop,text snippet matching a query,
+9,TXM desktop,word list matching a query,
+9,TXM desktop,syntactic tree matching a query,
+9,TXM desktop,relations or schema matching a query,Co-reference chains Units
+9,TXM desktop,segment,Build a partition. Build a contrastive corpus configuration by selecting a set of texts or a set of text parts
+9,TXM desktop,cluster,clusters
+9,TXM desktop,label,Labeled token spans or tokens
+10,TXM portal,text snippet matching a query,Selection of texts by a combination of their properties. Selection of text structures by a combination of their properties. The sum of selections is always the whole corpus (resp.) the whole text
+10,TXM portal,word list matching a query,
+10,TXM portal,text snippet matching a query,
+10,TXM portal,lexical pattern,Lexical pattern observables extractions
+10,TXM portal,syntactic tree matching a query,
+10,TXM portal,part of speech tag,
+10,TXM portal,lemma,
+10,TXM portal,token,"Token properties (form, pos, lemma) list and frequencies. Structures properties list and frequencies"
+12,Flair,token,
+12,Flair,sentence borders,
+12,Flair,lemma,"Lemmas, aka dictionary forms of tokens"
+12,Flair,part of speech tag,
+12,Flair,morphological category,
+12,Flair,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence
+12,Flair,named entity,Labels on recognized entities
+12,Flair,linked entity,"Mentions of recognized entities linked to external authority databases, e. g. WikiData"
+12,Flair,coreference,References between personal or possessive pronouns referring to the same antecedent (typically a noun)
+12,Flair,label,Labels on recognized sentiment of a chunk of text.
+13,NameTag 1,named entity,named-entity labels
+14,NameTag 1 Models,named entity,named-entity labels
+15,NameTag 2,named entity,"named-entity labels, also nested"
+16,NameTag 2 Models,named entity,named-entity labels
+18,spaCy,token,
+18,spaCy,sentence borders,
+18,spaCy,lemma,"Lemmas, aka dictionary forms of tokens"
+18,spaCy,part of speech tag,
+18,spaCy,morphological category,
+18,spaCy,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence as labels on each token
+18,spaCy,named entity,Labels on recognized entities
+18,spaCy,linked entity,"Mentions of recognized entities linked to external authority databases, e.  g.  WikiData"
+18,spaCy,coreference,Features: References between personal or possessive pronouns referring to the same antecedent (typically a noun)
+18,spaCy,label,Labels on recognized sentiment of a chunk of text.
+20,UDPipe1,token,
+20,UDPipe1,paragraph,
+20,UDPipe1,sentence borders,
+20,UDPipe1,lemma,"Lemmas, aka dictionary forms of tokens"
+20,UDPipe1,part of speech tag,
+20,UDPipe1,morphological category,
+20,UDPipe1,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence
+21,UDPipe2,token,
+21,UDPipe2,paragraph,
+21,UDPipe2,sentence borders,
+21,UDPipe2,lemma,"Lemmas, aka dictionary forms of tokens"
+21,UDPipe2,part of speech tag,
+21,UDPipe2,morphological category,
+21,UDPipe2,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence
+22,Universal Dependencies Models for UDPipe,token,
+22,Universal Dependencies Models for UDPipe,paragraph,
+22,Universal Dependencies Models for UDPipe,sentence borders,
+22,Universal Dependencies Models for UDPipe,lemma,"Lemmas, aka dictionary forms of tokens"
+22,Universal Dependencies Models for UDPipe,part of speech tag,
+22,Universal Dependencies Models for UDPipe,morphological category,
+22,Universal Dependencies Models for UDPipe,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence
+23,udpipe,token,
+23,udpipe,paragraph,
+23,udpipe,sentence borders,
+23,udpipe,lemma,"Lemmas, aka dictionary forms of tokens"
+23,udpipe,part of speech tag,
+23,udpipe,morphological category,
+23,udpipe,syntactic relation between tokens within one sentence,Syntactic relations between tokens within one sentence
+25,Alberti-stanzas,stanza,
+25,Alberti-stanzas,stanza type,
+26,Averell,rhyme,
+26,Averell,token,
+26,Averell,syllable,
+26,Averell,sentence borders,
+26,Averell,stanza,
+26,Averell,stanza type,
+29,Poetrylab-API,metric,
+29,Poetrylab-API,rhyme,
+29,Poetrylab-API,stanza type,
+29,Poetrylab-API,part of speech tag,
+29,Poetrylab-API,syllable,
+29,Poetrylab-API,token,
+29,Poetrylab-API,enjambment,
+30,rhymetagger,IPA strings,
+30,rhymetagger,list,
+31,Rantanplan,token,
+31,Rantanplan,syllable,
+31,Rantanplan,rhyme,
+31,Rantanplan,stanza type ,
+31,Rantanplan,part of speech tag,
+31,Rantanplan,metric,

@@ -2,6 +2,7 @@
 
 from collections.abc import Callable
 from functools import partial
+from importlib.resources import files
 import os
 
 from rdflib import Graph, Literal, RDFS, URIRef
@@ -48,3 +49,13 @@ class Vocabs:
             raise VocabLookupException(f"No subject URI for term '{term}'.")
 
         return vocab_uri
+
+
+_vocabs_path = files("clscorgi.vocabs")
+_vocabs_files = [f for f in _vocabs_path.iterdir() if f.suffix == ".ttl"]
+
+vocabs_id_path_map: dict = {
+    f.stem: f for f in _vocabs_path.iterdir() if f.suffix == ".ttl"
+}
+
+vocabs = Vocabs(**vocabs_id_path_map)

@@ -1,0 +1,157 @@
+id,toolname,method,method_comment
+2,conll-u editor,manual annotation,"manually provide labels to text, edit tokenization, sentence splitting, and syntactic relations. Validate your annotation against a scheme"
+3,INCEpTION,manual annotation,
+4,DraCor,statistical analysis,Give summary statistics of a corpus
+4,DraCor,drama analysis,Retrieve structural units and characters of a drama
+4,DraCor,network analysis,Extract a character network from a drama. Calculate network metrics
+4,DraCor,drama analysis,Retrieve parts of the text
+5,IMS Corpus Workbench,linear text search,linear text search with Corpus Query Processor
+6,Kontext,linear text search,linear text search with Corpus Query Processor
+6,Kontext,frequency distribution,Basic statistics: frequency breakdown according to metadata
+6,Kontext,collocations analysis,which words typically co-occur with a given word etc.
+7,SimpleCorp,morphological tagging,
+7,SimpleCorp,lemmatization,
+7,SimpleCorp,tokenization,
+7,SimpleCorp,syntactic parsing,
+7,SimpleCorp,indexing,"indexing for CQL search, creating and searching an annotated corpus, preserving  XML-TEI markup in documents"
+8,TEITOK,tokenization,Recognize borders of tokens
+8,TEITOK,sentence splitting,Recognize borders of sentences
+8,TEITOK,linear text search,Linear text search with Corpus Query Language and its flavors
+8,TEITOK,"
+syntactic tree search
+",Search in a parsed text corpus (treebank)
+8,TEITOK,collocations analysis,Tell which words typically co-occur with a given word
+8,TEITOK,statistical analysis,"Various formulas, e.g. give summary statistics of a corpus or selected texts"
+8,TEITOK,manual annotation,"Manually annotate your texts, e. g. with named entities"
+8,TEITOK,annotation editing,
+8,TEITOK,network analysis,Relational extraction from metadata (DraCor etc.) or unstructured text
+8,TEITOK,event extraction,
+9,TXM desktop,tokenization,Recognize borders of tokens
+9,TXM desktop,sentence splitting,Recognize borders of sentences
+9,TXM desktop,lemmatization,Give the basic dictionary form of a token
+9,TXM desktop,morphological tagging,Determine part of speech and relevant morphological categories
+9,TXM desktop,corpus configuration,Build a subcorpus. Build a corpus configuration by selecting a set of texts or a set of text parts
+9,TXM desktop,contrastive corpus configuration,Build a partition. Build a contrastive corpus configuration by selecting a set of texts or a set of text parts
+9,TXM desktop,linear text search,linear text search with Corpus Query Processor
+9,TXM desktop,syntactic tree search,Search in a parsed text corpus (treebank)
+9,TXM desktop,coreference chain search,Search in an annotated text corpus (co-reference)
+9,TXM desktop,quantification,
+9,TXM desktop,concordance analysis,Tabulate the contexts of occurrences of word patterns
+9,TXM desktop,qualitative analysis,
+9,TXM desktop,progression analysis,Show word patterns occurrences density within the corpus. Visualisation (interactive graphic) showing a density curve for each word pattern searched. Link to concordances
+9,TXM desktop,hierarchical index analysis,Tabulate word properties of occurrences of word patterns
+9,TXM desktop,syntagmatic analysis,Syntagmatico-Paradigmatic analysis
+9,TXM desktop,paradigmatic analysis,Syntagmatico-Paradigmatic analysis
+9,TXM desktop,quantitative analysis,
+9,TXM desktop,collocations analysis,tell which words typically co-occur with a given word
+9,TXM desktop,keyword analysis,"Keywords analysis of a partition or subcorpus, tell which words typically occur within a sub-corpus or inside parts of a partition"
+9,TXM desktop,correspondence factor analysis,"Correspondence factor analysis of a partition, e.g. show similarities between texts or structures based on word pattern frequencies. factorial coordinates, contributions, quality of representation"
+9,TXM desktop,analytical views production and interaction,
+9,TXM desktop,hierarchical cluster analysis,"Hierarchical Cluster analysis of a partition, e.g. show hierarchy of similarities between texts or structures based on word pattern frequencies"
+9,TXM desktop,statistical analysis,"Various countings, e.g. Give summary statistics of a corpus or selected texts"
+9,TXM desktop,manual token annotation,"Manually annotate your tokens, e. g. with pos or co-reference chain units"
+9,TXM desktop,annotation editing,
+9,TXM desktop,annotation through concordance,
+9,TXM desktop,qualitative analysis,
+9,TXM desktop,semi-automatical token annotation,"Semi-automatically annotate your tokens, e. g. with pos"
+9,TXM desktop,annotation through scripts,
+9,TXM desktop,annotation through text reading,
+10,TXM portal,corpus configuration,"Build a corpus configuration by selecting a set of texts or a set of text parts
+"
+10,TXM portal,contrastive corpus configuration,Build a contrastive corpus configuration by selecting a set of texts or a set of text parts
+10,TXM portal,searching,Search in a text corpus
+10,TXM portal,quantification,
+10,TXM portal,linear text search,linear text search with Corpus Query Processor
+10,TXM portal,syntactic tree search,Search in a parsed text corpus (treebank)
+10,TXM portal,concordance analysis,"Tabulate the contexts of occurrences of word patterns. Tabulate word pattern occurrences with reference, left context, occurrence and right context columns. Bring similar contexts together by multiple sort on any column. Link to the text edition (to read) with occurrence highligthed. Link to audio/video stream (to play) synchronized with occurrence"
+10,TXM portal,qualitative analysis,
+10,TXM portal,hierarchical index analysis,"Tabulate word properties of occurrences of word patterns. Tabulate word pattern properties values (eg combine word form, pos or lemma) of occurrences with their frequency"
+10,TXM portal,quantitative analysis,
+10,TXM portal,syntagmatic analysis,Syntagmatico-Paradigmatic analysis
+10,TXM portal,paradigmatic analysis,Syntagmatico-Paradigmatic analysis
+10,TXM portal,collocations analysis,Tell which words typically co-occur with a given word
+10,TXM portal,keyword analysis,"Keywords analysis of a partition or subcorpus, e.g. Tell which words typically occur within a sub-corpus or inside parts of a partition"
+10,TXM portal,paradigmatic analysis,
+10,TXM portal,quantitative analysis,
+10,TXM portal,correspondence factor analysis,"Correspondence factor analysis of a partition, Show similarities between texts or structures based on word pattern frequencies. factorial coordinates, contributions, quality of representation
+Visualisation: factorial planes"
+10,TXM portal,analytical views production and interaction,
+10,TXM portal,statistical analysis,"Various statistics, e.g. Give summary statistics of a corpus or selected texts"
+11,Calc,statistical analysis,"Various formulas, e.g. Calculate basic statistical tasks for common research questions"
+12,Flair,tokenization,Recognize borders of tokens
+12,Flair,sentence splitting,Recognize borders of sentences
+12,Flair,lemmatization,Give the basic dictionary form of a token
+12,Flair,morphological tagging,Determine part of speech and relevant morphological categories
+12,Flair,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+12,Flair,named entity recognition,"Extract entities such as persons, dates, and locations"
+12,Flair,entity linking,"Entity Linking (aka Wikification, Grounding). Connect named entities in a text with knowledge bases"
+12,Flair,coreference resolution,Coreference (anaphora) resolution. Identify mentions of an entity even when they are expressed by a personal pronoun
+12,Flair,text classification,"Text classification (classes: positive, neutral, negative)"
+12,Flair,sentiment analysis,"Sentiment analysis (aka Opinion mining, Emotion AI)"
+13,NameTag 1,named entity recognition (flat),extraction of flat named entities
+14,NameTag 1 Models,named entity recognition,identify and mark named entities in texts
+14,NameTag 1 Models,machine learning,
+15,NameTag 2,named entity recognition (nested),"extraction of named entities, even nested"
+16,NameTag 2 Models,named entity recognition,identify and mark named entities in texts
+16,NameTag 2 Models,machine learning,
+17,QuitaUp,statistical analysis,"Various formulas, e.g. Give summary statistics of a corpus or selected texts"
+18,spaCy,tokenization,Recognize borders of tokens
+18,spaCy,sentence splitting,Recognize borders of sentences
+18,spaCy,lemmatization,Give the basic dictionary form of a token
+18,spaCy,part of speech tagging,Determine part of speech categories
+18,spaCy,morphological tagging,Determine relevant morphological categories
+18,spaCy,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+18,spaCy,named entity recognition,"Extract entities such as persons, dates, and locations"
+18,spaCy,entity linking,"Entity Linking (aka Wikification, Grounding). Connect named entities in a text with knowledge bases"
+18,spaCy,coreference resolution,Coreference (anaphora) resolution.  Identify mentions of an entity even when they are expressed by a personal pronoun
+18,spaCy,text classification,"Text classification (classes: positive, neutral, negative)"
+18,spaCy,sentiment analysis,"Sentiment analysis (aka Opinion mining, Emotion AI)"
+19,UDapi,syntactic tree search,"traversing syntactic trees of Universal Dependencies, programmatically querying, editing, and computing statistics over CoNLL-U files – many routines pre-programmed but, most importantly, you can write your own. "
+20,UDPipe1,tokenization,Recognize borders of tokens
+20,UDPipe1,sentence splitting,Recognize borders of sentences
+20,UDPipe1,lemmatization,Give the basic dictionary form of a token
+20,UDPipe1,part of speech tagging,Determine part of speech categories
+20,UDPipe1,morphological tagging,Determine relevant morphological categories
+20,UDPipe1,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+21,UDPipe2,tokenization,Recognize borders of tokens
+21,UDPipe2,sentence splitting,Recognize borders of sentences
+21,UDPipe2,lemmatization,Give the basic dictionary form of a token
+21,UDPipe2,part of speech tagging,Determine part of speech categories
+21,UDPipe2,morphological tagging,Determine relevant morphological categories
+21,UDPipe2,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+22,Universal Dependencies Models for UDPipe,tokenization,Recognize borders of tokens
+22,Universal Dependencies Models for UDPipe,sentence splitting,Recognize borders of sentences
+22,Universal Dependencies Models for UDPipe,lemmatization,Give the basic dictionary form of a token
+22,Universal Dependencies Models for UDPipe,part of speech tagging,Determine part of speech categories
+22,Universal Dependencies Models for UDPipe,morphological tagging,Determine relevant morphological categories
+22,Universal Dependencies Models for UDPipe,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+23,udpipe,tokenization,Recognize borders of tokens
+23,udpipe,sentence splitting,Recognize borders of sentences
+23,udpipe,lemmatization,Give the basic dictionary form of a token
+23,udpipe,part of speech tagging,Determine part of speech categories
+23,udpipe,morphological tagging,Determine relevant morphological categories
+23,udpipe,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+23,udpipe,statistical analysis,"various statistic metrics, extraction of text snippets according to these metrics,  Count frequencies of words, n-grams, dependency pairs of parent and child, co-occurrence analysis, collocation analysis"
+23,udpipe,statistical machine learning,"Train a UDPipe 1 model to use with this library, using your own annotated data"
+25,Alberti-stanzas,word embedding,
+25,Alberti-stanzas,annotation of stanza type,Automatic annotation of stanzas
+26,Averell,stanza detection,"Automatic poetic annotation for Spanish poetry (rhyme, stanza type, metric)"
+26,Averell,tokenization,
+26,Averell,syllabification,
+26,Averell,sentence splitting,
+26,Averell,text parsing,Download one or several corpora and export to a common format
+27,Horace,parsing,
+27,Horace,converting,Convert rantanplan Json to Ontopoetry RDF
+28,Poetrylab,data visualization,Visualization of poetic features
+28,Poetrylab,searching,Full text search
+29,Poetrylab-API,automatic annotation,Automatic annotation of Spanish poetry
+29,Poetrylab-API,syllabification,
+29,Poetrylab-API,tokenization,
+29,Poetrylab-API,rule-based enjambment detection,Automatic enjambment detection
+30,rhymetagger,transcribing,Provide phonetic transcription
+30,rhymetagger,rhyme detection,Rhyme detection
+31,Rantanplan,tokenization,
+31,Rantanplan,syllabification,
+31,Rantanplan,applying NLP methods,NLP
+31,Rantanplan,automatic annotation,
+31,Rantanplan,part of speech tagging,
