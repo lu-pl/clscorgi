@@ -11,8 +11,6 @@ from clscorgi.vocabs.vocab_lookup import vocabs
 from lodkit import NamespaceGraph, URIConstructorFactory, _Triple, ttl
 import pandas as pd
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
-
-
 crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
 clscor = Namespace("https://clscor.io/entity/")
@@ -109,7 +107,7 @@ class _RelatedPapersRowConverter(_ABCRowConverter):
         related_papers_literal = self.series["related_paper"]
 
         return ttl(
-            mkuri(related_papers_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["related_paper"]),
             (crm["P03_has_range_literal"], related_papers_literal),
@@ -216,7 +214,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         tool_description_literal: str = self.series["tool_description"]
 
         return ttl(
-            mkuri(tool_description_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["tool_description"]),
             (crm["P03_has_range_literal"], tool_description_literal),
@@ -270,7 +268,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         note_literal = self.series["version"]
 
         return ttl(
-            mkuri(note_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["version"]),
             (crm["P03_has_range_literal"], note_literal),
@@ -281,7 +279,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
         date_literal = self.series["version_date"]
 
         return ttl(
-            mkuri(date_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["version_date"]),
             (crm["P03_has_range_literal"], date_literal),
@@ -293,7 +291,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(distribution_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["distribution"]),
             (crm["P03_has_range_literal"], distribution_literal.strip()),
@@ -305,7 +303,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(userinterface_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["user_interface"]),
             (crm["P03_has_range_literal"], userinterface_literal.strip()),
@@ -317,7 +315,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(textprocessing_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["text_processing"]),
             (crm["P03_has_range_literal"], textprocessing_literal.strip()),
@@ -371,7 +369,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(metric_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["metric"]),
             (crm["P03_has_range_literal"], metric_literal.strip()),
@@ -383,7 +381,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(visualisation_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["visualisation"]),
             (crm["P03_has_range_literal"], visualisation_literal.strip()),
@@ -395,7 +393,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(formalism_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["formalism"]),
             (crm["P03_has_range_literal"], formalism_literal.strip()),
@@ -407,7 +405,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(tagset_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["tagset"]),
             (crm["P03_has_range_literal"], tagset_literal.strip()),
@@ -419,7 +417,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             return
 
         yield from ttl(
-            mkuri(statistical_models_literal),
+            mkuri(),
             (RDF.type, crm.PC3_has_note),
             (crm["P3.1_has_type"], crmcls["statistical_models"]),
             (crm["P03_has_range_literal"], statistical_models_literal.strip()),
