@@ -7,12 +7,31 @@ from itertools import chain
 
 from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.utils.utils import get_language_uri
+from clscorgi.utils.utils import ontologies_path
 from clscorgi.vocabs.vocab_lookup import vocabs
-from lodkit import NamespaceGraph, URIConstructorFactory, _Triple, ttl
+from lodkit import (
+    ClosedOntologyNamespace,
+    NamespaceGraph,
+    URIConstructorFactory,
+    _Triple,
+    ttl,
+)
 import pandas as pd
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
-crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
+
+
+crm_path = ontologies_path / "CIDOC_CRM_v7.1.3.ttl"
+crm = ClosedOntologyNamespace(crm_path)
+
+crm_pc_path = ontologies_path / "CIDOC_CRM_v7.1.3_PC.rdf"
+crm_pc = ClosedOntologyNamespace(crm_pc_path)
+
+# crmcls_path = ontologies_path / "CLSCorDataModel.ttl"
+# crmcls = ClosedOntologyNamespace(crmcls_path)
+
 crmcls = Namespace("https://clscor.io/ontologies/CRMcls/")
+
+
 clscor = Namespace("https://clscor.io/entity/")
 
 mkuri = URIConstructorFactory("https://clscor.io/entity/")
@@ -108,10 +127,10 @@ class _RelatedPapersRowConverter(_ABCRowConverter):
 
         return ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["related_paper"]),
-            (crm["P03_has_range_literal"], related_papers_literal),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["related_paper"]),
+            (crm_pc["P03_has_range_literal"], related_papers_literal),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
 
@@ -200,7 +219,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             yield from ttl(
                 self.tool_uri,
                 (
-                    crm.P1_is_identified,
+                    crm.P1_is_identified_by,
                     ttl(
                         mkuri(),
                         (RDF.type, crm.E41_Appellation),
@@ -215,10 +234,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         return ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["tool_description"]),
-            (crm["P03_has_range_literal"], tool_description_literal),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["tool_description"]),
+            (crm_pc["P03_has_range_literal"], tool_description_literal),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_tool_descevent_triples(self) -> Iterator[_Triple]:
@@ -269,10 +288,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         return ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["version"]),
-            (crm["P03_has_range_literal"], note_literal),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["version"]),
+            (crm_pc["P03_has_range_literal"], note_literal),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_version_date_triples(self) -> Iterator[_Triple]:
@@ -280,10 +299,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         return ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["version_date"]),
-            (crm["P03_has_range_literal"], date_literal),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["version_date"]),
+            (crm_pc["P03_has_range_literal"], date_literal),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_distribution_triples(self) -> Iterator[_Triple]:
@@ -292,10 +311,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["distribution"]),
-            (crm["P03_has_range_literal"], distribution_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["distribution"]),
+            (crm_pc["P03_has_range_literal"], distribution_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_user_interface_triples(self) -> Iterator[_Triple]:
@@ -304,10 +323,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["user_interface"]),
-            (crm["P03_has_range_literal"], userinterface_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["user_interface"]),
+            (crm_pc["P03_has_range_literal"], userinterface_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_tool_processing_triples(self) -> Iterator[_Triple]:
@@ -316,10 +335,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["text_processing"]),
-            (crm["P03_has_range_literal"], textprocessing_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["text_processing"]),
+            (crm_pc["P03_has_range_literal"], textprocessing_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_output_format_triples(self) -> Iterator[_Triple]:
@@ -370,10 +389,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["metric"]),
-            (crm["P03_has_range_literal"], metric_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["metric"]),
+            (crm_pc["P03_has_range_literal"], metric_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_visualisation_triples(self) -> Iterator[_Triple]:
@@ -382,10 +401,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["visualisation"]),
-            (crm["P03_has_range_literal"], visualisation_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["visualisation"]),
+            (crm_pc["P03_has_range_literal"], visualisation_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_formalism_triples(self) -> Iterator[_Triple]:
@@ -394,10 +413,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["formalism"]),
-            (crm["P03_has_range_literal"], formalism_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["formalism"]),
+            (crm_pc["P03_has_range_literal"], formalism_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_tagset_triples(self) -> Iterator[_Triple]:
@@ -406,10 +425,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["tagset"]),
-            (crm["P03_has_range_literal"], tagset_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["tagset"]),
+            (crm_pc["P03_has_range_literal"], tagset_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_statistical_models_triples(self) -> Iterator[_Triple]:
@@ -418,10 +437,10 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             mkuri(),
-            (RDF.type, crm.PC3_has_note),
-            (crm["P3.1_has_type"], crmcls["statistical_models"]),
-            (crm["P03_has_range_literal"], statistical_models_literal.strip()),
-            (crm["P01_has_domain"], self.tool_uri),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["statistical_models"]),
+            (crm_pc["P03_has_range_literal"], statistical_models_literal.strip()),
+            (crm_pc["P01_has_domain"], self.tool_uri),
         )
 
     def generate_license_triples(self) -> Iterator[_Triple]:
