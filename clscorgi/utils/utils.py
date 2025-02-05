@@ -5,20 +5,25 @@ import contextlib
 import functools
 import hashlib
 import html
+from importlib.resources import files
 import inspect
 import re
 from types import SimpleNamespace
 from typing import Any, TypeVar
 from uuid import uuid4
 
+from rdflib import Namespace, URIRef
+
 import langcodes
 import language_data
 from lodkit import URIConstructorFactory
 from lodkit.uri_tools.utils import generate_uri_hash
-from rdflib import Namespace, URIRef
 
 T = TypeVar("T")
 TDefault = TypeVar("TDefault")
+
+
+ontologies_path = files("clscorgi.utils.reasoning.ontologies")
 
 
 def resolve_source_type(source_type: str, join_value=" ") -> str:
