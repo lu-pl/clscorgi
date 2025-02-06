@@ -5,6 +5,9 @@ from collections.abc import Iterator
 from importlib.resources import files
 from itertools import chain
 
+import pandas as pd
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
+
 from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.utils.utils import get_language_uri
 from clscorgi.utils.utils import ontologies_path
@@ -16,8 +19,6 @@ from lodkit import (
     _Triple,
     ttl,
 )
-import pandas as pd
-from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
 
 
 crm_path = ontologies_path / "CIDOC_CRM_v7.1.3.ttl"
@@ -274,13 +275,22 @@ class ToolInventoryRowConverter(_ABCRowConverter):
             for value in self.series["primary_purpose"].split(",")
         )
 
-        return ttl(
-            mkuri(),
+        primary_purpose_e13 = mkuri()
+
+        yield from ttl(
+            primary_purpose_e13,
             (RDF.type, crm.E13_Attribute_Assignment),
             (crm.P134_continued, self.tool_descevent_uri),
             (crm.P140_assigned_attribute_to, self.tool_uri),
             (crm.P141_assigned, methods),
             (crm.P177_assigned_property_of_type, crmcls.Y8_implements),
+        )
+
+        yield from ttl(
+            mkuri(),
+            (RDF.type, crm_pc.PC3_has_note),
+            (crm_pc["P3.1_has_type"], crmcls["primary_purpose"]),
+            (crm_pc["P01_has_domain"], primary_purpose_e13),
         )
 
     def generate_version_note_triples(self) -> Iterator[_Triple]:
