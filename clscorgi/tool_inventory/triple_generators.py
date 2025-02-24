@@ -5,9 +5,6 @@ from collections.abc import Iterator
 from importlib.resources import files
 from itertools import chain
 
-import pandas as pd
-from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
-
 from clscorgi.tool_inventory.data.actor_data import actors
 from clscorgi.utils.utils import get_language_uri
 from clscorgi.utils.utils import ontologies_path
@@ -19,6 +16,8 @@ from lodkit import (
     _Triple,
     ttl,
 )
+import pandas as pd
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
 
 
 crm_path = ontologies_path / "CIDOC_CRM_v7.1.3.ttl"
@@ -510,6 +509,7 @@ class ToolInventoryRowConverter(_ABCRowConverter):
 
         yield from ttl(
             e13_uri,
+            (RDF.type, crm.E13_Attribute_Assignment),
             (crm.P134_continued, self.tool_descevent_uri),
             (crm.P140_assigned_attribute_to, self.tool_uri),
             (crm.P141_assigned, tuple(language_iso_uris.values())),
