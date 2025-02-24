@@ -1,19 +1,35 @@
 id,toolname,method,method_comment
+1,Arborator Grew,annotating,primary purpose
+1,Arborator Grew,applying NLP methods,primary purpose
 2,conll-u editor,manual annotation,"manually provide labels to text, edit tokenization, sentence splitting, and syntactic relations. Validate your annotation against a scheme"
+2,conll-u editor,annotating,primary purpose
 3,INCEpTION,manual annotation,
+3,INCEpTION,annotating,primary purpose
+4,DraCor,corpus management,primary purpose
+4,DraCor,applying textometry methods,primary purpose
+4,DraCor,information extraction,primary purpose
 4,DraCor,statistical analysis,Give summary statistics of a corpus
 4,DraCor,drama analysis,Retrieve structural units and characters of a drama
 4,DraCor,network analysis,Extract a character network from a drama. Calculate network metrics
 4,DraCor,drama analysis,Retrieve parts of the text
 5,IMS Corpus Workbench,linear text search,linear text search with Corpus Query Processor
+5,IMS Corpus Workbench,corpus management,primary purpose
+6,Kontext,corpus management,primary purpose
 6,Kontext,linear text search,linear text search with Corpus Query Processor
 6,Kontext,frequency distribution,Basic statistics: frequency breakdown according to metadata
 6,Kontext,collocations analysis,which words typically co-occur with a given word etc.
+7,SimpleCorp,corpus management,primary purpose
+7,SimpleCorp,applying NLP methods,primary purpose
 7,SimpleCorp,morphological tagging,
 7,SimpleCorp,lemmatization,
 7,SimpleCorp,tokenization,
 7,SimpleCorp,syntactic parsing,
 7,SimpleCorp,indexing,"indexing for CQL search, creating and searching an annotated corpus, preserving  XML-TEI markup in documents"
+8,TEITOK,corpus management,primary purpose
+8,TEITOK,applying NLP methods,primary purpose
+8,TEITOK,applying textometry methods,primary purpose
+8,TEITOK,annotating,primary purpose
+8,TEITOK,information extraction,primary purpose
 8,TEITOK,tokenization,Recognize borders of tokens
 8,TEITOK,sentence splitting,Recognize borders of sentences
 8,TEITOK,linear text search,Linear text search with Corpus Query Language and its flavors
@@ -26,6 +42,11 @@ syntactic tree search
 8,TEITOK,annotation editing,
 8,TEITOK,network analysis,Relational extraction from metadata (DraCor etc.) or unstructured text
 8,TEITOK,event extraction,
+9,TXM desktop,corpus management,primary purpose
+9,TXM desktop,corpus extraction,primary purpose
+9,TXM desktop,corpus analysis,primary purpose
+9,TXM desktop,applying NLP methods,primary purpose
+9,TXM desktop,annotating,primary purpose
 9,TXM desktop,tokenization,Recognize borders of tokens
 9,TXM desktop,sentence splitting,Recognize borders of sentences
 9,TXM desktop,lemmatization,Give the basic dictionary form of a token
@@ -56,6 +77,10 @@ syntactic tree search
 9,TXM desktop,semi-automatical token annotation,"Semi-automatically annotate your tokens, e. g. with pos"
 9,TXM desktop,annotation through scripts,
 9,TXM desktop,annotation through text reading,
+10,TXM portal,portal management,primary purpose
+10,TXM portal,corpus management,primary purpose
+10,TXM portal,corpus analysis,primary purpose
+10,TXM portal,information extraction,primary purpose
 10,TXM portal,corpus configuration,"Build a corpus configuration by selecting a set of texts or a set of text parts
 "
 10,TXM portal,contrastive corpus configuration,Build a contrastive corpus configuration by selecting a set of texts or a set of text parts
@@ -77,7 +102,10 @@ syntactic tree search
 Visualisation: factorial planes"
 10,TXM portal,analytical views production and interaction,
 10,TXM portal,statistical analysis,"Various statistics, e.g. Give summary statistics of a corpus or selected texts"
-11,Calc,statistical analysis,"Various formulas, e.g. Calculate basic statistical tasks for common research questions"
+11,Calc,applying NLP methods,primary purpose
+11,Calc,statistical analysis,"primary purpose.
+Various formulas, e.g. Calculate basic statistical tasks for common research questions"
+12,Flair,applying NLP methods,primary purpose
 12,Flair,tokenization,Recognize borders of tokens
 12,Flair,sentence splitting,Recognize borders of sentences
 12,Flair,lemmatization,Give the basic dictionary form of a token
@@ -88,13 +116,20 @@ Visualisation: factorial planes"
 12,Flair,coreference resolution,Coreference (anaphora) resolution. Identify mentions of an entity even when they are expressed by a personal pronoun
 12,Flair,text classification,"Text classification (classes: positive, neutral, negative)"
 12,Flair,sentiment analysis,"Sentiment analysis (aka Opinion mining, Emotion AI)"
+13,NameTag 1,applying NLP methods,primary purpose
 13,NameTag 1,named entity recognition (flat),extraction of flat named entities
+14,NameTag 1 Models,applying NLP methods,primary purpose
 14,NameTag 1 Models,named entity recognition,identify and mark named entities in texts
 14,NameTag 1 Models,machine learning,
+15,NameTag 2,applying NLP methods,primary purpose
 15,NameTag 2,named entity recognition (nested),"extraction of named entities, even nested"
+16,NameTag 2 Models,applying NLP methods,primary purpose
 16,NameTag 2 Models,named entity recognition,identify and mark named entities in texts
 16,NameTag 2 Models,machine learning,
+17,QuitaUp,applying NLP methods,primary purpose
+17,QuitaUp,applying textometry methods,primary purpose
 17,QuitaUp,statistical analysis,"Various formulas, e.g. Give summary statistics of a corpus or selected texts"
+18,spaCy,applying NLP methods,primary purpose
 18,spaCy,tokenization,Recognize borders of tokens
 18,spaCy,sentence splitting,Recognize borders of sentences
 18,spaCy,lemmatization,Give the basic dictionary form of a token
@@ -106,25 +141,31 @@ Visualisation: factorial planes"
 18,spaCy,coreference resolution,Coreference (anaphora) resolution.  Identify mentions of an entity even when they are expressed by a personal pronoun
 18,spaCy,text classification,"Text classification (classes: positive, neutral, negative)"
 18,spaCy,sentiment analysis,"Sentiment analysis (aka Opinion mining, Emotion AI)"
+19,UDapi,applying NLP methods,primary purpose
 19,UDapi,syntactic tree search,"traversing syntactic trees of Universal Dependencies, programmatically querying, editing, and computing statistics over CoNLL-U files – many routines pre-programmed but, most importantly, you can write your own. "
+20,UDPipe1,applying NLP methods,primary purpose
 20,UDPipe1,tokenization,Recognize borders of tokens
 20,UDPipe1,sentence splitting,Recognize borders of sentences
 20,UDPipe1,lemmatization,Give the basic dictionary form of a token
 20,UDPipe1,part of speech tagging,Determine part of speech categories
 20,UDPipe1,morphological tagging,Determine relevant morphological categories
 20,UDPipe1,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+21,UDPipe2,applying NLP methods,primary purpose
 21,UDPipe2,tokenization,Recognize borders of tokens
 21,UDPipe2,sentence splitting,Recognize borders of sentences
 21,UDPipe2,lemmatization,Give the basic dictionary form of a token
 21,UDPipe2,part of speech tagging,Determine part of speech categories
 21,UDPipe2,morphological tagging,Determine relevant morphological categories
 21,UDPipe2,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+22,Universal Dependencies Models for UDPipe,applying NLP methods,primary purpose
 22,Universal Dependencies Models for UDPipe,tokenization,Recognize borders of tokens
 22,Universal Dependencies Models for UDPipe,sentence splitting,Recognize borders of sentences
 22,Universal Dependencies Models for UDPipe,lemmatization,Give the basic dictionary form of a token
 22,Universal Dependencies Models for UDPipe,part of speech tagging,Determine part of speech categories
 22,Universal Dependencies Models for UDPipe,morphological tagging,Determine relevant morphological categories
 22,Universal Dependencies Models for UDPipe,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
+23,udpipe,applying NLP methods,primary purpose
+23,udpipe,corpus analysis,primary purpose
 23,udpipe,tokenization,Recognize borders of tokens
 23,udpipe,sentence splitting,Recognize borders of sentences
 23,udpipe,lemmatization,Give the basic dictionary form of a token
@@ -133,25 +174,41 @@ Visualisation: factorial planes"
 23,udpipe,syntactic parsing,Determine syntactic relations between tokens (e. g. verb subjects)
 23,udpipe,statistical analysis,"various statistic metrics, extraction of text snippets according to these metrics,  Count frequencies of words, n-grams, dependency pairs of parent and child, co-occurrence analysis, collocation analysis"
 23,udpipe,statistical machine learning,"Train a UDPipe 1 model to use with this library, using your own annotated data"
+24,Alberti,poetry processing,primary purpose
+25,Alberti-stanzas,poetry processing,primary purpose
+25,Alberti-stanzas,applying NLP methods,primary purpose
 25,Alberti-stanzas,word embedding,
 25,Alberti-stanzas,annotation of stanza type,Automatic annotation of stanzas
+26,Averell,poetry processing,primary purpose
+26,Averell,applying NLP methods,primary purpose
 26,Averell,stanza detection,"Automatic poetic annotation for Spanish poetry (rhyme, stanza type, metric)"
 26,Averell,tokenization,
 26,Averell,syllabification,
 26,Averell,sentence splitting,
 26,Averell,text parsing,Download one or several corpora and export to a common format
+27,Horace,poetry processing,primary purpose
+27,Horace,applying NLP methods,primary purpose
 27,Horace,parsing,
 27,Horace,converting,Convert rantanplan Json to Ontopoetry RDF
+28,Poetrylab,poetry processing,primary purpose
+28,Poetrylab,automatic annotation,primary purpose
+28,Poetrylab,corpus management,primary purpose
 28,Poetrylab,data visualization,Visualization of poetic features
 28,Poetrylab,searching,Full text search
+29,Poetrylab-API,poetry processing,primary purpose
+29,Poetrylab-API,applying NLP methods,primary purpose
 29,Poetrylab-API,automatic annotation,Automatic annotation of Spanish poetry
 29,Poetrylab-API,syllabification,
 29,Poetrylab-API,tokenization,
 29,Poetrylab-API,rule-based enjambment detection,Automatic enjambment detection
+30,rhymetagger,poetry processing,primary purpose
+30,rhymetagger,applying NLP methods,primary purpose
 30,rhymetagger,transcribing,Provide phonetic transcription
 30,rhymetagger,rhyme detection,Rhyme detection
+31,Rantanplan,poetry processing,primary purpose
 31,Rantanplan,tokenization,
 31,Rantanplan,syllabification,
-31,Rantanplan,applying NLP methods,NLP
+31,Rantanplan,applying NLP methods,"primary purpose.
+NLP"
 31,Rantanplan,automatic annotation,
 31,Rantanplan,part of speech tagging,
